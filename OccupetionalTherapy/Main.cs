@@ -31,7 +31,7 @@ namespace OccupetionalTherapy
                 MessageBox.Show(ex.Message);
             }
 
-            ViewPatient viewPatient = new ViewPatient();
+            RangeOfMotion viewPatient = new RangeOfMotion();
             viewPatient.ShowDialog();
         }
 
