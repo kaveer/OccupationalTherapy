@@ -30,6 +30,9 @@ namespace OccupetionalTherapy
             {
                 MessageBox.Show(ex.Message);
             }
+
+            ViewPatient viewPatient = new ViewPatient();
+            viewPatient.ShowDialog();
         }
 
         /// <summary>
