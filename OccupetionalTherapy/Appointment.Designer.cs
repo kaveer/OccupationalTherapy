@@ -32,12 +32,15 @@
             this.xuiClock1 = new XanderUI.XUIClock();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.xuiButton1 = new XanderUI.XUIButton();
-            this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.lblTest = new MetroSet_UI.Controls.MetroSetLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // xuiClock1
             // 
+            this.xuiClock1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiClock1.CircleThickness = 6;
             this.xuiClock1.DisplayFormat = XanderUI.XUIClock.HourFormat.TwelveHour;
             this.xuiClock1.FilledHourColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(190)))), ((int)(((byte)(155)))));
@@ -60,6 +63,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 148);
             this.dataGridView1.Name = "dataGridView1";
@@ -86,19 +92,20 @@
             this.xuiButton1.TabIndex = 2;
             this.xuiButton1.TextColor = System.Drawing.Color.Black;
             this.xuiButton1.Vertical_Alignment = System.Drawing.StringAlignment.Center;
+            this.xuiButton1.Click += new System.EventHandler(this.xuiButton1_Click);
             // 
-            // metroSetLabel1
+            // lblTest
             // 
-            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetLabel1.Location = new System.Drawing.Point(312, 67);
-            this.metroSetLabel1.Name = "metroSetLabel1";
-            this.metroSetLabel1.Size = new System.Drawing.Size(100, 23);
-            this.metroSetLabel1.Style = MetroSet_UI.Design.Style.Light;
-            this.metroSetLabel1.StyleManager = null;
-            this.metroSetLabel1.TabIndex = 3;
-            this.metroSetLabel1.Text = "metroSetLabel1";
-            this.metroSetLabel1.ThemeAuthor = "Narwin";
-            this.metroSetLabel1.ThemeName = "MetroLite";
+            this.lblTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblTest.Location = new System.Drawing.Point(312, 67);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(100, 23);
+            this.lblTest.Style = MetroSet_UI.Design.Style.Light;
+            this.lblTest.StyleManager = null;
+            this.lblTest.TabIndex = 3;
+            this.lblTest.Text = "metroSetLabel1";
+            this.lblTest.ThemeAuthor = "Narwin";
+            this.lblTest.ThemeName = "MetroLite";
             // 
             // Appointment
             // 
@@ -106,7 +113,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 485);
-            this.Controls.Add(this.metroSetLabel1);
+            this.Controls.Add(this.lblTest);
             this.Controls.Add(this.xuiButton1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.xuiClock1);
@@ -122,6 +129,6 @@
         private XanderUI.XUIClock xuiClock1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private XanderUI.XUIButton xuiButton1;
-        private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
+        private MetroSet_UI.Controls.MetroSetLabel lblTest;
     }
 }

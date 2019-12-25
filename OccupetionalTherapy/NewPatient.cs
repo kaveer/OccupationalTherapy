@@ -11,22 +11,22 @@ using System.Windows.Forms;
 
 namespace OccupetionalTherapy
 {
-    public partial class Appointment : Form
+    public partial class NewPatient : Form
     {
-        public Appointment()
+        public NewPatient()
         {
             InitializeComponent();
         }
 
-        private void xuiButton1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            RangeOfMotion range = new RangeOfMotion(this, NavigationType.Appointments);
-            range.ShowDialog();
+            RangeOfMotion app = new RangeOfMotion(this, NavigationType.NewPatient);
+            app.ShowDialog();
         }
 
-        public void SetLabel(string label)
+        public void SetName(string name)
         {
-            lblTest.Text = label;
+            txtSurname.Text = name;
         }
     }
 }
