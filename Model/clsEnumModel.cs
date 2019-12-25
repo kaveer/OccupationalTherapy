@@ -16,6 +16,9 @@ namespace Model
         NewPatient = 2,
         Patients = 3,
         Search = 4,
-        RnageOfMotion = 5
+
+        //In show dialog
+        RnageOfMotion = 5,
+        ViewPatient = 6
     }
 }

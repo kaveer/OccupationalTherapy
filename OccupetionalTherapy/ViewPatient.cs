@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace OccupetionalTherapy
 {
-    public partial class Search : Form
+    public partial class ViewPatient : Form
     {
-        public Search()
+        public ViewPatient()
         {
             InitializeComponent();
-        }
-
-        private void Search_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

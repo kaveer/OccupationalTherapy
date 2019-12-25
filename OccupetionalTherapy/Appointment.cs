@@ -26,7 +26,7 @@ namespace OccupetionalTherapy
 
         public void SetLabel(string label)
         {
-            lblTest.Text = label;
+            //lblTest.Text = label;
         }
     }
 }
