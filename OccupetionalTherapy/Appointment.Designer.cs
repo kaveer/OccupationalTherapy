@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
+            this.btnViewToday = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -36,7 +37,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnViewPatient = new System.Windows.Forms.Button();
             this.grdAppointment = new System.Windows.Forms.DataGridView();
-            this.btnViewToday = new System.Windows.Forms.Button();
             this.xuiCustomGroupbox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).BeginInit();
             this.SuspendLayout();
@@ -62,8 +62,19 @@
             this.xuiCustomGroupbox1.Text = "Search";
             this.xuiCustomGroupbox1.TextColor = System.Drawing.Color.DodgerBlue;
             // 
+            // btnViewToday
+            // 
+            this.btnViewToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewToday.Location = new System.Drawing.Point(90, 51);
+            this.btnViewToday.Name = "btnViewToday";
+            this.btnViewToday.Size = new System.Drawing.Size(75, 23);
+            this.btnViewToday.TabIndex = 7;
+            this.btnViewToday.Text = "View Today";
+            this.btnViewToday.UseVisualStyleBackColor = true;
+            // 
             // btnSearch
             // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.Location = new System.Drawing.Point(9, 51);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
@@ -107,6 +118,7 @@
             // 
             // btnViewPatient
             // 
+            this.btnViewPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewPatient.Location = new System.Drawing.Point(13, 345);
             this.btnViewPatient.Name = "btnViewPatient";
             this.btnViewPatient.Size = new System.Drawing.Size(75, 23);
@@ -123,15 +135,6 @@
             this.grdAppointment.Name = "grdAppointment";
             this.grdAppointment.Size = new System.Drawing.Size(562, 220);
             this.grdAppointment.TabIndex = 6;
-            // 
-            // btnViewToday
-            // 
-            this.btnViewToday.Location = new System.Drawing.Point(90, 51);
-            this.btnViewToday.Name = "btnViewToday";
-            this.btnViewToday.Size = new System.Drawing.Size(75, 23);
-            this.btnViewToday.TabIndex = 7;
-            this.btnViewToday.Text = "View Today";
-            this.btnViewToday.UseVisualStyleBackColor = true;
             // 
             // Appointment
             // 

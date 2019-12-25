@@ -29,42 +29,42 @@
         private void InitializeComponent()
         {
             this.metroSetLabel16 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtOccupation = new System.Windows.Forms.TextBox();
             this.metroSetLabel13 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
             this.metroSetLabel14 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dpDOB = new System.Windows.Forms.DateTimePicker();
             this.metroSetLabel15 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtMobile2 = new System.Windows.Forms.TextBox();
             this.metroSetLabel17 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtMobile1 = new System.Windows.Forms.TextBox();
             this.metroSetLabel18 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtTel = new System.Windows.Forms.TextBox();
             this.metroSetLabel19 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.metroSetLabel20 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtSurname = new System.Windows.Forms.TextBox();
             this.metroSetLabel21 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.dptEntryDate = new System.Windows.Forms.DateTimePicker();
+            this.txtSensation = new System.Windows.Forms.TextBox();
+            this.cbxSensation = new System.Windows.Forms.CheckBox();
+            this.cbxTenderness = new System.Windows.Forms.CheckBox();
+            this.cbxSwelling = new System.Windows.Forms.CheckBox();
             this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.txtPassMedicalHistory = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel2 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.txtBriefHistory = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel3 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.txtDiagnosis = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel4 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroSetLabel16
             // 
-            this.metroSetLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel16.Location = new System.Drawing.Point(12, 9);
             this.metroSetLabel16.Name = "metroSetLabel16";
             this.metroSetLabel16.Size = new System.Drawing.Size(76, 23);
@@ -75,16 +75,18 @@
             this.metroSetLabel16.ThemeAuthor = "Narwin";
             this.metroSetLabel16.ThemeName = "MetroLite";
             // 
-            // textBox9
+            // txtOccupation
             // 
-            this.textBox9.Location = new System.Drawing.Point(94, 121);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(681, 20);
-            this.textBox9.TabIndex = 33;
+            this.txtOccupation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtOccupation.Location = new System.Drawing.Point(130, 121);
+            this.txtOccupation.Name = "txtOccupation";
+            this.txtOccupation.Size = new System.Drawing.Size(645, 20);
+            this.txtOccupation.TabIndex = 33;
             // 
             // metroSetLabel13
             // 
-            this.metroSetLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel13.Location = new System.Drawing.Point(12, 121);
             this.metroSetLabel13.Name = "metroSetLabel13";
             this.metroSetLabel13.Size = new System.Drawing.Size(91, 23);
@@ -95,17 +97,19 @@
             this.metroSetLabel13.ThemeAuthor = "Narwin";
             this.metroSetLabel13.ThemeName = "MetroLite";
             // 
-            // textBox10
+            // txtAge
             // 
-            this.textBox10.Location = new System.Drawing.Point(444, 98);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(331, 20);
-            this.textBox10.TabIndex = 31;
+            this.txtAge.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtAge.Location = new System.Drawing.Point(470, 98);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(305, 20);
+            this.txtAge.TabIndex = 31;
             // 
             // metroSetLabel14
             // 
-            this.metroSetLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetLabel14.Location = new System.Drawing.Point(379, 98);
+            this.metroSetLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel14.Location = new System.Drawing.Point(405, 98);
             this.metroSetLabel14.Name = "metroSetLabel14";
             this.metroSetLabel14.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel14.Style = MetroSet_UI.Design.Style.Light;
@@ -115,16 +119,16 @@
             this.metroSetLabel14.ThemeAuthor = "Narwin";
             this.metroSetLabel14.ThemeName = "MetroLite";
             // 
-            // dateTimePicker2
+            // dpDOB
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(94, 98);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(260, 20);
-            this.dateTimePicker2.TabIndex = 29;
+            this.dpDOB.Location = new System.Drawing.Point(130, 98);
+            this.dpDOB.Name = "dpDOB";
+            this.dpDOB.Size = new System.Drawing.Size(260, 20);
+            this.dpDOB.TabIndex = 29;
             // 
             // metroSetLabel15
             // 
-            this.metroSetLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel15.Location = new System.Drawing.Point(12, 98);
             this.metroSetLabel15.Name = "metroSetLabel15";
             this.metroSetLabel15.Size = new System.Drawing.Size(41, 23);
@@ -135,17 +139,19 @@
             this.metroSetLabel15.ThemeAuthor = "Narwin";
             this.metroSetLabel15.ThemeName = "MetroLite";
             // 
-            // textBox11
+            // txtMobile2
             // 
-            this.textBox11.Location = new System.Drawing.Point(581, 72);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(194, 20);
-            this.textBox11.TabIndex = 27;
+            this.txtMobile2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMobile2.Location = new System.Drawing.Point(620, 72);
+            this.txtMobile2.Name = "txtMobile2";
+            this.txtMobile2.Size = new System.Drawing.Size(155, 20);
+            this.txtMobile2.TabIndex = 27;
             // 
             // metroSetLabel17
             // 
-            this.metroSetLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetLabel17.Location = new System.Drawing.Point(506, 72);
+            this.metroSetLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel17.Location = new System.Drawing.Point(545, 72);
             this.metroSetLabel17.Name = "metroSetLabel17";
             this.metroSetLabel17.Size = new System.Drawing.Size(69, 23);
             this.metroSetLabel17.Style = MetroSet_UI.Design.Style.Light;
@@ -155,17 +161,17 @@
             this.metroSetLabel17.ThemeAuthor = "Narwin";
             this.metroSetLabel17.ThemeName = "MetroLite";
             // 
-            // textBox12
+            // txtMobile1
             // 
-            this.textBox12.Location = new System.Drawing.Point(345, 72);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(119, 20);
-            this.textBox12.TabIndex = 25;
+            this.txtMobile1.Location = new System.Drawing.Point(404, 72);
+            this.txtMobile1.Name = "txtMobile1";
+            this.txtMobile1.Size = new System.Drawing.Size(135, 20);
+            this.txtMobile1.TabIndex = 25;
             // 
             // metroSetLabel18
             // 
-            this.metroSetLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetLabel18.Location = new System.Drawing.Point(275, 72);
+            this.metroSetLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel18.Location = new System.Drawing.Point(334, 72);
             this.metroSetLabel18.Name = "metroSetLabel18";
             this.metroSetLabel18.Size = new System.Drawing.Size(64, 23);
             this.metroSetLabel18.Style = MetroSet_UI.Design.Style.Light;
@@ -175,16 +181,16 @@
             this.metroSetLabel18.ThemeAuthor = "Narwin";
             this.metroSetLabel18.ThemeName = "MetroLite";
             // 
-            // textBox13
+            // txtTel
             // 
-            this.textBox13.Location = new System.Drawing.Point(94, 72);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(163, 20);
-            this.textBox13.TabIndex = 23;
+            this.txtTel.Location = new System.Drawing.Point(130, 72);
+            this.txtTel.Name = "txtTel";
+            this.txtTel.Size = new System.Drawing.Size(198, 20);
+            this.txtTel.TabIndex = 23;
             // 
             // metroSetLabel19
             // 
-            this.metroSetLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel19.Location = new System.Drawing.Point(12, 72);
             this.metroSetLabel19.Name = "metroSetLabel19";
             this.metroSetLabel19.Size = new System.Drawing.Size(41, 23);
@@ -195,17 +201,19 @@
             this.metroSetLabel19.ThemeAuthor = "Narwin";
             this.metroSetLabel19.ThemeName = "MetroLite";
             // 
-            // textBox14
+            // txtName
             // 
-            this.textBox14.Location = new System.Drawing.Point(444, 46);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(331, 20);
-            this.textBox14.TabIndex = 21;
+            this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtName.Location = new System.Drawing.Point(470, 46);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(305, 20);
+            this.txtName.TabIndex = 21;
             // 
             // metroSetLabel20
             // 
-            this.metroSetLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetLabel20.Location = new System.Drawing.Point(379, 46);
+            this.metroSetLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel20.Location = new System.Drawing.Point(405, 46);
             this.metroSetLabel20.Name = "metroSetLabel20";
             this.metroSetLabel20.Size = new System.Drawing.Size(59, 23);
             this.metroSetLabel20.Style = MetroSet_UI.Design.Style.Light;
@@ -215,16 +223,16 @@
             this.metroSetLabel20.ThemeAuthor = "Narwin";
             this.metroSetLabel20.ThemeName = "MetroLite";
             // 
-            // textBox15
+            // txtSurname
             // 
-            this.textBox15.Location = new System.Drawing.Point(94, 46);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(260, 20);
-            this.textBox15.TabIndex = 19;
+            this.txtSurname.Location = new System.Drawing.Point(130, 46);
+            this.txtSurname.Name = "txtSurname";
+            this.txtSurname.Size = new System.Drawing.Size(260, 20);
+            this.txtSurname.TabIndex = 19;
             // 
             // metroSetLabel21
             // 
-            this.metroSetLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel21.Location = new System.Drawing.Point(12, 46);
             this.metroSetLabel21.Name = "metroSetLabel21";
             this.metroSetLabel21.Size = new System.Drawing.Size(76, 23);
@@ -235,53 +243,60 @@
             this.metroSetLabel21.ThemeAuthor = "Narwin";
             this.metroSetLabel21.ThemeName = "MetroLite";
             // 
-            // dateTimePicker1
+            // dptEntryDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(94, 13);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(681, 20);
-            this.dateTimePicker1.TabIndex = 34;
+            this.dptEntryDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dptEntryDate.Location = new System.Drawing.Point(130, 12);
+            this.dptEntryDate.Name = "dptEntryDate";
+            this.dptEntryDate.Size = new System.Drawing.Size(645, 20);
+            this.dptEntryDate.TabIndex = 34;
             // 
-            // textBox1
+            // txtSensation
             // 
-            this.textBox1.Location = new System.Drawing.Point(206, 415);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 45;
+            this.txtSensation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSensation.Location = new System.Drawing.Point(218, 412);
+            this.txtSensation.Name = "txtSensation";
+            this.txtSensation.Size = new System.Drawing.Size(557, 20);
+            this.txtSensation.TabIndex = 45;
             // 
-            // checkBox4
+            // cbxSensation
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(119, 415);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(73, 17);
-            this.checkBox4.TabIndex = 44;
-            this.checkBox4.Text = "Sensation";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.cbxSensation.AutoSize = true;
+            this.cbxSensation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSensation.Location = new System.Drawing.Point(130, 415);
+            this.cbxSensation.Name = "cbxSensation";
+            this.cbxSensation.Size = new System.Drawing.Size(82, 17);
+            this.cbxSensation.TabIndex = 44;
+            this.cbxSensation.Text = "Sensation";
+            this.cbxSensation.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // cbxTenderness
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(119, 391);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(82, 17);
-            this.checkBox5.TabIndex = 43;
-            this.checkBox5.Text = "Tenderness";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.cbxTenderness.AutoSize = true;
+            this.cbxTenderness.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxTenderness.Location = new System.Drawing.Point(130, 391);
+            this.cbxTenderness.Name = "cbxTenderness";
+            this.cbxTenderness.Size = new System.Drawing.Size(92, 17);
+            this.cbxTenderness.TabIndex = 43;
+            this.cbxTenderness.Text = "Tenderness";
+            this.cbxTenderness.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // cbxSwelling
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(119, 367);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(65, 17);
-            this.checkBox6.TabIndex = 42;
-            this.checkBox6.Text = "Swelling";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.cbxSwelling.AutoSize = true;
+            this.cbxSwelling.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSwelling.Location = new System.Drawing.Point(130, 367);
+            this.cbxSwelling.Name = "cbxSwelling";
+            this.cbxSwelling.Size = new System.Drawing.Size(73, 17);
+            this.cbxSwelling.TabIndex = 42;
+            this.cbxSwelling.Text = "Swelling";
+            this.cbxSwelling.UseVisualStyleBackColor = true;
             // 
             // metroSetLabel1
             // 
-            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel1.Location = new System.Drawing.Point(12, 367);
             this.metroSetLabel1.Name = "metroSetLabel1";
             this.metroSetLabel1.Size = new System.Drawing.Size(100, 23);
@@ -292,20 +307,22 @@
             this.metroSetLabel1.ThemeAuthor = "Narwin";
             this.metroSetLabel1.ThemeName = "MetroLite";
             // 
-            // richTextBox4
+            // txtPassMedicalHistory
             // 
-            this.richTextBox4.Location = new System.Drawing.Point(94, 289);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(664, 65);
-            this.richTextBox4.TabIndex = 40;
-            this.richTextBox4.Text = "";
+            this.txtPassMedicalHistory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtPassMedicalHistory.Location = new System.Drawing.Point(130, 289);
+            this.txtPassMedicalHistory.Name = "txtPassMedicalHistory";
+            this.txtPassMedicalHistory.Size = new System.Drawing.Size(645, 65);
+            this.txtPassMedicalHistory.TabIndex = 40;
+            this.txtPassMedicalHistory.Text = "";
             // 
             // metroSetLabel2
             // 
-            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel2.Location = new System.Drawing.Point(12, 296);
             this.metroSetLabel2.Name = "metroSetLabel2";
-            this.metroSetLabel2.Size = new System.Drawing.Size(100, 23);
+            this.metroSetLabel2.Size = new System.Drawing.Size(112, 38);
             this.metroSetLabel2.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel2.StyleManager = null;
             this.metroSetLabel2.TabIndex = 39;
@@ -313,17 +330,19 @@
             this.metroSetLabel2.ThemeAuthor = "Narwin";
             this.metroSetLabel2.ThemeName = "MetroLite";
             // 
-            // richTextBox5
+            // txtBriefHistory
             // 
-            this.richTextBox5.Location = new System.Drawing.Point(94, 218);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(664, 65);
-            this.richTextBox5.TabIndex = 38;
-            this.richTextBox5.Text = "";
+            this.txtBriefHistory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBriefHistory.Location = new System.Drawing.Point(130, 218);
+            this.txtBriefHistory.Name = "txtBriefHistory";
+            this.txtBriefHistory.Size = new System.Drawing.Size(645, 65);
+            this.txtBriefHistory.TabIndex = 38;
+            this.txtBriefHistory.Text = "";
             // 
             // metroSetLabel3
             // 
-            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel3.Location = new System.Drawing.Point(12, 225);
             this.metroSetLabel3.Name = "metroSetLabel3";
             this.metroSetLabel3.Size = new System.Drawing.Size(100, 23);
@@ -334,17 +353,19 @@
             this.metroSetLabel3.ThemeAuthor = "Narwin";
             this.metroSetLabel3.ThemeName = "MetroLite";
             // 
-            // richTextBox6
+            // txtDiagnosis
             // 
-            this.richTextBox6.Location = new System.Drawing.Point(94, 147);
-            this.richTextBox6.Name = "richTextBox6";
-            this.richTextBox6.Size = new System.Drawing.Size(664, 65);
-            this.richTextBox6.TabIndex = 36;
-            this.richTextBox6.Text = "";
+            this.txtDiagnosis.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDiagnosis.Location = new System.Drawing.Point(130, 147);
+            this.txtDiagnosis.Name = "txtDiagnosis";
+            this.txtDiagnosis.Size = new System.Drawing.Size(645, 65);
+            this.txtDiagnosis.TabIndex = 36;
+            this.txtDiagnosis.Text = "";
             // 
             // metroSetLabel4
             // 
-            this.metroSetLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel4.Location = new System.Drawing.Point(12, 154);
             this.metroSetLabel4.Name = "metroSetLabel4";
             this.metroSetLabel4.Size = new System.Drawing.Size(100, 23);
@@ -355,57 +376,61 @@
             this.metroSetLabel4.ThemeAuthor = "Narwin";
             this.metroSetLabel4.ThemeName = "MetroLite";
             // 
-            // button1
+            // btnSearch
             // 
-            this.button1.Location = new System.Drawing.Point(13, 480);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 46;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(12, 456);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 46;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 526);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 485);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(786, 259);
+            this.dataGridView1.Size = new System.Drawing.Size(762, 259);
             this.dataGridView1.TabIndex = 47;
             // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 797);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(811, 866);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox6);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.txtSensation);
+            this.Controls.Add(this.cbxSensation);
+            this.Controls.Add(this.cbxTenderness);
+            this.Controls.Add(this.cbxSwelling);
             this.Controls.Add(this.metroSetLabel1);
-            this.Controls.Add(this.richTextBox4);
+            this.Controls.Add(this.txtPassMedicalHistory);
             this.Controls.Add(this.metroSetLabel2);
-            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.txtBriefHistory);
             this.Controls.Add(this.metroSetLabel3);
-            this.Controls.Add(this.richTextBox6);
+            this.Controls.Add(this.txtDiagnosis);
             this.Controls.Add(this.metroSetLabel4);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.dptEntryDate);
+            this.Controls.Add(this.txtOccupation);
             this.Controls.Add(this.metroSetLabel13);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtAge);
             this.Controls.Add(this.metroSetLabel14);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dpDOB);
             this.Controls.Add(this.metroSetLabel15);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.txtMobile2);
             this.Controls.Add(this.metroSetLabel17);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.txtMobile1);
             this.Controls.Add(this.metroSetLabel18);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.txtTel);
             this.Controls.Add(this.metroSetLabel19);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.metroSetLabel20);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.txtSurname);
             this.Controls.Add(this.metroSetLabel21);
             this.Controls.Add(this.metroSetLabel16);
             this.Name = "Search";
@@ -419,35 +444,35 @@
 
         #endregion
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel16;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtOccupation;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel13;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtAge;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel14;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dpDOB;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel15;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtMobile2;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel17;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtMobile1;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel18;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtTel;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel19;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtName;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel20;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtSurname;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel21;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.DateTimePicker dptEntryDate;
+        private System.Windows.Forms.TextBox txtSensation;
+        private System.Windows.Forms.CheckBox cbxSensation;
+        private System.Windows.Forms.CheckBox cbxTenderness;
+        private System.Windows.Forms.CheckBox cbxSwelling;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
-        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox txtPassMedicalHistory;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
-        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox txtBriefHistory;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel3;
-        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox txtDiagnosis;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
