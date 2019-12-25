@@ -29,37 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Appointment));
-            this.xuiClock1 = new XanderUI.XUIClock();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.xuiButton1 = new XanderUI.XUIButton();
-            this.lblTest = new MetroSet_UI.Controls.MetroSetLabel();
+            this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.xuiCustomGroupbox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // xuiClock1
-            // 
-            this.xuiClock1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.xuiClock1.CircleThickness = 6;
-            this.xuiClock1.DisplayFormat = XanderUI.XUIClock.HourFormat.TwelveHour;
-            this.xuiClock1.FilledHourColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(190)))), ((int)(((byte)(155)))));
-            this.xuiClock1.FilledMinuteColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
-            this.xuiClock1.FilledSecondColor = System.Drawing.Color.DarkOrchid;
-            this.xuiClock1.Font = new System.Drawing.Font("Impact", 15F);
-            this.xuiClock1.HexagonColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
-            this.xuiClock1.Location = new System.Drawing.Point(668, 12);
-            this.xuiClock1.Name = "xuiClock1";
-            this.xuiClock1.ShowAmPm = false;
-            this.xuiClock1.ShowHexagon = true;
-            this.xuiClock1.ShowMinutesCircle = true;
-            this.xuiClock1.ShowSecondsCircle = true;
-            this.xuiClock1.Size = new System.Drawing.Size(120, 130);
-            this.xuiClock1.TabIndex = 0;
-            this.xuiClock1.Text = "xuiClock1";
-            this.xuiClock1.UnfilledHourColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(85)))));
-            this.xuiClock1.UnfilledMinuteColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
-            this.xuiClock1.UnfilledSecondColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
             // 
             // dataGridView1
             // 
@@ -77,7 +57,7 @@
             this.xuiButton1.BackgroundColor = System.Drawing.Color.White;
             this.xuiButton1.ButtonImage = ((System.Drawing.Image)(resources.GetObject("xuiButton1.ButtonImage")));
             this.xuiButton1.ButtonStyle = XanderUI.XUIButton.Style.MacOS;
-            this.xuiButton1.ButtonText = "Button";
+            this.xuiButton1.ButtonText = "Today";
             this.xuiButton1.ClickBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(75)))), ((int)(((byte)(80)))));
             this.xuiButton1.ClickTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(130)))), ((int)(((byte)(140)))));
             this.xuiButton1.CornerRadius = 5;
@@ -94,18 +74,64 @@
             this.xuiButton1.Vertical_Alignment = System.Drawing.StringAlignment.Center;
             this.xuiButton1.Click += new System.EventHandler(this.xuiButton1_Click);
             // 
-            // lblTest
+            // xuiCustomGroupbox1
             // 
-            this.lblTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblTest.Location = new System.Drawing.Point(312, 67);
-            this.lblTest.Name = "lblTest";
-            this.lblTest.Size = new System.Drawing.Size(100, 23);
-            this.lblTest.Style = MetroSet_UI.Design.Style.Light;
-            this.lblTest.StyleManager = null;
-            this.lblTest.TabIndex = 3;
-            this.lblTest.Text = "metroSetLabel1";
-            this.lblTest.ThemeAuthor = "Narwin";
-            this.lblTest.ThemeName = "MetroLite";
+            this.xuiCustomGroupbox1.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.xuiCustomGroupbox1.BorderWidth = 1;
+            this.xuiCustomGroupbox1.Controls.Add(this.button1);
+            this.xuiCustomGroupbox1.Controls.Add(this.label2);
+            this.xuiCustomGroupbox1.Controls.Add(this.dateTimePicker2);
+            this.xuiCustomGroupbox1.Controls.Add(this.dateTimePicker1);
+            this.xuiCustomGroupbox1.Controls.Add(this.label1);
+            this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 12);
+            this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
+            this.xuiCustomGroupbox1.ShowText = true;
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(776, 100);
+            this.xuiCustomGroupbox1.TabIndex = 4;
+            this.xuiCustomGroupbox1.TabStop = false;
+            this.xuiCustomGroupbox1.Text = "xuiCustomGroupbox1";
+            this.xuiCustomGroupbox1.TextColor = System.Drawing.Color.DodgerBlue;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(7, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "From";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(49, 20);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 2;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(343, 19);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(275, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(16, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "to";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(10, 58);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Appointment
             // 
@@ -113,22 +139,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(798, 485);
-            this.Controls.Add(this.lblTest);
+            this.Controls.Add(this.xuiCustomGroupbox1);
             this.Controls.Add(this.xuiButton1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.xuiClock1);
             this.Name = "Appointment";
             this.Text = "Appointment";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.xuiCustomGroupbox1.ResumeLayout(false);
+            this.xuiCustomGroupbox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private XanderUI.XUIClock xuiClock1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private XanderUI.XUIButton xuiButton1;
-        private MetroSet_UI.Controls.MetroSetLabel lblTest;
+        private XanderUI.XUICustomGroupbox xuiCustomGroupbox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label1;
     }
 }
