@@ -67,7 +67,7 @@
             this.btnViewToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewToday.Location = new System.Drawing.Point(90, 51);
             this.btnViewToday.Name = "btnViewToday";
-            this.btnViewToday.Size = new System.Drawing.Size(75, 23);
+            this.btnViewToday.Size = new System.Drawing.Size(95, 23);
             this.btnViewToday.TabIndex = 7;
             this.btnViewToday.Text = "View Today";
             this.btnViewToday.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.btnViewPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewPatient.Location = new System.Drawing.Point(13, 345);
             this.btnViewPatient.Name = "btnViewPatient";
-            this.btnViewPatient.Size = new System.Drawing.Size(75, 23);
+            this.btnViewPatient.Size = new System.Drawing.Size(103, 23);
             this.btnViewPatient.TabIndex = 5;
             this.btnViewPatient.Text = "View Patient";
             this.btnViewPatient.UseVisualStyleBackColor = true;
