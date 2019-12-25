@@ -18,15 +18,15 @@ namespace OccupetionalTherapy
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            RangeOfMotion app = new RangeOfMotion(this, NavigationType.NewPatient);
-            app.ShowDialog();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    RangeOfMotion app = new RangeOfMotion(this, NavigationType.NewPatient);
+        //    app.ShowDialog();
+        //}
 
-        public void SetName(string name)
-        {
-            txtSurname.Text = name;
-        }
+        //public void SetName(string name)
+        //{
+        //    txtSurname.Text = name;
+        //}
     }
 }
