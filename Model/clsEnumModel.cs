@@ -21,4 +21,22 @@ namespace Model
         RnageOfMotion = 5,
         ViewPatient = 6
     }
+
+    public enum JointPartType
+    {
+        UpperJoint = 1,
+        LowerJoint = 2
+    }
+
+    public enum JointType
+    {
+        Shoulder = 1,
+        Wrist = 2,
+
+    }
+
+    public enum MotionType
+    {
+        Flexion = 1
+    }
 }
