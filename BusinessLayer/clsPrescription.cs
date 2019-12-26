@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace BusinessLayer
 {
-    public class Class1
+    class clsPrescription
     {
     }
 }
