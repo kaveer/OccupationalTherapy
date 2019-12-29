@@ -71,6 +71,7 @@
             this.btnViewToday.TabIndex = 7;
             this.btnViewToday.Text = "View Today";
             this.btnViewToday.UseVisualStyleBackColor = true;
+            this.btnViewToday.Click += new System.EventHandler(this.btnViewToday_Click);
             // 
             // btnSearch
             // 
@@ -81,6 +82,7 @@
             this.btnSearch.TabIndex = 5;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label2
             // 
@@ -125,6 +127,7 @@
             this.btnViewPatient.TabIndex = 5;
             this.btnViewPatient.Text = "View Patient";
             this.btnViewPatient.UseVisualStyleBackColor = true;
+            this.btnViewPatient.Click += new System.EventHandler(this.btnViewPatient_Click);
             // 
             // grdAppointment
             // 

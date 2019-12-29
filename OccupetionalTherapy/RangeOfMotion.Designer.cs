@@ -127,9 +127,6 @@
             this.textBox80 = new System.Windows.Forms.TextBox();
             this.textBox81 = new System.Windows.Forms.TextBox();
             this.textBox82 = new System.Windows.Forms.TextBox();
-            this.xuiCustomGroupbox3 = new XanderUI.XUICustomGroupbox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.label42 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox2 = new XanderUI.XUICustomGroupbox();
             this.textBox21 = new System.Windows.Forms.TextBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
@@ -194,6 +191,9 @@
             this.textBox105 = new System.Windows.Forms.TextBox();
             this.textBox106 = new System.Windows.Forms.TextBox();
             this.label55 = new System.Windows.Forms.Label();
+            this.xuiCustomGroupbox5 = new XanderUI.XUICustomGroupbox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label43 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox7 = new XanderUI.XUICustomGroupbox();
             this.textBox85 = new System.Windows.Forms.TextBox();
             this.textBox86 = new System.Windows.Forms.TextBox();
@@ -213,12 +213,12 @@
             this.textBox97 = new System.Windows.Forms.TextBox();
             this.textBox98 = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
+            this.xuiCustomGroupbox3 = new XanderUI.XUICustomGroupbox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label42 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label43 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.xuiCustomGroupbox5 = new XanderUI.XUICustomGroupbox();
             this.xuiFlatTab1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.xuiCustomGroupbox4.SuspendLayout();
@@ -229,14 +229,14 @@
             this.tbMiddleFinger.SuspendLayout();
             this.tbRingFinger.SuspendLayout();
             this.tbLittleFinger.SuspendLayout();
-            this.xuiCustomGroupbox3.SuspendLayout();
             this.xuiCustomGroupbox2.SuspendLayout();
             this.xuiCustomGroupbox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.xuiCustomGroupbox9.SuspendLayout();
             this.xuiCustomGroupbox8.SuspendLayout();
-            this.xuiCustomGroupbox7.SuspendLayout();
             this.xuiCustomGroupbox5.SuspendLayout();
+            this.xuiCustomGroupbox7.SuspendLayout();
+            this.xuiCustomGroupbox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // xuiFlatTab1
@@ -257,7 +257,7 @@
             this.xuiFlatTab1.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab1.SelectedIndex = 0;
             this.xuiFlatTab1.ShowBorder = true;
-            this.xuiFlatTab1.Size = new System.Drawing.Size(643, 804);
+            this.xuiFlatTab1.Size = new System.Drawing.Size(626, 804);
             this.xuiFlatTab1.TabIndex = 1;
             // 
             // tabPage1
@@ -272,7 +272,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 20);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(635, 780);
+            this.tabPage1.Size = new System.Drawing.Size(618, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Upper Join";
             // 
@@ -314,7 +314,7 @@
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(8, 267);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(620, 117);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(603, 117);
             this.xuiCustomGroupbox4.TabIndex = 8;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Elbow And Forearm";
@@ -402,7 +402,7 @@
             this.xuiCustomGroupbox6.Location = new System.Drawing.Point(8, 542);
             this.xuiCustomGroupbox6.Name = "xuiCustomGroupbox6";
             this.xuiCustomGroupbox6.ShowText = true;
-            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(620, 222);
+            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(603, 222);
             this.xuiCustomGroupbox6.TabIndex = 5;
             this.xuiCustomGroupbox6.TabStop = false;
             this.xuiCustomGroupbox6.Text = "Finger";
@@ -429,7 +429,7 @@
             this.xuiFlatTab2.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab2.SelectedIndex = 0;
             this.xuiFlatTab2.ShowBorder = true;
-            this.xuiFlatTab2.Size = new System.Drawing.Size(607, 203);
+            this.xuiFlatTab2.Size = new System.Drawing.Size(590, 203);
             this.xuiFlatTab2.TabIndex = 1;
             // 
             // tbThumb
@@ -456,7 +456,7 @@
             this.tbThumb.Location = new System.Drawing.Point(4, 20);
             this.tbThumb.Name = "tbThumb";
             this.tbThumb.Padding = new System.Windows.Forms.Padding(3);
-            this.tbThumb.Size = new System.Drawing.Size(599, 179);
+            this.tbThumb.Size = new System.Drawing.Size(582, 179);
             this.tbThumb.TabIndex = 4;
             this.tbThumb.Text = "Thumb";
             // 
@@ -1184,43 +1184,6 @@
             this.textBox82.Size = new System.Drawing.Size(100, 20);
             this.textBox82.TabIndex = 48;
             // 
-            // xuiCustomGroupbox3
-            // 
-            this.xuiCustomGroupbox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.xuiCustomGroupbox3.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.xuiCustomGroupbox3.BorderWidth = 1;
-            this.xuiCustomGroupbox3.Controls.Add(this.richTextBox1);
-            this.xuiCustomGroupbox3.Controls.Add(this.label42);
-            this.xuiCustomGroupbox3.Location = new System.Drawing.Point(24, 822);
-            this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
-            this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(620, 136);
-            this.xuiCustomGroupbox3.TabIndex = 2;
-            this.xuiCustomGroupbox3.TabStop = false;
-            this.xuiCustomGroupbox3.Text = "Other assesmnet";
-            this.xuiCustomGroupbox3.TextColor = System.Drawing.Color.DodgerBlue;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(125, 16);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(481, 102);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(12, 40);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(107, 13);
-            this.label42.TabIndex = 1;
-            this.label42.Text = "Other assessment";
-            // 
             // xuiCustomGroupbox2
             // 
             this.xuiCustomGroupbox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1242,7 +1205,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(8, 390);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(620, 147);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(603, 147);
             this.xuiCustomGroupbox2.TabIndex = 1;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Wrist";
@@ -1377,7 +1340,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(8, 26);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(620, 235);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(603, 235);
             this.xuiCustomGroupbox1.TabIndex = 0;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Shoulder";
@@ -1830,6 +1793,43 @@
             this.label55.TabIndex = 1;
             this.label55.Text = "Flextion";
             // 
+            // xuiCustomGroupbox5
+            // 
+            this.xuiCustomGroupbox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.xuiCustomGroupbox5.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.xuiCustomGroupbox5.BorderWidth = 1;
+            this.xuiCustomGroupbox5.Controls.Add(this.richTextBox2);
+            this.xuiCustomGroupbox5.Controls.Add(this.label43);
+            this.xuiCustomGroupbox5.Location = new System.Drawing.Point(8, 950);
+            this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
+            this.xuiCustomGroupbox5.ShowText = true;
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(637, 191);
+            this.xuiCustomGroupbox5.TabIndex = 4;
+            this.xuiCustomGroupbox5.TabStop = false;
+            this.xuiCustomGroupbox5.Text = "Other assesmnet";
+            this.xuiCustomGroupbox5.TextColor = System.Drawing.Color.DodgerBlue;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox2.Location = new System.Drawing.Point(125, 40);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(502, 126);
+            this.richTextBox2.TabIndex = 2;
+            this.richTextBox2.Text = "";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(12, 43);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(107, 13);
+            this.label43.TabIndex = 1;
+            this.label43.Text = "Other assessment";
+            // 
             // xuiCustomGroupbox7
             // 
             this.xuiCustomGroupbox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -2008,6 +2008,43 @@
             this.label51.TabIndex = 1;
             this.label51.Text = "Flextion";
             // 
+            // xuiCustomGroupbox3
+            // 
+            this.xuiCustomGroupbox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.xuiCustomGroupbox3.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.xuiCustomGroupbox3.BorderWidth = 1;
+            this.xuiCustomGroupbox3.Controls.Add(this.richTextBox1);
+            this.xuiCustomGroupbox3.Controls.Add(this.label42);
+            this.xuiCustomGroupbox3.Location = new System.Drawing.Point(24, 822);
+            this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
+            this.xuiCustomGroupbox3.ShowText = true;
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(603, 136);
+            this.xuiCustomGroupbox3.TabIndex = 2;
+            this.xuiCustomGroupbox3.TabStop = false;
+            this.xuiCustomGroupbox3.Text = "Other assesmnet";
+            this.xuiCustomGroupbox3.TextColor = System.Drawing.Color.DodgerBlue;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Location = new System.Drawing.Point(125, 16);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(464, 102);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(12, 40);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(107, 13);
+            this.label42.TabIndex = 1;
+            this.label42.Text = "Other assessment";
+            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2038,43 +2075,6 @@
             this.button3.Text = "Cancel";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(12, 43);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(107, 13);
-            this.label43.TabIndex = 1;
-            this.label43.Text = "Other assessment";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox2.Location = new System.Drawing.Point(125, 40);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(502, 126);
-            this.richTextBox2.TabIndex = 2;
-            this.richTextBox2.Text = "";
-            // 
-            // xuiCustomGroupbox5
-            // 
-            this.xuiCustomGroupbox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.xuiCustomGroupbox5.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.xuiCustomGroupbox5.BorderWidth = 1;
-            this.xuiCustomGroupbox5.Controls.Add(this.richTextBox2);
-            this.xuiCustomGroupbox5.Controls.Add(this.label43);
-            this.xuiCustomGroupbox5.Location = new System.Drawing.Point(8, 950);
-            this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
-            this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(637, 191);
-            this.xuiCustomGroupbox5.TabIndex = 4;
-            this.xuiCustomGroupbox5.TabStop = false;
-            this.xuiCustomGroupbox5.Text = "Other assesmnet";
-            this.xuiCustomGroupbox5.TextColor = System.Drawing.Color.DodgerBlue;
-            // 
             // RangeOfMotion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2094,7 +2094,6 @@
             this.xuiCustomGroupbox4.ResumeLayout(false);
             this.xuiCustomGroupbox4.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
-            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();
@@ -2106,8 +2105,6 @@
             this.tbRingFinger.PerformLayout();
             this.tbLittleFinger.ResumeLayout(false);
             this.tbLittleFinger.PerformLayout();
-            this.xuiCustomGroupbox3.ResumeLayout(false);
-            this.xuiCustomGroupbox3.PerformLayout();
             this.xuiCustomGroupbox2.ResumeLayout(false);
             this.xuiCustomGroupbox2.PerformLayout();
             this.xuiCustomGroupbox1.ResumeLayout(false);
@@ -2118,10 +2115,12 @@
             this.xuiCustomGroupbox9.PerformLayout();
             this.xuiCustomGroupbox8.ResumeLayout(false);
             this.xuiCustomGroupbox8.PerformLayout();
-            this.xuiCustomGroupbox7.ResumeLayout(false);
-            this.xuiCustomGroupbox7.PerformLayout();
             this.xuiCustomGroupbox5.ResumeLayout(false);
             this.xuiCustomGroupbox5.PerformLayout();
+            this.xuiCustomGroupbox7.ResumeLayout(false);
+            this.xuiCustomGroupbox7.PerformLayout();
+            this.xuiCustomGroupbox3.ResumeLayout(false);
+            this.xuiCustomGroupbox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
