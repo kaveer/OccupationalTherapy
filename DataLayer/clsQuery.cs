@@ -8,6 +8,7 @@ namespace DataLayer
 {
     public static class clsQuery
     {
-        public static string RetrieveAppointment = "SELECT Appointment.PatientId, Appointment.AppointmentDate FROM Appointment WHERE Format(Appointment.AppointmentDate,\"MM/DD/YYYY\")=Date();";
+        public static string RetrieveAppointment = "SELECT * FROM Appointment";
+        public static string GetPatientDetailsByPatientId = "SELECT * FROM PatientDetails pd WHERE pd.PatientId = @patient";
     }
 }

@@ -1,4 +1,5 @@
 ﻿using DataLayer;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,20 +12,41 @@ namespace BusinessLayer
     public class clsAppointment
     {
         clsConnectorData connect = new clsConnectorData();
-        //crud operation
-        public bool Test()
-        {
-            return true;
-        }
 
-        public DataTable Retrieve()
+        public List<clsPatientModel> Retrieve()
         {
-            DataTable result = new DataTable();
+            List<clsPatientModel> result = new List<clsPatientModel>();
+            DataTable dataTable = new DataTable();
 
             connect.Link();
-            connect.cmd.CommandText = Model.Commun.clsSQLQuery.RetrieveAppointment;
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.RetrieveAppointment;
             connect.dta = new System.Data.OleDb.OleDbDataAdapter(connect.cmd);
-            connect.dta.Fill(result);
+            connect.dta.Fill(dataTable);
+            connect.con.Close();
+
+            if (dataTable != null || dataTable.Rows.Count > 0)
+            {
+                foreach (DataRow item in dataTable.Rows)
+                {
+                    clsPatientModel patient = new clsPatientModel()
+                    {
+                        PatientId = Convert.ToInt32(item[1]),
+                        Appointments = new List<clsAppointmentModel>()
+                        {
+                            new clsAppointmentModel()
+                            {
+                                AppointmentId = Convert.ToInt32(item[0]),
+                                HasAppointment = true,
+                                Appointment = Convert.ToDateTime(item[2])
+                            }
+                        }
+                    };
+
+                    result.Add(patient);
+                }
+
+            }
 
             return result;
         }

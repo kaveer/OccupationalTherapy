@@ -12,7 +12,7 @@ namespace Model
         public clsPatientDetailsModel PatientDetails { get; set; }
         public clsPatientMedicalRecordModel MedicalRecords { get; set; }
         public clsPrescriptionModel Prescription { get; set; }
-        public List<clsAppintmentModel> AppointmentAndDate { get; set; }
+        public List<clsAppointmentModel> Appointments { get; set; }
         public clsDateEntryModel DateEntry { get; set; }
         public List<clsAssessmentModel> Assessment { get; set; }
 

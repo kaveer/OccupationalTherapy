@@ -11,11 +11,11 @@ namespace Model
        
     }
 
-    public class clsAppintmentModel
+    public class clsAppointmentModel
     {
         public int AppointmentId { get; set; }
         public bool HasAppointment { get; set; }
-        public DateTime NextAppointment { get; set; }
+        public DateTime Appointment { get; set; }
     }
     public class clsDateEntryModel
     {

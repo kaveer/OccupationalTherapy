@@ -32,8 +32,8 @@
             this.btnViewToday = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dpTo = new System.Windows.Forms.DateTimePicker();
+            this.dpFrom = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.btnViewPatient = new System.Windows.Forms.Button();
             this.grdAppointment = new System.Windows.Forms.DataGridView();
@@ -50,8 +50,8 @@
             this.xuiCustomGroupbox1.Controls.Add(this.btnViewToday);
             this.xuiCustomGroupbox1.Controls.Add(this.btnSearch);
             this.xuiCustomGroupbox1.Controls.Add(this.label2);
-            this.xuiCustomGroupbox1.Controls.Add(this.dateTimePicker2);
-            this.xuiCustomGroupbox1.Controls.Add(this.dateTimePicker1);
+            this.xuiCustomGroupbox1.Controls.Add(this.dpTo);
+            this.xuiCustomGroupbox1.Controls.Add(this.dpFrom);
             this.xuiCustomGroupbox1.Controls.Add(this.label1);
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 12);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
@@ -94,19 +94,19 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "To";
             // 
-            // dateTimePicker2
+            // dpTo
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(280, 14);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 3;
+            this.dpTo.Location = new System.Drawing.Point(280, 14);
+            this.dpTo.Name = "dpTo";
+            this.dpTo.Size = new System.Drawing.Size(200, 20);
+            this.dpTo.TabIndex = 3;
             // 
-            // dateTimePicker1
+            // dpFrom
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(46, 14);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dpFrom.Location = new System.Drawing.Point(46, 14);
+            this.dpFrom.Name = "dpFrom";
+            this.dpFrom.Size = new System.Drawing.Size(200, 20);
+            this.dpFrom.TabIndex = 2;
             // 
             // label1
             // 
@@ -161,8 +161,8 @@
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dpTo;
+        private System.Windows.Forms.DateTimePicker dpFrom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnViewPatient;
         private System.Windows.Forms.DataGridView grdAppointment;

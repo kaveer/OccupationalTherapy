@@ -15,11 +15,23 @@ namespace OccupetionalTherapy
     public partial class Appointment : Form
     {
         private clsAppointment appointment;
+        private clsPatientDetails patientDetails;
+        private List<clsPatientModel> patients;
 
         public Appointment()
         {
             InitializeComponent();
-            RetrieveTodayAppointment();
+
+            try
+            {
+                RetrieveTodayAppointment();
+                AssignToGrid();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         private void btnViewPatient_Click(object sender, EventArgs e)
@@ -29,11 +41,61 @@ namespace OccupetionalTherapy
 
         private void btnViewToday_Click(object sender, EventArgs e)
         {
-
+            RetrieveTodayAppointment();
+            AssignToGrid();
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            try
+            {
+                patients = new List<clsPatientModel>();
+                appointment = new clsAppointment();
+                patientDetails = new clsPatientDetails();
+
+                DateTime from = Convert.ToDateTime(dpFrom.Value);
+                DateTime to = Convert.ToDateTime(dpTo.Value);
+
+                if ((from > to) || (from == to))
+                    throw new Exception("Invalid date");
+
+                var patientsRow = appointment.Retrieve();
+                if (patientsRow.Count > 0)
+                {
+                    foreach (var item in patientsRow)
+                    {
+                        item.PatientDetails = new clsPatientDetailsModel();
+                        item.PatientDetails = patientDetails.GetDetailsByPatientId(item.PatientId);
+                    }
+                }
+
+                foreach (var item in patientsRow)
+                {
+                    foreach (var appointment in item.Appointments)
+                    {
+                        if ((appointment.Appointment >= from) && (appointment.Appointment <= to))
+                        {
+                            clsPatientModel sort = new clsPatientModel
+                            {
+                                PatientDetails = new clsPatientDetailsModel(),
+                                Appointments = new List<clsAppointmentModel>(),
+
+                                PatientId = item.PatientId
+                            };
+                            sort.PatientDetails = item.PatientDetails;
+                            sort.Appointments.Add(appointment);
+
+                            patients.Add(sort);
+                        }
+                    }
+                }
+
+                AssignToGrid();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
@@ -50,14 +112,91 @@ namespace OccupetionalTherapy
 
         private void RetrieveTodayAppointment()
         {
-            DataTable result = new DataTable();
+            patients = new List<clsPatientModel>();
             appointment = new clsAppointment();
-            result = appointment.Retrieve();
+            patientDetails = new clsPatientDetails();
 
-            if (result != null || result.Rows.Count > 0)
-                grdAppointment.DataSource = result;
+            var patientsRow = appointment.Retrieve();
+            if (patientsRow.Count > 0)
+            {
+                foreach (var item in patientsRow)
+                {
+                    item.PatientDetails = new clsPatientDetailsModel();
+                    item.PatientDetails = patientDetails.GetDetailsByPatientId(item.PatientId);
+                }
+            }
+
+            foreach (var item in patientsRow)
+            {
+                foreach (var appointment in item.Appointments)
+                {
+                    if (appointment.Appointment.ToString("MM/dd/yyyy") == DateTime.Today.ToString("MM/dd/yyy"))
+                    {
+                        clsPatientModel sort = new clsPatientModel
+                        {
+                            PatientDetails = new clsPatientDetailsModel(),
+                            Appointments = new List<clsAppointmentModel>(),
+
+                            PatientId = item.PatientId
+                        };
+                        sort.PatientDetails = item.PatientDetails;
+                        sort.Appointments.Add(appointment);
+
+                        patients.Add(sort);
+                    }
+                }
+            }
         }
 
-      
+        private void AssignToGrid()
+        {
+            grdAppointment.DataSource = null;
+            grdAppointment.Columns.Clear();
+            grdAppointment.Rows.Clear();
+            grdAppointment.DataBindings.Clear();
+
+            if (patients.Count > 0)
+            {
+                grdAppointment.ColumnCount = 4;
+                grdAppointment.Columns[0].Name = "patientId";
+                grdAppointment.Columns[1].Name = "Surname";
+                grdAppointment.Columns[2].Name = "Name";
+                grdAppointment.Columns[3].Name = "Appoitment";
+
+                foreach (var item in patients)
+                {
+                    if (item.Appointments.Count > 0)
+                    {
+                        foreach (var appoinment in item.Appointments)
+                        {
+                            string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, appoinment.Appointment.ToString() };
+                            grdAppointment.Rows.Add(row);
+                        }
+                    }
+                }
+
+                grdAppointment.Columns[0].Visible = false;
+                GridFormatting();
+            }
+
+        }
+
+        private void GridFormatting()
+        {
+            grdAppointment.RowsDefaultCellStyle.BackColor = Color.Gray;
+            grdAppointment.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+            grdAppointment.CellBorderStyle = DataGridViewCellBorderStyle.None;
+
+            grdAppointment.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAppointment.DefaultCellStyle.SelectionForeColor = Color.White;
+
+            grdAppointment.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            //grdAppointment.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            grdAppointment.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            //grdAppointment.AllowUserToResizeColumns = false;
+
+            grdAppointment.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
     }
 }

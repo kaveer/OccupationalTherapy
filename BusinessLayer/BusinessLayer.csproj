@@ -55,7 +55,7 @@
       <Name>DataLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{BD31E478-EC9D-4DB2-A5ED-52F20EF670D6}</Project>
+      <Project>{bd31e478-ec9d-4db2-a5ed-52f20ef670d6}</Project>
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
