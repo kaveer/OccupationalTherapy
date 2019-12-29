@@ -17,6 +17,7 @@ namespace OccupetionalTherapy
         private clsAppointment appointment;
         private clsPatientDetails patientDetails;
         private List<clsPatientModel> patients;
+        private int selectedPatient = 0;
 
         public Appointment()
         {
@@ -36,7 +37,18 @@ namespace OccupetionalTherapy
 
         private void btnViewPatient_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (selectedPatient == 0)
+                    throw new Exception("Select a patient to view details");
 
+                ViewPatient viewPatient = new ViewPatient(selectedPatient, NavigationType.Appointments);
+                viewPatient.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnViewToday_Click(object sender, EventArgs e)
@@ -65,7 +77,7 @@ namespace OccupetionalTherapy
                     foreach (var item in patientsRow)
                     {
                         item.PatientDetails = new clsPatientDetailsModel();
-                        item.PatientDetails = patientDetails.GetDetailsByPatientId(item.PatientId);
+                        item.PatientDetails = patientDetails.GetByPatientId(item.PatientId);
                     }
                 }
 
@@ -73,7 +85,7 @@ namespace OccupetionalTherapy
                 {
                     foreach (var appointment in item.Appointments)
                     {
-                        if ((appointment.Appointment >= from) && (appointment.Appointment <= to))
+                        if ((appointment.Appointment.Date >= from.Date) && (appointment.Appointment.Date <= to.Date))
                         {
                             clsPatientModel sort = new clsPatientModel
                             {
@@ -122,7 +134,7 @@ namespace OccupetionalTherapy
                 foreach (var item in patientsRow)
                 {
                     item.PatientDetails = new clsPatientDetailsModel();
-                    item.PatientDetails = patientDetails.GetDetailsByPatientId(item.PatientId);
+                    item.PatientDetails = patientDetails.GetByPatientId(item.PatientId);
                 }
             }
 
@@ -183,7 +195,7 @@ namespace OccupetionalTherapy
 
         private void GridFormatting()
         {
-            grdAppointment.RowsDefaultCellStyle.BackColor = Color.Gray;
+            grdAppointment.RowsDefaultCellStyle.BackColor = Color.LightGray;
             grdAppointment.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdAppointment.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
@@ -197,6 +209,19 @@ namespace OccupetionalTherapy
             //grdAppointment.AllowUserToResizeColumns = false;
 
             grdAppointment.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            grdAppointment.RowHeadersVisible = false;
+            grdAppointment.AllowUserToAddRows = false;
+            grdAppointment.AllowUserToResizeRows = false;
+            grdAppointment.MultiSelect = false;
+        }
+
+        private void grdAppointment_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (grdAppointment.Rows[e.RowIndex].Cells[0].Value != null)
+            {
+                selectedPatient = Convert.ToInt32(grdAppointment.Rows[e.RowIndex].Cells[0].Value.ToString());
+            }
         }
     }
 }

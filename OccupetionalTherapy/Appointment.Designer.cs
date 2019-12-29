@@ -138,6 +138,7 @@
             this.grdAppointment.Name = "grdAppointment";
             this.grdAppointment.Size = new System.Drawing.Size(562, 220);
             this.grdAppointment.TabIndex = 6;
+            this.grdAppointment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAppointment_CellClick);
             // 
             // Appointment
             // 

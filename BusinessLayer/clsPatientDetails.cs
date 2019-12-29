@@ -13,7 +13,7 @@ namespace BusinessLayer
     {
         clsConnectorData connect = new clsConnectorData();
 
-        public clsPatientDetailsModel GetDetailsByPatientId(int patientId)
+        public clsPatientDetailsModel GetByPatientId(int patientId)
         {
             clsPatientDetailsModel result = new clsPatientDetailsModel();
             DataTable dataTable = new DataTable();

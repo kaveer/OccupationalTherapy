@@ -50,5 +50,10 @@ namespace BusinessLayer
 
             return result;
         }
+
+        public List<clsAppointmentModel> GetByPatientId(int selectedPatient)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
