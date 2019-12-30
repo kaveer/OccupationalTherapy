@@ -214,14 +214,28 @@ namespace OccupetionalTherapy
             grdAppointment.AllowUserToAddRows = false;
             grdAppointment.AllowUserToResizeRows = false;
             grdAppointment.MultiSelect = false;
+
+            grdAppointment.ReadOnly = true;
+
+            foreach (DataGridViewColumn column in grdAppointment.Columns)
+            {
+                column.SortMode = DataGridViewColumnSortMode.NotSortable;
+            }
+
+            grdAppointment.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            grdAppointment.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
         }
 
         private void grdAppointment_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (grdAppointment.Rows[e.RowIndex].Cells[0].Value != null)
+            if (e.RowIndex >= 0)
             {
-                selectedPatient = Convert.ToInt32(grdAppointment.Rows[e.RowIndex].Cells[0].Value.ToString());
+                if (grdAppointment.Rows[e.RowIndex].Cells[0].Value != null)
+                {
+                    selectedPatient = Convert.ToInt32(grdAppointment.Rows[e.RowIndex].Cells[0].Value.ToString());
+                }
             }
+
         }
     }
 }

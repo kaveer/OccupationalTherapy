@@ -11,13 +11,14 @@ namespace BusinessLayer
 {
     public class clsAppointment
     {
-        clsConnectorData connect = new clsConnectorData();
+        clsConnectorData connect;
 
         public List<clsPatientModel> Retrieve()
         {
             List<clsPatientModel> result = new List<clsPatientModel>();
             DataTable dataTable = new DataTable();
 
+            connect = new clsConnectorData();
             connect.Link();
             connect.con.Open();
             connect.cmd.CommandText = clsQuery.RetrieveAppointment;
@@ -53,7 +54,32 @@ namespace BusinessLayer
 
         public List<clsAppointmentModel> GetByPatientId(int selectedPatient)
         {
-            throw new NotImplementedException();
+            List<clsAppointmentModel> result = new List<clsAppointmentModel>();
+            DataTable dataTable = new DataTable();
+
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.GetAppointmentByPatientId;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@patient", selectedPatient));
+            connect.dta = new System.Data.OleDb.OleDbDataAdapter(connect.cmd);
+            connect.dta.Fill(dataTable);
+            connect.con.Close();
+
+            if (dataTable != null || dataTable.Rows.Count > 0)
+            {
+                foreach (DataRow item in dataTable.Rows)
+                {
+                    result.Add(new clsAppointmentModel()
+                    {
+                        AppointmentId = Convert.ToInt32(item[0]),
+                        HasAppointment = Convert.ToBoolean(item[1]),
+                        Appointment = Convert.ToDateTime(item[2])
+                    });
+                }
+            }
+
+            return result;
         }
     }
 }

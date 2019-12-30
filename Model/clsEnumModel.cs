@@ -25,7 +25,8 @@ namespace Model
     public enum JointPartType
     {
         UpperJoint = 1,
-        LowerJoint = 2
+        LowerJoint = 2,
+        OtherAssessment = 3
     }
 
     public enum JointType

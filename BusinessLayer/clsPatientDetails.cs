@@ -11,13 +11,14 @@ namespace BusinessLayer
 {
     public class clsPatientDetails
     {
-        clsConnectorData connect = new clsConnectorData();
+        clsConnectorData connect;
 
         public clsPatientDetailsModel GetByPatientId(int patientId)
         {
             clsPatientDetailsModel result = new clsPatientDetailsModel();
             DataTable dataTable = new DataTable();
 
+            connect = new clsConnectorData();
             connect.Link();
             connect.con.Open();
             connect.cmd.CommandText = clsQuery.GetPatientDetailsByPatientId;

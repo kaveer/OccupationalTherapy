@@ -10,6 +10,7 @@ namespace Model
     {
         public int AssessementId { get; set; }
         public DateTime AssessmentDate { get; set; }
+        public int AssessmentDetailsId { get; set; }
         public clsUpperJointModel UpperJoint { get; set; }
         public clsLowerJointModel LowerJoint { get; set; }
         public string OtherAssessment { get; set; }

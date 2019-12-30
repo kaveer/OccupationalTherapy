@@ -68,7 +68,7 @@
             this.btnAddAppointment = new System.Windows.Forms.Button();
             this.xuiCustomGroupbox4 = new XanderUI.XUICustomGroupbox();
             this.btnDeleteAppointment = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.grdAppointment = new System.Windows.Forms.DataGridView();
             this.dpAddAppointment = new System.Windows.Forms.DateTimePicker();
             this.metroSetLabel15 = new MetroSet_UI.Controls.MetroSetLabel();
             this.xuiCustomGroupbox5 = new XanderUI.XUICustomGroupbox();
@@ -77,12 +77,13 @@
             this.txtAdvise = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel13 = new MetroSet_UI.Controls.MetroSetLabel();
             this.btnUpdatePatient = new System.Windows.Forms.Button();
+            this.dpAppointmentTime = new System.Windows.Forms.DateTimePicker();
             this.xuiCustomGroupbox2.SuspendLayout();
             this.xuiCustomGroupbox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAssessment)).BeginInit();
             this.xuiCustomGroupbox1.SuspendLayout();
             this.xuiCustomGroupbox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).BeginInit();
             this.xuiCustomGroupbox5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +93,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEntryDate.Location = new System.Drawing.Point(528, 4);
             this.txtEntryDate.Name = "txtEntryDate";
-            this.txtEntryDate.Size = new System.Drawing.Size(219, 20);
+            this.txtEntryDate.Size = new System.Drawing.Size(185, 20);
             this.txtEntryDate.TabIndex = 16;
             // 
             // metroSetLabel16
@@ -116,7 +117,7 @@
             this.metroSetDivider1.Location = new System.Drawing.Point(12, 35);
             this.metroSetDivider1.Name = "metroSetDivider1";
             this.metroSetDivider1.Orientation = MetroSet_UI.Enums.DividerStyle.Horizontal;
-            this.metroSetDivider1.Size = new System.Drawing.Size(735, 4);
+            this.metroSetDivider1.Size = new System.Drawing.Size(701, 4);
             this.metroSetDivider1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetDivider1.StyleManager = null;
             this.metroSetDivider1.TabIndex = 13;
@@ -146,7 +147,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 185);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(735, 253);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(701, 253);
             this.xuiCustomGroupbox2.TabIndex = 18;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Medical Entry";
@@ -158,7 +159,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSensation.Location = new System.Drawing.Point(204, 214);
             this.txtSensation.Name = "txtSensation";
-            this.txtSensation.Size = new System.Drawing.Size(525, 20);
+            this.txtSensation.Size = new System.Drawing.Size(491, 20);
             this.txtSensation.TabIndex = 12;
             // 
             // cbxSensation
@@ -213,7 +214,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPastMedicalHistory.Location = new System.Drawing.Point(116, 114);
             this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
-            this.txtPastMedicalHistory.Size = new System.Drawing.Size(613, 40);
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(579, 40);
             this.txtPastMedicalHistory.TabIndex = 7;
             this.txtPastMedicalHistory.Text = "";
             // 
@@ -236,7 +237,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBriefHistory.Location = new System.Drawing.Point(116, 64);
             this.txtBriefHistory.Name = "txtBriefHistory";
-            this.txtBriefHistory.Size = new System.Drawing.Size(613, 44);
+            this.txtBriefHistory.Size = new System.Drawing.Size(579, 44);
             this.txtBriefHistory.TabIndex = 5;
             this.txtBriefHistory.Text = "";
             // 
@@ -259,7 +260,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDiagnosis.Location = new System.Drawing.Point(116, 19);
             this.txtDiagnosis.Name = "txtDiagnosis";
-            this.txtDiagnosis.Size = new System.Drawing.Size(613, 39);
+            this.txtDiagnosis.Size = new System.Drawing.Size(579, 39);
             this.txtDiagnosis.TabIndex = 3;
             this.txtDiagnosis.Text = "";
             // 
@@ -290,7 +291,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 599);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(735, 216);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(701, 216);
             this.xuiCustomGroupbox3.TabIndex = 19;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Range of motion";
@@ -305,6 +306,7 @@
             this.btnDeleteAssessment.TabIndex = 6;
             this.btnDeleteAssessment.Text = "Delete";
             this.btnDeleteAssessment.UseVisualStyleBackColor = true;
+            this.btnDeleteAssessment.Click += new System.EventHandler(this.btnDeleteAssessment_Click);
             // 
             // btnViewAssessment
             // 
@@ -315,6 +317,7 @@
             this.btnViewAssessment.TabIndex = 5;
             this.btnViewAssessment.Text = "View";
             this.btnViewAssessment.UseVisualStyleBackColor = true;
+            this.btnViewAssessment.Click += new System.EventHandler(this.btnViewAssessment_Click);
             // 
             // btnAddAssessment
             // 
@@ -325,6 +328,7 @@
             this.btnAddAssessment.TabIndex = 3;
             this.btnAddAssessment.Text = "Add";
             this.btnAddAssessment.UseVisualStyleBackColor = true;
+            this.btnAddAssessment.Click += new System.EventHandler(this.btnAddAssessment_Click);
             // 
             // grdAssessment
             // 
@@ -333,8 +337,9 @@
             this.grdAssessment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdAssessment.Location = new System.Drawing.Point(6, 19);
             this.grdAssessment.Name = "grdAssessment";
-            this.grdAssessment.Size = new System.Drawing.Size(720, 161);
+            this.grdAssessment.Size = new System.Drawing.Size(686, 161);
             this.grdAssessment.TabIndex = 1;
+            this.grdAssessment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAssessment_CellClick);
             // 
             // xuiCustomGroupbox1
             // 
@@ -362,7 +367,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 45);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(735, 134);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(701, 134);
             this.xuiCustomGroupbox1.TabIndex = 17;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Patient Details";
@@ -374,7 +379,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOccupation.Location = new System.Drawing.Point(107, 97);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(622, 20);
+            this.txtOccupation.Size = new System.Drawing.Size(588, 20);
             this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
@@ -396,7 +401,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAge.Location = new System.Drawing.Point(466, 71);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(263, 20);
+            this.txtAge.Size = new System.Drawing.Size(229, 20);
             this.txtAge.TabIndex = 14;
             // 
             // metroSetLabel7
@@ -414,6 +419,7 @@
             // 
             // dpDOB
             // 
+            this.dpDOB.CustomFormat = "";
             this.dpDOB.Location = new System.Drawing.Point(107, 71);
             this.dpDOB.Name = "dpDOB";
             this.dpDOB.Size = new System.Drawing.Size(260, 20);
@@ -438,7 +444,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMobile2.Location = new System.Drawing.Point(591, 45);
             this.txtMobile2.Name = "txtMobile2";
-            this.txtMobile2.Size = new System.Drawing.Size(138, 20);
+            this.txtMobile2.Size = new System.Drawing.Size(104, 20);
             this.txtMobile2.TabIndex = 10;
             // 
             // metroSetLabel5
@@ -500,7 +506,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.Location = new System.Drawing.Point(443, 19);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(287, 20);
+            this.txtName.Size = new System.Drawing.Size(253, 20);
             this.txtName.TabIndex = 4;
             // 
             // metroSetLabel2
@@ -539,12 +545,13 @@
             // btnAddAppointment
             // 
             this.btnAddAppointment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAppointment.Location = new System.Drawing.Point(418, 25);
+            this.btnAddAppointment.Location = new System.Drawing.Point(495, 25);
             this.btnAddAppointment.Name = "btnAddAppointment";
             this.btnAddAppointment.Size = new System.Drawing.Size(75, 23);
             this.btnAddAppointment.TabIndex = 22;
             this.btnAddAppointment.Text = "Add";
             this.btnAddAppointment.UseVisualStyleBackColor = true;
+            this.btnAddAppointment.Click += new System.EventHandler(this.btnAddAppointment_Click);
             // 
             // xuiCustomGroupbox4
             // 
@@ -553,15 +560,16 @@
             this.xuiCustomGroupbox4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.xuiCustomGroupbox4.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox4.BorderWidth = 1;
+            this.xuiCustomGroupbox4.Controls.Add(this.dpAppointmentTime);
             this.xuiCustomGroupbox4.Controls.Add(this.btnDeleteAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.btnAddAppointment);
-            this.xuiCustomGroupbox4.Controls.Add(this.dataGridView2);
+            this.xuiCustomGroupbox4.Controls.Add(this.grdAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.dpAddAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.metroSetLabel15);
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(14, 821);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(734, 207);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(700, 207);
             this.xuiCustomGroupbox4.TabIndex = 21;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Appointments";
@@ -576,22 +584,24 @@
             this.btnDeleteAppointment.TabIndex = 23;
             this.btnDeleteAppointment.Text = "Delete";
             this.btnDeleteAppointment.UseVisualStyleBackColor = true;
+            this.btnDeleteAppointment.Click += new System.EventHandler(this.btnDeleteAppointment_Click);
             // 
-            // dataGridView2
+            // grdAppointment
             // 
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.grdAppointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(8, 57);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(720, 110);
-            this.dataGridView2.TabIndex = 16;
+            this.grdAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdAppointment.Location = new System.Drawing.Point(8, 57);
+            this.grdAppointment.Name = "grdAppointment";
+            this.grdAppointment.Size = new System.Drawing.Size(686, 110);
+            this.grdAppointment.TabIndex = 16;
+            this.grdAppointment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAppointment_CellClick);
             // 
             // dpAddAppointment
             // 
             this.dpAddAppointment.Location = new System.Drawing.Point(152, 25);
             this.dpAddAppointment.Name = "dpAddAppointment";
-            this.dpAddAppointment.Size = new System.Drawing.Size(260, 20);
+            this.dpAddAppointment.Size = new System.Drawing.Size(198, 20);
             this.dpAddAppointment.TabIndex = 14;
             // 
             // metroSetLabel15
@@ -621,7 +631,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(13, 444);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(734, 149);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(700, 149);
             this.xuiCustomGroupbox5.TabIndex = 20;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Advise and Prescription";
@@ -633,7 +643,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrescription.Location = new System.Drawing.Point(115, 77);
             this.txtPrescription.Name = "txtPrescription";
-            this.txtPrescription.Size = new System.Drawing.Size(613, 57);
+            this.txtPrescription.Size = new System.Drawing.Size(579, 57);
             this.txtPrescription.TabIndex = 11;
             this.txtPrescription.Text = "";
             // 
@@ -656,7 +666,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAdvise.Location = new System.Drawing.Point(115, 19);
             this.txtAdvise.Name = "txtAdvise";
-            this.txtAdvise.Size = new System.Drawing.Size(613, 52);
+            this.txtAdvise.Size = new System.Drawing.Size(579, 52);
             this.txtAdvise.TabIndex = 9;
             this.txtAdvise.Text = "";
             // 
@@ -682,6 +692,15 @@
             this.btnUpdatePatient.TabIndex = 22;
             this.btnUpdatePatient.Text = "Update";
             this.btnUpdatePatient.UseVisualStyleBackColor = true;
+            this.btnUpdatePatient.Click += new System.EventHandler(this.btnUpdatePatient_Click);
+            // 
+            // dpAppointmentTime
+            // 
+            this.dpAppointmentTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dpAppointmentTime.Location = new System.Drawing.Point(356, 25);
+            this.dpAppointmentTime.Name = "dpAppointmentTime";
+            this.dpAppointmentTime.Size = new System.Drawing.Size(133, 20);
+            this.dpAppointmentTime.TabIndex = 25;
             // 
             // ViewPatient
             // 
@@ -708,7 +727,8 @@
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
             this.xuiCustomGroupbox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.xuiCustomGroupbox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).EndInit();
             this.xuiCustomGroupbox5.ResumeLayout(false);
             this.xuiCustomGroupbox5.PerformLayout();
             this.ResumeLayout(false);
@@ -762,10 +782,11 @@
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel14;
         private System.Windows.Forms.RichTextBox txtAdvise;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel13;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView grdAppointment;
         private System.Windows.Forms.Button btnDeleteAssessment;
         private System.Windows.Forms.Button btnViewAssessment;
         private System.Windows.Forms.Button btnDeleteAppointment;
         private System.Windows.Forms.Button btnUpdatePatient;
+        private System.Windows.Forms.DateTimePicker dpAppointmentTime;
     }
 }
