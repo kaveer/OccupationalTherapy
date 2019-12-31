@@ -246,6 +246,9 @@ namespace OccupetionalTherapy
                 column.SortMode = DataGridViewColumnSortMode.NotSortable;
             }
 
+            grdAppointment.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            grdAppointment.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
+
         }
 
         private void AssessmentGridFormatting()
@@ -276,6 +279,9 @@ namespace OccupetionalTherapy
             {
                 column.SortMode = DataGridViewColumnSortMode.NotSortable;
             }
+
+            grdAssessment.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            grdAssessment.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
         }
 
         /// <summary>
@@ -389,12 +395,67 @@ namespace OccupetionalTherapy
 
         private void btnUpdatePatient_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (patient != null || patient.PatientId != 0)
+                {
+                    UpdatePatientDetails();
+                    UpdateMedicalRecord();
+                    UpdatePrescription();
 
+                    MessageBox.Show("Patient updated successfully");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        /// <summary>
+        /// Update event method
+        /// </summary>
+        private void UpdatePrescription()
+        {
+            patient.Prescription.Advise = txtAdvise.Text;
+            patient.Prescription.Prescription = txtPrescription.Text;
+
+            prescription = new clsPrescription();
+            prescription.Update(patient.PatientId, patient.Prescription);
+        }
+
+        private void UpdateMedicalRecord()
+        {
+            patient.MedicalRecords.Diagnosis = txtDiagnosis.Text;
+            patient.MedicalRecords.BriefHistory = txtBriefHistory.Text;
+            patient.MedicalRecords.PastMedicalHistory = txtPastMedicalHistory.Text;
+            patient.MedicalRecords.Swelling = cbxSwelling.Checked;
+            patient.MedicalRecords.Tenderness = cbxTenderness.Checked;
+            patient.MedicalRecords.Sensation = cbxSensation.Checked;
+            patient.MedicalRecords.SensationDetails = txtSensation.Text;
+
+            medicalRecord = new clsMedicalRecord();
+            medicalRecord.Update(patient.PatientId, patient.MedicalRecords);
+        }
+
+        private void UpdatePatientDetails()
+        {
+            patient.PatientDetails.Surname = txtSurname.Text;
+            patient.PatientDetails.Name = txtName.Text;
+            patient.PatientDetails.Tel = txtTel.Text;
+            patient.PatientDetails.Mobile1 = txtMobile1.Text;
+            patient.PatientDetails.Mobile2 = txtMobile2.Text;
+            patient.PatientDetails.DOB = dpDOB.Value;
+            patient.PatientDetails.Age = string.IsNullOrWhiteSpace(txtAge.Text) ? 0 : Convert.ToInt32(txtAge.Text);
+            patient.PatientDetails.Occupation = txtOccupation.Text;
+
+            patientDetail = new clsPatientDetails();
+            patientDetail.Update(patient.PatientId, patient.PatientDetails);
         }
     }
 }

@@ -18,5 +18,8 @@ namespace DataLayer
         public static string DeleteAppointmentByAppointmentId = "DELETE * FROM Appointment WHERE (AppointmentId = @appointment)";
         public static string DeleteAssessmentByAssessmentId = "DELETE * FROM Assessment WHERE (AssessementId = @assessment)";
         public static string InsertAppointment = "INSERT INTO Appointment(PatientId, AppointmentDate) VALUES(@patientId, @newAppointment)";
+        public static string UpdatePatientDetails = "UPDATE PatientDetails SET Name = @na, Surname = @sur, Tel = @tel, Mobile1 = @mob1, Mobile2 = @mob2, DOB = @dob, Age = @age, Occupation = @occup WHERE PatientId = {0}";
+        public static string UpdateMedicalRecord = "UPDATE MedicalRecord SET Diagnosis = @diag, BriefHistory = @bh, PastMedicalHistory = @pmh, Swelling = @swel, Tenderness = @ten, Sensation = @sen, SensationDetails = @sendet WHERE PatientId = {0}";
+        public static string UpdatePrescription = "UPDATE Prescription SET Advise = @advise, Prescription = @prescription WHERE PatientId = {0}";
     }
 }

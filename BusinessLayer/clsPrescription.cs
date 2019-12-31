@@ -39,5 +39,17 @@ namespace BusinessLayer
 
             return result;
         }
+
+        public void Update(int patientId, clsPrescriptionModel prescription)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = string.Format(clsQuery.UpdatePrescription, patientId);
+            connect.cmd.Parameters.AddWithValue("@advise", prescription.Advise);
+            connect.cmd.Parameters.AddWithValue("@prescription", prescription.Prescription);
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
     }
 }
