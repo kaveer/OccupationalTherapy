@@ -719,7 +719,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(827, 711);
+            this.ClientSize = new System.Drawing.Size(844, 711);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnUpdatePatient);
             this.Controls.Add(this.xuiCustomGroupbox4);

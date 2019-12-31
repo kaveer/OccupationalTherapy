@@ -318,6 +318,19 @@ namespace OccupetionalTherapy
         /// <param name="e"></param>
         private void btnAddAssessment_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (patient == null || patient.PatientId == 0)
+                    throw new Exception("Invalid patient");
+
+                RangeOfMotion rangeOfMotion = new RangeOfMotion(this, true, 0, patient.PatientId);
+                rangeOfMotion.ShowDialog();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
@@ -456,6 +469,25 @@ namespace OccupetionalTherapy
 
             patientDetail = new clsPatientDetails();
             patientDetail.Update(patient.PatientId, patient.PatientDetails);
+        }
+
+        /// <summary>
+        /// Reload form after closing range of motion form
+        /// </summary>
+        public void ReloadForm()
+        {
+            try
+            {
+                Navigation();
+
+                if (patient != null || patient.PatientId != 0)
+                    AssignValue();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                this.Close();
+            }
         }
     }
 }

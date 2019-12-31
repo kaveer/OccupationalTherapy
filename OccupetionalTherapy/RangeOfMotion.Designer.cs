@@ -216,9 +216,9 @@
             this.xuiCustomGroupbox3 = new XanderUI.XUICustomGroupbox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label42 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnUpsert = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.xuiFlatTab1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.xuiCustomGroupbox4.SuspendLayout();
@@ -257,7 +257,7 @@
             this.xuiFlatTab1.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab1.SelectedIndex = 0;
             this.xuiFlatTab1.ShowBorder = true;
-            this.xuiFlatTab1.Size = new System.Drawing.Size(609, 804);
+            this.xuiFlatTab1.Size = new System.Drawing.Size(592, 804);
             this.xuiFlatTab1.TabIndex = 1;
             // 
             // tabPage1
@@ -272,7 +272,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 20);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(601, 780);
+            this.tabPage1.Size = new System.Drawing.Size(584, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Upper Join";
             // 
@@ -314,7 +314,7 @@
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(8, 267);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(586, 117);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(569, 117);
             this.xuiCustomGroupbox4.TabIndex = 8;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Elbow And Forearm";
@@ -402,7 +402,7 @@
             this.xuiCustomGroupbox6.Location = new System.Drawing.Point(8, 542);
             this.xuiCustomGroupbox6.Name = "xuiCustomGroupbox6";
             this.xuiCustomGroupbox6.ShowText = true;
-            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(586, 222);
+            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(569, 222);
             this.xuiCustomGroupbox6.TabIndex = 5;
             this.xuiCustomGroupbox6.TabStop = false;
             this.xuiCustomGroupbox6.Text = "Finger";
@@ -429,7 +429,7 @@
             this.xuiFlatTab2.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab2.SelectedIndex = 0;
             this.xuiFlatTab2.ShowBorder = true;
-            this.xuiFlatTab2.Size = new System.Drawing.Size(573, 203);
+            this.xuiFlatTab2.Size = new System.Drawing.Size(556, 203);
             this.xuiFlatTab2.TabIndex = 1;
             // 
             // tbThumb
@@ -456,7 +456,7 @@
             this.tbThumb.Location = new System.Drawing.Point(4, 20);
             this.tbThumb.Name = "tbThumb";
             this.tbThumb.Padding = new System.Windows.Forms.Padding(3);
-            this.tbThumb.Size = new System.Drawing.Size(565, 179);
+            this.tbThumb.Size = new System.Drawing.Size(548, 179);
             this.tbThumb.TabIndex = 4;
             this.tbThumb.Text = "Thumb";
             // 
@@ -625,7 +625,7 @@
             this.tbIndexFinger.Location = new System.Drawing.Point(4, 20);
             this.tbIndexFinger.Name = "tbIndexFinger";
             this.tbIndexFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbIndexFinger.Size = new System.Drawing.Size(582, 179);
+            this.tbIndexFinger.Size = new System.Drawing.Size(565, 179);
             this.tbIndexFinger.TabIndex = 0;
             this.tbIndexFinger.Text = "Index Finger";
             // 
@@ -770,7 +770,7 @@
             this.tbMiddleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbMiddleFinger.Name = "tbMiddleFinger";
             this.tbMiddleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbMiddleFinger.Size = new System.Drawing.Size(582, 179);
+            this.tbMiddleFinger.Size = new System.Drawing.Size(565, 179);
             this.tbMiddleFinger.TabIndex = 1;
             this.tbMiddleFinger.Text = "Middle Finger";
             // 
@@ -915,7 +915,7 @@
             this.tbRingFinger.Location = new System.Drawing.Point(4, 20);
             this.tbRingFinger.Name = "tbRingFinger";
             this.tbRingFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbRingFinger.Size = new System.Drawing.Size(582, 179);
+            this.tbRingFinger.Size = new System.Drawing.Size(565, 179);
             this.tbRingFinger.TabIndex = 2;
             this.tbRingFinger.Text = "Ring Finger";
             // 
@@ -1060,7 +1060,7 @@
             this.tbLittleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbLittleFinger.Name = "tbLittleFinger";
             this.tbLittleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLittleFinger.Size = new System.Drawing.Size(582, 179);
+            this.tbLittleFinger.Size = new System.Drawing.Size(565, 179);
             this.tbLittleFinger.TabIndex = 3;
             this.tbLittleFinger.Text = "Little Finger";
             // 
@@ -1205,7 +1205,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(8, 390);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(586, 147);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(569, 147);
             this.xuiCustomGroupbox2.TabIndex = 1;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Wrist";
@@ -1340,7 +1340,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(8, 26);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(586, 235);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(569, 235);
             this.xuiCustomGroupbox1.TabIndex = 0;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Shoulder";
@@ -1550,7 +1550,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(618, 780);
+            this.tabPage2.Size = new System.Drawing.Size(601, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -2019,7 +2019,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(24, 822);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(586, 136);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(569, 136);
             this.xuiCustomGroupbox3.TabIndex = 2;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Other assesmnet";
@@ -2031,7 +2031,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.Location = new System.Drawing.Point(125, 16);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(447, 102);
+            this.richTextBox1.Size = new System.Drawing.Size(430, 102);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
             // 
@@ -2045,35 +2045,38 @@
             this.label42.TabIndex = 1;
             this.label42.Text = "Other assessment";
             // 
-            // button1
+            // btnUpsert
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(16, 977);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUpsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpsert.Location = new System.Drawing.Point(16, 977);
+            this.btnUpsert.Name = "btnUpsert";
+            this.btnUpsert.Size = new System.Drawing.Size(75, 23);
+            this.btnUpsert.TabIndex = 2;
+            this.btnUpsert.Text = "Save";
+            this.btnUpsert.UseVisualStyleBackColor = true;
+            this.btnUpsert.Click += new System.EventHandler(this.btnUpsert_Click);
             // 
-            // button2
+            // btnClear
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(97, 977);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(97, 977);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 3;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // button3
+            // btnCancel
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(178, 977);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Cancel";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(178, 977);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 4;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // RangeOfMotion
             // 
@@ -2081,9 +2084,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(673, 479);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnUpsert);
             this.Controls.Add(this.xuiFlatTab1);
             this.Controls.Add(this.xuiCustomGroupbox3);
             this.Name = "RangeOfMotion";
@@ -2095,6 +2098,7 @@
             this.xuiCustomGroupbox4.ResumeLayout(false);
             this.xuiCustomGroupbox4.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
+            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();
@@ -2282,9 +2286,9 @@
         private System.Windows.Forms.TextBox textBox97;
         private System.Windows.Forms.TextBox textBox98;
         private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnUpsert;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label27;

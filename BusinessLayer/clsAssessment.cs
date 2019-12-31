@@ -53,6 +53,12 @@ namespace BusinessLayer
 
         public void DeleteByAssessmentId(int selectedAssessmentId)
         {
+            DeleteAssessmentEntry(selectedAssessmentId);
+            DeletelAssessmentDetails(selectedAssessmentId);
+        }
+
+        private void DeleteAssessmentEntry(int selectedAssessmentId)
+        {
             connect = new clsConnectorData();
             connect.Link();
             connect.con.Open();
@@ -60,6 +66,22 @@ namespace BusinessLayer
             connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@assessment", selectedAssessmentId));
             connect.cmd.ExecuteNonQuery();
             connect.con.Close();
+        }
+
+        private void DeletelAssessmentDetails(int selectedAssessmentId)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.DeleteAssessmentDetailsByAssessmentId;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@assessment", selectedAssessmentId));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
+
+        public List<clsAssessmentModel> GetDetailsByAssessmentId(int assessmentId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

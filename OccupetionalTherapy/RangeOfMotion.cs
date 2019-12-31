@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using BusinessLayer;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,41 +17,38 @@ namespace OccupetionalTherapy
         /// <summary>
         /// Reference : https://grantwinney.com/passing-data-between-two-forms-in-winforms/
         /// </summary>
-        public NewPatient NewPatient;
-        public Appointment Appointment;
         private ViewPatient ViewPatient;
+
+        private clsAssessment assessment;
+
+        private clsPatientModel patient;
+
         public NavigationType navigationType;
         private bool isNew;
-
+        private int assessmentId;
+        private int patientId;
 
         public RangeOfMotion()
         {
             InitializeComponent();
         }
 
-        public RangeOfMotion(ViewPatient viewPatient, NavigationType navigation, bool isNew)
+        public RangeOfMotion(ViewPatient viewPatient, bool isNew, int assessmentId, int patientId)
         {
             InitializeComponent();
             this.ViewPatient = viewPatient;
-            this.navigationType = navigation;
+            this.navigationType = NavigationType.ViewPatient;
             this.isNew = isNew;
-        }
-
-        public RangeOfMotion(NewPatient newPatient, NavigationType navigation)
-        {
-            InitializeComponent();
-            this.NewPatient = newPatient;
-            this.navigationType = navigation;
-        }
-
-        public RangeOfMotion(Appointment appointment, NavigationType navigation)
-        {
-            InitializeComponent();
-            this.Appointment = appointment;
-            this.navigationType = navigation;
+            this.assessmentId = assessmentId;
+            this.patientId = patientId;
         }
 
         private void RangeOfMotion_Load(object sender, EventArgs e)
+        {
+            Navigation();
+        }
+
+        private void Navigation()
         {
             switch (navigationType)
             {
@@ -65,9 +63,15 @@ namespace OccupetionalTherapy
                 case NavigationType.RnageOfMotion:
                     break;
                 case NavigationType.ViewPatient:
-                    if (true)
+                    if (!isNew)
                     {
-
+                        btnUpsert.Text = "Update";
+                        assessment = new clsAssessment();
+                        patient = new clsPatientModel()
+                        {
+                            Assessment = new List<clsAssessmentModel>()
+                        };
+                        patient.Assessment = assessment.GetDetailsByAssessmentId(assessmentId);
                     }
                     break;
                 default:
@@ -75,26 +79,75 @@ namespace OccupetionalTherapy
             }
         }
 
+        /// <summary>
+        /// Button click events
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
 
-            //private void button1_Click(object sender, EventArgs e)
-            //{
-            //    switch (navigationType)
-            //    {
-            //        case NavigationType.Appointments:
-            //            Appointment.SetLabel("tets");
-            //            break;
-            //        case NavigationType.NewPatient:
-            //            NewPatient.SetName("some test here");
-            //            break;
-            //        case NavigationType.Patients:
-            //            break;
-            //        case NavigationType.Search:
-            //            break;
-            //        default:
-            //            break;
-            //    }
-
-            //    this.Close();
-            //}
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUpsert_Click(object sender, EventArgs e)
+        {
+            if (isNew)
+            {
+                //insert
+            }
+            else
+            {
+                
+                //ipdate == delete all by assessment id + insert new
+            }
+
+            switch (navigationType)
+            {
+                case NavigationType.Appointments:
+                    break;
+                case NavigationType.NewPatient:
+                    break;
+                case NavigationType.Patients:
+                    break;
+                case NavigationType.Search:
+                    break;
+                case NavigationType.RnageOfMotion:
+                    break;
+                case NavigationType.ViewPatient:
+                    this.ViewPatient.ReloadForm();
+                    MessageBox.Show("Action completed with success");
+                    this.Close();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    switch (navigationType)
+        //    {
+        //        case NavigationType.Appointments:
+        //            Appointment.SetLabel("tets");
+        //            break;
+        //        case NavigationType.NewPatient:
+        //            NewPatient.SetName("some test here");
+        //            break;
+        //        case NavigationType.Patients:
+        //            break;
+        //        case NavigationType.Search:
+        //            break;
+        //        default:
+        //            break;
+        //    }
+
+        //    this.Close();
+        //}
+    }
 }
