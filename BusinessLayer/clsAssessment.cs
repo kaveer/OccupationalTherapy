@@ -50,5 +50,16 @@ namespace BusinessLayer
 
             return result;
         }
+
+        public void DeleteByAssessmentId(int selectedAssessmentId)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.DeleteAssessmentByAssessmentId;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@assessment", selectedAssessmentId));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
     }
 }

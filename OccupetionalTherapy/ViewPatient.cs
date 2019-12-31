@@ -17,12 +17,12 @@ namespace OccupetionalTherapy
         private int selectedPatient;
         private NavigationType navigateFrom;
 
-        clsPatientDetails patientDetail = new clsPatientDetails();
-        clsDateEntry dateEntry = new clsDateEntry();
-        clsMedicalRecord medicalRecord = new clsMedicalRecord();
-        clsAssessment assessment = new clsAssessment();
-        clsAppointment appointment = new clsAppointment();
-        clsPrescription prescription = new clsPrescription();
+        clsPatientDetails patientDetail;
+        clsDateEntry dateEntry;
+        clsMedicalRecord medicalRecord;
+        clsAssessment assessment;
+        clsAppointment appointment;
+        clsPrescription prescription;
 
         clsPatientModel patient;
         int selectedAssessmentId = 0;
@@ -62,6 +62,13 @@ namespace OccupetionalTherapy
         {
             if (selectedPatient == 0)
                 this.Close();
+
+            patientDetail = new clsPatientDetails();
+            dateEntry = new clsDateEntry();
+            medicalRecord = new clsMedicalRecord();
+            assessment = new clsAssessment();
+            appointment = new clsAppointment();
+            prescription = new clsPrescription();
 
             patient = new clsPatientModel()
             {
@@ -155,7 +162,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patient.Assessment)
                 {
-                    string[] row = new string[] { item.AssessementId.ToString(), item.AssessmentDate.ToString("MM/dd/yyyy")};
+                    string[] row = new string[] { item.AssessementId.ToString(), item.AssessmentDate.ToString("MM/dd/yyyy") };
                     grdAssessment.Rows.Add(row);
                 }
 
@@ -315,22 +322,79 @@ namespace OccupetionalTherapy
 
         private void btnDeleteAssessment_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (selectedAssessmentId == 0)
+                    throw new Exception("Select assessment to delete");
+
+                assessment = new clsAssessment();
+                assessment.DeleteByAssessmentId(selectedAssessmentId);
+
+                Navigation();
+
+                if (patient != null || patient.PatientId != 0)
+                    AssignValue();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
 
         private void btnAddAppointment_Click(object sender, EventArgs e)
         {
+            try
+            {
+                DateTime newAppointment = dpAddAppointment.Value.Date;
+                if (newAppointment.Date == DateTime.Today.Date)
+                    throw new Exception("Appointment cannot be today");
 
+                appointment = new clsAppointment();
+                appointment.New(patient.PatientId, newAppointment);
+
+                Navigation();
+
+                if (patient != null || patient.PatientId != 0)
+                    AssignValue();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnDeleteAppointment_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (selectedAppointmentId == 0)
+                    throw new Exception("Select appointment to delete");
 
+                appointment = new clsAppointment();
+                appointment.DeleteByAppointmentId(selectedAppointmentId);
+
+                Navigation();
+
+                if (patient != null || patient.PatientId != 0)
+                    AssignValue();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnUpdatePatient_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

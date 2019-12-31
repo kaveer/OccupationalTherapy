@@ -18,11 +18,22 @@ namespace OccupetionalTherapy
         /// </summary>
         public NewPatient NewPatient;
         public Appointment Appointment;
+        private ViewPatient ViewPatient;
         public NavigationType navigationType;
+        private bool isNew;
+
 
         public RangeOfMotion()
         {
             InitializeComponent();
+        }
+
+        public RangeOfMotion(ViewPatient viewPatient, NavigationType navigation, bool isNew)
+        {
+            InitializeComponent();
+            this.ViewPatient = viewPatient;
+            this.navigationType = navigation;
+            this.isNew = isNew;
         }
 
         public RangeOfMotion(NewPatient newPatient, NavigationType navigation)
@@ -39,25 +50,51 @@ namespace OccupetionalTherapy
             this.navigationType = navigation;
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    switch (navigationType)
-        //    {
-        //        case NavigationType.Appointments:
-        //            Appointment.SetLabel("tets");
-        //            break;
-        //        case NavigationType.NewPatient:
-        //            NewPatient.SetName("some test here");
-        //            break;
-        //        case NavigationType.Patients:
-        //            break;
-        //        case NavigationType.Search:
-        //            break;
-        //        default:
-        //            break;
-        //    }
-            
-        //    this.Close();
-        //}
-    }
+        private void RangeOfMotion_Load(object sender, EventArgs e)
+        {
+            switch (navigationType)
+            {
+                case NavigationType.Appointments:
+                    break;
+                case NavigationType.NewPatient:
+                    break;
+                case NavigationType.Patients:
+                    break;
+                case NavigationType.Search:
+                    break;
+                case NavigationType.RnageOfMotion:
+                    break;
+                case NavigationType.ViewPatient:
+                    if (true)
+                    {
+
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+            //private void button1_Click(object sender, EventArgs e)
+            //{
+            //    switch (navigationType)
+            //    {
+            //        case NavigationType.Appointments:
+            //            Appointment.SetLabel("tets");
+            //            break;
+            //        case NavigationType.NewPatient:
+            //            NewPatient.SetName("some test here");
+            //            break;
+            //        case NavigationType.Patients:
+            //            break;
+            //        case NavigationType.Search:
+            //            break;
+            //        default:
+            //            break;
+            //    }
+
+            //    this.Close();
+            //}
+        }
 }

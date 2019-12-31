@@ -3,6 +3,7 @@ using Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.OleDb;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -80,6 +81,29 @@ namespace BusinessLayer
             }
 
             return result;
+        }
+
+        public void DeleteByAppointmentId(int selectedAppointmentId)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.DeleteAppointmentByAppointmentId;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@appointment", selectedAppointmentId));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
+
+        public void New(int patientId, DateTime newAppointment)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.InsertAppointment;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@patientId", patientId));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@newAppointment", newAppointment));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
         }
     }
 }

@@ -15,5 +15,8 @@ namespace DataLayer
         public static string GetPrescriptionByPatientId = "SELECT Prescription.* FROM Prescription WHERE(PatientId = @patient)";
         public static string GetAppointmentByPatientId = "SELECT Appointment.* FROM Appointment WHERE(PatientId =  @patient)";
         public static string GetAssessementEntryByPatientId = "SELECT Assessment.* AS Expr1 FROM Assessment WHERE(PatientId = @patient)";
+        public static string DeleteAppointmentByAppointmentId = "DELETE * FROM Appointment WHERE (AppointmentId = @appointment)";
+        public static string DeleteAssessmentByAssessmentId = "DELETE * FROM Assessment WHERE (AssessementId = @assessment)";
+        public static string InsertAppointment = "INSERT INTO Appointment(PatientId, AppointmentDate) VALUES(@patientId, @newAppointment)";
     }
 }
