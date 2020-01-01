@@ -22,7 +22,10 @@ namespace OccupetionalTherapy
         public Appointment()
         {
             InitializeComponent();
+        }
 
+        private void Appointment_Load(object sender, EventArgs e)
+        {
             try
             {
                 RetrieveTodayAppointment();
@@ -32,7 +35,6 @@ namespace OccupetionalTherapy
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         private void btnViewPatient_Click(object sender, EventArgs e)
@@ -237,5 +239,7 @@ namespace OccupetionalTherapy
             }
 
         }
+
+        
     }
 }

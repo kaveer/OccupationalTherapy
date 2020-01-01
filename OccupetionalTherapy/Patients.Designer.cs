@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.grdPatient = new System.Windows.Forms.DataGridView();
             this.btnViewPatient = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -38,19 +38,20 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
             this.btnAllPatients = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdPatient)).BeginInit();
             this.xuiCustomGroupbox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // grdPatient
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.grdPatient.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 110);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 256);
-            this.dataGridView1.TabIndex = 0;
+            this.grdPatient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdPatient.Location = new System.Drawing.Point(12, 110);
+            this.grdPatient.Name = "grdPatient";
+            this.grdPatient.Size = new System.Drawing.Size(776, 256);
+            this.grdPatient.TabIndex = 0;
+            this.grdPatient.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdPatient_CellClick);
             // 
             // btnViewPatient
             // 
@@ -61,6 +62,7 @@
             this.btnViewPatient.TabIndex = 1;
             this.btnViewPatient.Text = "View Patient";
             this.btnViewPatient.UseVisualStyleBackColor = true;
+            this.btnViewPatient.Click += new System.EventHandler(this.btnViewPatient_Click);
             // 
             // btnDelete
             // 
@@ -71,6 +73,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label1
             // 
@@ -101,6 +104,7 @@
             this.BtnSearch.TabIndex = 5;
             this.BtnSearch.Text = "Search";
             this.BtnSearch.UseVisualStyleBackColor = true;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // txtSurname
             // 
@@ -148,6 +152,7 @@
             this.btnAllPatients.TabIndex = 8;
             this.btnAllPatients.Text = "All Patients";
             this.btnAllPatients.UseVisualStyleBackColor = true;
+            this.btnAllPatients.Click += new System.EventHandler(this.btnAllPatients_Click);
             // 
             // Patients
             // 
@@ -157,10 +162,11 @@
             this.Controls.Add(this.xuiCustomGroupbox1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnViewPatient);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grdPatient);
             this.Name = "Patients";
             this.Text = "Patients";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Patients_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.grdPatient)).EndInit();
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
             this.ResumeLayout(false);
@@ -169,7 +175,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView grdPatient;
         private System.Windows.Forms.Button btnViewPatient;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label label1;

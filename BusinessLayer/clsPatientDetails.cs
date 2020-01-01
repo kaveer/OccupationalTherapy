@@ -45,6 +45,47 @@ namespace BusinessLayer
             return result;
         }
 
+        public List<clsPatientModel> Retrieve()
+        {
+            List<clsPatientModel> result = new List<clsPatientModel>();
+            clsPatientModel data = new clsPatientModel();
+            DataTable dataTable = new DataTable();
+
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.RetrievePatientDetails;
+            connect.dta = new System.Data.OleDb.OleDbDataAdapter(connect.cmd);
+            connect.dta.Fill(dataTable);
+            connect.con.Close();
+
+            if (dataTable != null || dataTable.Rows.Count > 0)
+            {
+                foreach (DataRow item in dataTable.Rows)
+                {
+                    data = new clsPatientModel()
+                    {
+                        PatientId = Convert.ToInt32(item[0]),
+                        PatientDetails = new clsPatientDetailsModel()
+                        {
+                            Name = item[1].ToString(),
+                            Surname = item[2].ToString(),
+                            Tel = item[3].ToString(),
+                            Mobile1 = item[4].ToString(),
+                            Mobile2 = item[5].ToString(),
+                            DOB = string.IsNullOrWhiteSpace(item[6].ToString()) ? DateTime.Now : Convert.ToDateTime(item[6].ToString()),
+                            Age = string.IsNullOrWhiteSpace(item[7].ToString()) ? 0 : Convert.ToInt32(item[7].ToString()),
+                            Occupation = item[8].ToString()
+                        }
+                    };
+
+                    result.Add(data);
+                }
+            }
+
+            return result;
+        }
+
         public void Update(int patientId, clsPatientDetailsModel patientDetails)
         {
             connect = new clsConnectorData();

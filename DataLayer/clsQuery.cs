@@ -12,6 +12,7 @@ namespace DataLayer
         /// select statemet
         /// </summary>
         public static string RetrieveAppointment = "SELECT * FROM Appointment";
+        public static string RetrievePatientDetails = "SELECT * FROM PatientDetails";
         public static string GetPatientDetailsByPatientId = "SELECT * FROM PatientDetails pd WHERE pd.PatientId = @patient";
         public static string GetDateEntryByPatientId = "SELECT EntryId, PatientId, EntryDate FROM DateEntry WHERE(PatientId = @patient) ORDER BY EntryDate";
         public static string GetMedicalRecordByPatientId = "SELECT MedicalRecord.* FROM MedicalRecord WHERE(PatientId = @patient)";

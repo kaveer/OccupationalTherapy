@@ -84,6 +84,7 @@ namespace OccupetionalTherapy
             switch (navigateFrom)
             {
                 case NavigationType.Appointments:
+                case NavigationType.Patients:
                     patient.PatientDetails = patientDetail.GetByPatientId(selectedPatient);
                     patient.DateEntry = dateEntry.GetbyPatientId(selectedPatient);
                     patient.MedicalRecords = medicalRecord.GetByPatientId(selectedPatient);
@@ -92,8 +93,6 @@ namespace OccupetionalTherapy
                     patient.Appointments = appointment.GetByPatientId(selectedPatient);
                     break;
                 case NavigationType.NewPatient:
-                    break;
-                case NavigationType.Patients:
                     break;
                 case NavigationType.Search:
                     break;

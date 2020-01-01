@@ -151,6 +151,7 @@
             this.Controls.Add(this.xuiCustomGroupbox1);
             this.Name = "Appointment";
             this.Text = "Appointment";
+            this.Load += new System.EventHandler(this.Appointment_Load);
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).EndInit();
