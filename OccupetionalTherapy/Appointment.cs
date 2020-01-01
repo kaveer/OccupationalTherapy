@@ -181,7 +181,7 @@ namespace OccupetionalTherapy
                     {
                         foreach (var appoinment in item.Appointments)
                         {
-                            string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, appoinment.Appointment.ToString() };
+                            string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, appoinment.Appointment.ToString("MM/dd/yyyy HH:mm:ss") };
                             grdAppointment.Rows.Add(row);
                         }
                     }

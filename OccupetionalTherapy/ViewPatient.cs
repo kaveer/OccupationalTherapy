@@ -138,7 +138,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patient.Appointments)
                 {
-                    string[] row = new string[] { item.AppointmentId.ToString(), item.Appointment.ToString("MM/dd/yyyy") };
+                    string[] row = new string[] { item.AppointmentId.ToString(), item.Appointment.ToString("MM/dd/yyyy HH:mm:ss") };
                     grdAppointment.Rows.Add(row);
                 }
 
@@ -336,7 +336,19 @@ namespace OccupetionalTherapy
 
         private void btnViewAssessment_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (patient == null || patient.PatientId == 0)
+                    throw new Exception("Invalid patient");
 
+                RangeOfMotion rangeOfMotion = new RangeOfMotion(this, false, selectedAssessmentId, patient.PatientId);
+                rangeOfMotion.ShowDialog();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnDeleteAssessment_Click(object sender, EventArgs e)
@@ -366,7 +378,7 @@ namespace OccupetionalTherapy
         {
             try
             {
-                DateTime newAppointment = dpAddAppointment.Value.Date;
+                DateTime newAppointment = dpAddAppointment.Value.Date + dpAppointmentTime.Value.TimeOfDay;
                 if (newAppointment.Date == DateTime.Today.Date)
                     throw new Exception("Appointment cannot be today");
 
