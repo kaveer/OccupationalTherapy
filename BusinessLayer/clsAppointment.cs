@@ -67,7 +67,7 @@ namespace BusinessLayer
             connect.dta.Fill(dataTable);
             connect.con.Close();
 
-            if (dataTable != null || dataTable.Rows.Count > 0)
+            if (dataTable.Rows.Count > 0)
             {
                 foreach (DataRow item in dataTable.Rows)
                 {
