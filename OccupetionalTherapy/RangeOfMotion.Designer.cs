@@ -1550,7 +1550,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(516, 780);
+            this.tabPage2.Size = new System.Drawing.Size(499, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -1585,7 +1585,7 @@
             this.xuiCustomGroupbox9.Location = new System.Drawing.Point(8, 344);
             this.xuiCustomGroupbox9.Name = "xuiCustomGroupbox9";
             this.xuiCustomGroupbox9.ShowText = true;
-            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(586, 140);
+            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(569, 140);
             this.xuiCustomGroupbox9.TabIndex = 6;
             this.xuiCustomGroupbox9.TabStop = false;
             this.xuiCustomGroupbox9.Text = "Ankle";
@@ -1715,7 +1715,7 @@
             this.xuiCustomGroupbox8.Location = new System.Drawing.Point(8, 229);
             this.xuiCustomGroupbox8.Name = "xuiCustomGroupbox8";
             this.xuiCustomGroupbox8.ShowText = true;
-            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(586, 109);
+            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(569, 109);
             this.xuiCustomGroupbox8.TabIndex = 5;
             this.xuiCustomGroupbox8.TabStop = false;
             this.xuiCustomGroupbox8.Text = "Knee";
@@ -1804,7 +1804,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(8, 950);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(603, 191);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(586, 191);
             this.xuiCustomGroupbox5.TabIndex = 4;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Other assesmnet";
@@ -1816,7 +1816,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox2.Location = new System.Drawing.Point(125, 40);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(468, 126);
+            this.richTextBox2.Size = new System.Drawing.Size(451, 126);
             this.richTextBox2.TabIndex = 2;
             this.richTextBox2.Text = "";
             // 
@@ -1858,7 +1858,7 @@
             this.xuiCustomGroupbox7.Location = new System.Drawing.Point(8, 32);
             this.xuiCustomGroupbox7.Name = "xuiCustomGroupbox7";
             this.xuiCustomGroupbox7.ShowText = true;
-            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(586, 191);
+            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(569, 191);
             this.xuiCustomGroupbox7.TabIndex = 3;
             this.xuiCustomGroupbox7.TabStop = false;
             this.xuiCustomGroupbox7.Text = "Hip";
@@ -2098,6 +2098,7 @@
             this.gbxElbow.ResumeLayout(false);
             this.gbxElbow.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
+            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();
