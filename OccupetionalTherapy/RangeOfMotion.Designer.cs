@@ -32,196 +32,196 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label47 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
-            this.xuiCustomGroupbox4 = new XanderUI.XUICustomGroupbox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.gbxElbow = new XanderUI.XUICustomGroupbox();
+            this.txt_ER_FlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_EL_FlexsionExtension = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txt_ER_Supination = new System.Windows.Forms.TextBox();
+            this.txt_EL_Supination = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.txt_ER_Pronation = new System.Windows.Forms.TextBox();
+            this.txt_EL_Pronation = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox6 = new XanderUI.XUICustomGroupbox();
             this.xuiFlatTab2 = new XanderUI.XUIFlatTab();
             this.tbThumb = new System.Windows.Forms.TabPage();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.txt_TR_OppositionCm = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.txt_TL_OppositionCm = new System.Windows.Forms.TextBox();
+            this.txt_TL_CMflexsion = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.txt_TR_CMflexsion = new System.Windows.Forms.TextBox();
+            this.txt_TR_MpFlexsionExtension = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.txt_TL_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_TL_CmExtension = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.txt_TR_CMExtension = new System.Windows.Forms.TextBox();
+            this.txt_TR_IpFlexsionExtension = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.txt_TL_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_TL_AbductionCm = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.txt_TR_AbductionCm = new System.Windows.Forms.TextBox();
             this.tbIndexFinger = new System.Windows.Forms.TabPage();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.txt_IFL_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_IFR_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_IFR_DipFlexsionExtension = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.txt_IFL_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_IFL_IpFlexsionExtension = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.txt_IFR_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_IFR_Abduction = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.txt_IFL_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_IFL_Adduction = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.txt_IFR_Adduction = new System.Windows.Forms.TextBox();
             this.tbMiddleFinger = new System.Windows.Forms.TabPage();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.textBox53 = new System.Windows.Forms.TextBox();
-            this.textBox54 = new System.Windows.Forms.TextBox();
-            this.textBox55 = new System.Windows.Forms.TextBox();
-            this.textBox56 = new System.Windows.Forms.TextBox();
-            this.textBox57 = new System.Windows.Forms.TextBox();
-            this.textBox58 = new System.Windows.Forms.TextBox();
-            this.textBox59 = new System.Windows.Forms.TextBox();
-            this.textBox60 = new System.Windows.Forms.TextBox();
-            this.textBox61 = new System.Windows.Forms.TextBox();
-            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.txt_MFL_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFR_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFR_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFL_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFL_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFR_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_MFR_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_MFL_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_MFL_Adduction = new System.Windows.Forms.TextBox();
+            this.txt_MFR_Adduction = new System.Windows.Forms.TextBox();
             this.tbRingFinger = new System.Windows.Forms.TabPage();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.textBox63 = new System.Windows.Forms.TextBox();
-            this.textBox64 = new System.Windows.Forms.TextBox();
-            this.textBox65 = new System.Windows.Forms.TextBox();
-            this.textBox66 = new System.Windows.Forms.TextBox();
-            this.textBox67 = new System.Windows.Forms.TextBox();
-            this.textBox68 = new System.Windows.Forms.TextBox();
-            this.textBox69 = new System.Windows.Forms.TextBox();
-            this.textBox70 = new System.Windows.Forms.TextBox();
-            this.textBox71 = new System.Windows.Forms.TextBox();
-            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.txt_RFL_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFR_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFR_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFL_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFL_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFR_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_RFR_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_RFL_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_RFL_Adduction = new System.Windows.Forms.TextBox();
+            this.txt_RFR_Adduction = new System.Windows.Forms.TextBox();
             this.tbLittleFinger = new System.Windows.Forms.TabPage();
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.textBox73 = new System.Windows.Forms.TextBox();
-            this.textBox74 = new System.Windows.Forms.TextBox();
-            this.textBox75 = new System.Windows.Forms.TextBox();
-            this.textBox76 = new System.Windows.Forms.TextBox();
-            this.textBox77 = new System.Windows.Forms.TextBox();
-            this.textBox78 = new System.Windows.Forms.TextBox();
-            this.textBox79 = new System.Windows.Forms.TextBox();
-            this.textBox80 = new System.Windows.Forms.TextBox();
-            this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox82 = new System.Windows.Forms.TextBox();
+            this.txt_LFL_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFR_MpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFR_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFL_DipFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFL_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFR_IpFlexsionExtension = new System.Windows.Forms.TextBox();
+            this.txt_LFR_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_LFL_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_LFL_Adduction = new System.Windows.Forms.TextBox();
+            this.txt_LFR_Adduction = new System.Windows.Forms.TextBox();
             this.xuiCustomGroupbox2 = new XanderUI.XUICustomGroupbox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.txt_WR_Extension = new System.Windows.Forms.TextBox();
+            this.txt_WL_Extension = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.txt_WR_UlnarDeviation = new System.Windows.Forms.TextBox();
+            this.txt_WL_UlnarDeviation = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.txt_WR_RadiatDeviation = new System.Windows.Forms.TextBox();
+            this.txt_WL_RadiatDeviation = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.txt_WR_Flexsion = new System.Windows.Forms.TextBox();
+            this.txt_WL_Flexsion = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.txt_SR_ExternalRotationAlt = new System.Windows.Forms.TextBox();
+            this.txt_SL_ExternalRotationAlt = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txt_SR_internalRotation = new System.Windows.Forms.TextBox();
+            this.txt_SL_internalRotation = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txt_SR_externalRotation = new System.Windows.Forms.TextBox();
+            this.txt_SL_externalRotation = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txt_SR_InternalRotationAlt = new System.Windows.Forms.TextBox();
+            this.txt_SL_InternalRotationAlt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txt_SR_horizontalAdduction = new System.Windows.Forms.TextBox();
+            this.txt_SL_horizontalAdduction = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_SR_horizontalAbduction = new System.Windows.Forms.TextBox();
+            this.txt_SL_horizontalAbduction = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_SR_extension = new System.Windows.Forms.TextBox();
+            this.txt_SL_extension = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_SR_flexsion = new System.Windows.Forms.TextBox();
+            this.txt_SL_flexsion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label59 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox9 = new XanderUI.XUICustomGroupbox();
-            this.textBox99 = new System.Windows.Forms.TextBox();
-            this.textBox100 = new System.Windows.Forms.TextBox();
+            this.txt_KR_Eversion = new System.Windows.Forms.TextBox();
+            this.txt_KL_Eversion = new System.Windows.Forms.TextBox();
             this.label52 = new System.Windows.Forms.Label();
-            this.textBox107 = new System.Windows.Forms.TextBox();
-            this.textBox108 = new System.Windows.Forms.TextBox();
+            this.txt_KR_Inversion = new System.Windows.Forms.TextBox();
+            this.txt_KL_Inversion = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
-            this.textBox109 = new System.Windows.Forms.TextBox();
-            this.textBox110 = new System.Windows.Forms.TextBox();
+            this.txt_KR_Plantaflexsion = new System.Windows.Forms.TextBox();
+            this.txt_KL_Plantaflexsion = new System.Windows.Forms.TextBox();
             this.label57 = new System.Windows.Forms.Label();
-            this.textBox111 = new System.Windows.Forms.TextBox();
-            this.textBox112 = new System.Windows.Forms.TextBox();
+            this.txt_KR_Dorsiflexsion = new System.Windows.Forms.TextBox();
+            this.txt_KL_Dorsiflexsion = new System.Windows.Forms.TextBox();
             this.label58 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox8 = new XanderUI.XUICustomGroupbox();
-            this.textBox101 = new System.Windows.Forms.TextBox();
-            this.textBox102 = new System.Windows.Forms.TextBox();
+            this.txt_KR_Hypoextension = new System.Windows.Forms.TextBox();
+            this.txt_KL_Hypoextension = new System.Windows.Forms.TextBox();
             this.label53 = new System.Windows.Forms.Label();
-            this.textBox103 = new System.Windows.Forms.TextBox();
-            this.textBox104 = new System.Windows.Forms.TextBox();
+            this.txt_KR_extension = new System.Windows.Forms.TextBox();
+            this.txt_KL_extension = new System.Windows.Forms.TextBox();
             this.label54 = new System.Windows.Forms.Label();
-            this.textBox105 = new System.Windows.Forms.TextBox();
-            this.textBox106 = new System.Windows.Forms.TextBox();
+            this.txt_KR_flexsion = new System.Windows.Forms.TextBox();
+            this.txt_KL_flexsion = new System.Windows.Forms.TextBox();
             this.label55 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox5 = new XanderUI.XUICustomGroupbox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox7 = new XanderUI.XUICustomGroupbox();
-            this.textBox85 = new System.Windows.Forms.TextBox();
-            this.textBox86 = new System.Windows.Forms.TextBox();
+            this.txt_HR_internalRotation = new System.Windows.Forms.TextBox();
+            this.txt_HL_internalRotation = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.textBox87 = new System.Windows.Forms.TextBox();
-            this.textBox88 = new System.Windows.Forms.TextBox();
+            this.txt_HR_externalRotation = new System.Windows.Forms.TextBox();
+            this.txt_HL_externalRotation = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.textBox91 = new System.Windows.Forms.TextBox();
-            this.textBox92 = new System.Windows.Forms.TextBox();
+            this.txt_HR_Adduction = new System.Windows.Forms.TextBox();
+            this.txt_HL_Adduction = new System.Windows.Forms.TextBox();
             this.label48 = new System.Windows.Forms.Label();
-            this.textBox93 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
+            this.txt_HR_Abduction = new System.Windows.Forms.TextBox();
+            this.txt_HL_Abduction = new System.Windows.Forms.TextBox();
             this.label49 = new System.Windows.Forms.Label();
-            this.textBox95 = new System.Windows.Forms.TextBox();
-            this.textBox96 = new System.Windows.Forms.TextBox();
+            this.txt_HR_extension = new System.Windows.Forms.TextBox();
+            this.txt_HL_extension = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
-            this.textBox97 = new System.Windows.Forms.TextBox();
-            this.textBox98 = new System.Windows.Forms.TextBox();
+            this.txt_HR_flexsion = new System.Windows.Forms.TextBox();
+            this.txt_HL_flexsion = new System.Windows.Forms.TextBox();
             this.label51 = new System.Windows.Forms.Label();
             this.xuiCustomGroupbox3 = new XanderUI.XUICustomGroupbox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtOtherAssessment = new System.Windows.Forms.RichTextBox();
             this.label42 = new System.Windows.Forms.Label();
             this.btnUpsert = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.xuiFlatTab1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.xuiCustomGroupbox4.SuspendLayout();
+            this.gbxElbow.SuspendLayout();
             this.xuiCustomGroupbox6.SuspendLayout();
             this.xuiFlatTab2.SuspendLayout();
             this.tbThumb.SuspendLayout();
@@ -257,7 +257,7 @@
             this.xuiFlatTab1.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab1.SelectedIndex = 0;
             this.xuiFlatTab1.ShowBorder = true;
-            this.xuiFlatTab1.Size = new System.Drawing.Size(592, 804);
+            this.xuiFlatTab1.Size = new System.Drawing.Size(507, 804);
             this.xuiFlatTab1.TabIndex = 1;
             // 
             // tabPage1
@@ -265,14 +265,14 @@
             this.tabPage1.BackColor = System.Drawing.Color.White;
             this.tabPage1.Controls.Add(this.label47);
             this.tabPage1.Controls.Add(this.label44);
-            this.tabPage1.Controls.Add(this.xuiCustomGroupbox4);
+            this.tabPage1.Controls.Add(this.gbxElbow);
             this.tabPage1.Controls.Add(this.xuiCustomGroupbox6);
             this.tabPage1.Controls.Add(this.xuiCustomGroupbox2);
             this.tabPage1.Controls.Add(this.xuiCustomGroupbox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 20);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(584, 780);
+            this.tabPage1.Size = new System.Drawing.Size(499, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Upper Join";
             // 
@@ -296,43 +296,43 @@
             this.label44.TabIndex = 9;
             this.label44.Text = "Right";
             // 
-            // xuiCustomGroupbox4
+            // gbxElbow
             // 
-            this.xuiCustomGroupbox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.gbxElbow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.xuiCustomGroupbox4.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.xuiCustomGroupbox4.BorderWidth = 1;
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox15);
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox16);
-            this.xuiCustomGroupbox4.Controls.Add(this.label8);
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox17);
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox18);
-            this.xuiCustomGroupbox4.Controls.Add(this.label9);
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox19);
-            this.xuiCustomGroupbox4.Controls.Add(this.textBox20);
-            this.xuiCustomGroupbox4.Controls.Add(this.label10);
-            this.xuiCustomGroupbox4.Location = new System.Drawing.Point(8, 267);
-            this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
-            this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(569, 117);
-            this.xuiCustomGroupbox4.TabIndex = 8;
-            this.xuiCustomGroupbox4.TabStop = false;
-            this.xuiCustomGroupbox4.Text = "Elbow And Forearm";
-            this.xuiCustomGroupbox4.TextColor = System.Drawing.Color.DodgerBlue;
+            this.gbxElbow.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.gbxElbow.BorderWidth = 1;
+            this.gbxElbow.Controls.Add(this.txt_ER_FlexsionExtension);
+            this.gbxElbow.Controls.Add(this.txt_EL_FlexsionExtension);
+            this.gbxElbow.Controls.Add(this.label8);
+            this.gbxElbow.Controls.Add(this.txt_ER_Supination);
+            this.gbxElbow.Controls.Add(this.txt_EL_Supination);
+            this.gbxElbow.Controls.Add(this.label9);
+            this.gbxElbow.Controls.Add(this.txt_ER_Pronation);
+            this.gbxElbow.Controls.Add(this.txt_EL_Pronation);
+            this.gbxElbow.Controls.Add(this.label10);
+            this.gbxElbow.Location = new System.Drawing.Point(8, 267);
+            this.gbxElbow.Name = "gbxElbow";
+            this.gbxElbow.ShowText = true;
+            this.gbxElbow.Size = new System.Drawing.Size(484, 117);
+            this.gbxElbow.TabIndex = 8;
+            this.gbxElbow.TabStop = false;
+            this.gbxElbow.Text = "Elbow And Forearm";
+            this.gbxElbow.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox15
+            // txt_ER_FlexsionExtension
             // 
-            this.textBox15.Location = new System.Drawing.Point(278, 25);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(100, 20);
-            this.textBox15.TabIndex = 30;
+            this.txt_ER_FlexsionExtension.Location = new System.Drawing.Point(278, 25);
+            this.txt_ER_FlexsionExtension.Name = "txt_ER_FlexsionExtension";
+            this.txt_ER_FlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_ER_FlexsionExtension.TabIndex = 30;
             // 
-            // textBox16
+            // txt_EL_FlexsionExtension
             // 
-            this.textBox16.Location = new System.Drawing.Point(172, 25);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(100, 20);
-            this.textBox16.TabIndex = 29;
+            this.txt_EL_FlexsionExtension.Location = new System.Drawing.Point(172, 25);
+            this.txt_EL_FlexsionExtension.Name = "txt_EL_FlexsionExtension";
+            this.txt_EL_FlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_EL_FlexsionExtension.TabIndex = 29;
             // 
             // label8
             // 
@@ -344,19 +344,19 @@
             this.label8.TabIndex = 28;
             this.label8.Text = "Flexsion-extension";
             // 
-            // textBox17
+            // txt_ER_Supination
             // 
-            this.textBox17.Location = new System.Drawing.Point(278, 51);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 20);
-            this.textBox17.TabIndex = 27;
+            this.txt_ER_Supination.Location = new System.Drawing.Point(278, 51);
+            this.txt_ER_Supination.Name = "txt_ER_Supination";
+            this.txt_ER_Supination.Size = new System.Drawing.Size(100, 20);
+            this.txt_ER_Supination.TabIndex = 27;
             // 
-            // textBox18
+            // txt_EL_Supination
             // 
-            this.textBox18.Location = new System.Drawing.Point(172, 51);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 20);
-            this.textBox18.TabIndex = 26;
+            this.txt_EL_Supination.Location = new System.Drawing.Point(172, 51);
+            this.txt_EL_Supination.Name = "txt_EL_Supination";
+            this.txt_EL_Supination.Size = new System.Drawing.Size(100, 20);
+            this.txt_EL_Supination.TabIndex = 26;
             // 
             // label9
             // 
@@ -368,19 +368,19 @@
             this.label9.TabIndex = 25;
             this.label9.Text = "Supination";
             // 
-            // textBox19
+            // txt_ER_Pronation
             // 
-            this.textBox19.Location = new System.Drawing.Point(278, 77);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 20);
-            this.textBox19.TabIndex = 24;
+            this.txt_ER_Pronation.Location = new System.Drawing.Point(278, 77);
+            this.txt_ER_Pronation.Name = "txt_ER_Pronation";
+            this.txt_ER_Pronation.Size = new System.Drawing.Size(100, 20);
+            this.txt_ER_Pronation.TabIndex = 24;
             // 
-            // textBox20
+            // txt_EL_Pronation
             // 
-            this.textBox20.Location = new System.Drawing.Point(172, 77);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 20);
-            this.textBox20.TabIndex = 23;
+            this.txt_EL_Pronation.Location = new System.Drawing.Point(172, 77);
+            this.txt_EL_Pronation.Name = "txt_EL_Pronation";
+            this.txt_EL_Pronation.Size = new System.Drawing.Size(100, 20);
+            this.txt_EL_Pronation.TabIndex = 23;
             // 
             // label10
             // 
@@ -402,7 +402,7 @@
             this.xuiCustomGroupbox6.Location = new System.Drawing.Point(8, 542);
             this.xuiCustomGroupbox6.Name = "xuiCustomGroupbox6";
             this.xuiCustomGroupbox6.ShowText = true;
-            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(569, 222);
+            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(484, 222);
             this.xuiCustomGroupbox6.TabIndex = 5;
             this.xuiCustomGroupbox6.TabStop = false;
             this.xuiCustomGroupbox6.Text = "Finger";
@@ -429,43 +429,43 @@
             this.xuiFlatTab2.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab2.SelectedIndex = 0;
             this.xuiFlatTab2.ShowBorder = true;
-            this.xuiFlatTab2.Size = new System.Drawing.Size(556, 203);
+            this.xuiFlatTab2.Size = new System.Drawing.Size(471, 203);
             this.xuiFlatTab2.TabIndex = 1;
             // 
             // tbThumb
             // 
             this.tbThumb.BackColor = System.Drawing.Color.White;
-            this.tbThumb.Controls.Add(this.textBox31);
+            this.tbThumb.Controls.Add(this.txt_TR_OppositionCm);
             this.tbThumb.Controls.Add(this.label21);
-            this.tbThumb.Controls.Add(this.textBox32);
-            this.tbThumb.Controls.Add(this.textBox42);
+            this.tbThumb.Controls.Add(this.txt_TL_OppositionCm);
+            this.tbThumb.Controls.Add(this.txt_TL_CMflexsion);
             this.tbThumb.Controls.Add(this.label16);
-            this.tbThumb.Controls.Add(this.textBox41);
-            this.tbThumb.Controls.Add(this.textBox33);
+            this.tbThumb.Controls.Add(this.txt_TR_CMflexsion);
+            this.tbThumb.Controls.Add(this.txt_TR_MpFlexsionExtension);
             this.tbThumb.Controls.Add(this.label20);
-            this.tbThumb.Controls.Add(this.textBox34);
-            this.tbThumb.Controls.Add(this.textBox40);
+            this.tbThumb.Controls.Add(this.txt_TL_MpFlexsionExtension);
+            this.tbThumb.Controls.Add(this.txt_TL_CmExtension);
             this.tbThumb.Controls.Add(this.label17);
-            this.tbThumb.Controls.Add(this.textBox39);
-            this.tbThumb.Controls.Add(this.textBox35);
+            this.tbThumb.Controls.Add(this.txt_TR_CMExtension);
+            this.tbThumb.Controls.Add(this.txt_TR_IpFlexsionExtension);
             this.tbThumb.Controls.Add(this.label19);
-            this.tbThumb.Controls.Add(this.textBox36);
-            this.tbThumb.Controls.Add(this.textBox38);
+            this.tbThumb.Controls.Add(this.txt_TL_IpFlexsionExtension);
+            this.tbThumb.Controls.Add(this.txt_TL_AbductionCm);
             this.tbThumb.Controls.Add(this.label18);
-            this.tbThumb.Controls.Add(this.textBox37);
+            this.tbThumb.Controls.Add(this.txt_TR_AbductionCm);
             this.tbThumb.Location = new System.Drawing.Point(4, 20);
             this.tbThumb.Name = "tbThumb";
             this.tbThumb.Padding = new System.Windows.Forms.Padding(3);
-            this.tbThumb.Size = new System.Drawing.Size(548, 179);
+            this.tbThumb.Size = new System.Drawing.Size(463, 179);
             this.tbThumb.TabIndex = 4;
             this.tbThumb.Text = "Thumb";
             // 
-            // textBox31
+            // txt_TR_OppositionCm
             // 
-            this.textBox31.Location = new System.Drawing.Point(271, 149);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(100, 20);
-            this.textBox31.TabIndex = 42;
+            this.txt_TR_OppositionCm.Location = new System.Drawing.Point(271, 149);
+            this.txt_TR_OppositionCm.Name = "txt_TR_OppositionCm";
+            this.txt_TR_OppositionCm.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_OppositionCm.TabIndex = 42;
             // 
             // label21
             // 
@@ -477,19 +477,19 @@
             this.label21.TabIndex = 25;
             this.label21.Text = "CM flexion";
             // 
-            // textBox32
+            // txt_TL_OppositionCm
             // 
-            this.textBox32.Location = new System.Drawing.Point(165, 149);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(100, 20);
-            this.textBox32.TabIndex = 41;
+            this.txt_TL_OppositionCm.Location = new System.Drawing.Point(165, 149);
+            this.txt_TL_OppositionCm.Name = "txt_TL_OppositionCm";
+            this.txt_TL_OppositionCm.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_OppositionCm.TabIndex = 41;
             // 
-            // textBox42
+            // txt_TL_CMflexsion
             // 
-            this.textBox42.Location = new System.Drawing.Point(165, 19);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(100, 20);
-            this.textBox42.TabIndex = 26;
+            this.txt_TL_CMflexsion.Location = new System.Drawing.Point(165, 19);
+            this.txt_TL_CMflexsion.Name = "txt_TL_CMflexsion";
+            this.txt_TL_CMflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_CMflexsion.TabIndex = 26;
             // 
             // label16
             // 
@@ -501,19 +501,19 @@
             this.label16.TabIndex = 40;
             this.label16.Text = "Opposition cm";
             // 
-            // textBox41
+            // txt_TR_CMflexsion
             // 
-            this.textBox41.Location = new System.Drawing.Point(271, 19);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(100, 20);
-            this.textBox41.TabIndex = 27;
+            this.txt_TR_CMflexsion.Location = new System.Drawing.Point(271, 19);
+            this.txt_TR_CMflexsion.Name = "txt_TR_CMflexsion";
+            this.txt_TR_CMflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_CMflexsion.TabIndex = 27;
             // 
-            // textBox33
+            // txt_TR_MpFlexsionExtension
             // 
-            this.textBox33.Location = new System.Drawing.Point(271, 71);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(100, 20);
-            this.textBox33.TabIndex = 39;
+            this.txt_TR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 71);
+            this.txt_TR_MpFlexsionExtension.Name = "txt_TR_MpFlexsionExtension";
+            this.txt_TR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_MpFlexsionExtension.TabIndex = 39;
             // 
             // label20
             // 
@@ -525,19 +525,19 @@
             this.label20.TabIndex = 28;
             this.label20.Text = "CM extension";
             // 
-            // textBox34
+            // txt_TL_MpFlexsionExtension
             // 
-            this.textBox34.Location = new System.Drawing.Point(165, 71);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(100, 20);
-            this.textBox34.TabIndex = 38;
+            this.txt_TL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 71);
+            this.txt_TL_MpFlexsionExtension.Name = "txt_TL_MpFlexsionExtension";
+            this.txt_TL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_MpFlexsionExtension.TabIndex = 38;
             // 
-            // textBox40
+            // txt_TL_CmExtension
             // 
-            this.textBox40.Location = new System.Drawing.Point(165, 45);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(100, 20);
-            this.textBox40.TabIndex = 29;
+            this.txt_TL_CmExtension.Location = new System.Drawing.Point(165, 45);
+            this.txt_TL_CmExtension.Name = "txt_TL_CmExtension";
+            this.txt_TL_CmExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_CmExtension.TabIndex = 29;
             // 
             // label17
             // 
@@ -549,19 +549,19 @@
             this.label17.TabIndex = 37;
             this.label17.Text = "MP flexsion-extension";
             // 
-            // textBox39
+            // txt_TR_CMExtension
             // 
-            this.textBox39.Location = new System.Drawing.Point(271, 45);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(100, 20);
-            this.textBox39.TabIndex = 30;
+            this.txt_TR_CMExtension.Location = new System.Drawing.Point(271, 45);
+            this.txt_TR_CMExtension.Name = "txt_TR_CMExtension";
+            this.txt_TR_CMExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_CMExtension.TabIndex = 30;
             // 
-            // textBox35
+            // txt_TR_IpFlexsionExtension
             // 
-            this.textBox35.Location = new System.Drawing.Point(271, 97);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(100, 20);
-            this.textBox35.TabIndex = 36;
+            this.txt_TR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 97);
+            this.txt_TR_IpFlexsionExtension.Name = "txt_TR_IpFlexsionExtension";
+            this.txt_TR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_IpFlexsionExtension.TabIndex = 36;
             // 
             // label19
             // 
@@ -573,19 +573,19 @@
             this.label19.TabIndex = 31;
             this.label19.Text = "Abduction cm";
             // 
-            // textBox36
+            // txt_TL_IpFlexsionExtension
             // 
-            this.textBox36.Location = new System.Drawing.Point(165, 97);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(100, 20);
-            this.textBox36.TabIndex = 35;
+            this.txt_TL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 97);
+            this.txt_TL_IpFlexsionExtension.Name = "txt_TL_IpFlexsionExtension";
+            this.txt_TL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_IpFlexsionExtension.TabIndex = 35;
             // 
-            // textBox38
+            // txt_TL_AbductionCm
             // 
-            this.textBox38.Location = new System.Drawing.Point(165, 123);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(100, 20);
-            this.textBox38.TabIndex = 32;
+            this.txt_TL_AbductionCm.Location = new System.Drawing.Point(165, 123);
+            this.txt_TL_AbductionCm.Name = "txt_TL_AbductionCm";
+            this.txt_TL_AbductionCm.Size = new System.Drawing.Size(100, 20);
+            this.txt_TL_AbductionCm.TabIndex = 32;
             // 
             // label18
             // 
@@ -597,35 +597,35 @@
             this.label18.TabIndex = 34;
             this.label18.Text = "IP flexion-extension";
             // 
-            // textBox37
+            // txt_TR_AbductionCm
             // 
-            this.textBox37.Location = new System.Drawing.Point(271, 123);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(100, 20);
-            this.textBox37.TabIndex = 33;
+            this.txt_TR_AbductionCm.Location = new System.Drawing.Point(271, 123);
+            this.txt_TR_AbductionCm.Name = "txt_TR_AbductionCm";
+            this.txt_TR_AbductionCm.Size = new System.Drawing.Size(100, 20);
+            this.txt_TR_AbductionCm.TabIndex = 33;
             // 
             // tbIndexFinger
             // 
             this.tbIndexFinger.BackColor = System.Drawing.Color.White;
             this.tbIndexFinger.Controls.Add(this.label22);
-            this.tbIndexFinger.Controls.Add(this.textBox43);
-            this.tbIndexFinger.Controls.Add(this.textBox44);
-            this.tbIndexFinger.Controls.Add(this.textBox45);
+            this.tbIndexFinger.Controls.Add(this.txt_IFL_MpFlexsionExtension);
+            this.tbIndexFinger.Controls.Add(this.txt_IFR_MpFlexsionExtension);
+            this.tbIndexFinger.Controls.Add(this.txt_IFR_DipFlexsionExtension);
             this.tbIndexFinger.Controls.Add(this.label23);
-            this.tbIndexFinger.Controls.Add(this.textBox46);
-            this.tbIndexFinger.Controls.Add(this.textBox47);
+            this.tbIndexFinger.Controls.Add(this.txt_IFL_DipFlexsionExtension);
+            this.tbIndexFinger.Controls.Add(this.txt_IFL_IpFlexsionExtension);
             this.tbIndexFinger.Controls.Add(this.label24);
-            this.tbIndexFinger.Controls.Add(this.textBox48);
-            this.tbIndexFinger.Controls.Add(this.textBox49);
+            this.tbIndexFinger.Controls.Add(this.txt_IFR_IpFlexsionExtension);
+            this.tbIndexFinger.Controls.Add(this.txt_IFR_Abduction);
             this.tbIndexFinger.Controls.Add(this.label25);
-            this.tbIndexFinger.Controls.Add(this.textBox50);
-            this.tbIndexFinger.Controls.Add(this.textBox51);
+            this.tbIndexFinger.Controls.Add(this.txt_IFL_Abduction);
+            this.tbIndexFinger.Controls.Add(this.txt_IFL_Adduction);
             this.tbIndexFinger.Controls.Add(this.label26);
-            this.tbIndexFinger.Controls.Add(this.textBox52);
+            this.tbIndexFinger.Controls.Add(this.txt_IFR_Adduction);
             this.tbIndexFinger.Location = new System.Drawing.Point(4, 20);
             this.tbIndexFinger.Name = "tbIndexFinger";
             this.tbIndexFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbIndexFinger.Size = new System.Drawing.Size(565, 179);
+            this.tbIndexFinger.Size = new System.Drawing.Size(480, 179);
             this.tbIndexFinger.TabIndex = 0;
             this.tbIndexFinger.Text = "Index Finger";
             // 
@@ -639,26 +639,26 @@
             this.label22.TabIndex = 40;
             this.label22.Text = "MP flexion-extension";
             // 
-            // textBox43
+            // txt_IFL_MpFlexsionExtension
             // 
-            this.textBox43.Location = new System.Drawing.Point(165, 19);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(100, 20);
-            this.textBox43.TabIndex = 41;
+            this.txt_IFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 19);
+            this.txt_IFL_MpFlexsionExtension.Name = "txt_IFL_MpFlexsionExtension";
+            this.txt_IFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFL_MpFlexsionExtension.TabIndex = 41;
             // 
-            // textBox44
+            // txt_IFR_MpFlexsionExtension
             // 
-            this.textBox44.Location = new System.Drawing.Point(271, 19);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(100, 20);
-            this.textBox44.TabIndex = 42;
+            this.txt_IFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 19);
+            this.txt_IFR_MpFlexsionExtension.Name = "txt_IFR_MpFlexsionExtension";
+            this.txt_IFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFR_MpFlexsionExtension.TabIndex = 42;
             // 
-            // textBox45
+            // txt_IFR_DipFlexsionExtension
             // 
-            this.textBox45.Location = new System.Drawing.Point(271, 71);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(100, 20);
-            this.textBox45.TabIndex = 54;
+            this.txt_IFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 71);
+            this.txt_IFR_DipFlexsionExtension.Name = "txt_IFR_DipFlexsionExtension";
+            this.txt_IFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFR_DipFlexsionExtension.TabIndex = 54;
             // 
             // label23
             // 
@@ -670,19 +670,19 @@
             this.label23.TabIndex = 43;
             this.label23.Text = "IP flexion-extension";
             // 
-            // textBox46
+            // txt_IFL_DipFlexsionExtension
             // 
-            this.textBox46.Location = new System.Drawing.Point(165, 71);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(100, 20);
-            this.textBox46.TabIndex = 53;
+            this.txt_IFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 71);
+            this.txt_IFL_DipFlexsionExtension.Name = "txt_IFL_DipFlexsionExtension";
+            this.txt_IFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFL_DipFlexsionExtension.TabIndex = 53;
             // 
-            // textBox47
+            // txt_IFL_IpFlexsionExtension
             // 
-            this.textBox47.Location = new System.Drawing.Point(165, 45);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(100, 20);
-            this.textBox47.TabIndex = 44;
+            this.txt_IFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 45);
+            this.txt_IFL_IpFlexsionExtension.Name = "txt_IFL_IpFlexsionExtension";
+            this.txt_IFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFL_IpFlexsionExtension.TabIndex = 44;
             // 
             // label24
             // 
@@ -694,19 +694,19 @@
             this.label24.TabIndex = 52;
             this.label24.Text = "DIP flexsion-extension";
             // 
-            // textBox48
+            // txt_IFR_IpFlexsionExtension
             // 
-            this.textBox48.Location = new System.Drawing.Point(271, 45);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(100, 20);
-            this.textBox48.TabIndex = 45;
+            this.txt_IFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 45);
+            this.txt_IFR_IpFlexsionExtension.Name = "txt_IFR_IpFlexsionExtension";
+            this.txt_IFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFR_IpFlexsionExtension.TabIndex = 45;
             // 
-            // textBox49
+            // txt_IFR_Abduction
             // 
-            this.textBox49.Location = new System.Drawing.Point(271, 97);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(100, 20);
-            this.textBox49.TabIndex = 51;
+            this.txt_IFR_Abduction.Location = new System.Drawing.Point(271, 97);
+            this.txt_IFR_Abduction.Name = "txt_IFR_Abduction";
+            this.txt_IFR_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFR_Abduction.TabIndex = 51;
             // 
             // label25
             // 
@@ -718,19 +718,19 @@
             this.label25.TabIndex = 46;
             this.label25.Text = "Adduction";
             // 
-            // textBox50
+            // txt_IFL_Abduction
             // 
-            this.textBox50.Location = new System.Drawing.Point(165, 97);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(100, 20);
-            this.textBox50.TabIndex = 50;
+            this.txt_IFL_Abduction.Location = new System.Drawing.Point(165, 97);
+            this.txt_IFL_Abduction.Name = "txt_IFL_Abduction";
+            this.txt_IFL_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFL_Abduction.TabIndex = 50;
             // 
-            // textBox51
+            // txt_IFL_Adduction
             // 
-            this.textBox51.Location = new System.Drawing.Point(165, 123);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(100, 20);
-            this.textBox51.TabIndex = 47;
+            this.txt_IFL_Adduction.Location = new System.Drawing.Point(165, 123);
+            this.txt_IFL_Adduction.Name = "txt_IFL_Adduction";
+            this.txt_IFL_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFL_Adduction.TabIndex = 47;
             // 
             // label26
             // 
@@ -742,12 +742,12 @@
             this.label26.TabIndex = 49;
             this.label26.Text = "Abduction";
             // 
-            // textBox52
+            // txt_IFR_Adduction
             // 
-            this.textBox52.Location = new System.Drawing.Point(271, 123);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(100, 20);
-            this.textBox52.TabIndex = 48;
+            this.txt_IFR_Adduction.Location = new System.Drawing.Point(271, 123);
+            this.txt_IFR_Adduction.Name = "txt_IFR_Adduction";
+            this.txt_IFR_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_IFR_Adduction.TabIndex = 48;
             // 
             // tbMiddleFinger
             // 
@@ -757,20 +757,20 @@
             this.tbMiddleFinger.Controls.Add(this.label29);
             this.tbMiddleFinger.Controls.Add(this.label30);
             this.tbMiddleFinger.Controls.Add(this.label31);
-            this.tbMiddleFinger.Controls.Add(this.textBox53);
-            this.tbMiddleFinger.Controls.Add(this.textBox54);
-            this.tbMiddleFinger.Controls.Add(this.textBox55);
-            this.tbMiddleFinger.Controls.Add(this.textBox56);
-            this.tbMiddleFinger.Controls.Add(this.textBox57);
-            this.tbMiddleFinger.Controls.Add(this.textBox58);
-            this.tbMiddleFinger.Controls.Add(this.textBox59);
-            this.tbMiddleFinger.Controls.Add(this.textBox60);
-            this.tbMiddleFinger.Controls.Add(this.textBox61);
-            this.tbMiddleFinger.Controls.Add(this.textBox62);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFL_MpFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFR_MpFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFR_DipFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFL_DipFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFL_IpFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFR_IpFlexsionExtension);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFR_Abduction);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFL_Abduction);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFL_Adduction);
+            this.tbMiddleFinger.Controls.Add(this.txt_MFR_Adduction);
             this.tbMiddleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbMiddleFinger.Name = "tbMiddleFinger";
             this.tbMiddleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbMiddleFinger.Size = new System.Drawing.Size(565, 179);
+            this.tbMiddleFinger.Size = new System.Drawing.Size(480, 179);
             this.tbMiddleFinger.TabIndex = 1;
             this.tbMiddleFinger.Text = "Middle Finger";
             // 
@@ -824,75 +824,75 @@
             this.label31.TabIndex = 58;
             this.label31.Text = "Abduction";
             // 
-            // textBox53
+            // txt_MFL_MpFlexsionExtension
             // 
-            this.textBox53.Location = new System.Drawing.Point(165, 20);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(100, 20);
-            this.textBox53.TabIndex = 41;
+            this.txt_MFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 20);
+            this.txt_MFL_MpFlexsionExtension.Name = "txt_MFL_MpFlexsionExtension";
+            this.txt_MFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFL_MpFlexsionExtension.TabIndex = 41;
             // 
-            // textBox54
+            // txt_MFR_MpFlexsionExtension
             // 
-            this.textBox54.Location = new System.Drawing.Point(271, 20);
-            this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(100, 20);
-            this.textBox54.TabIndex = 42;
+            this.txt_MFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 20);
+            this.txt_MFR_MpFlexsionExtension.Name = "txt_MFR_MpFlexsionExtension";
+            this.txt_MFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFR_MpFlexsionExtension.TabIndex = 42;
             // 
-            // textBox55
+            // txt_MFR_DipFlexsionExtension
             // 
-            this.textBox55.Location = new System.Drawing.Point(271, 72);
-            this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(100, 20);
-            this.textBox55.TabIndex = 54;
+            this.txt_MFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 72);
+            this.txt_MFR_DipFlexsionExtension.Name = "txt_MFR_DipFlexsionExtension";
+            this.txt_MFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFR_DipFlexsionExtension.TabIndex = 54;
             // 
-            // textBox56
+            // txt_MFL_DipFlexsionExtension
             // 
-            this.textBox56.Location = new System.Drawing.Point(165, 72);
-            this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(100, 20);
-            this.textBox56.TabIndex = 53;
+            this.txt_MFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 72);
+            this.txt_MFL_DipFlexsionExtension.Name = "txt_MFL_DipFlexsionExtension";
+            this.txt_MFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFL_DipFlexsionExtension.TabIndex = 53;
             // 
-            // textBox57
+            // txt_MFL_IpFlexsionExtension
             // 
-            this.textBox57.Location = new System.Drawing.Point(165, 46);
-            this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(100, 20);
-            this.textBox57.TabIndex = 44;
+            this.txt_MFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 46);
+            this.txt_MFL_IpFlexsionExtension.Name = "txt_MFL_IpFlexsionExtension";
+            this.txt_MFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFL_IpFlexsionExtension.TabIndex = 44;
             // 
-            // textBox58
+            // txt_MFR_IpFlexsionExtension
             // 
-            this.textBox58.Location = new System.Drawing.Point(271, 46);
-            this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(100, 20);
-            this.textBox58.TabIndex = 45;
+            this.txt_MFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 46);
+            this.txt_MFR_IpFlexsionExtension.Name = "txt_MFR_IpFlexsionExtension";
+            this.txt_MFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFR_IpFlexsionExtension.TabIndex = 45;
             // 
-            // textBox59
+            // txt_MFR_Abduction
             // 
-            this.textBox59.Location = new System.Drawing.Point(271, 98);
-            this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(100, 20);
-            this.textBox59.TabIndex = 51;
+            this.txt_MFR_Abduction.Location = new System.Drawing.Point(271, 98);
+            this.txt_MFR_Abduction.Name = "txt_MFR_Abduction";
+            this.txt_MFR_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFR_Abduction.TabIndex = 51;
             // 
-            // textBox60
+            // txt_MFL_Abduction
             // 
-            this.textBox60.Location = new System.Drawing.Point(165, 98);
-            this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(100, 20);
-            this.textBox60.TabIndex = 50;
+            this.txt_MFL_Abduction.Location = new System.Drawing.Point(165, 98);
+            this.txt_MFL_Abduction.Name = "txt_MFL_Abduction";
+            this.txt_MFL_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFL_Abduction.TabIndex = 50;
             // 
-            // textBox61
+            // txt_MFL_Adduction
             // 
-            this.textBox61.Location = new System.Drawing.Point(165, 124);
-            this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(100, 20);
-            this.textBox61.TabIndex = 47;
+            this.txt_MFL_Adduction.Location = new System.Drawing.Point(165, 124);
+            this.txt_MFL_Adduction.Name = "txt_MFL_Adduction";
+            this.txt_MFL_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFL_Adduction.TabIndex = 47;
             // 
-            // textBox62
+            // txt_MFR_Adduction
             // 
-            this.textBox62.Location = new System.Drawing.Point(271, 124);
-            this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(100, 20);
-            this.textBox62.TabIndex = 48;
+            this.txt_MFR_Adduction.Location = new System.Drawing.Point(271, 124);
+            this.txt_MFR_Adduction.Name = "txt_MFR_Adduction";
+            this.txt_MFR_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_MFR_Adduction.TabIndex = 48;
             // 
             // tbRingFinger
             // 
@@ -902,20 +902,20 @@
             this.tbRingFinger.Controls.Add(this.label34);
             this.tbRingFinger.Controls.Add(this.label35);
             this.tbRingFinger.Controls.Add(this.label36);
-            this.tbRingFinger.Controls.Add(this.textBox63);
-            this.tbRingFinger.Controls.Add(this.textBox64);
-            this.tbRingFinger.Controls.Add(this.textBox65);
-            this.tbRingFinger.Controls.Add(this.textBox66);
-            this.tbRingFinger.Controls.Add(this.textBox67);
-            this.tbRingFinger.Controls.Add(this.textBox68);
-            this.tbRingFinger.Controls.Add(this.textBox69);
-            this.tbRingFinger.Controls.Add(this.textBox70);
-            this.tbRingFinger.Controls.Add(this.textBox71);
-            this.tbRingFinger.Controls.Add(this.textBox72);
+            this.tbRingFinger.Controls.Add(this.txt_RFL_MpFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFR_MpFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFR_DipFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFL_DipFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFL_IpFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFR_IpFlexsionExtension);
+            this.tbRingFinger.Controls.Add(this.txt_RFR_Abduction);
+            this.tbRingFinger.Controls.Add(this.txt_RFL_Abduction);
+            this.tbRingFinger.Controls.Add(this.txt_RFL_Adduction);
+            this.tbRingFinger.Controls.Add(this.txt_RFR_Adduction);
             this.tbRingFinger.Location = new System.Drawing.Point(4, 20);
             this.tbRingFinger.Name = "tbRingFinger";
             this.tbRingFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbRingFinger.Size = new System.Drawing.Size(565, 179);
+            this.tbRingFinger.Size = new System.Drawing.Size(480, 179);
             this.tbRingFinger.TabIndex = 2;
             this.tbRingFinger.Text = "Ring Finger";
             // 
@@ -969,75 +969,75 @@
             this.label36.TabIndex = 58;
             this.label36.Text = "Abduction";
             // 
-            // textBox63
+            // txt_RFL_MpFlexsionExtension
             // 
-            this.textBox63.Location = new System.Drawing.Point(165, 27);
-            this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(100, 20);
-            this.textBox63.TabIndex = 41;
+            this.txt_RFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 27);
+            this.txt_RFL_MpFlexsionExtension.Name = "txt_RFL_MpFlexsionExtension";
+            this.txt_RFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFL_MpFlexsionExtension.TabIndex = 41;
             // 
-            // textBox64
+            // txt_RFR_MpFlexsionExtension
             // 
-            this.textBox64.Location = new System.Drawing.Point(271, 27);
-            this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(100, 20);
-            this.textBox64.TabIndex = 42;
+            this.txt_RFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 27);
+            this.txt_RFR_MpFlexsionExtension.Name = "txt_RFR_MpFlexsionExtension";
+            this.txt_RFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFR_MpFlexsionExtension.TabIndex = 42;
             // 
-            // textBox65
+            // txt_RFR_DipFlexsionExtension
             // 
-            this.textBox65.Location = new System.Drawing.Point(271, 79);
-            this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(100, 20);
-            this.textBox65.TabIndex = 54;
+            this.txt_RFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 79);
+            this.txt_RFR_DipFlexsionExtension.Name = "txt_RFR_DipFlexsionExtension";
+            this.txt_RFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFR_DipFlexsionExtension.TabIndex = 54;
             // 
-            // textBox66
+            // txt_RFL_DipFlexsionExtension
             // 
-            this.textBox66.Location = new System.Drawing.Point(165, 79);
-            this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(100, 20);
-            this.textBox66.TabIndex = 53;
+            this.txt_RFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 79);
+            this.txt_RFL_DipFlexsionExtension.Name = "txt_RFL_DipFlexsionExtension";
+            this.txt_RFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFL_DipFlexsionExtension.TabIndex = 53;
             // 
-            // textBox67
+            // txt_RFL_IpFlexsionExtension
             // 
-            this.textBox67.Location = new System.Drawing.Point(165, 53);
-            this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(100, 20);
-            this.textBox67.TabIndex = 44;
+            this.txt_RFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 53);
+            this.txt_RFL_IpFlexsionExtension.Name = "txt_RFL_IpFlexsionExtension";
+            this.txt_RFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFL_IpFlexsionExtension.TabIndex = 44;
             // 
-            // textBox68
+            // txt_RFR_IpFlexsionExtension
             // 
-            this.textBox68.Location = new System.Drawing.Point(271, 53);
-            this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(100, 20);
-            this.textBox68.TabIndex = 45;
+            this.txt_RFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 53);
+            this.txt_RFR_IpFlexsionExtension.Name = "txt_RFR_IpFlexsionExtension";
+            this.txt_RFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFR_IpFlexsionExtension.TabIndex = 45;
             // 
-            // textBox69
+            // txt_RFR_Abduction
             // 
-            this.textBox69.Location = new System.Drawing.Point(271, 105);
-            this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(100, 20);
-            this.textBox69.TabIndex = 51;
+            this.txt_RFR_Abduction.Location = new System.Drawing.Point(271, 105);
+            this.txt_RFR_Abduction.Name = "txt_RFR_Abduction";
+            this.txt_RFR_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFR_Abduction.TabIndex = 51;
             // 
-            // textBox70
+            // txt_RFL_Abduction
             // 
-            this.textBox70.Location = new System.Drawing.Point(165, 105);
-            this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(100, 20);
-            this.textBox70.TabIndex = 50;
+            this.txt_RFL_Abduction.Location = new System.Drawing.Point(165, 105);
+            this.txt_RFL_Abduction.Name = "txt_RFL_Abduction";
+            this.txt_RFL_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFL_Abduction.TabIndex = 50;
             // 
-            // textBox71
+            // txt_RFL_Adduction
             // 
-            this.textBox71.Location = new System.Drawing.Point(165, 131);
-            this.textBox71.Name = "textBox71";
-            this.textBox71.Size = new System.Drawing.Size(100, 20);
-            this.textBox71.TabIndex = 47;
+            this.txt_RFL_Adduction.Location = new System.Drawing.Point(165, 131);
+            this.txt_RFL_Adduction.Name = "txt_RFL_Adduction";
+            this.txt_RFL_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFL_Adduction.TabIndex = 47;
             // 
-            // textBox72
+            // txt_RFR_Adduction
             // 
-            this.textBox72.Location = new System.Drawing.Point(271, 131);
-            this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(100, 20);
-            this.textBox72.TabIndex = 48;
+            this.txt_RFR_Adduction.Location = new System.Drawing.Point(271, 131);
+            this.txt_RFR_Adduction.Name = "txt_RFR_Adduction";
+            this.txt_RFR_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_RFR_Adduction.TabIndex = 48;
             // 
             // tbLittleFinger
             // 
@@ -1047,20 +1047,20 @@
             this.tbLittleFinger.Controls.Add(this.label39);
             this.tbLittleFinger.Controls.Add(this.label40);
             this.tbLittleFinger.Controls.Add(this.label41);
-            this.tbLittleFinger.Controls.Add(this.textBox73);
-            this.tbLittleFinger.Controls.Add(this.textBox74);
-            this.tbLittleFinger.Controls.Add(this.textBox75);
-            this.tbLittleFinger.Controls.Add(this.textBox76);
-            this.tbLittleFinger.Controls.Add(this.textBox77);
-            this.tbLittleFinger.Controls.Add(this.textBox78);
-            this.tbLittleFinger.Controls.Add(this.textBox79);
-            this.tbLittleFinger.Controls.Add(this.textBox80);
-            this.tbLittleFinger.Controls.Add(this.textBox81);
-            this.tbLittleFinger.Controls.Add(this.textBox82);
+            this.tbLittleFinger.Controls.Add(this.txt_LFL_MpFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFR_MpFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFR_DipFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFL_DipFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFL_IpFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFR_IpFlexsionExtension);
+            this.tbLittleFinger.Controls.Add(this.txt_LFR_Abduction);
+            this.tbLittleFinger.Controls.Add(this.txt_LFL_Abduction);
+            this.tbLittleFinger.Controls.Add(this.txt_LFL_Adduction);
+            this.tbLittleFinger.Controls.Add(this.txt_LFR_Adduction);
             this.tbLittleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbLittleFinger.Name = "tbLittleFinger";
             this.tbLittleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLittleFinger.Size = new System.Drawing.Size(565, 179);
+            this.tbLittleFinger.Size = new System.Drawing.Size(480, 179);
             this.tbLittleFinger.TabIndex = 3;
             this.tbLittleFinger.Text = "Little Finger";
             // 
@@ -1114,75 +1114,75 @@
             this.label41.TabIndex = 58;
             this.label41.Text = "Abduction";
             // 
-            // textBox73
+            // txt_LFL_MpFlexsionExtension
             // 
-            this.textBox73.Location = new System.Drawing.Point(165, 26);
-            this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(100, 20);
-            this.textBox73.TabIndex = 41;
+            this.txt_LFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 26);
+            this.txt_LFL_MpFlexsionExtension.Name = "txt_LFL_MpFlexsionExtension";
+            this.txt_LFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFL_MpFlexsionExtension.TabIndex = 41;
             // 
-            // textBox74
+            // txt_LFR_MpFlexsionExtension
             // 
-            this.textBox74.Location = new System.Drawing.Point(271, 26);
-            this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(100, 20);
-            this.textBox74.TabIndex = 42;
+            this.txt_LFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 26);
+            this.txt_LFR_MpFlexsionExtension.Name = "txt_LFR_MpFlexsionExtension";
+            this.txt_LFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFR_MpFlexsionExtension.TabIndex = 42;
             // 
-            // textBox75
+            // txt_LFR_DipFlexsionExtension
             // 
-            this.textBox75.Location = new System.Drawing.Point(271, 78);
-            this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(100, 20);
-            this.textBox75.TabIndex = 54;
+            this.txt_LFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 78);
+            this.txt_LFR_DipFlexsionExtension.Name = "txt_LFR_DipFlexsionExtension";
+            this.txt_LFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFR_DipFlexsionExtension.TabIndex = 54;
             // 
-            // textBox76
+            // txt_LFL_DipFlexsionExtension
             // 
-            this.textBox76.Location = new System.Drawing.Point(165, 78);
-            this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(100, 20);
-            this.textBox76.TabIndex = 53;
+            this.txt_LFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 78);
+            this.txt_LFL_DipFlexsionExtension.Name = "txt_LFL_DipFlexsionExtension";
+            this.txt_LFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFL_DipFlexsionExtension.TabIndex = 53;
             // 
-            // textBox77
+            // txt_LFL_IpFlexsionExtension
             // 
-            this.textBox77.Location = new System.Drawing.Point(165, 52);
-            this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(100, 20);
-            this.textBox77.TabIndex = 44;
+            this.txt_LFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 52);
+            this.txt_LFL_IpFlexsionExtension.Name = "txt_LFL_IpFlexsionExtension";
+            this.txt_LFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFL_IpFlexsionExtension.TabIndex = 44;
             // 
-            // textBox78
+            // txt_LFR_IpFlexsionExtension
             // 
-            this.textBox78.Location = new System.Drawing.Point(271, 52);
-            this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(100, 20);
-            this.textBox78.TabIndex = 45;
+            this.txt_LFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 52);
+            this.txt_LFR_IpFlexsionExtension.Name = "txt_LFR_IpFlexsionExtension";
+            this.txt_LFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFR_IpFlexsionExtension.TabIndex = 45;
             // 
-            // textBox79
+            // txt_LFR_Abduction
             // 
-            this.textBox79.Location = new System.Drawing.Point(271, 104);
-            this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(100, 20);
-            this.textBox79.TabIndex = 51;
+            this.txt_LFR_Abduction.Location = new System.Drawing.Point(271, 104);
+            this.txt_LFR_Abduction.Name = "txt_LFR_Abduction";
+            this.txt_LFR_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFR_Abduction.TabIndex = 51;
             // 
-            // textBox80
+            // txt_LFL_Abduction
             // 
-            this.textBox80.Location = new System.Drawing.Point(165, 104);
-            this.textBox80.Name = "textBox80";
-            this.textBox80.Size = new System.Drawing.Size(100, 20);
-            this.textBox80.TabIndex = 50;
+            this.txt_LFL_Abduction.Location = new System.Drawing.Point(165, 104);
+            this.txt_LFL_Abduction.Name = "txt_LFL_Abduction";
+            this.txt_LFL_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFL_Abduction.TabIndex = 50;
             // 
-            // textBox81
+            // txt_LFL_Adduction
             // 
-            this.textBox81.Location = new System.Drawing.Point(165, 130);
-            this.textBox81.Name = "textBox81";
-            this.textBox81.Size = new System.Drawing.Size(100, 20);
-            this.textBox81.TabIndex = 47;
+            this.txt_LFL_Adduction.Location = new System.Drawing.Point(165, 130);
+            this.txt_LFL_Adduction.Name = "txt_LFL_Adduction";
+            this.txt_LFL_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFL_Adduction.TabIndex = 47;
             // 
-            // textBox82
+            // txt_LFR_Adduction
             // 
-            this.textBox82.Location = new System.Drawing.Point(271, 130);
-            this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(100, 20);
-            this.textBox82.TabIndex = 48;
+            this.txt_LFR_Adduction.Location = new System.Drawing.Point(271, 130);
+            this.txt_LFR_Adduction.Name = "txt_LFR_Adduction";
+            this.txt_LFR_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_LFR_Adduction.TabIndex = 48;
             // 
             // xuiCustomGroupbox2
             // 
@@ -1190,40 +1190,40 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox2.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox2.BorderWidth = 1;
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox21);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox22);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WR_Extension);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WL_Extension);
             this.xuiCustomGroupbox2.Controls.Add(this.label11);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox23);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox24);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WR_UlnarDeviation);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WL_UlnarDeviation);
             this.xuiCustomGroupbox2.Controls.Add(this.label12);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox25);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox26);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WR_RadiatDeviation);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WL_RadiatDeviation);
             this.xuiCustomGroupbox2.Controls.Add(this.label13);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox27);
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox28);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WR_Flexsion);
+            this.xuiCustomGroupbox2.Controls.Add(this.txt_WL_Flexsion);
             this.xuiCustomGroupbox2.Controls.Add(this.label14);
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(8, 390);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(569, 147);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(484, 147);
             this.xuiCustomGroupbox2.TabIndex = 1;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Wrist";
             this.xuiCustomGroupbox2.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox21
+            // txt_WR_Extension
             // 
-            this.textBox21.Location = new System.Drawing.Point(278, 56);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(100, 20);
-            this.textBox21.TabIndex = 33;
+            this.txt_WR_Extension.Location = new System.Drawing.Point(278, 56);
+            this.txt_WR_Extension.Name = "txt_WR_Extension";
+            this.txt_WR_Extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_WR_Extension.TabIndex = 33;
             // 
-            // textBox22
+            // txt_WL_Extension
             // 
-            this.textBox22.Location = new System.Drawing.Point(172, 56);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(100, 20);
-            this.textBox22.TabIndex = 32;
+            this.txt_WL_Extension.Location = new System.Drawing.Point(172, 56);
+            this.txt_WL_Extension.Name = "txt_WL_Extension";
+            this.txt_WL_Extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_WL_Extension.TabIndex = 32;
             // 
             // label11
             // 
@@ -1235,19 +1235,19 @@
             this.label11.TabIndex = 31;
             this.label11.Text = "Extension";
             // 
-            // textBox23
+            // txt_WR_UlnarDeviation
             // 
-            this.textBox23.Location = new System.Drawing.Point(278, 82);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(100, 20);
-            this.textBox23.TabIndex = 30;
+            this.txt_WR_UlnarDeviation.Location = new System.Drawing.Point(278, 82);
+            this.txt_WR_UlnarDeviation.Name = "txt_WR_UlnarDeviation";
+            this.txt_WR_UlnarDeviation.Size = new System.Drawing.Size(100, 20);
+            this.txt_WR_UlnarDeviation.TabIndex = 30;
             // 
-            // textBox24
+            // txt_WL_UlnarDeviation
             // 
-            this.textBox24.Location = new System.Drawing.Point(172, 82);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 20);
-            this.textBox24.TabIndex = 29;
+            this.txt_WL_UlnarDeviation.Location = new System.Drawing.Point(172, 82);
+            this.txt_WL_UlnarDeviation.Name = "txt_WL_UlnarDeviation";
+            this.txt_WL_UlnarDeviation.Size = new System.Drawing.Size(100, 20);
+            this.txt_WL_UlnarDeviation.TabIndex = 29;
             // 
             // label12
             // 
@@ -1259,19 +1259,19 @@
             this.label12.TabIndex = 28;
             this.label12.Text = "Ulnar deviation";
             // 
-            // textBox25
+            // txt_WR_RadiatDeviation
             // 
-            this.textBox25.Location = new System.Drawing.Point(278, 108);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(100, 20);
-            this.textBox25.TabIndex = 27;
+            this.txt_WR_RadiatDeviation.Location = new System.Drawing.Point(278, 108);
+            this.txt_WR_RadiatDeviation.Name = "txt_WR_RadiatDeviation";
+            this.txt_WR_RadiatDeviation.Size = new System.Drawing.Size(100, 20);
+            this.txt_WR_RadiatDeviation.TabIndex = 27;
             // 
-            // textBox26
+            // txt_WL_RadiatDeviation
             // 
-            this.textBox26.Location = new System.Drawing.Point(172, 108);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(100, 20);
-            this.textBox26.TabIndex = 26;
+            this.txt_WL_RadiatDeviation.Location = new System.Drawing.Point(172, 108);
+            this.txt_WL_RadiatDeviation.Name = "txt_WL_RadiatDeviation";
+            this.txt_WL_RadiatDeviation.Size = new System.Drawing.Size(100, 20);
+            this.txt_WL_RadiatDeviation.TabIndex = 26;
             // 
             // label13
             // 
@@ -1283,19 +1283,19 @@
             this.label13.TabIndex = 25;
             this.label13.Text = "Radiat deviation";
             // 
-            // textBox27
+            // txt_WR_Flexsion
             // 
-            this.textBox27.Location = new System.Drawing.Point(278, 30);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(100, 20);
-            this.textBox27.TabIndex = 24;
+            this.txt_WR_Flexsion.Location = new System.Drawing.Point(278, 30);
+            this.txt_WR_Flexsion.Name = "txt_WR_Flexsion";
+            this.txt_WR_Flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_WR_Flexsion.TabIndex = 24;
             // 
-            // textBox28
+            // txt_WL_Flexsion
             // 
-            this.textBox28.Location = new System.Drawing.Point(172, 30);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(100, 20);
-            this.textBox28.TabIndex = 23;
+            this.txt_WL_Flexsion.Location = new System.Drawing.Point(172, 30);
+            this.txt_WL_Flexsion.Name = "txt_WL_Flexsion";
+            this.txt_WL_Flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_WL_Flexsion.TabIndex = 23;
             // 
             // label14
             // 
@@ -1313,52 +1313,52 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox1.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox1.BorderWidth = 1;
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox29);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox30);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_ExternalRotationAlt);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_ExternalRotationAlt);
             this.xuiCustomGroupbox1.Controls.Add(this.label15);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox13);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox14);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_internalRotation);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_internalRotation);
             this.xuiCustomGroupbox1.Controls.Add(this.label7);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox11);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox12);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_externalRotation);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_externalRotation);
             this.xuiCustomGroupbox1.Controls.Add(this.label6);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox9);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox10);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_InternalRotationAlt);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_InternalRotationAlt);
             this.xuiCustomGroupbox1.Controls.Add(this.label5);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox7);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox8);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_horizontalAdduction);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_horizontalAdduction);
             this.xuiCustomGroupbox1.Controls.Add(this.label4);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox5);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox6);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_horizontalAbduction);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_horizontalAbduction);
             this.xuiCustomGroupbox1.Controls.Add(this.label3);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox3);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox4);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_extension);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_extension);
             this.xuiCustomGroupbox1.Controls.Add(this.label2);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox2);
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox1);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SR_flexsion);
+            this.xuiCustomGroupbox1.Controls.Add(this.txt_SL_flexsion);
             this.xuiCustomGroupbox1.Controls.Add(this.label1);
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(8, 26);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(569, 235);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(484, 235);
             this.xuiCustomGroupbox1.TabIndex = 0;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Shoulder";
             this.xuiCustomGroupbox1.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox29
+            // txt_SR_ExternalRotationAlt
             // 
-            this.textBox29.Location = new System.Drawing.Point(278, 202);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(100, 20);
-            this.textBox29.TabIndex = 24;
+            this.txt_SR_ExternalRotationAlt.Location = new System.Drawing.Point(278, 202);
+            this.txt_SR_ExternalRotationAlt.Name = "txt_SR_ExternalRotationAlt";
+            this.txt_SR_ExternalRotationAlt.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_ExternalRotationAlt.TabIndex = 24;
             // 
-            // textBox30
+            // txt_SL_ExternalRotationAlt
             // 
-            this.textBox30.Location = new System.Drawing.Point(172, 202);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(100, 20);
-            this.textBox30.TabIndex = 23;
+            this.txt_SL_ExternalRotationAlt.Location = new System.Drawing.Point(172, 202);
+            this.txt_SL_ExternalRotationAlt.Name = "txt_SL_ExternalRotationAlt";
+            this.txt_SL_ExternalRotationAlt.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_ExternalRotationAlt.TabIndex = 23;
             // 
             // label15
             // 
@@ -1370,19 +1370,19 @@
             this.label15.TabIndex = 22;
             this.label15.Text = "External rotation(alt)";
             // 
-            // textBox13
+            // txt_SR_internalRotation
             // 
-            this.textBox13.Location = new System.Drawing.Point(278, 124);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(100, 20);
-            this.textBox13.TabIndex = 21;
+            this.txt_SR_internalRotation.Location = new System.Drawing.Point(278, 124);
+            this.txt_SR_internalRotation.Name = "txt_SR_internalRotation";
+            this.txt_SR_internalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_internalRotation.TabIndex = 21;
             // 
-            // textBox14
+            // txt_SL_internalRotation
             // 
-            this.textBox14.Location = new System.Drawing.Point(172, 124);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(100, 20);
-            this.textBox14.TabIndex = 20;
+            this.txt_SL_internalRotation.Location = new System.Drawing.Point(172, 124);
+            this.txt_SL_internalRotation.Name = "txt_SL_internalRotation";
+            this.txt_SL_internalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_internalRotation.TabIndex = 20;
             // 
             // label7
             // 
@@ -1394,19 +1394,19 @@
             this.label7.TabIndex = 19;
             this.label7.Text = "Internal rotation";
             // 
-            // textBox11
+            // txt_SR_externalRotation
             // 
-            this.textBox11.Location = new System.Drawing.Point(278, 150);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 18;
+            this.txt_SR_externalRotation.Location = new System.Drawing.Point(278, 150);
+            this.txt_SR_externalRotation.Name = "txt_SR_externalRotation";
+            this.txt_SR_externalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_externalRotation.TabIndex = 18;
             // 
-            // textBox12
+            // txt_SL_externalRotation
             // 
-            this.textBox12.Location = new System.Drawing.Point(172, 150);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 17;
+            this.txt_SL_externalRotation.Location = new System.Drawing.Point(172, 150);
+            this.txt_SL_externalRotation.Name = "txt_SL_externalRotation";
+            this.txt_SL_externalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_externalRotation.TabIndex = 17;
             // 
             // label6
             // 
@@ -1418,19 +1418,19 @@
             this.label6.TabIndex = 16;
             this.label6.Text = "External rotation";
             // 
-            // textBox9
+            // txt_SR_InternalRotationAlt
             // 
-            this.textBox9.Location = new System.Drawing.Point(278, 176);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 15;
+            this.txt_SR_InternalRotationAlt.Location = new System.Drawing.Point(278, 176);
+            this.txt_SR_InternalRotationAlt.Name = "txt_SR_InternalRotationAlt";
+            this.txt_SR_InternalRotationAlt.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_InternalRotationAlt.TabIndex = 15;
             // 
-            // textBox10
+            // txt_SL_InternalRotationAlt
             // 
-            this.textBox10.Location = new System.Drawing.Point(172, 176);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 14;
+            this.txt_SL_InternalRotationAlt.Location = new System.Drawing.Point(172, 176);
+            this.txt_SL_InternalRotationAlt.Name = "txt_SL_InternalRotationAlt";
+            this.txt_SL_InternalRotationAlt.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_InternalRotationAlt.TabIndex = 14;
             // 
             // label5
             // 
@@ -1442,19 +1442,19 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Internal rotation(alt)";
             // 
-            // textBox7
+            // txt_SR_horizontalAdduction
             // 
-            this.textBox7.Location = new System.Drawing.Point(278, 98);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 12;
+            this.txt_SR_horizontalAdduction.Location = new System.Drawing.Point(278, 98);
+            this.txt_SR_horizontalAdduction.Name = "txt_SR_horizontalAdduction";
+            this.txt_SR_horizontalAdduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_horizontalAdduction.TabIndex = 12;
             // 
-            // textBox8
+            // txt_SL_horizontalAdduction
             // 
-            this.textBox8.Location = new System.Drawing.Point(172, 98);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 11;
+            this.txt_SL_horizontalAdduction.Location = new System.Drawing.Point(172, 98);
+            this.txt_SL_horizontalAdduction.Name = "txt_SL_horizontalAdduction";
+            this.txt_SL_horizontalAdduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_horizontalAdduction.TabIndex = 11;
             // 
             // label4
             // 
@@ -1466,19 +1466,19 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Horizontal adduction";
             // 
-            // textBox5
+            // txt_SR_horizontalAbduction
             // 
-            this.textBox5.Location = new System.Drawing.Point(278, 72);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 9;
+            this.txt_SR_horizontalAbduction.Location = new System.Drawing.Point(278, 72);
+            this.txt_SR_horizontalAbduction.Name = "txt_SR_horizontalAbduction";
+            this.txt_SR_horizontalAbduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_horizontalAbduction.TabIndex = 9;
             // 
-            // textBox6
+            // txt_SL_horizontalAbduction
             // 
-            this.textBox6.Location = new System.Drawing.Point(172, 72);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 8;
+            this.txt_SL_horizontalAbduction.Location = new System.Drawing.Point(172, 72);
+            this.txt_SL_horizontalAbduction.Name = "txt_SL_horizontalAbduction";
+            this.txt_SL_horizontalAbduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_horizontalAbduction.TabIndex = 8;
             // 
             // label3
             // 
@@ -1490,19 +1490,19 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Horizontal abduction";
             // 
-            // textBox3
+            // txt_SR_extension
             // 
-            this.textBox3.Location = new System.Drawing.Point(278, 46);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
+            this.txt_SR_extension.Location = new System.Drawing.Point(278, 46);
+            this.txt_SR_extension.Name = "txt_SR_extension";
+            this.txt_SR_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_extension.TabIndex = 6;
             // 
-            // textBox4
+            // txt_SL_extension
             // 
-            this.textBox4.Location = new System.Drawing.Point(172, 46);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 5;
+            this.txt_SL_extension.Location = new System.Drawing.Point(172, 46);
+            this.txt_SL_extension.Name = "txt_SL_extension";
+            this.txt_SL_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_extension.TabIndex = 5;
             // 
             // label2
             // 
@@ -1514,19 +1514,19 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Extension";
             // 
-            // textBox2
+            // txt_SR_flexsion
             // 
-            this.textBox2.Location = new System.Drawing.Point(278, 20);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txt_SR_flexsion.Location = new System.Drawing.Point(278, 20);
+            this.txt_SR_flexsion.Name = "txt_SR_flexsion";
+            this.txt_SR_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_SR_flexsion.TabIndex = 3;
             // 
-            // textBox1
+            // txt_SL_flexsion
             // 
-            this.textBox1.Location = new System.Drawing.Point(172, 20);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.txt_SL_flexsion.Location = new System.Drawing.Point(172, 20);
+            this.txt_SL_flexsion.Name = "txt_SL_flexsion";
+            this.txt_SL_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_SL_flexsion.TabIndex = 2;
             // 
             // label1
             // 
@@ -1550,7 +1550,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(601, 780);
+            this.tabPage2.Size = new System.Drawing.Size(516, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -1570,40 +1570,40 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox9.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox9.BorderWidth = 1;
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox99);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox100);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KR_Eversion);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KL_Eversion);
             this.xuiCustomGroupbox9.Controls.Add(this.label52);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox107);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox108);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KR_Inversion);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KL_Inversion);
             this.xuiCustomGroupbox9.Controls.Add(this.label56);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox109);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox110);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KR_Plantaflexsion);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KL_Plantaflexsion);
             this.xuiCustomGroupbox9.Controls.Add(this.label57);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox111);
-            this.xuiCustomGroupbox9.Controls.Add(this.textBox112);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KR_Dorsiflexsion);
+            this.xuiCustomGroupbox9.Controls.Add(this.txt_KL_Dorsiflexsion);
             this.xuiCustomGroupbox9.Controls.Add(this.label58);
             this.xuiCustomGroupbox9.Location = new System.Drawing.Point(8, 344);
             this.xuiCustomGroupbox9.Name = "xuiCustomGroupbox9";
             this.xuiCustomGroupbox9.ShowText = true;
-            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(620, 140);
+            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(586, 140);
             this.xuiCustomGroupbox9.TabIndex = 6;
             this.xuiCustomGroupbox9.TabStop = false;
             this.xuiCustomGroupbox9.Text = "Ankle";
             this.xuiCustomGroupbox9.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox99
+            // txt_KR_Eversion
             // 
-            this.textBox99.Location = new System.Drawing.Point(229, 98);
-            this.textBox99.Name = "textBox99";
-            this.textBox99.Size = new System.Drawing.Size(100, 20);
-            this.textBox99.TabIndex = 12;
+            this.txt_KR_Eversion.Location = new System.Drawing.Point(229, 98);
+            this.txt_KR_Eversion.Name = "txt_KR_Eversion";
+            this.txt_KR_Eversion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_Eversion.TabIndex = 12;
             // 
-            // textBox100
+            // txt_KL_Eversion
             // 
-            this.textBox100.Location = new System.Drawing.Point(123, 98);
-            this.textBox100.Name = "textBox100";
-            this.textBox100.Size = new System.Drawing.Size(100, 20);
-            this.textBox100.TabIndex = 11;
+            this.txt_KL_Eversion.Location = new System.Drawing.Point(123, 98);
+            this.txt_KL_Eversion.Name = "txt_KL_Eversion";
+            this.txt_KL_Eversion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_Eversion.TabIndex = 11;
             // 
             // label52
             // 
@@ -1615,19 +1615,19 @@
             this.label52.TabIndex = 10;
             this.label52.Text = "eversion";
             // 
-            // textBox107
+            // txt_KR_Inversion
             // 
-            this.textBox107.Location = new System.Drawing.Point(229, 72);
-            this.textBox107.Name = "textBox107";
-            this.textBox107.Size = new System.Drawing.Size(100, 20);
-            this.textBox107.TabIndex = 9;
+            this.txt_KR_Inversion.Location = new System.Drawing.Point(229, 72);
+            this.txt_KR_Inversion.Name = "txt_KR_Inversion";
+            this.txt_KR_Inversion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_Inversion.TabIndex = 9;
             // 
-            // textBox108
+            // txt_KL_Inversion
             // 
-            this.textBox108.Location = new System.Drawing.Point(123, 72);
-            this.textBox108.Name = "textBox108";
-            this.textBox108.Size = new System.Drawing.Size(100, 20);
-            this.textBox108.TabIndex = 8;
+            this.txt_KL_Inversion.Location = new System.Drawing.Point(123, 72);
+            this.txt_KL_Inversion.Name = "txt_KL_Inversion";
+            this.txt_KL_Inversion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_Inversion.TabIndex = 8;
             // 
             // label56
             // 
@@ -1639,19 +1639,19 @@
             this.label56.TabIndex = 7;
             this.label56.Text = "Inversion";
             // 
-            // textBox109
+            // txt_KR_Plantaflexsion
             // 
-            this.textBox109.Location = new System.Drawing.Point(229, 46);
-            this.textBox109.Name = "textBox109";
-            this.textBox109.Size = new System.Drawing.Size(100, 20);
-            this.textBox109.TabIndex = 6;
+            this.txt_KR_Plantaflexsion.Location = new System.Drawing.Point(229, 46);
+            this.txt_KR_Plantaflexsion.Name = "txt_KR_Plantaflexsion";
+            this.txt_KR_Plantaflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_Plantaflexsion.TabIndex = 6;
             // 
-            // textBox110
+            // txt_KL_Plantaflexsion
             // 
-            this.textBox110.Location = new System.Drawing.Point(123, 46);
-            this.textBox110.Name = "textBox110";
-            this.textBox110.Size = new System.Drawing.Size(100, 20);
-            this.textBox110.TabIndex = 5;
+            this.txt_KL_Plantaflexsion.Location = new System.Drawing.Point(123, 46);
+            this.txt_KL_Plantaflexsion.Name = "txt_KL_Plantaflexsion";
+            this.txt_KL_Plantaflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_Plantaflexsion.TabIndex = 5;
             // 
             // label57
             // 
@@ -1663,19 +1663,19 @@
             this.label57.TabIndex = 4;
             this.label57.Text = "Plantaflexion";
             // 
-            // textBox111
+            // txt_KR_Dorsiflexsion
             // 
-            this.textBox111.Location = new System.Drawing.Point(229, 20);
-            this.textBox111.Name = "textBox111";
-            this.textBox111.Size = new System.Drawing.Size(100, 20);
-            this.textBox111.TabIndex = 3;
+            this.txt_KR_Dorsiflexsion.Location = new System.Drawing.Point(229, 20);
+            this.txt_KR_Dorsiflexsion.Name = "txt_KR_Dorsiflexsion";
+            this.txt_KR_Dorsiflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_Dorsiflexsion.TabIndex = 3;
             // 
-            // textBox112
+            // txt_KL_Dorsiflexsion
             // 
-            this.textBox112.Location = new System.Drawing.Point(123, 20);
-            this.textBox112.Name = "textBox112";
-            this.textBox112.Size = new System.Drawing.Size(100, 20);
-            this.textBox112.TabIndex = 2;
+            this.txt_KL_Dorsiflexsion.Location = new System.Drawing.Point(123, 20);
+            this.txt_KL_Dorsiflexsion.Name = "txt_KL_Dorsiflexsion";
+            this.txt_KL_Dorsiflexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_Dorsiflexsion.TabIndex = 2;
             // 
             // label58
             // 
@@ -1703,37 +1703,37 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox8.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox8.BorderWidth = 1;
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox101);
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox102);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KR_Hypoextension);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KL_Hypoextension);
             this.xuiCustomGroupbox8.Controls.Add(this.label53);
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox103);
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox104);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KR_extension);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KL_extension);
             this.xuiCustomGroupbox8.Controls.Add(this.label54);
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox105);
-            this.xuiCustomGroupbox8.Controls.Add(this.textBox106);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KR_flexsion);
+            this.xuiCustomGroupbox8.Controls.Add(this.txt_KL_flexsion);
             this.xuiCustomGroupbox8.Controls.Add(this.label55);
             this.xuiCustomGroupbox8.Location = new System.Drawing.Point(8, 229);
             this.xuiCustomGroupbox8.Name = "xuiCustomGroupbox8";
             this.xuiCustomGroupbox8.ShowText = true;
-            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(620, 109);
+            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(586, 109);
             this.xuiCustomGroupbox8.TabIndex = 5;
             this.xuiCustomGroupbox8.TabStop = false;
             this.xuiCustomGroupbox8.Text = "Knee";
             this.xuiCustomGroupbox8.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox101
+            // txt_KR_Hypoextension
             // 
-            this.textBox101.Location = new System.Drawing.Point(229, 72);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.Size = new System.Drawing.Size(100, 20);
-            this.textBox101.TabIndex = 9;
+            this.txt_KR_Hypoextension.Location = new System.Drawing.Point(229, 72);
+            this.txt_KR_Hypoextension.Name = "txt_KR_Hypoextension";
+            this.txt_KR_Hypoextension.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_Hypoextension.TabIndex = 9;
             // 
-            // textBox102
+            // txt_KL_Hypoextension
             // 
-            this.textBox102.Location = new System.Drawing.Point(123, 72);
-            this.textBox102.Name = "textBox102";
-            this.textBox102.Size = new System.Drawing.Size(100, 20);
-            this.textBox102.TabIndex = 8;
+            this.txt_KL_Hypoextension.Location = new System.Drawing.Point(123, 72);
+            this.txt_KL_Hypoextension.Name = "txt_KL_Hypoextension";
+            this.txt_KL_Hypoextension.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_Hypoextension.TabIndex = 8;
             // 
             // label53
             // 
@@ -1745,19 +1745,19 @@
             this.label53.TabIndex = 7;
             this.label53.Text = "Hypoextension";
             // 
-            // textBox103
+            // txt_KR_extension
             // 
-            this.textBox103.Location = new System.Drawing.Point(229, 46);
-            this.textBox103.Name = "textBox103";
-            this.textBox103.Size = new System.Drawing.Size(100, 20);
-            this.textBox103.TabIndex = 6;
+            this.txt_KR_extension.Location = new System.Drawing.Point(229, 46);
+            this.txt_KR_extension.Name = "txt_KR_extension";
+            this.txt_KR_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_extension.TabIndex = 6;
             // 
-            // textBox104
+            // txt_KL_extension
             // 
-            this.textBox104.Location = new System.Drawing.Point(123, 46);
-            this.textBox104.Name = "textBox104";
-            this.textBox104.Size = new System.Drawing.Size(100, 20);
-            this.textBox104.TabIndex = 5;
+            this.txt_KL_extension.Location = new System.Drawing.Point(123, 46);
+            this.txt_KL_extension.Name = "txt_KL_extension";
+            this.txt_KL_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_extension.TabIndex = 5;
             // 
             // label54
             // 
@@ -1769,19 +1769,19 @@
             this.label54.TabIndex = 4;
             this.label54.Text = "Extension";
             // 
-            // textBox105
+            // txt_KR_flexsion
             // 
-            this.textBox105.Location = new System.Drawing.Point(229, 20);
-            this.textBox105.Name = "textBox105";
-            this.textBox105.Size = new System.Drawing.Size(100, 20);
-            this.textBox105.TabIndex = 3;
+            this.txt_KR_flexsion.Location = new System.Drawing.Point(229, 20);
+            this.txt_KR_flexsion.Name = "txt_KR_flexsion";
+            this.txt_KR_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KR_flexsion.TabIndex = 3;
             // 
-            // textBox106
+            // txt_KL_flexsion
             // 
-            this.textBox106.Location = new System.Drawing.Point(123, 20);
-            this.textBox106.Name = "textBox106";
-            this.textBox106.Size = new System.Drawing.Size(100, 20);
-            this.textBox106.TabIndex = 2;
+            this.txt_KL_flexsion.Location = new System.Drawing.Point(123, 20);
+            this.txt_KL_flexsion.Name = "txt_KL_flexsion";
+            this.txt_KL_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_KL_flexsion.TabIndex = 2;
             // 
             // label55
             // 
@@ -1804,7 +1804,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(8, 950);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(637, 191);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(603, 191);
             this.xuiCustomGroupbox5.TabIndex = 4;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Other assesmnet";
@@ -1816,7 +1816,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox2.Location = new System.Drawing.Point(125, 40);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(502, 126);
+            this.richTextBox2.Size = new System.Drawing.Size(468, 126);
             this.richTextBox2.TabIndex = 2;
             this.richTextBox2.Text = "";
             // 
@@ -1836,47 +1836,47 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox7.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox7.BorderWidth = 1;
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox85);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox86);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_internalRotation);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_internalRotation);
             this.xuiCustomGroupbox7.Controls.Add(this.label45);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox87);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox88);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_externalRotation);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_externalRotation);
             this.xuiCustomGroupbox7.Controls.Add(this.label46);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox91);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox92);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_Adduction);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_Adduction);
             this.xuiCustomGroupbox7.Controls.Add(this.label48);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox93);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox94);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_Abduction);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_Abduction);
             this.xuiCustomGroupbox7.Controls.Add(this.label49);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox95);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox96);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_extension);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_extension);
             this.xuiCustomGroupbox7.Controls.Add(this.label50);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox97);
-            this.xuiCustomGroupbox7.Controls.Add(this.textBox98);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HR_flexsion);
+            this.xuiCustomGroupbox7.Controls.Add(this.txt_HL_flexsion);
             this.xuiCustomGroupbox7.Controls.Add(this.label51);
             this.xuiCustomGroupbox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox7.Location = new System.Drawing.Point(8, 32);
             this.xuiCustomGroupbox7.Name = "xuiCustomGroupbox7";
             this.xuiCustomGroupbox7.ShowText = true;
-            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(620, 191);
+            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(586, 191);
             this.xuiCustomGroupbox7.TabIndex = 3;
             this.xuiCustomGroupbox7.TabStop = false;
             this.xuiCustomGroupbox7.Text = "Hip";
             this.xuiCustomGroupbox7.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox85
+            // txt_HR_internalRotation
             // 
-            this.textBox85.Location = new System.Drawing.Point(229, 121);
-            this.textBox85.Name = "textBox85";
-            this.textBox85.Size = new System.Drawing.Size(100, 20);
-            this.textBox85.TabIndex = 21;
+            this.txt_HR_internalRotation.Location = new System.Drawing.Point(229, 121);
+            this.txt_HR_internalRotation.Name = "txt_HR_internalRotation";
+            this.txt_HR_internalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_internalRotation.TabIndex = 21;
             // 
-            // textBox86
+            // txt_HL_internalRotation
             // 
-            this.textBox86.Location = new System.Drawing.Point(123, 121);
-            this.textBox86.Name = "textBox86";
-            this.textBox86.Size = new System.Drawing.Size(100, 20);
-            this.textBox86.TabIndex = 20;
+            this.txt_HL_internalRotation.Location = new System.Drawing.Point(123, 121);
+            this.txt_HL_internalRotation.Name = "txt_HL_internalRotation";
+            this.txt_HL_internalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_internalRotation.TabIndex = 20;
             // 
             // label45
             // 
@@ -1888,19 +1888,19 @@
             this.label45.TabIndex = 19;
             this.label45.Text = "Internal rotation";
             // 
-            // textBox87
+            // txt_HR_externalRotation
             // 
-            this.textBox87.Location = new System.Drawing.Point(229, 147);
-            this.textBox87.Name = "textBox87";
-            this.textBox87.Size = new System.Drawing.Size(100, 20);
-            this.textBox87.TabIndex = 18;
+            this.txt_HR_externalRotation.Location = new System.Drawing.Point(229, 147);
+            this.txt_HR_externalRotation.Name = "txt_HR_externalRotation";
+            this.txt_HR_externalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_externalRotation.TabIndex = 18;
             // 
-            // textBox88
+            // txt_HL_externalRotation
             // 
-            this.textBox88.Location = new System.Drawing.Point(123, 147);
-            this.textBox88.Name = "textBox88";
-            this.textBox88.Size = new System.Drawing.Size(100, 20);
-            this.textBox88.TabIndex = 17;
+            this.txt_HL_externalRotation.Location = new System.Drawing.Point(123, 147);
+            this.txt_HL_externalRotation.Name = "txt_HL_externalRotation";
+            this.txt_HL_externalRotation.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_externalRotation.TabIndex = 17;
             // 
             // label46
             // 
@@ -1912,19 +1912,19 @@
             this.label46.TabIndex = 16;
             this.label46.Text = "External rotation";
             // 
-            // textBox91
+            // txt_HR_Adduction
             // 
-            this.textBox91.Location = new System.Drawing.Point(229, 95);
-            this.textBox91.Name = "textBox91";
-            this.textBox91.Size = new System.Drawing.Size(100, 20);
-            this.textBox91.TabIndex = 12;
+            this.txt_HR_Adduction.Location = new System.Drawing.Point(229, 95);
+            this.txt_HR_Adduction.Name = "txt_HR_Adduction";
+            this.txt_HR_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_Adduction.TabIndex = 12;
             // 
-            // textBox92
+            // txt_HL_Adduction
             // 
-            this.textBox92.Location = new System.Drawing.Point(123, 95);
-            this.textBox92.Name = "textBox92";
-            this.textBox92.Size = new System.Drawing.Size(100, 20);
-            this.textBox92.TabIndex = 11;
+            this.txt_HL_Adduction.Location = new System.Drawing.Point(123, 95);
+            this.txt_HL_Adduction.Name = "txt_HL_Adduction";
+            this.txt_HL_Adduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_Adduction.TabIndex = 11;
             // 
             // label48
             // 
@@ -1936,19 +1936,19 @@
             this.label48.TabIndex = 10;
             this.label48.Text = "Adduction";
             // 
-            // textBox93
+            // txt_HR_Abduction
             // 
-            this.textBox93.Location = new System.Drawing.Point(229, 69);
-            this.textBox93.Name = "textBox93";
-            this.textBox93.Size = new System.Drawing.Size(100, 20);
-            this.textBox93.TabIndex = 9;
+            this.txt_HR_Abduction.Location = new System.Drawing.Point(229, 69);
+            this.txt_HR_Abduction.Name = "txt_HR_Abduction";
+            this.txt_HR_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_Abduction.TabIndex = 9;
             // 
-            // textBox94
+            // txt_HL_Abduction
             // 
-            this.textBox94.Location = new System.Drawing.Point(123, 69);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(100, 20);
-            this.textBox94.TabIndex = 8;
+            this.txt_HL_Abduction.Location = new System.Drawing.Point(123, 69);
+            this.txt_HL_Abduction.Name = "txt_HL_Abduction";
+            this.txt_HL_Abduction.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_Abduction.TabIndex = 8;
             // 
             // label49
             // 
@@ -1960,19 +1960,19 @@
             this.label49.TabIndex = 7;
             this.label49.Text = "Abduction";
             // 
-            // textBox95
+            // txt_HR_extension
             // 
-            this.textBox95.Location = new System.Drawing.Point(229, 43);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(100, 20);
-            this.textBox95.TabIndex = 6;
+            this.txt_HR_extension.Location = new System.Drawing.Point(229, 43);
+            this.txt_HR_extension.Name = "txt_HR_extension";
+            this.txt_HR_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_extension.TabIndex = 6;
             // 
-            // textBox96
+            // txt_HL_extension
             // 
-            this.textBox96.Location = new System.Drawing.Point(123, 43);
-            this.textBox96.Name = "textBox96";
-            this.textBox96.Size = new System.Drawing.Size(100, 20);
-            this.textBox96.TabIndex = 5;
+            this.txt_HL_extension.Location = new System.Drawing.Point(123, 43);
+            this.txt_HL_extension.Name = "txt_HL_extension";
+            this.txt_HL_extension.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_extension.TabIndex = 5;
             // 
             // label50
             // 
@@ -1984,19 +1984,19 @@
             this.label50.TabIndex = 4;
             this.label50.Text = "Extension";
             // 
-            // textBox97
+            // txt_HR_flexsion
             // 
-            this.textBox97.Location = new System.Drawing.Point(229, 17);
-            this.textBox97.Name = "textBox97";
-            this.textBox97.Size = new System.Drawing.Size(100, 20);
-            this.textBox97.TabIndex = 3;
+            this.txt_HR_flexsion.Location = new System.Drawing.Point(229, 17);
+            this.txt_HR_flexsion.Name = "txt_HR_flexsion";
+            this.txt_HR_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_HR_flexsion.TabIndex = 3;
             // 
-            // textBox98
+            // txt_HL_flexsion
             // 
-            this.textBox98.Location = new System.Drawing.Point(123, 17);
-            this.textBox98.Name = "textBox98";
-            this.textBox98.Size = new System.Drawing.Size(100, 20);
-            this.textBox98.TabIndex = 2;
+            this.txt_HL_flexsion.Location = new System.Drawing.Point(123, 17);
+            this.txt_HL_flexsion.Name = "txt_HL_flexsion";
+            this.txt_HL_flexsion.Size = new System.Drawing.Size(100, 20);
+            this.txt_HL_flexsion.TabIndex = 2;
             // 
             // label51
             // 
@@ -2014,26 +2014,26 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.xuiCustomGroupbox3.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox3.BorderWidth = 1;
-            this.xuiCustomGroupbox3.Controls.Add(this.richTextBox1);
+            this.xuiCustomGroupbox3.Controls.Add(this.txtOtherAssessment);
             this.xuiCustomGroupbox3.Controls.Add(this.label42);
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(24, 822);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(569, 136);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(484, 136);
             this.xuiCustomGroupbox3.TabIndex = 2;
             this.xuiCustomGroupbox3.TabStop = false;
-            this.xuiCustomGroupbox3.Text = "Other assesmnet";
+            this.xuiCustomGroupbox3.Text = "Other Assesmnet";
             this.xuiCustomGroupbox3.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // richTextBox1
+            // txtOtherAssessment
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtOtherAssessment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(125, 16);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(430, 102);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
+            this.txtOtherAssessment.Location = new System.Drawing.Point(125, 16);
+            this.txtOtherAssessment.Name = "txtOtherAssessment";
+            this.txtOtherAssessment.Size = new System.Drawing.Size(345, 102);
+            this.txtOtherAssessment.TabIndex = 2;
+            this.txtOtherAssessment.Text = "";
             // 
             // label42
             // 
@@ -2095,10 +2095,9 @@
             this.xuiFlatTab1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.xuiCustomGroupbox4.ResumeLayout(false);
-            this.xuiCustomGroupbox4.PerformLayout();
+            this.gbxElbow.ResumeLayout(false);
+            this.gbxElbow.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
-            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();
@@ -2134,7 +2133,7 @@
         private XanderUI.XUIFlatTab xuiFlatTab1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private XanderUI.XUICustomGroupbox xuiCustomGroupbox4;
+        private XanderUI.XUICustomGroupbox gbxElbow;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox6;
         private XanderUI.XUIFlatTab xuiFlatTab2;
         private System.Windows.Forms.TabPage tbIndexFinger;
@@ -2143,148 +2142,148 @@
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox3;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox2;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox1;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox txt_ER_FlexsionExtension;
+        private System.Windows.Forms.TextBox txt_EL_FlexsionExtension;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox txt_ER_Supination;
+        private System.Windows.Forms.TextBox txt_EL_Supination;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox txt_ER_Pronation;
+        private System.Windows.Forms.TextBox txt_EL_Pronation;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TabPage tbThumb;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox txt_TR_OppositionCm;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.TextBox txt_TL_OppositionCm;
+        private System.Windows.Forms.TextBox txt_TL_CMflexsion;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox txt_TR_CMflexsion;
+        private System.Windows.Forms.TextBox txt_TR_MpFlexsionExtension;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox txt_TL_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_TL_CmExtension;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox txt_TR_CMExtension;
+        private System.Windows.Forms.TextBox txt_TR_IpFlexsionExtension;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox txt_TL_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_TL_AbductionCm;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox txt_TR_AbductionCm;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.TextBox txt_IFL_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_IFR_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_IFR_DipFlexsionExtension;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.TextBox txt_IFL_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_IFL_IpFlexsionExtension;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.TextBox txt_IFR_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_IFR_Abduction;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.TextBox txt_IFL_Abduction;
+        private System.Windows.Forms.TextBox txt_IFL_Adduction;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.TextBox textBox53;
-        private System.Windows.Forms.TextBox textBox54;
-        private System.Windows.Forms.TextBox textBox55;
-        private System.Windows.Forms.TextBox textBox56;
-        private System.Windows.Forms.TextBox textBox57;
-        private System.Windows.Forms.TextBox textBox58;
-        private System.Windows.Forms.TextBox textBox59;
-        private System.Windows.Forms.TextBox textBox60;
-        private System.Windows.Forms.TextBox textBox61;
-        private System.Windows.Forms.TextBox textBox62;
-        private System.Windows.Forms.TextBox textBox73;
-        private System.Windows.Forms.TextBox textBox74;
-        private System.Windows.Forms.TextBox textBox75;
-        private System.Windows.Forms.TextBox textBox76;
-        private System.Windows.Forms.TextBox textBox77;
-        private System.Windows.Forms.TextBox textBox78;
-        private System.Windows.Forms.TextBox textBox79;
-        private System.Windows.Forms.TextBox textBox80;
-        private System.Windows.Forms.TextBox textBox81;
-        private System.Windows.Forms.TextBox textBox82;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox txt_IFR_Adduction;
+        private System.Windows.Forms.TextBox txt_MFL_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFR_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFR_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFL_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFL_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFR_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_MFR_Abduction;
+        private System.Windows.Forms.TextBox txt_MFL_Abduction;
+        private System.Windows.Forms.TextBox txt_MFL_Adduction;
+        private System.Windows.Forms.TextBox txt_MFR_Adduction;
+        private System.Windows.Forms.TextBox txt_LFL_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFR_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFR_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFL_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFL_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFR_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_LFR_Abduction;
+        private System.Windows.Forms.TextBox txt_LFL_Abduction;
+        private System.Windows.Forms.TextBox txt_LFL_Adduction;
+        private System.Windows.Forms.TextBox txt_LFR_Adduction;
+        private System.Windows.Forms.RichTextBox txtOtherAssessment;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox txt_WR_Extension;
+        private System.Windows.Forms.TextBox txt_WL_Extension;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txt_WR_UlnarDeviation;
+        private System.Windows.Forms.TextBox txt_WL_UlnarDeviation;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox txt_WR_RadiatDeviation;
+        private System.Windows.Forms.TextBox txt_WL_RadiatDeviation;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox txt_WR_Flexsion;
+        private System.Windows.Forms.TextBox txt_WL_Flexsion;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox txt_SR_ExternalRotationAlt;
+        private System.Windows.Forms.TextBox txt_SL_ExternalRotationAlt;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txt_SR_internalRotation;
+        private System.Windows.Forms.TextBox txt_SL_internalRotation;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txt_SR_externalRotation;
+        private System.Windows.Forms.TextBox txt_SL_externalRotation;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txt_SR_InternalRotationAlt;
+        private System.Windows.Forms.TextBox txt_SL_InternalRotationAlt;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txt_SR_horizontalAdduction;
+        private System.Windows.Forms.TextBox txt_SL_horizontalAdduction;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_SR_horizontalAbduction;
+        private System.Windows.Forms.TextBox txt_SL_horizontalAbduction;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_SR_extension;
+        private System.Windows.Forms.TextBox txt_SL_extension;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_SR_flexsion;
+        private System.Windows.Forms.TextBox txt_SL_flexsion;
         private System.Windows.Forms.Label label1;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox9;
-        private System.Windows.Forms.TextBox textBox99;
-        private System.Windows.Forms.TextBox textBox100;
+        private System.Windows.Forms.TextBox txt_KR_Eversion;
+        private System.Windows.Forms.TextBox txt_KL_Eversion;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.TextBox textBox107;
-        private System.Windows.Forms.TextBox textBox108;
+        private System.Windows.Forms.TextBox txt_KR_Inversion;
+        private System.Windows.Forms.TextBox txt_KL_Inversion;
         private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.TextBox textBox109;
-        private System.Windows.Forms.TextBox textBox110;
+        private System.Windows.Forms.TextBox txt_KR_Plantaflexsion;
+        private System.Windows.Forms.TextBox txt_KL_Plantaflexsion;
         private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.TextBox textBox111;
-        private System.Windows.Forms.TextBox textBox112;
+        private System.Windows.Forms.TextBox txt_KR_Dorsiflexsion;
+        private System.Windows.Forms.TextBox txt_KL_Dorsiflexsion;
         private System.Windows.Forms.Label label58;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox8;
-        private System.Windows.Forms.TextBox textBox101;
-        private System.Windows.Forms.TextBox textBox102;
+        private System.Windows.Forms.TextBox txt_KR_Hypoextension;
+        private System.Windows.Forms.TextBox txt_KL_Hypoextension;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.TextBox textBox103;
-        private System.Windows.Forms.TextBox textBox104;
+        private System.Windows.Forms.TextBox txt_KR_extension;
+        private System.Windows.Forms.TextBox txt_KL_extension;
         private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.TextBox textBox105;
-        private System.Windows.Forms.TextBox textBox106;
+        private System.Windows.Forms.TextBox txt_KR_flexsion;
+        private System.Windows.Forms.TextBox txt_KL_flexsion;
         private System.Windows.Forms.Label label55;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox7;
-        private System.Windows.Forms.TextBox textBox85;
-        private System.Windows.Forms.TextBox textBox86;
+        private System.Windows.Forms.TextBox txt_HR_internalRotation;
+        private System.Windows.Forms.TextBox txt_HL_internalRotation;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox87;
-        private System.Windows.Forms.TextBox textBox88;
+        private System.Windows.Forms.TextBox txt_HR_externalRotation;
+        private System.Windows.Forms.TextBox txt_HL_externalRotation;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox91;
-        private System.Windows.Forms.TextBox textBox92;
+        private System.Windows.Forms.TextBox txt_HR_Adduction;
+        private System.Windows.Forms.TextBox txt_HL_Adduction;
         private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.TextBox textBox93;
-        private System.Windows.Forms.TextBox textBox94;
+        private System.Windows.Forms.TextBox txt_HR_Abduction;
+        private System.Windows.Forms.TextBox txt_HL_Abduction;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.TextBox textBox95;
-        private System.Windows.Forms.TextBox textBox96;
+        private System.Windows.Forms.TextBox txt_HR_extension;
+        private System.Windows.Forms.TextBox txt_HL_extension;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.TextBox textBox97;
-        private System.Windows.Forms.TextBox textBox98;
+        private System.Windows.Forms.TextBox txt_HR_flexsion;
+        private System.Windows.Forms.TextBox txt_HL_flexsion;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Button btnUpsert;
         private System.Windows.Forms.Button btnClear;
@@ -2302,16 +2301,16 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.TextBox textBox63;
-        private System.Windows.Forms.TextBox textBox64;
-        private System.Windows.Forms.TextBox textBox65;
-        private System.Windows.Forms.TextBox textBox66;
-        private System.Windows.Forms.TextBox textBox67;
-        private System.Windows.Forms.TextBox textBox68;
-        private System.Windows.Forms.TextBox textBox69;
-        private System.Windows.Forms.TextBox textBox70;
-        private System.Windows.Forms.TextBox textBox71;
-        private System.Windows.Forms.TextBox textBox72;
+        private System.Windows.Forms.TextBox txt_RFL_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFR_MpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFR_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFL_DipFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFL_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFR_IpFlexsionExtension;
+        private System.Windows.Forms.TextBox txt_RFR_Abduction;
+        private System.Windows.Forms.TextBox txt_RFL_Abduction;
+        private System.Windows.Forms.TextBox txt_RFL_Adduction;
+        private System.Windows.Forms.TextBox txt_RFR_Adduction;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;

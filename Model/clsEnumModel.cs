@@ -32,12 +32,48 @@ namespace Model
     public enum JointType
     {
         Shoulder = 1,
-        Wrist = 2,
+        ElbowForarm = 2,
+        Wrist = 3,
+        Thumb = 4,
+        IndexFinger = 5,
+        MiddleFinger = 6,
+        RingFinger = 7,
+        LittleFinger = 8,
+        Hip = 9,
+        Knee = 10,
+        Ankle = 11,
+
 
     }
 
     public enum MotionType
     {
-        Flexion = 1
+        Flexion = 1,
+        Extension = 2,
+        HorizontalAbduction = 3,
+        HorizontalAdduction = 4,
+        InternalRotation = 5,
+        ExternalRotation = 6,
+        InternalRotationAlt = 7,
+        ExternalRotationAlt = 8,
+        FlexsionExtension = 9,
+        Supination = 10,
+        Pronation = 11,
+        CMFlexsion = 12,
+        CMExtension = 13,
+        MPFlexsionExtension = 14,
+        IPFlexsionExtension = 15,
+        Abduction = 16,
+        Opposition = 17,
+        DIPFlexsionExtension = 18,
+        Adduction = 19,
+        Flextion = 20,
+        Hypoextension = 21,
+        Dorsiflexsion = 22,
+        Plantaflexsion = 23,
+        Inversion = 24,
+        Eversion = 25,
+        UlnarDeviation = 26,
+        RadiatDeviation = 27
     }
 }

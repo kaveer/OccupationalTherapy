@@ -13,8 +13,15 @@ namespace Model
         public int AssessmentDetailsId { get; set; }
         public clsUpperJointModel UpperJoint { get; set; }
         public clsLowerJointModel LowerJoint { get; set; }
+        public clsOtherAssessmentModel OtherAssessment { get; set; }
+    }
+
+    public class clsOtherAssessmentModel
+    {
+        public JointPartType JointPartType { get; set; }
         public string OtherAssessment { get; set; }
     }
+
     public class clsUpperJointModel
     {
         public JointPartType JointPartType { get; set; }

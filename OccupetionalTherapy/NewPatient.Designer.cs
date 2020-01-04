@@ -30,7 +30,7 @@
         {
             this.metroSetDivider1 = new MetroSet_UI.Controls.MetroSetDivider();
             this.xuiCustomGroupbox1 = new XanderUI.XUICustomGroupbox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtOccupation = new System.Windows.Forms.TextBox();
             this.metroSetLabel8 = new MetroSet_UI.Controls.MetroSetLabel();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.metroSetLabel7 = new MetroSet_UI.Controls.MetroSetLabel();
@@ -47,12 +47,12 @@
             this.txtSurname = new System.Windows.Forms.TextBox();
             this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
             this.xuiCustomGroupbox2 = new XanderUI.XUICustomGroupbox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.cbxSemsation = new System.Windows.Forms.CheckBox();
+            this.txtSensation = new System.Windows.Forms.TextBox();
+            this.cbxSensation = new System.Windows.Forms.CheckBox();
             this.cbxTenderness = new System.Windows.Forms.CheckBox();
             this.cbxSwelling = new System.Windows.Forms.CheckBox();
             this.metroSetLabel12 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.txtPassMedicalHistory = new System.Windows.Forms.RichTextBox();
+            this.txtPastMedicalHistory = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel11 = new MetroSet_UI.Controls.MetroSetLabel();
             this.txtBriefHistory = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel10 = new MetroSet_UI.Controls.MetroSetLabel();
@@ -73,6 +73,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.txtEntryDate = new System.Windows.Forms.TextBox();
             this.metroSetLabel16 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.dpNextAppointmentTime = new System.Windows.Forms.DateTimePicker();
             this.xuiCustomGroupbox1.SuspendLayout();
             this.xuiCustomGroupbox2.SuspendLayout();
             this.xuiCustomGroupbox3.SuspendLayout();
@@ -104,7 +105,7 @@
             this.xuiCustomGroupbox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.xuiCustomGroupbox1.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox1.BorderWidth = 1;
-            this.xuiCustomGroupbox1.Controls.Add(this.textBox7);
+            this.xuiCustomGroupbox1.Controls.Add(this.txtOccupation);
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel8);
             this.xuiCustomGroupbox1.Controls.Add(this.txtAge);
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel7);
@@ -129,14 +130,14 @@
             this.xuiCustomGroupbox1.Text = "Patient Details";
             this.xuiCustomGroupbox1.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox7
+            // txtOccupation
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtOccupation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(104, 94);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(690, 20);
-            this.textBox7.TabIndex = 16;
+            this.txtOccupation.Location = new System.Drawing.Point(104, 94);
+            this.txtOccupation.Name = "txtOccupation";
+            this.txtOccupation.Size = new System.Drawing.Size(690, 20);
+            this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
             // 
@@ -269,11 +270,11 @@
             this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel2.Location = new System.Drawing.Point(374, 19);
             this.metroSetLabel2.Name = "metroSetLabel2";
-            this.metroSetLabel2.Size = new System.Drawing.Size(59, 23);
+            this.metroSetLabel2.Size = new System.Drawing.Size(84, 23);
             this.metroSetLabel2.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel2.StyleManager = null;
             this.metroSetLabel2.TabIndex = 3;
-            this.metroSetLabel2.Text = "Name";
+            this.metroSetLabel2.Text = "Name *";
             this.metroSetLabel2.ThemeAuthor = "Narwin";
             this.metroSetLabel2.ThemeName = "MetroLite";
             // 
@@ -289,11 +290,11 @@
             this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel1.Location = new System.Drawing.Point(7, 19);
             this.metroSetLabel1.Name = "metroSetLabel1";
-            this.metroSetLabel1.Size = new System.Drawing.Size(76, 23);
+            this.metroSetLabel1.Size = new System.Drawing.Size(91, 23);
             this.metroSetLabel1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel1.StyleManager = null;
             this.metroSetLabel1.TabIndex = 1;
-            this.metroSetLabel1.Text = "Surname";
+            this.metroSetLabel1.Text = "Surname *";
             this.metroSetLabel1.ThemeAuthor = "Narwin";
             this.metroSetLabel1.ThemeName = "MetroLite";
             // 
@@ -304,12 +305,12 @@
             this.xuiCustomGroupbox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.xuiCustomGroupbox2.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox2.BorderWidth = 1;
-            this.xuiCustomGroupbox2.Controls.Add(this.textBox8);
-            this.xuiCustomGroupbox2.Controls.Add(this.cbxSemsation);
+            this.xuiCustomGroupbox2.Controls.Add(this.txtSensation);
+            this.xuiCustomGroupbox2.Controls.Add(this.cbxSensation);
             this.xuiCustomGroupbox2.Controls.Add(this.cbxTenderness);
             this.xuiCustomGroupbox2.Controls.Add(this.cbxSwelling);
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel12);
-            this.xuiCustomGroupbox2.Controls.Add(this.txtPassMedicalHistory);
+            this.xuiCustomGroupbox2.Controls.Add(this.txtPastMedicalHistory);
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel11);
             this.xuiCustomGroupbox2.Controls.Add(this.txtBriefHistory);
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel10);
@@ -325,25 +326,25 @@
             this.xuiCustomGroupbox2.Text = "Medical Entry";
             this.xuiCustomGroupbox2.TextColor = System.Drawing.Color.DodgerBlue;
             // 
-            // textBox8
+            // txtSensation
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtSensation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(233, 285);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(561, 20);
-            this.textBox8.TabIndex = 12;
+            this.txtSensation.Location = new System.Drawing.Point(233, 285);
+            this.txtSensation.Name = "txtSensation";
+            this.txtSensation.Size = new System.Drawing.Size(561, 20);
+            this.txtSensation.TabIndex = 12;
             // 
-            // cbxSemsation
+            // cbxSensation
             // 
-            this.cbxSemsation.AutoSize = true;
-            this.cbxSemsation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbxSemsation.Location = new System.Drawing.Point(128, 285);
-            this.cbxSemsation.Name = "cbxSemsation";
-            this.cbxSemsation.Size = new System.Drawing.Size(99, 21);
-            this.cbxSemsation.TabIndex = 11;
-            this.cbxSemsation.Text = "Sensation";
-            this.cbxSemsation.UseVisualStyleBackColor = true;
+            this.cbxSensation.AutoSize = true;
+            this.cbxSensation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSensation.Location = new System.Drawing.Point(128, 285);
+            this.cbxSensation.Name = "cbxSensation";
+            this.cbxSensation.Size = new System.Drawing.Size(99, 21);
+            this.cbxSensation.TabIndex = 11;
+            this.cbxSensation.Text = "Sensation";
+            this.cbxSensation.UseVisualStyleBackColor = true;
             // 
             // cbxTenderness
             // 
@@ -380,15 +381,15 @@
             this.metroSetLabel12.ThemeAuthor = "Narwin";
             this.metroSetLabel12.ThemeName = "MetroLite";
             // 
-            // txtPassMedicalHistory
+            // txtPastMedicalHistory
             // 
-            this.txtPassMedicalHistory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtPastMedicalHistory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPassMedicalHistory.Location = new System.Drawing.Point(128, 161);
-            this.txtPassMedicalHistory.Name = "txtPassMedicalHistory";
-            this.txtPassMedicalHistory.Size = new System.Drawing.Size(666, 65);
-            this.txtPassMedicalHistory.TabIndex = 7;
-            this.txtPassMedicalHistory.Text = "";
+            this.txtPastMedicalHistory.Location = new System.Drawing.Point(128, 161);
+            this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(666, 65);
+            this.txtPastMedicalHistory.TabIndex = 7;
+            this.txtPastMedicalHistory.Text = "";
             // 
             // metroSetLabel11
             // 
@@ -445,7 +446,7 @@
             this.metroSetLabel9.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel9.StyleManager = null;
             this.metroSetLabel9.TabIndex = 1;
-            this.metroSetLabel9.Text = "Diagnosis";
+            this.metroSetLabel9.Text = "Diagnosis *";
             this.metroSetLabel9.ThemeAuthor = "Narwin";
             this.metroSetLabel9.ThemeName = "MetroLite";
             // 
@@ -476,6 +477,7 @@
             this.btnAddAssesment.TabIndex = 3;
             this.btnAddAssesment.Text = "Add";
             this.btnAddAssesment.UseVisualStyleBackColor = true;
+            this.btnAddAssesment.Click += new System.EventHandler(this.btnAddAssesment_Click);
             // 
             // grdAssessement
             // 
@@ -560,6 +562,7 @@
             this.xuiCustomGroupbox4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.xuiCustomGroupbox4.BorderColor = System.Drawing.Color.DodgerBlue;
             this.xuiCustomGroupbox4.BorderWidth = 1;
+            this.xuiCustomGroupbox4.Controls.Add(this.dpNextAppointmentTime);
             this.xuiCustomGroupbox4.Controls.Add(this.dpNextAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.metroSetLabel15);
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(12, 882);
@@ -577,7 +580,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dpNextAppointment.Location = new System.Drawing.Point(128, 42);
             this.dpNextAppointment.Name = "dpNextAppointment";
-            this.dpNextAppointment.Size = new System.Drawing.Size(666, 20);
+            this.dpNextAppointment.Size = new System.Drawing.Size(236, 20);
             this.dpNextAppointment.TabIndex = 14;
             // 
             // metroSetLabel15
@@ -602,6 +605,7 @@
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClear
             // 
@@ -612,6 +616,7 @@
             this.btnClear.TabIndex = 10;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtEntryDate
             // 
@@ -635,6 +640,16 @@
             this.metroSetLabel16.ThemeAuthor = "Narwin";
             this.metroSetLabel16.ThemeName = "MetroLite";
             // 
+            // dpNextAppointmentTime
+            // 
+            this.dpNextAppointmentTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dpNextAppointmentTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dpNextAppointmentTime.Location = new System.Drawing.Point(374, 42);
+            this.dpNextAppointmentTime.Name = "dpNextAppointmentTime";
+            this.dpNextAppointmentTime.Size = new System.Drawing.Size(84, 20);
+            this.dpNextAppointmentTime.TabIndex = 16;
+            // 
             // NewPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -653,6 +668,7 @@
             this.Controls.Add(this.metroSetDivider1);
             this.Name = "NewPatient";
             this.Text = "NewPatient";
+            this.Load += new System.EventHandler(this.NewPatient_Load);
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
             this.xuiCustomGroupbox2.ResumeLayout(false);
@@ -673,7 +689,7 @@
         private MetroSet_UI.Controls.MetroSetDivider metroSetDivider1;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox1;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel1;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtOccupation;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel8;
         private System.Windows.Forms.TextBox txtAge;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel7;
@@ -691,12 +707,12 @@
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox2;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox3;
         private XanderUI.XUICustomGroupbox xuiCustomGroupbox5;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.CheckBox cbxSemsation;
+        private System.Windows.Forms.TextBox txtSensation;
+        private System.Windows.Forms.CheckBox cbxSensation;
         private System.Windows.Forms.CheckBox cbxTenderness;
         private System.Windows.Forms.CheckBox cbxSwelling;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel12;
-        private System.Windows.Forms.RichTextBox txtPassMedicalHistory;
+        private System.Windows.Forms.RichTextBox txtPastMedicalHistory;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel11;
         private System.Windows.Forms.RichTextBox txtBriefHistory;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel10;
@@ -715,5 +731,6 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtEntryDate;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel16;
+        private System.Windows.Forms.DateTimePicker dpNextAppointmentTime;
     }
 }
