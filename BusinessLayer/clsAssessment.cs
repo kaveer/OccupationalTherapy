@@ -566,104 +566,142 @@ namespace BusinessLayer
 
         private void SaveUpperJoint(int assessmentId, clsUpperJointModel upperJoint)
         {
-            foreach (var item in upperJoint.Shoulder.MotionValue)
+            if (upperJoint.Shoulder != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.Shoulder.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Shoulder.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Shoulder.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.ElbowAndForemarm.MotionValue)
+            if (upperJoint.ElbowAndForemarm != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.ElbowAndForemarm.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.ElbowAndForemarm.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.ElbowAndForemarm.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.Wrist.MotionValue)
+            if (upperJoint.Wrist != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.Wrist.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Wrist.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Wrist.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
+            }
+            
+            if (upperJoint.Thumb != null)
+            {
+                foreach (var item in upperJoint.Thumb.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
+
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Thumb.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.Thumb.MotionValue)
+            if (upperJoint.IndexFinger != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.IndexFinger.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.Thumb.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.IndexFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.IndexFinger.MotionValue)
+            if (upperJoint.MiddleFinger != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.MiddleFinger.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.IndexFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.MiddleFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.MiddleFinger.MotionValue)
+            if (upperJoint.RingFinger != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.RingFinger.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.MiddleFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.RingFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in upperJoint.RingFinger.MotionValue)
+            if (upperJoint.LittleFinger != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in upperJoint.LittleFinger.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.RingFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
-            }
-
-            foreach (var item in upperJoint.LittleFinger.MotionValue)
-            {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
-
-                SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.LittleFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)upperJoint.JointPartType, (int)upperJoint.LittleFinger.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
         }
 
         private void SaveLowerJoint(int assessmentId, clsLowerJointModel lowerJoint)
         {
-            foreach (var item in lowerJoint.Ankle.MotionValue)
+            if (lowerJoint.Ankle != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in lowerJoint.Ankle.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Ankle.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Ankle.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in lowerJoint.Hip.MotionValue)
+            if (lowerJoint.Hip != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in lowerJoint.Hip.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Hip.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Hip.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
 
-            foreach (var item in lowerJoint.Knee.MotionValue)
+            if (lowerJoint.Knee != null)
             {
-                if (string.IsNullOrWhiteSpace(item.LeftValue) || string.IsNullOrWhiteSpace(item.RightValue))
-                    continue;
+                foreach (var item in lowerJoint.Knee.MotionValue)
+                {
+                    if (string.IsNullOrWhiteSpace(item.LeftValue) && string.IsNullOrWhiteSpace(item.RightValue))
+                        continue;
 
-                SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Knee.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                    SaveAssessment(assessmentId, (int)lowerJoint.JointPartType, (int)lowerJoint.Knee.JointType, (int)item.MotionType, item.LeftValue, item.RightValue);
+                }
             }
+            
         }
 
         private void SaveOtherAssessment(int assessmentId, clsOtherAssessmentModel otherAssessment)
         {
-            if (string.IsNullOrWhiteSpace(otherAssessment.OtherAssessment))
-                return;
+            if (otherAssessment != null)
+            {
+                if (string.IsNullOrWhiteSpace(otherAssessment.OtherAssessment))
+                    return;
 
-            SaveAssessment(assessmentId, (int)otherAssessment.JointPartType, 0, 0, "EMPTY", "EMPTY", otherAssessment.OtherAssessment);
+                SaveAssessment(assessmentId, (int)otherAssessment.JointPartType, 0, 0, "EMPTY", "EMPTY", otherAssessment.OtherAssessment);
+            }
+            
         }
 
         private void SaveAssessment(int assessmentId, int jointPartType, int jointType, int motionType, string leftValue = "EMPTY", string rightValue = "EMPTY", string otherAssessment = "EMPTY")

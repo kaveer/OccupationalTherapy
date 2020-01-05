@@ -21,7 +21,16 @@ namespace OccupetionalTherapy
         clsMedicalRecord medicalRecord;
         clsPrescription prescription;
 
-        clsPatientModel patient;
+        clsPatientModel patient = new clsPatientModel()
+        {
+            Appointments = new List<clsAppointmentModel>(),
+            Assessment = new List<clsAssessmentModel>(),
+            DateEntry = new clsDateEntryModel(),
+            MedicalRecords = new clsPatientMedicalRecordModel(),
+            PatientDetails = new clsPatientDetailsModel(),
+            PatientId = 0,
+            Prescription = new clsPrescriptionModel()
+        };
 
         public NewPatient()
         {
@@ -107,6 +116,9 @@ namespace OccupetionalTherapy
             grdAssessement.Columns.Clear();
             grdAssessement.Rows.Clear();
             grdAssessement.DataBindings.Clear();
+            if (patient != null)
+                if (patient.Assessment != null)
+                    patient.Assessment = new List<clsAssessmentModel>();
 
             ///prescription
             txtAdvise.Clear();
@@ -118,16 +130,7 @@ namespace OccupetionalTherapy
         /// </summary>
         private void AssignValue()
         {
-            patient = new clsPatientModel()
-            {
-                Appointments = new List<clsAppointmentModel>(),
-                Assessment = new List<clsAssessmentModel>(),
-                DateEntry = new clsDateEntryModel(),
-                MedicalRecords = new clsPatientMedicalRecordModel(),
-                PatientDetails = new clsPatientDetailsModel(),
-                PatientId = 0,
-                Prescription = new clsPrescriptionModel()
-            };
+
 
 
             patient.DateEntry.EntryDate = Convert.ToDateTime(txtEntryDate.Text);
@@ -141,14 +144,153 @@ namespace OccupetionalTherapy
 
         private void AssignAppointment()
         {
+            patient.Appointments = new List<clsAppointmentModel>();
+
             DateTime newAppointment = dpNextAppointment.Value.Date + dpNextAppointment.Value.TimeOfDay;
+            patient.Appointments.Add(new clsAppointmentModel()
+            {
+                Appointment = newAppointment
+            });
         }
 
         public void AssignMotion(List<clsAssessmentModel> item)
         {
             if (item.Count > 0)
+            {
                 this.patient.Assessment = item;
 
+                AssignValueToGrid(item);
+            }
+
+        }
+
+        private void AssignValueToGrid(List<clsAssessmentModel> item)
+        {
+            if (item.Count > 0)
+            {
+                grdAssessement.DataSource = null;
+                grdAssessement.Columns.Clear();
+                grdAssessement.Rows.Clear();
+                grdAssessement.DataBindings.Clear();
+
+                grdAssessement.ColumnCount = 1;
+                grdAssessement.Columns[0].Name = "Assessment taken for:";
+
+                foreach (var assessment in item)
+                {
+                    if (assessment.UpperJoint != null)
+                    {
+                        if (assessment.UpperJoint.Shoulder != null)
+                        {
+                            string[] row = new string[] { "Shoulder" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.ElbowAndForemarm != null)
+                        {
+                            string[] row = new string[] { "Elbow And Foremarm" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.Wrist != null)
+                        {
+                            string[] row = new string[] { "Wrist" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.Thumb != null)
+                        {
+                            string[] row = new string[] { "Thumb" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.IndexFinger != null)
+                        {
+                            string[] row = new string[] { "Index Finger" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.MiddleFinger != null)
+                        {
+                            string[] row = new string[] { "Middle Finger" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.LittleFinger != null)
+                        {
+                            string[] row = new string[] { "Little Finger" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.UpperJoint.RingFinger != null)
+                        {
+                            string[] row = new string[] { "Ring Finger" };
+                            grdAssessement.Rows.Add(row);
+                        }
+                    }
+                    if (assessment.LowerJoint != null)
+                    {
+                        if (assessment.LowerJoint.Ankle != null)
+                        {
+                            string[] row = new string[] { "Ankle" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.LowerJoint.Knee != null)
+                        {
+                            string[] row = new string[] { "Knee" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                        if (assessment.LowerJoint.Hip != null)
+                        {
+                            string[] row = new string[] { "Hip" };
+                            grdAssessement.Rows.Add(row);
+                        }
+
+                    }
+                    if (assessment.OtherAssessment != null)
+                    {
+                        string[] row = new string[] { "Other Assessment" };
+                        grdAssessement.Rows.Add(row);
+                    }
+                }
+
+                GridFormatting();
+            }
+        }
+
+        private void GridFormatting()
+        {
+            grdAssessement.RowsDefaultCellStyle.BackColor = Color.LightGray;
+            grdAssessement.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
+            grdAssessement.CellBorderStyle = DataGridViewCellBorderStyle.None;
+
+            grdAssessement.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAssessement.DefaultCellStyle.SelectionForeColor = Color.White;
+
+            grdAssessement.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+            //grdAppointment.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
+
+            grdAssessement.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            //grdAppointment.AllowUserToResizeColumns = false;
+
+            grdAssessement.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            grdAssessement.RowHeadersVisible = false;
+            grdAssessement.AllowUserToAddRows = false;
+            grdAssessement.AllowUserToResizeRows = false;
+            grdAssessement.MultiSelect = false;
+
+            grdAssessement.ReadOnly = true;
+
+            foreach (DataGridViewColumn column in grdAssessement.Columns)
+            {
+                column.SortMode = DataGridViewColumnSortMode.NotSortable;
+            }
+
+            grdAssessement.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            grdAssessement.ColumnHeadersDefaultCellStyle.Font = new Font(DataGridView.DefaultFont, FontStyle.Bold);
         }
 
         private void AssignPrescription()
@@ -215,7 +357,7 @@ namespace OccupetionalTherapy
         private void SavePatient()
         {
             int patientId = 0;
-           
+
             patientDetails = new clsPatientDetails();
             patientId = patientDetails.Save(patient.PatientDetails);
 

@@ -123,14 +123,30 @@ namespace BusinessLayer
             connect.cmd.ExecuteNonQuery();
             connect.con.Close();
 
-            var newPatient = Retrieve()
-                                   .OrderByDescending(x => x.PatientId)
-                                   .First();
-
-            if (newPatient != null)
-                patientId = newPatient.PatientId;
+            patientId = GetMaxPatientId();
+            if (patientId ==0)
+                throw new Exception("Unable to save patient Id");
 
             return patientId;
+        }
+
+        private int GetMaxPatientId()
+        {
+            int result = 0;
+            DataTable dataTable = new DataTable();
+
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.PatientDetailsSelectMaxPatientId;
+            connect.dta = new System.Data.OleDb.OleDbDataAdapter(connect.cmd);
+            connect.dta.Fill(dataTable);
+            connect.con.Close();
+
+            if (dataTable.Rows.Count > 0)
+                result = Convert.ToInt32(dataTable.Rows[0][0]);
+
+            return result;
         }
     }
 }
