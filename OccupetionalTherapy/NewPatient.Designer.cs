@@ -67,13 +67,13 @@
             this.txtAdvise = new System.Windows.Forms.RichTextBox();
             this.metroSetLabel13 = new MetroSet_UI.Controls.MetroSetLabel();
             this.xuiCustomGroupbox4 = new XanderUI.XUICustomGroupbox();
+            this.dpNextAppointmentTime = new System.Windows.Forms.DateTimePicker();
             this.dpNextAppointment = new System.Windows.Forms.DateTimePicker();
             this.metroSetLabel15 = new MetroSet_UI.Controls.MetroSetLabel();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.txtEntryDate = new System.Windows.Forms.TextBox();
             this.metroSetLabel16 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.dpNextAppointmentTime = new System.Windows.Forms.DateTimePicker();
             this.xuiCustomGroupbox1.SuspendLayout();
             this.xuiCustomGroupbox2.SuspendLayout();
             this.xuiCustomGroupbox3.SuspendLayout();
@@ -89,7 +89,7 @@
             this.metroSetDivider1.Location = new System.Drawing.Point(12, 40);
             this.metroSetDivider1.Name = "metroSetDivider1";
             this.metroSetDivider1.Orientation = MetroSet_UI.Enums.DividerStyle.Horizontal;
-            this.metroSetDivider1.Size = new System.Drawing.Size(802, 4);
+            this.metroSetDivider1.Size = new System.Drawing.Size(839, 4);
             this.metroSetDivider1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetDivider1.StyleManager = null;
             this.metroSetDivider1.TabIndex = 1;
@@ -124,7 +124,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 50);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(802, 134);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(839, 134);
             this.xuiCustomGroupbox1.TabIndex = 2;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Patient Details";
@@ -136,7 +136,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOccupation.Location = new System.Drawing.Point(104, 94);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(690, 20);
+            this.txtOccupation.Size = new System.Drawing.Size(727, 20);
             this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
@@ -158,7 +158,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAge.Location = new System.Drawing.Point(439, 71);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(355, 20);
+            this.txtAge.Size = new System.Drawing.Size(392, 20);
             this.txtAge.TabIndex = 14;
             // 
             // metroSetLabel7
@@ -200,7 +200,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMobile2.Location = new System.Drawing.Point(576, 45);
             this.txtMobile2.Name = "txtMobile2";
-            this.txtMobile2.Size = new System.Drawing.Size(218, 20);
+            this.txtMobile2.Size = new System.Drawing.Size(255, 20);
             this.txtMobile2.TabIndex = 10;
             // 
             // metroSetLabel5
@@ -262,7 +262,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.Location = new System.Drawing.Point(439, 19);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(355, 20);
+            this.txtName.Size = new System.Drawing.Size(392, 20);
             this.txtName.TabIndex = 4;
             // 
             // metroSetLabel2
@@ -320,7 +320,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 190);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(802, 319);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(839, 319);
             this.xuiCustomGroupbox2.TabIndex = 3;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Medical Entry";
@@ -332,7 +332,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSensation.Location = new System.Drawing.Point(233, 285);
             this.txtSensation.Name = "txtSensation";
-            this.txtSensation.Size = new System.Drawing.Size(561, 20);
+            this.txtSensation.Size = new System.Drawing.Size(598, 20);
             this.txtSensation.TabIndex = 12;
             // 
             // cbxSensation
@@ -387,7 +387,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPastMedicalHistory.Location = new System.Drawing.Point(128, 161);
             this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
-            this.txtPastMedicalHistory.Size = new System.Drawing.Size(666, 65);
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(703, 65);
             this.txtPastMedicalHistory.TabIndex = 7;
             this.txtPastMedicalHistory.Text = "";
             // 
@@ -410,7 +410,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBriefHistory.Location = new System.Drawing.Point(128, 90);
             this.txtBriefHistory.Name = "txtBriefHistory";
-            this.txtBriefHistory.Size = new System.Drawing.Size(666, 65);
+            this.txtBriefHistory.Size = new System.Drawing.Size(703, 65);
             this.txtBriefHistory.TabIndex = 5;
             this.txtBriefHistory.Text = "";
             // 
@@ -433,7 +433,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDiagnosis.Location = new System.Drawing.Point(128, 19);
             this.txtDiagnosis.Name = "txtDiagnosis";
-            this.txtDiagnosis.Size = new System.Drawing.Size(666, 65);
+            this.txtDiagnosis.Size = new System.Drawing.Size(703, 65);
             this.txtDiagnosis.TabIndex = 3;
             this.txtDiagnosis.Text = "";
             // 
@@ -462,7 +462,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 515);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(802, 182);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(839, 182);
             this.xuiCustomGroupbox3.TabIndex = 4;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Range of motion";
@@ -486,7 +486,7 @@
             this.grdAssessement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdAssessement.Location = new System.Drawing.Point(6, 19);
             this.grdAssessement.Name = "grdAssessement";
-            this.grdAssessement.Size = new System.Drawing.Size(788, 128);
+            this.grdAssessement.Size = new System.Drawing.Size(825, 128);
             this.grdAssessement.TabIndex = 1;
             // 
             // xuiCustomGroupbox5
@@ -503,7 +503,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(12, 703);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(802, 173);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(839, 173);
             this.xuiCustomGroupbox5.TabIndex = 6;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Advise and Prescription";
@@ -515,7 +515,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrescription.Location = new System.Drawing.Point(128, 90);
             this.txtPrescription.Name = "txtPrescription";
-            this.txtPrescription.Size = new System.Drawing.Size(666, 65);
+            this.txtPrescription.Size = new System.Drawing.Size(703, 65);
             this.txtPrescription.TabIndex = 11;
             this.txtPrescription.Text = "";
             // 
@@ -538,7 +538,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAdvise.Location = new System.Drawing.Point(128, 19);
             this.txtAdvise.Name = "txtAdvise";
-            this.txtAdvise.Size = new System.Drawing.Size(666, 65);
+            this.txtAdvise.Size = new System.Drawing.Size(703, 65);
             this.txtAdvise.TabIndex = 9;
             this.txtAdvise.Text = "";
             // 
@@ -568,19 +568,29 @@
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(12, 882);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(802, 75);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(839, 75);
             this.xuiCustomGroupbox4.TabIndex = 8;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Appointment";
             this.xuiCustomGroupbox4.TextColor = System.Drawing.Color.DodgerBlue;
             // 
+            // dpNextAppointmentTime
+            // 
+            this.dpNextAppointmentTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dpNextAppointmentTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dpNextAppointmentTime.Location = new System.Drawing.Point(128, 45);
+            this.dpNextAppointmentTime.Name = "dpNextAppointmentTime";
+            this.dpNextAppointmentTime.Size = new System.Drawing.Size(236, 20);
+            this.dpNextAppointmentTime.TabIndex = 16;
+            // 
             // dpNextAppointment
             // 
             this.dpNextAppointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dpNextAppointment.Location = new System.Drawing.Point(128, 42);
+            this.dpNextAppointment.Location = new System.Drawing.Point(128, 19);
             this.dpNextAppointment.Name = "dpNextAppointment";
-            this.dpNextAppointment.Size = new System.Drawing.Size(236, 20);
+            this.dpNextAppointment.Size = new System.Drawing.Size(346, 20);
             this.dpNextAppointment.TabIndex = 14;
             // 
             // metroSetLabel15
@@ -624,7 +634,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEntryDate.Location = new System.Drawing.Point(554, 9);
             this.txtEntryDate.Name = "txtEntryDate";
-            this.txtEntryDate.Size = new System.Drawing.Size(260, 20);
+            this.txtEntryDate.Size = new System.Drawing.Size(297, 20);
             this.txtEntryDate.TabIndex = 12;
             // 
             // metroSetLabel16
@@ -640,22 +650,12 @@
             this.metroSetLabel16.ThemeAuthor = "Narwin";
             this.metroSetLabel16.ThemeName = "MetroLite";
             // 
-            // dpNextAppointmentTime
-            // 
-            this.dpNextAppointmentTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dpNextAppointmentTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dpNextAppointmentTime.Location = new System.Drawing.Point(374, 42);
-            this.dpNextAppointmentTime.Name = "dpNextAppointmentTime";
-            this.dpNextAppointmentTime.Size = new System.Drawing.Size(84, 20);
-            this.dpNextAppointmentTime.TabIndex = 16;
-            // 
             // NewPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(826, 1069);
+            this.ClientSize = new System.Drawing.Size(863, 1069);
             this.Controls.Add(this.txtEntryDate);
             this.Controls.Add(this.metroSetLabel16);
             this.Controls.Add(this.btnClear);
