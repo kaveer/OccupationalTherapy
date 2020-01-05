@@ -34,5 +34,17 @@ namespace BusinessLayer
 
             return result;
         }
+
+        public void Save(int patientId, clsDateEntryModel dateEntry)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.InsertDateEntry;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@pa", patientId));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@da", dateEntry.EntryDate));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
     }
 }

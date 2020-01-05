@@ -94,7 +94,7 @@ namespace BusinessLayer
             connect.con.Close();
         }
 
-        public void New(int patientId, DateTime newAppointment)
+        public void Save(int patientId, DateTime newAppointment)
         {
             connect = new clsConnectorData();
             connect.Link();

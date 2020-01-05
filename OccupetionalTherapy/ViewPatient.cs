@@ -381,7 +381,7 @@ namespace OccupetionalTherapy
                     throw new Exception("Appointment cannot be today");
 
                 appointment = new clsAppointment();
-                appointment.New(patient.PatientId, newAppointment);
+                appointment.Save(patient.PatientId, newAppointment);
 
                 Navigation();
 

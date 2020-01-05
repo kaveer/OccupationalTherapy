@@ -51,5 +51,18 @@ namespace BusinessLayer
             connect.cmd.ExecuteNonQuery();
             connect.con.Close();
         }
+
+        public void Save(int patientId, clsPrescriptionModel prescription)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.InsertPrescription;
+            connect.cmd.Parameters.AddWithValue("@pa", patientId);
+            connect.cmd.Parameters.AddWithValue("@advise", prescription.Advise);
+            connect.cmd.Parameters.AddWithValue("@prescription", prescription.Prescription);
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
     }
 }

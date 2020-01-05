@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using BusinessLayer;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,13 @@ namespace OccupetionalTherapy
 {
     public partial class NewPatient : Form
     {
+        clsPatientDetails patientDetails;
+        clsDateEntry dateEntry;
+        clsAppointment appointment;
+        clsAssessment assessment;
+        clsMedicalRecord medicalRecord;
+        clsPrescription prescription;
+
         clsPatientModel patient;
 
         public NewPatient()
@@ -51,6 +59,8 @@ namespace OccupetionalTherapy
                 {
                     AssignValue();
                     SavePatient();
+
+                    MessageBox.Show("New patient added");
                 }
             }
             catch (Exception ex)
@@ -59,7 +69,7 @@ namespace OccupetionalTherapy
             }
         }
 
-        
+
 
         private void btnClear_Click(object sender, EventArgs e)
         {
@@ -138,7 +148,7 @@ namespace OccupetionalTherapy
         {
             if (item.Count > 0)
                 this.patient.Assessment = item;
-            
+
         }
 
         private void AssignPrescription()
@@ -204,7 +214,35 @@ namespace OccupetionalTherapy
         /// </summary>
         private void SavePatient()
         {
-            throw new NotImplementedException();
+            int patientId = 0;
+           
+            patientDetails = new clsPatientDetails();
+            patientId = patientDetails.Save(patient.PatientDetails);
+
+            if (patientId == 0)
+                throw new Exception("Cannot save patient");
+
+            dateEntry = new clsDateEntry();
+            dateEntry.Save(patientId, patient.DateEntry);
+
+            if (patient.Appointments.Count > 0)
+            {
+                var selectedAppointment = patient.Appointments.First();
+                if (selectedAppointment.Appointment.Date != DateTime.Today.Date)
+                {
+                    appointment = new clsAppointment();
+                    appointment.Save(patientId, selectedAppointment.Appointment);
+                }
+            }
+
+            medicalRecord = new clsMedicalRecord();
+            medicalRecord.Save(patientId, patient.MedicalRecords);
+
+            assessment = new clsAssessment();
+            assessment.Save(patientId, patient.Assessment);
+
+            prescription = new clsPrescription();
+            prescription.Save(patientId, patient.Prescription);
         }
 
         //private void button1_Click(object sender, EventArgs e)

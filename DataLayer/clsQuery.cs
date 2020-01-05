@@ -35,6 +35,10 @@ namespace DataLayer
         public static string InsertAppointment = "INSERT INTO Appointment(PatientId, AppointmentDate) VALUES(@patientId, @newAppointment)";
         public static string InsertAssessmentDetails = "INSERT INTO AssessmentDetails (AssessmentId, JointPartType, JointType, MotionType, RightValue, LeftValue, OtherAssessment) VALUES(@assess, @jpt, @jt, @mt, @rv, @lv, @oa)";
         public static string InsertAssessmentEntry = "INSERT INTO Assessment (PatientId, AssessmentDate) VALUES(@patient, @assdate)";
+        public static string InsertPatientDetails = "INSERT INTO  (Name, Surname, Tel, Mobile1, Mobile2, DOB, Age, Occupation) VALUES(@na, @sur, @tel, @mob1, @mob2, @dob, @age, @occup)";
+        public static string InsertDateEntry = "INSERT INTO  (PatientId, EntryDate) VALUES(@pa, @da)";
+        public static string InsertPrescription = "INSERT INTO  (PatientId, Advise, Prescription) VALUES(@pa, @advise, @prescription)";
+        public static string InsertMedicalRecord = "INSERT INTO  (PatientId, Diagnosis, BriefHistory, PastMedicalHistory, Swelling, Tenderness, Sensation, SensationDetails) VALUES(@pa, @diag, @bh, @pmh, @swel, @ten, @sen, @sendet)";
 
         /// <summary>
         /// Update statement
@@ -42,5 +46,6 @@ namespace DataLayer
         public static string UpdatePatientDetails = "UPDATE PatientDetails SET Name = @na, Surname = @sur, Tel = @tel, Mobile1 = @mob1, Mobile2 = @mob2, DOB = @dob, Age = @age, Occupation = @occup WHERE PatientId = {0}";
         public static string UpdateMedicalRecord = "UPDATE MedicalRecord SET Diagnosis = @diag, BriefHistory = @bh, PastMedicalHistory = @pmh, Swelling = @swel, Tenderness = @ten, Sensation = @sen, SensationDetails = @sendet WHERE PatientId = {0}";
         public static string UpdatePrescription = "UPDATE Prescription SET Advise = @advise, Prescription = @prescription WHERE PatientId = {0}";
+        
     }
 }

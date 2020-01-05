@@ -522,14 +522,12 @@ namespace BusinessLayer
         /// <param name="assessment"></param>
         public void Save(int patientId, List<clsAssessmentModel> assessment)
         {
-            int assessmentId = SaveAssessmentEntry(patientId, assessment);
-            if (assessmentId != 0)
-                SaveAssessmentDetails(assessmentId, assessment);
+            SaveAssessmentEntry(patientId, assessment);
         }
 
-        private int SaveAssessmentEntry(int patientId, List<clsAssessmentModel> assessment)
+        private void SaveAssessmentEntry(int patientId, List<clsAssessmentModel> assessment)
         {
-            int result = 0;
+            int assessmentId = 0;
 
             foreach (var item in assessment)
             {
@@ -543,27 +541,27 @@ namespace BusinessLayer
                 connect.con.Close();
 
                 if (GetByPatientId(patientId).Count == 0)
-                    return result;
+                    throw new Exception("Fail to save assessment");
 
                 var mentByPatientId = GetByPatientId(patientId)
                                 .OrderByDescending(x => x.AssessementId)
                                 .First();
 
                 if (mentByPatientId != null)
-                    result = mentByPatientId.AssessementId;
-            }
+                    assessmentId = mentByPatientId.AssessementId;
 
-            return result;
+                if (assessmentId != 0)
+                    SaveAssessmentDetails(assessmentId, item);
+            }
         }
 
-        private void SaveAssessmentDetails(int assessmentId, List<clsAssessmentModel> assessment)
+        private void SaveAssessmentDetails(int assessmentId, clsAssessmentModel item)
         {
-            foreach (var item in assessment)
-            {
-                SaveUpperJoint(assessmentId, item.UpperJoint);
-                SaveLowerJoint(assessmentId, item.LowerJoint);
-                SaveOtherAssessment(assessmentId, item.OtherAssessment);
-            }
+
+            SaveUpperJoint(assessmentId, item.UpperJoint);
+            SaveLowerJoint(assessmentId, item.LowerJoint);
+            SaveOtherAssessment(assessmentId, item.OtherAssessment);
+
         }
 
         private void SaveUpperJoint(int assessmentId, clsUpperJointModel upperJoint)

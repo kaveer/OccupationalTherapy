@@ -103,5 +103,34 @@ namespace BusinessLayer
             connect.cmd.ExecuteNonQuery();
             connect.con.Close();
         }
+
+        public int Save(clsPatientDetailsModel patientDetails)
+        {
+            int patientId = 0;
+
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.InsertPatientDetails;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@sur", patientDetails.Surname));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@na", patientDetails.Name));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@tel", patientDetails.Tel));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@mob1", patientDetails.Mobile1));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@mob2", patientDetails.Mobile2));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@dob", patientDetails.DOB));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@age", patientDetails.Age));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@occup", patientDetails.Occupation));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+
+            var newPatient = Retrieve()
+                                   .OrderByDescending(x => x.PatientId)
+                                   .First();
+
+            if (newPatient != null)
+                patientId = newPatient.PatientId;
+
+            return patientId;
+        }
     }
 }

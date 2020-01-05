@@ -61,5 +61,23 @@ namespace BusinessLayer
             connect.cmd.ExecuteNonQuery();
             connect.con.Close();
         }
+
+        public void Save(int patientId, clsPatientMedicalRecordModel medicalRecords)
+        {
+            connect = new clsConnectorData();
+            connect.Link();
+            connect.con.Open();
+            connect.cmd.CommandText = clsQuery.InsertMedicalRecord;
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@pa", patientId));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@diag", medicalRecords.Diagnosis));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@bh", medicalRecords.BriefHistory));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@pmh", medicalRecords.PastMedicalHistory));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@swel", medicalRecords.Swelling));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@ten", medicalRecords.Tenderness));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@sen", medicalRecords.Sensation));
+            connect.cmd.Parameters.Add(new System.Data.OleDb.OleDbParameter("@sendet", medicalRecords.SensationDetails));
+            connect.cmd.ExecuteNonQuery();
+            connect.con.Close();
+        }
     }
 }
