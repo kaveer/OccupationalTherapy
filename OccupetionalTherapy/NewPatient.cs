@@ -130,10 +130,7 @@ namespace OccupetionalTherapy
         /// </summary>
         private void AssignValue()
         {
-
-
-
-            patient.DateEntry.EntryDate = Convert.ToDateTime(txtEntryDate.Text);
+            patient.DateEntry.EntryDate = DateTime.Now;
 
             AssignPatientDetails();
             AssignMedicalRecord();
@@ -312,13 +309,17 @@ namespace OccupetionalTherapy
 
         private void AssignPatientDetails()
         {
+            int safeAge = 0;
+            if (!string.IsNullOrWhiteSpace(txtAge.Text))
+                int.TryParse(txtAge.Text, out safeAge);
+
             patient.PatientDetails.Surname = txtSurname.Text;
             patient.PatientDetails.Name = txtName.Text;
             patient.PatientDetails.Tel = txtTel.Text;
             patient.PatientDetails.Mobile1 = txtMobile1.Text;
             patient.PatientDetails.Mobile2 = txtMobile2.Text;
             patient.PatientDetails.DOB = dpDOB.Value;
-            patient.PatientDetails.Age = string.IsNullOrWhiteSpace(txtAge.Text) ? 0 : Convert.ToInt32(txtAge.Text);
+            patient.PatientDetails.Age = safeAge;
             patient.PatientDetails.Occupation = txtOccupation.Text;
         }
 
@@ -328,7 +329,7 @@ namespace OccupetionalTherapy
         private void Configuration()
         {
             txtEntryDate.Enabled = false;
-            txtEntryDate.Text = DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss");
+            txtEntryDate.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
         }
 
         /// <summary>
@@ -385,6 +386,11 @@ namespace OccupetionalTherapy
 
             prescription = new clsPrescription();
             prescription.Save(patientId, patient.Prescription);
+        }
+
+        private void txtAge_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
 
         //private void button1_Click(object sender, EventArgs e)

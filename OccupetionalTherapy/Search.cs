@@ -37,9 +37,7 @@ namespace OccupetionalTherapy
             SearchFilter();
 
             if (patients.Count > 0)
-            {
                 AssignToGrid();
-            }
         }
 
        
@@ -95,7 +93,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.PatientDetails.Surname.Contains(txtSurname.Text.Trim())
+                                            where patient.PatientDetails.Surname.ToLowerInvariant().Contains(txtSurname.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -105,19 +103,25 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.PatientDetails.Name.Contains(txtName.Text.Trim())
+                                            where patient.PatientDetails.Name.ToLowerInvariant().Contains(txtName.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
 
-                if (!string.IsNullOrWhiteSpace(txtName.Text))
+                if (!string.IsNullOrWhiteSpace(txtAge.Text))
                 {
-                    searchResult = searchResult
+                    int safeAge = 0;
+                    int.TryParse(txtAge.Text, out safeAge);
+
+                    if (safeAge != 0)
+                    {
+                        searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.PatientDetails.Name.Contains(txtName.Text.Trim())
+                                            where patient.PatientDetails.Age == Convert.ToInt32(txtAge.Text.Trim())
                                             select patient)
                                     .ToList();
+                    }
                 }
 
                 if (!string.IsNullOrWhiteSpace(txtOccupation.Text))
@@ -125,7 +129,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.PatientDetails.Occupation.Contains(txtOccupation.Text.Trim())
+                                            where patient.PatientDetails.Occupation.ToLowerInvariant().Contains(txtOccupation.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -135,7 +139,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.MedicalRecords.Diagnosis.Contains(txtDiagnosis.Text.Trim())
+                                            where patient.MedicalRecords.Diagnosis.ToLowerInvariant().Contains(txtDiagnosis.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -145,7 +149,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.MedicalRecords.BriefHistory.Contains(txtBriefHistory.Text.Trim())
+                                            where patient.MedicalRecords.BriefHistory.ToLowerInvariant().Contains(txtBriefHistory.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -155,7 +159,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.MedicalRecords.PastMedicalHistory.Contains(txtPassMedicalHistory.Text.Trim())
+                                            where patient.MedicalRecords.PastMedicalHistory.ToLowerInvariant().Contains(txtPassMedicalHistory.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -189,7 +193,7 @@ namespace OccupetionalTherapy
                     searchResult = searchResult
                                     .Concat(
                                             from patient in patients
-                                            where patient.MedicalRecords.SensationDetails.Contains(txtSensation.Text.Trim())
+                                            where patient.MedicalRecords.SensationDetails.ToLowerInvariant().Contains(txtSensation.Text.ToLowerInvariant().Trim())
                                             select patient)
                                     .ToList();
                 }
@@ -224,7 +228,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patients)
                 {
-                    string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, item.DateEntry.EntryDate.ToString("MM/dd/yyyy HH:mm:ss") };
+                    string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, item.DateEntry.EntryDate.ToString("dd/MM/yyyy HH:mm:ss") };
                     grdPatient.Rows.Add(row);
                 }
 
@@ -296,6 +300,11 @@ namespace OccupetionalTherapy
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void txtAge_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
     }
 }

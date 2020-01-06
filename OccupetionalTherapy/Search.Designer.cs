@@ -100,6 +100,7 @@
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(305, 20);
             this.txtAge.TabIndex = 31;
+            this.txtAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAge_KeyPress);
             // 
             // metroSetLabel14
             // 

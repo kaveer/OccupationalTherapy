@@ -144,7 +144,7 @@ namespace OccupetionalTherapy
             {
                 foreach (var appointment in item.Appointments)
                 {
-                    if (appointment.Appointment.ToString("MM/dd/yyyy") == DateTime.Today.ToString("MM/dd/yyy"))
+                    if (appointment.Appointment.Date == DateTime.Today.Date)
                     {
                         clsPatientModel sort = new clsPatientModel
                         {
@@ -183,7 +183,7 @@ namespace OccupetionalTherapy
                     {
                         foreach (var appoinment in item.Appointments)
                         {
-                            string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, appoinment.Appointment.ToString("MM/dd/yyyy HH:mm:ss") };
+                            string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, appoinment.Appointment.ToString("dd/MM/yyyy HH:mm:ss") };
                             grdAppointment.Rows.Add(row);
                         }
                     }

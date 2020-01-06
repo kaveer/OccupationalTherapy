@@ -88,7 +88,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patients)
                 {
-                    string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, item.DateEntry.EntryDate.ToString("MM/dd/yyyy HH:mm:ss") };
+                    string[] row = new string[] { item.PatientId.ToString(), item.PatientDetails.Surname, item.PatientDetails.Name, item.DateEntry.EntryDate.ToString("dd/MM/yyyy HH:mm:ss") };
                     grdPatient.Rows.Add(row);
                 }
 
@@ -165,14 +165,14 @@ namespace OccupetionalTherapy
                 if (!string.IsNullOrWhiteSpace(surname))
                 {
                     surnameSearch = (from patient in patients
-                                     where patient.PatientDetails.Surname.Contains(surname)
+                                     where patient.PatientDetails.Surname.ToLowerInvariant().Contains(surname.ToLowerInvariant())
                                      select patient).ToList();
                 }
 
                 if (!string.IsNullOrWhiteSpace(name))
                 {
                     nameSearch = (from patient in patients
-                                  where patient.PatientDetails.Name.Contains(name)
+                                  where patient.PatientDetails.Name.ToLowerInvariant().Contains(name.ToLowerInvariant())
                                   select patient).ToList();
                 }
 
@@ -181,18 +181,16 @@ namespace OccupetionalTherapy
                                     .Distinct()
                                     .ToList();
 
+                patients = new List<clsPatientModel>();
+
                 if (patientSearch.Count > 0)
-                {
-                    patients = new List<clsPatientModel>();
                     patients = patientSearch;
-                }
 
                 AssignToGrid();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                throw;
             }
         }
 

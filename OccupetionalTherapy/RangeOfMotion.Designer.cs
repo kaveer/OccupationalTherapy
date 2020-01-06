@@ -257,7 +257,7 @@
             this.xuiFlatTab1.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab1.SelectedIndex = 0;
             this.xuiFlatTab1.ShowBorder = true;
-            this.xuiFlatTab1.Size = new System.Drawing.Size(490, 804);
+            this.xuiFlatTab1.Size = new System.Drawing.Size(473, 804);
             this.xuiFlatTab1.TabIndex = 1;
             // 
             // tabPage1
@@ -272,7 +272,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 20);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(482, 780);
+            this.tabPage1.Size = new System.Drawing.Size(465, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Upper Join";
             // 
@@ -314,7 +314,7 @@
             this.gbxElbow.Location = new System.Drawing.Point(8, 267);
             this.gbxElbow.Name = "gbxElbow";
             this.gbxElbow.ShowText = true;
-            this.gbxElbow.Size = new System.Drawing.Size(467, 117);
+            this.gbxElbow.Size = new System.Drawing.Size(450, 117);
             this.gbxElbow.TabIndex = 8;
             this.gbxElbow.TabStop = false;
             this.gbxElbow.Text = "Elbow And Forearm";
@@ -402,7 +402,7 @@
             this.xuiCustomGroupbox6.Location = new System.Drawing.Point(8, 542);
             this.xuiCustomGroupbox6.Name = "xuiCustomGroupbox6";
             this.xuiCustomGroupbox6.ShowText = true;
-            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(467, 222);
+            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(450, 222);
             this.xuiCustomGroupbox6.TabIndex = 5;
             this.xuiCustomGroupbox6.TabStop = false;
             this.xuiCustomGroupbox6.Text = "Finger";
@@ -429,7 +429,7 @@
             this.xuiFlatTab2.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab2.SelectedIndex = 0;
             this.xuiFlatTab2.ShowBorder = true;
-            this.xuiFlatTab2.Size = new System.Drawing.Size(454, 203);
+            this.xuiFlatTab2.Size = new System.Drawing.Size(437, 203);
             this.xuiFlatTab2.TabIndex = 1;
             // 
             // tbThumb
@@ -456,7 +456,7 @@
             this.tbThumb.Location = new System.Drawing.Point(4, 20);
             this.tbThumb.Name = "tbThumb";
             this.tbThumb.Padding = new System.Windows.Forms.Padding(3);
-            this.tbThumb.Size = new System.Drawing.Size(446, 179);
+            this.tbThumb.Size = new System.Drawing.Size(429, 179);
             this.tbThumb.TabIndex = 4;
             this.tbThumb.Text = "Thumb";
             // 
@@ -625,7 +625,7 @@
             this.tbIndexFinger.Location = new System.Drawing.Point(4, 20);
             this.tbIndexFinger.Name = "tbIndexFinger";
             this.tbIndexFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbIndexFinger.Size = new System.Drawing.Size(463, 179);
+            this.tbIndexFinger.Size = new System.Drawing.Size(446, 179);
             this.tbIndexFinger.TabIndex = 0;
             this.tbIndexFinger.Text = "Index Finger";
             // 
@@ -770,7 +770,7 @@
             this.tbMiddleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbMiddleFinger.Name = "tbMiddleFinger";
             this.tbMiddleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbMiddleFinger.Size = new System.Drawing.Size(463, 179);
+            this.tbMiddleFinger.Size = new System.Drawing.Size(446, 179);
             this.tbMiddleFinger.TabIndex = 1;
             this.tbMiddleFinger.Text = "Middle Finger";
             // 
@@ -915,7 +915,7 @@
             this.tbRingFinger.Location = new System.Drawing.Point(4, 20);
             this.tbRingFinger.Name = "tbRingFinger";
             this.tbRingFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbRingFinger.Size = new System.Drawing.Size(463, 179);
+            this.tbRingFinger.Size = new System.Drawing.Size(446, 179);
             this.tbRingFinger.TabIndex = 2;
             this.tbRingFinger.Text = "Ring Finger";
             // 
@@ -1060,7 +1060,7 @@
             this.tbLittleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbLittleFinger.Name = "tbLittleFinger";
             this.tbLittleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLittleFinger.Size = new System.Drawing.Size(463, 179);
+            this.tbLittleFinger.Size = new System.Drawing.Size(446, 179);
             this.tbLittleFinger.TabIndex = 3;
             this.tbLittleFinger.Text = "Little Finger";
             // 
@@ -1205,7 +1205,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(8, 390);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(467, 147);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(450, 147);
             this.xuiCustomGroupbox2.TabIndex = 1;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Wrist";
@@ -1340,7 +1340,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(8, 26);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(467, 235);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(450, 235);
             this.xuiCustomGroupbox1.TabIndex = 0;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Shoulder";
@@ -1550,7 +1550,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(499, 780);
+            this.tabPage2.Size = new System.Drawing.Size(482, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -2019,7 +2019,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(24, 822);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(467, 136);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(450, 136);
             this.xuiCustomGroupbox3.TabIndex = 2;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Other Assesmnet";
@@ -2031,7 +2031,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOtherAssessment.Location = new System.Drawing.Point(125, 16);
             this.txtOtherAssessment.Name = "txtOtherAssessment";
-            this.txtOtherAssessment.Size = new System.Drawing.Size(328, 102);
+            this.txtOtherAssessment.Size = new System.Drawing.Size(311, 102);
             this.txtOtherAssessment.TabIndex = 2;
             this.txtOtherAssessment.Text = "";
             // 
@@ -2098,7 +2098,6 @@
             this.gbxElbow.ResumeLayout(false);
             this.gbxElbow.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
-            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();

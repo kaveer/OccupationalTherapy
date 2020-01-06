@@ -112,7 +112,7 @@ namespace OccupetionalTherapy
             Configuration();
 
             if (patient.DateEntry.EntryDate != null)
-                txtEntryDate.Text = patient.DateEntry.EntryDate.ToString("MM/dd/yyy HH:mm:ss");
+                txtEntryDate.Text = patient.DateEntry.EntryDate.ToString("dd/MM/yyy HH:mm:ss");
 
             AssignPatientDetails();
             AssignMedicalRecord();
@@ -136,7 +136,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patient.Appointments)
                 {
-                    string[] row = new string[] { item.AppointmentId.ToString(), item.Appointment.ToString("MM/dd/yyyy HH:mm:ss") };
+                    string[] row = new string[] { item.AppointmentId.ToString(), item.Appointment.ToString("dd/MM/yyyy HH:mm:ss") };
                     grdAppointment.Rows.Add(row);
                 }
 
@@ -160,7 +160,7 @@ namespace OccupetionalTherapy
 
                 foreach (var item in patient.Assessment)
                 {
-                    string[] row = new string[] { item.AssessementId.ToString(), item.AssessmentDate.ToString("MM/dd/yyyy") };
+                    string[] row = new string[] { item.AssessementId.ToString(), item.AssessmentDate.ToString("dd/MM/yyyy") };
                     grdAssessment.Rows.Add(row);
                 }
 

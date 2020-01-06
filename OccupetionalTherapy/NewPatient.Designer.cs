@@ -160,6 +160,7 @@
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(392, 20);
             this.txtAge.TabIndex = 14;
+            this.txtAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAge_KeyPress);
             // 
             // metroSetLabel7
             // 
@@ -679,7 +680,6 @@
             this.xuiCustomGroupbox5.ResumeLayout(false);
             this.xuiCustomGroupbox5.PerformLayout();
             this.xuiCustomGroupbox4.ResumeLayout(false);
-            this.xuiCustomGroupbox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
