@@ -112,6 +112,8 @@ namespace BusinessLayer
                     };
 
                     ProcessJointPartType(data, item);
+
+                    result.Add(data);
                 }
             }
 

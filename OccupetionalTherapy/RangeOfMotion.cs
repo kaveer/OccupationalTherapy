@@ -93,363 +93,376 @@ namespace OccupetionalTherapy
 
         private void AssignValueToTextBox()
         {
+            if (patient.Assessment == null)
+                return;
+
             foreach (var item in patient.Assessment)
             {
                 //Other assessment
-                txtOtherAssessment.Text = item.OtherAssessment.OtherAssessment;
+                if (item.OtherAssessment != null)
+                {
+                    txtOtherAssessment.Text = item.OtherAssessment.OtherAssessment;
+                }
+
 
                 //Upper joint
-                if (item.UpperJoint.Shoulder != null)
+                if (item.UpperJoint != null)
                 {
-                    foreach (var shoulder in item.UpperJoint.Shoulder.MotionValue)
+                    if (item.UpperJoint.Shoulder != null)
                     {
-                        switch (shoulder.MotionType)
+                        foreach (var shoulder in item.UpperJoint.Shoulder.MotionValue)
                         {
-                            case MotionType.Flexion:
-                                txt_SL_flexsion.Text = shoulder.LeftValue;
-                                txt_SR_flexsion.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.Extension:
-                                txt_SL_extension.Text = shoulder.LeftValue;
-                                txt_SR_extension.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.HorizontalAbduction:
-                                txt_SL_horizontalAbduction.Text = shoulder.LeftValue;
-                                txt_SR_horizontalAbduction.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.HorizontalAdduction:
-                                txt_SL_horizontalAdduction.Text = shoulder.LeftValue;
-                                txt_SR_horizontalAdduction.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.InternalRotation:
-                                txt_SL_internalRotation.Text = shoulder.LeftValue;
-                                txt_SR_internalRotation.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.ExternalRotation:
-                                txt_SL_externalRotation.Text = shoulder.LeftValue;
-                                txt_SR_externalRotation.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.InternalRotationAlt:
-                                txt_SL_InternalRotationAlt.Text = shoulder.LeftValue;
-                                txt_SR_InternalRotationAlt.Text = shoulder.RightValue;
-                                break;
-                            case MotionType.ExternalRotationAlt:
-                                txt_SL_ExternalRotationAlt.Text = shoulder.LeftValue;
-                                txt_SR_ExternalRotationAlt.Text = shoulder.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (shoulder.MotionType)
+                            {
+                                case MotionType.Flexion:
+                                    txt_SL_flexsion.Text = shoulder.LeftValue;
+                                    txt_SR_flexsion.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.Extension:
+                                    txt_SL_extension.Text = shoulder.LeftValue;
+                                    txt_SR_extension.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.HorizontalAbduction:
+                                    txt_SL_horizontalAbduction.Text = shoulder.LeftValue;
+                                    txt_SR_horizontalAbduction.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.HorizontalAdduction:
+                                    txt_SL_horizontalAdduction.Text = shoulder.LeftValue;
+                                    txt_SR_horizontalAdduction.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.InternalRotation:
+                                    txt_SL_internalRotation.Text = shoulder.LeftValue;
+                                    txt_SR_internalRotation.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.ExternalRotation:
+                                    txt_SL_externalRotation.Text = shoulder.LeftValue;
+                                    txt_SR_externalRotation.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.InternalRotationAlt:
+                                    txt_SL_InternalRotationAlt.Text = shoulder.LeftValue;
+                                    txt_SR_InternalRotationAlt.Text = shoulder.RightValue;
+                                    break;
+                                case MotionType.ExternalRotationAlt:
+                                    txt_SL_ExternalRotationAlt.Text = shoulder.LeftValue;
+                                    txt_SR_ExternalRotationAlt.Text = shoulder.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.ElbowAndForemarm != null)
-                {
-                    foreach (var elbow in item.UpperJoint.ElbowAndForemarm.MotionValue)
+                    if (item.UpperJoint.ElbowAndForemarm != null)
                     {
-                        switch (elbow.MotionType)
+                        foreach (var elbow in item.UpperJoint.ElbowAndForemarm.MotionValue)
                         {
-                            case MotionType.ExternalRotationAlt:
-                                break;
-                            case MotionType.FlexsionExtension:
-                                txt_EL_FlexsionExtension.Text = elbow.LeftValue;
-                                txt_ER_FlexsionExtension.Text = elbow.RightValue;
-                                break;
-                            case MotionType.Supination:
-                                txt_EL_Supination.Text = elbow.LeftValue;
-                                txt_ER_Supination.Text = elbow.RightValue;
-                                break;
-                            case MotionType.Pronation:
-                                txt_EL_Pronation.Text = elbow.LeftValue;
-                                txt_ER_Pronation.Text = elbow.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (elbow.MotionType)
+                            {
+                                case MotionType.ExternalRotationAlt:
+                                    break;
+                                case MotionType.FlexsionExtension:
+                                    txt_EL_FlexsionExtension.Text = elbow.LeftValue;
+                                    txt_ER_FlexsionExtension.Text = elbow.RightValue;
+                                    break;
+                                case MotionType.Supination:
+                                    txt_EL_Supination.Text = elbow.LeftValue;
+                                    txt_ER_Supination.Text = elbow.RightValue;
+                                    break;
+                                case MotionType.Pronation:
+                                    txt_EL_Pronation.Text = elbow.LeftValue;
+                                    txt_ER_Pronation.Text = elbow.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.Wrist != null)
-                {
-                    foreach (var wrist in item.UpperJoint.Wrist.MotionValue)
+                    if (item.UpperJoint.Wrist != null)
                     {
-                        switch (wrist.MotionType)
+                        foreach (var wrist in item.UpperJoint.Wrist.MotionValue)
                         {
-                            case MotionType.Flexion:
-                                txt_WL_Flexsion.Text = wrist.LeftValue;
-                                txt_WR_Flexsion.Text = wrist.RightValue;
-                                break;
-                            case MotionType.Extension:
-                                txt_WL_Extension.Text = wrist.LeftValue;
-                                txt_WR_Extension.Text = wrist.RightValue;
-                                break;
-                            case MotionType.UlnarDeviation:
-                                txt_WL_UlnarDeviation.Text = wrist.LeftValue;
-                                txt_WR_UlnarDeviation.Text = wrist.RightValue;
-                                break;
-                            case MotionType.RadiatDeviation:
-                                txt_WL_RadiatDeviation.Text = wrist.LeftValue;
-                                txt_WR_RadiatDeviation.Text = wrist.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (wrist.MotionType)
+                            {
+                                case MotionType.Flexion:
+                                    txt_WL_Flexsion.Text = wrist.LeftValue;
+                                    txt_WR_Flexsion.Text = wrist.RightValue;
+                                    break;
+                                case MotionType.Extension:
+                                    txt_WL_Extension.Text = wrist.LeftValue;
+                                    txt_WR_Extension.Text = wrist.RightValue;
+                                    break;
+                                case MotionType.UlnarDeviation:
+                                    txt_WL_UlnarDeviation.Text = wrist.LeftValue;
+                                    txt_WR_UlnarDeviation.Text = wrist.RightValue;
+                                    break;
+                                case MotionType.RadiatDeviation:
+                                    txt_WL_RadiatDeviation.Text = wrist.LeftValue;
+                                    txt_WR_RadiatDeviation.Text = wrist.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.Thumb != null)
-                {
-                    foreach (var thumb in item.UpperJoint.Thumb.MotionValue)
+                    if (item.UpperJoint.Thumb != null)
                     {
-                        switch (thumb.MotionType)
+                        foreach (var thumb in item.UpperJoint.Thumb.MotionValue)
                         {
-                            case MotionType.CMExtension:
-                                txt_TL_CmExtension.Text = thumb.LeftValue;
-                                txt_TR_CMExtension.Text = thumb.RightValue;
-                                break;
-                            case MotionType.MPFlexsionExtension:
-                                txt_TL_MpFlexsionExtension.Text = thumb.LeftValue;
-                                txt_TR_MpFlexsionExtension.Text = thumb.RightValue;
-                                break;
-                            case MotionType.IPFlexsionExtension:
-                                txt_TL_IpFlexsionExtension.Text = thumb.LeftValue;
-                                txt_TR_IpFlexsionExtension.Text = thumb.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_TL_AbductionCm.Text = thumb.LeftValue;
-                                txt_TR_AbductionCm.Text = thumb.RightValue;
-                                break;
-                            case MotionType.Opposition:
-                                txt_TL_OppositionCm.Text = thumb.LeftValue;
-                                txt_TR_OppositionCm.Text = thumb.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (thumb.MotionType)
+                            {
+                                case MotionType.CMExtension:
+                                    txt_TL_CmExtension.Text = thumb.LeftValue;
+                                    txt_TR_CMExtension.Text = thumb.RightValue;
+                                    break;
+                                case MotionType.MPFlexsionExtension:
+                                    txt_TL_MpFlexsionExtension.Text = thumb.LeftValue;
+                                    txt_TR_MpFlexsionExtension.Text = thumb.RightValue;
+                                    break;
+                                case MotionType.IPFlexsionExtension:
+                                    txt_TL_IpFlexsionExtension.Text = thumb.LeftValue;
+                                    txt_TR_IpFlexsionExtension.Text = thumb.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_TL_AbductionCm.Text = thumb.LeftValue;
+                                    txt_TR_AbductionCm.Text = thumb.RightValue;
+                                    break;
+                                case MotionType.Opposition:
+                                    txt_TL_OppositionCm.Text = thumb.LeftValue;
+                                    txt_TR_OppositionCm.Text = thumb.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.LittleFinger != null)
-                {
-                    foreach (var finger in item.UpperJoint.LittleFinger.MotionValue)
+                    if (item.UpperJoint.LittleFinger != null)
                     {
-                        switch (finger.MotionType)
+                        foreach (var finger in item.UpperJoint.LittleFinger.MotionValue)
                         {
-                            case MotionType.MPFlexsionExtension:
-                                txt_LFL_MpFlexsionExtension.Text = finger.LeftValue;
-                                txt_LFR_MpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.IPFlexsionExtension:
-                                txt_LFL_IpFlexsionExtension.Text = finger.LeftValue;
-                                txt_LFR_IpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_LFL_Abduction.Text = finger.LeftValue;
-                                txt_LFR_Abduction.Text = finger.RightValue;
-                                break;
-                            case MotionType.Opposition:
-                                break;
-                            case MotionType.DIPFlexsionExtension:
-                                txt_LFL_DipFlexsionExtension.Text = finger.LeftValue;
-                                txt_LFR_DipFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Adduction:
-                                txt_LFL_Adduction.Text = finger.LeftValue;
-                                txt_LFR_Adduction.Text = finger.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (finger.MotionType)
+                            {
+                                case MotionType.MPFlexsionExtension:
+                                    txt_LFL_MpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_LFR_MpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.IPFlexsionExtension:
+                                    txt_LFL_IpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_LFR_IpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_LFL_Abduction.Text = finger.LeftValue;
+                                    txt_LFR_Abduction.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Opposition:
+                                    break;
+                                case MotionType.DIPFlexsionExtension:
+                                    txt_LFL_DipFlexsionExtension.Text = finger.LeftValue;
+                                    txt_LFR_DipFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Adduction:
+                                    txt_LFL_Adduction.Text = finger.LeftValue;
+                                    txt_LFR_Adduction.Text = finger.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.RingFinger != null)
-                {
-                    foreach (var finger in item.UpperJoint.RingFinger.MotionValue)
+                    if (item.UpperJoint.RingFinger != null)
                     {
-                        switch (finger.MotionType)
+                        foreach (var finger in item.UpperJoint.RingFinger.MotionValue)
                         {
-                            case MotionType.MPFlexsionExtension:
-                                txt_RFL_MpFlexsionExtension.Text = finger.LeftValue;
-                                txt_RFR_MpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.IPFlexsionExtension:
-                                txt_RFL_IpFlexsionExtension.Text = finger.LeftValue;
-                                txt_RFR_IpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_RFL_Abduction.Text = finger.LeftValue;
-                                txt_RFR_Abduction.Text = finger.RightValue;
-                                break;
-                            case MotionType.Opposition:
-                                break;
-                            case MotionType.DIPFlexsionExtension:
-                                txt_RFL_DipFlexsionExtension.Text = finger.LeftValue;
-                                txt_RFR_DipFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Adduction:
-                                txt_RFL_Adduction.Text = finger.LeftValue;
-                                txt_RFR_Adduction.Text = finger.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (finger.MotionType)
+                            {
+                                case MotionType.MPFlexsionExtension:
+                                    txt_RFL_MpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_RFR_MpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.IPFlexsionExtension:
+                                    txt_RFL_IpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_RFR_IpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_RFL_Abduction.Text = finger.LeftValue;
+                                    txt_RFR_Abduction.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Opposition:
+                                    break;
+                                case MotionType.DIPFlexsionExtension:
+                                    txt_RFL_DipFlexsionExtension.Text = finger.LeftValue;
+                                    txt_RFR_DipFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Adduction:
+                                    txt_RFL_Adduction.Text = finger.LeftValue;
+                                    txt_RFR_Adduction.Text = finger.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.MiddleFinger != null)
-                {
-                    foreach (var finger in item.UpperJoint.MiddleFinger.MotionValue)
+                    if (item.UpperJoint.MiddleFinger != null)
                     {
-                        switch (finger.MotionType)
+                        foreach (var finger in item.UpperJoint.MiddleFinger.MotionValue)
                         {
-                            case MotionType.MPFlexsionExtension:
-                                txt_MFL_MpFlexsionExtension.Text = finger.LeftValue;
-                                txt_MFR_MpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.IPFlexsionExtension:
-                                txt_MFL_IpFlexsionExtension.Text = finger.LeftValue;
-                                txt_MFR_IpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_MFL_Abduction.Text = finger.LeftValue;
-                                txt_MFR_Abduction.Text = finger.RightValue;
-                                break;
-                            case MotionType.Opposition:
-                                break;
-                            case MotionType.DIPFlexsionExtension:
-                                txt_MFL_DipFlexsionExtension.Text = finger.LeftValue;
-                                txt_MFR_DipFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Adduction:
-                                txt_MFL_Adduction.Text = finger.LeftValue;
-                                txt_MFR_Adduction.Text = finger.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (finger.MotionType)
+                            {
+                                case MotionType.MPFlexsionExtension:
+                                    txt_MFL_MpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_MFR_MpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.IPFlexsionExtension:
+                                    txt_MFL_IpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_MFR_IpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_MFL_Abduction.Text = finger.LeftValue;
+                                    txt_MFR_Abduction.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Opposition:
+                                    break;
+                                case MotionType.DIPFlexsionExtension:
+                                    txt_MFL_DipFlexsionExtension.Text = finger.LeftValue;
+                                    txt_MFR_DipFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Adduction:
+                                    txt_MFL_Adduction.Text = finger.LeftValue;
+                                    txt_MFR_Adduction.Text = finger.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.UpperJoint.IndexFinger != null)
-                {
-                    foreach (var finger in item.UpperJoint.IndexFinger.MotionValue)
+                    if (item.UpperJoint.IndexFinger != null)
                     {
-                        switch (finger.MotionType)
+                        foreach (var finger in item.UpperJoint.IndexFinger.MotionValue)
                         {
-                            case MotionType.MPFlexsionExtension:
-                                txt_IFL_MpFlexsionExtension.Text = finger.LeftValue;
-                                txt_IFR_MpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.IPFlexsionExtension:
-                                txt_IFL_IpFlexsionExtension.Text = finger.LeftValue;
-                                txt_IFR_IpFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_IFL_Abduction.Text = finger.LeftValue;
-                                txt_IFR_Abduction.Text = finger.RightValue;
-                                break;
-                            case MotionType.Opposition:
-                                break;
-                            case MotionType.DIPFlexsionExtension:
-                                txt_IFL_DipFlexsionExtension.Text = finger.LeftValue;
-                                txt_IFR_DipFlexsionExtension.Text = finger.RightValue;
-                                break;
-                            case MotionType.Adduction:
-                                txt_IFL_Adduction.Text = finger.LeftValue;
-                                txt_IFR_Adduction.Text = finger.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (finger.MotionType)
+                            {
+                                case MotionType.MPFlexsionExtension:
+                                    txt_IFL_MpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_IFR_MpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.IPFlexsionExtension:
+                                    txt_IFL_IpFlexsionExtension.Text = finger.LeftValue;
+                                    txt_IFR_IpFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_IFL_Abduction.Text = finger.LeftValue;
+                                    txt_IFR_Abduction.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Opposition:
+                                    break;
+                                case MotionType.DIPFlexsionExtension:
+                                    txt_IFL_DipFlexsionExtension.Text = finger.LeftValue;
+                                    txt_IFR_DipFlexsionExtension.Text = finger.RightValue;
+                                    break;
+                                case MotionType.Adduction:
+                                    txt_IFL_Adduction.Text = finger.LeftValue;
+                                    txt_IFR_Adduction.Text = finger.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
                 }
 
                 //Lower joint
-                if (item.LowerJoint.Ankle != null)
+                if (item.LowerJoint != null)
                 {
-                    foreach (var ankle in item.LowerJoint.Ankle.MotionValue)
+                    if (item.LowerJoint.Ankle != null)
                     {
-                        switch (ankle.MotionType)
+                        foreach (var ankle in item.LowerJoint.Ankle.MotionValue)
                         {
-                            case MotionType.Dorsiflexsion:
-                                txt_KL_Dorsiflexsion.Text = ankle.LeftValue;
-                                txt_KR_Dorsiflexsion.Text = ankle.RightValue;
-                                break;
-                            case MotionType.Plantaflexsion:
-                                txt_KL_Plantaflexsion.Text = ankle.LeftValue;
-                                txt_KR_Plantaflexsion.Text = ankle.RightValue;
-                                break;
-                            case MotionType.Inversion:
-                                txt_KL_Inversion.Text = ankle.LeftValue;
-                                txt_KR_Inversion.Text = ankle.RightValue;
-                                break;
-                            case MotionType.Eversion:
-                                txt_KL_Eversion.Text = ankle.LeftValue;
-                                txt_KR_Eversion.Text = ankle.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (ankle.MotionType)
+                            {
+                                case MotionType.Dorsiflexsion:
+                                    txt_KL_Dorsiflexsion.Text = ankle.LeftValue;
+                                    txt_KR_Dorsiflexsion.Text = ankle.RightValue;
+                                    break;
+                                case MotionType.Plantaflexsion:
+                                    txt_KL_Plantaflexsion.Text = ankle.LeftValue;
+                                    txt_KR_Plantaflexsion.Text = ankle.RightValue;
+                                    break;
+                                case MotionType.Inversion:
+                                    txt_KL_Inversion.Text = ankle.LeftValue;
+                                    txt_KR_Inversion.Text = ankle.RightValue;
+                                    break;
+                                case MotionType.Eversion:
+                                    txt_KL_Eversion.Text = ankle.LeftValue;
+                                    txt_KR_Eversion.Text = ankle.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.LowerJoint.Hip != null)
-                {
-                    foreach (var hip in item.LowerJoint.Hip.MotionValue)
+                    if (item.LowerJoint.Hip != null)
                     {
-                        switch (hip.MotionType)
+                        foreach (var hip in item.LowerJoint.Hip.MotionValue)
                         {
-                            case MotionType.Flexion:
-                                txt_HL_flexsion.Text = hip.LeftValue;
-                                txt_HR_flexsion.Text = hip.RightValue;
-                                break;
-                            case MotionType.Extension:
-                                txt_HL_extension.Text = hip.LeftValue;
-                                txt_HR_extension.Text = hip.RightValue;
-                                break;
-                            case MotionType.InternalRotation:
-                                txt_HL_internalRotation.Text = hip.LeftValue;
-                                txt_HR_internalRotation.Text = hip.RightValue;
-                                break;
-                            case MotionType.ExternalRotation:
-                                txt_HL_externalRotation.Text = hip.LeftValue;
-                                txt_HR_externalRotation.Text = hip.RightValue;
-                                break;
-                            case MotionType.Abduction:
-                                txt_HL_Abduction.Text = hip.LeftValue;
-                                txt_HR_Abduction.Text = hip.RightValue;
-                                break;
-                            case MotionType.Adduction:
-                                txt_HL_Adduction.Text = hip.LeftValue;
-                                txt_HR_Adduction.Text = hip.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (hip.MotionType)
+                            {
+                                case MotionType.Flexion:
+                                    txt_HL_flexsion.Text = hip.LeftValue;
+                                    txt_HR_flexsion.Text = hip.RightValue;
+                                    break;
+                                case MotionType.Extension:
+                                    txt_HL_extension.Text = hip.LeftValue;
+                                    txt_HR_extension.Text = hip.RightValue;
+                                    break;
+                                case MotionType.InternalRotation:
+                                    txt_HL_internalRotation.Text = hip.LeftValue;
+                                    txt_HR_internalRotation.Text = hip.RightValue;
+                                    break;
+                                case MotionType.ExternalRotation:
+                                    txt_HL_externalRotation.Text = hip.LeftValue;
+                                    txt_HR_externalRotation.Text = hip.RightValue;
+                                    break;
+                                case MotionType.Abduction:
+                                    txt_HL_Abduction.Text = hip.LeftValue;
+                                    txt_HR_Abduction.Text = hip.RightValue;
+                                    break;
+                                case MotionType.Adduction:
+                                    txt_HL_Adduction.Text = hip.LeftValue;
+                                    txt_HR_Adduction.Text = hip.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
-                }
 
-                if (item.LowerJoint.Knee != null)
-                {
-                    foreach (var knee in item.LowerJoint.Knee.MotionValue)
+                    if (item.LowerJoint.Knee != null)
                     {
-                        switch (knee.MotionType)
+                        foreach (var knee in item.LowerJoint.Knee.MotionValue)
                         {
-                            case MotionType.Flexion:
-                                txt_KL_flexsion.Text = knee.LeftValue;
-                                txt_KR_flexsion.Text = knee.RightValue;
-                                break;
-                            case MotionType.Extension:
-                                txt_KL_extension.Text = knee.LeftValue;
-                                txt_KR_extension.Text = knee.RightValue;
-                                break;
-                            case MotionType.Hypoextension:
-                                txt_KL_Hypoextension.Text = knee.LeftValue;
-                                txt_KR_Hypoextension.Text = knee.RightValue;
-                                break;
-                            default:
-                                break;
+                            switch (knee.MotionType)
+                            {
+                                case MotionType.Flexion:
+                                    txt_KL_flexsion.Text = knee.LeftValue;
+                                    txt_KR_flexsion.Text = knee.RightValue;
+                                    break;
+                                case MotionType.Extension:
+                                    txt_KL_extension.Text = knee.LeftValue;
+                                    txt_KR_extension.Text = knee.RightValue;
+                                    break;
+                                case MotionType.Hypoextension:
+                                    txt_KL_Hypoextension.Text = knee.LeftValue;
+                                    txt_KR_Hypoextension.Text = knee.RightValue;
+                                    break;
+                                default:
+                                    break;
+                            }
                         }
                     }
                 }
@@ -473,7 +486,7 @@ namespace OccupetionalTherapy
 
             //Upper joint
             txt_SL_flexsion.Clear();
-            txt_SL_flexsion.Clear();
+            txt_SR_flexsion.Clear();
 
             txt_SL_extension.Clear();
             txt_SR_extension.Clear();
@@ -656,6 +669,7 @@ namespace OccupetionalTherapy
                 case NavigationType.RnageOfMotion:
                     break;
                 case NavigationType.ViewPatient:
+                    assessment = new clsAssessment();
                     if (isNew)
                         assessment.Save(patientId, patient.Assessment);
                     else

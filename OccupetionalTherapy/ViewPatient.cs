@@ -339,6 +339,9 @@ namespace OccupetionalTherapy
                 if (patient == null || patient.PatientId == 0)
                     throw new Exception("Invalid patient");
 
+                if (selectedAssessmentId == 0)
+                    throw new Exception("Select assessment to view");
+
                 RangeOfMotion rangeOfMotion = new RangeOfMotion(this, false, selectedAssessmentId, patient.PatientId);
                 rangeOfMotion.ShowDialog();
 

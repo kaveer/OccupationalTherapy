@@ -625,7 +625,7 @@
             this.tbIndexFinger.Location = new System.Drawing.Point(4, 20);
             this.tbIndexFinger.Name = "tbIndexFinger";
             this.tbIndexFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbIndexFinger.Size = new System.Drawing.Size(446, 179);
+            this.tbIndexFinger.Size = new System.Drawing.Size(429, 179);
             this.tbIndexFinger.TabIndex = 0;
             this.tbIndexFinger.Text = "Index Finger";
             // 
@@ -770,7 +770,7 @@
             this.tbMiddleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbMiddleFinger.Name = "tbMiddleFinger";
             this.tbMiddleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbMiddleFinger.Size = new System.Drawing.Size(446, 179);
+            this.tbMiddleFinger.Size = new System.Drawing.Size(429, 179);
             this.tbMiddleFinger.TabIndex = 1;
             this.tbMiddleFinger.Text = "Middle Finger";
             // 
@@ -915,7 +915,7 @@
             this.tbRingFinger.Location = new System.Drawing.Point(4, 20);
             this.tbRingFinger.Name = "tbRingFinger";
             this.tbRingFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbRingFinger.Size = new System.Drawing.Size(446, 179);
+            this.tbRingFinger.Size = new System.Drawing.Size(429, 179);
             this.tbRingFinger.TabIndex = 2;
             this.tbRingFinger.Text = "Ring Finger";
             // 
@@ -1060,7 +1060,7 @@
             this.tbLittleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbLittleFinger.Name = "tbLittleFinger";
             this.tbLittleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLittleFinger.Size = new System.Drawing.Size(446, 179);
+            this.tbLittleFinger.Size = new System.Drawing.Size(429, 179);
             this.tbLittleFinger.TabIndex = 3;
             this.tbLittleFinger.Text = "Little Finger";
             // 
@@ -1550,7 +1550,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(482, 780);
+            this.tabPage2.Size = new System.Drawing.Size(465, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -2083,7 +2083,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(673, 479);
+            this.ClientSize = new System.Drawing.Size(690, 479);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpsert);
@@ -2098,6 +2098,7 @@
             this.gbxElbow.ResumeLayout(false);
             this.gbxElbow.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
+            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();
