@@ -1,5 +1,6 @@
 ﻿using BusinessLayer;
 using Model;
+using Model.Commun;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,13 @@ namespace OccupetionalTherapy
         public Appointment()
         {
             InitializeComponent();
+            Configuration();
+        }
+
+        private void Configuration()
+        {
+            this.BackColor = clsHelper.formBackground;
+            btnSearch.BackColor = clsHelper.buttonBackground;
         }
 
         private void Appointment_Load(object sender, EventArgs e)

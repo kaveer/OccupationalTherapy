@@ -46,10 +46,15 @@
             // 
             // splContainer.Panel1
             // 
+            this.splContainer.Panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.splContainer.Panel1.Controls.Add(this.btnSearch);
             this.splContainer.Panel1.Controls.Add(this.btnPatients);
             this.splContainer.Panel1.Controls.Add(this.btnNewPatient);
             this.splContainer.Panel1.Controls.Add(this.btnAppointments);
+            // 
+            // splContainer.Panel2
+            // 
+            this.splContainer.Panel2.BackColor = System.Drawing.Color.LightSkyBlue;
             this.splContainer.Size = new System.Drawing.Size(1002, 679);
             this.splContainer.SplitterDistance = 239;
             this.splContainer.TabIndex = 0;

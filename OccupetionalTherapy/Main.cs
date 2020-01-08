@@ -1,4 +1,5 @@
 ﻿using Model;
+using Model.Commun;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,7 @@ namespace OccupetionalTherapy
         {
             InitializeComponent();
             splContainer.Anchor = (AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom | AnchorStyles.Left);
+            Configuration();
 
             try
             {
@@ -31,6 +33,36 @@ namespace OccupetionalTherapy
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Configuration()
+        {
+            splContainer.Panel1.BackColor = clsHelper.navigationBackground;
+
+            ButtonConfiguration();
+        }
+
+        private void ButtonConfiguration()
+        {
+            btnAppointments.BackgroundColor = clsHelper.buttonBackground;
+            btnAppointments.HoverBackgroundColor = clsHelper.hoverBackground;
+            btnAppointments.TextColor = clsHelper.bottonTextColor;
+            btnAppointments.HoverTextColor = clsHelper.HoverTextColor;
+
+            btnNewPatient.BackgroundColor = clsHelper.buttonBackground;
+            btnNewPatient.HoverBackgroundColor = clsHelper.hoverBackground;
+            btnNewPatient.TextColor = clsHelper.bottonTextColor;
+            btnNewPatient.HoverTextColor = clsHelper.HoverTextColor;
+
+            btnPatients.BackgroundColor = clsHelper.buttonBackground;
+            btnPatients.HoverBackgroundColor = clsHelper.hoverBackground;
+            btnPatients.TextColor = clsHelper.bottonTextColor;
+            btnPatients.HoverTextColor = clsHelper.HoverTextColor;
+
+            btnSearch.BackgroundColor = clsHelper.buttonBackground;
+            btnSearch.HoverBackgroundColor = clsHelper.hoverBackground;
+            btnSearch.TextColor = clsHelper.bottonTextColor;
+            btnSearch.HoverTextColor = clsHelper.HoverTextColor;
         }
 
         /// <summary>
@@ -116,6 +148,10 @@ namespace OccupetionalTherapy
                     appointment.Dock = DockStyle.Fill;
                     splContainer.Panel2.Controls.Add(appointment);
                     appointment.Visible = true;
+
+                    ButtonConfiguration();
+                    btnAppointments.BackgroundColor = clsHelper.hoverBackground;
+                    btnAppointments.TextColor = clsHelper.HoverTextColor;
                     break;
                 case NavigationType.NewPatient:
                     NewPatient newPatient = new NewPatient();
@@ -124,6 +160,10 @@ namespace OccupetionalTherapy
                     newPatient.Dock = DockStyle.Fill;
                     splContainer.Panel2.Controls.Add(newPatient);
                     newPatient.Visible = true;
+
+                    ButtonConfiguration();
+                    btnNewPatient.BackgroundColor = clsHelper.hoverBackground;
+                    btnNewPatient.TextColor = clsHelper.HoverTextColor;
                     break;
                 case NavigationType.Patients:
                     Patients patient = new Patients();
@@ -132,6 +172,10 @@ namespace OccupetionalTherapy
                     patient.Dock = DockStyle.Fill;
                     splContainer.Panel2.Controls.Add(patient);
                     patient.Visible = true;
+
+                    ButtonConfiguration();
+                    btnPatients.BackgroundColor = clsHelper.hoverBackground;
+                    btnPatients.TextColor = clsHelper.HoverTextColor;
                     break;
                 case NavigationType.Search:
                     Search search = new Search();
@@ -140,6 +184,10 @@ namespace OccupetionalTherapy
                     search.Dock = DockStyle.Fill;
                     splContainer.Panel2.Controls.Add(search);
                     search.Visible = true;
+
+                    ButtonConfiguration();
+                    btnSearch.BackgroundColor = clsHelper.hoverBackground;
+                    btnSearch.TextColor = clsHelper.HoverTextColor;
                     break;
                 default:
                     throw new IndexOutOfRangeException();
