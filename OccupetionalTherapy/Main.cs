@@ -17,6 +17,9 @@ namespace OccupetionalTherapy
     {
         public Main()
         {
+            // To deploy
+            //https://www.youtube.com/watch?v=tHFpyemNfrk
+
             InitializeComponent();
             splContainer.Anchor = (AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom | AnchorStyles.Left);
             Configuration();
