@@ -243,7 +243,7 @@ namespace OccupetionalTherapy
             grdPatient.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdPatient.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
-            grdPatient.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdPatient.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
             grdPatient.DefaultCellStyle.SelectionForeColor = Color.White;
 
             grdPatient.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
