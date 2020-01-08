@@ -53,10 +53,12 @@
             this.xuiCustomGroupbox1.Controls.Add(this.dpTo);
             this.xuiCustomGroupbox1.Controls.Add(this.dpFrom);
             this.xuiCustomGroupbox1.Controls.Add(this.label1);
+            this.xuiCustomGroupbox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.xuiCustomGroupbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 12);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(565, 100);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(693, 114);
             this.xuiCustomGroupbox1.TabIndex = 4;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Search";
@@ -64,69 +66,82 @@
             // 
             // btnViewToday
             // 
-            this.btnViewToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewToday.Location = new System.Drawing.Point(90, 51);
+            this.btnViewToday.AutoSize = true;
+            this.btnViewToday.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnViewToday.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewToday.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewToday.ForeColor = System.Drawing.Color.Black;
+            this.btnViewToday.Location = new System.Drawing.Point(92, 66);
             this.btnViewToday.Name = "btnViewToday";
-            this.btnViewToday.Size = new System.Drawing.Size(95, 23);
+            this.btnViewToday.Size = new System.Drawing.Size(112, 32);
             this.btnViewToday.TabIndex = 7;
             this.btnViewToday.Text = "View Today";
-            this.btnViewToday.UseVisualStyleBackColor = true;
+            this.btnViewToday.UseVisualStyleBackColor = false;
             this.btnViewToday.Click += new System.EventHandler(this.btnViewToday_Click);
             // 
             // btnSearch
             // 
-            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(9, 51);
+            this.btnSearch.AutoSize = true;
+            this.btnSearch.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.ForeColor = System.Drawing.Color.Black;
+            this.btnSearch.Location = new System.Drawing.Point(6, 66);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.Size = new System.Drawing.Size(80, 32);
             this.btnSearch.TabIndex = 5;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(252, 20);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(351, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 13);
+            this.label2.Size = new System.Drawing.Size(29, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "To";
             // 
             // dpTo
             // 
-            this.dpTo.Location = new System.Drawing.Point(280, 14);
+            this.dpTo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpTo.Location = new System.Drawing.Point(386, 25);
             this.dpTo.Name = "dpTo";
-            this.dpTo.Size = new System.Drawing.Size(200, 20);
+            this.dpTo.Size = new System.Drawing.Size(277, 26);
             this.dpTo.TabIndex = 3;
             // 
             // dpFrom
             // 
-            this.dpFrom.Location = new System.Drawing.Point(46, 14);
+            this.dpFrom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpFrom.Location = new System.Drawing.Point(64, 25);
             this.dpFrom.Name = "dpFrom";
-            this.dpFrom.Size = new System.Drawing.Size(200, 20);
+            this.dpFrom.Size = new System.Drawing.Size(281, 26);
             this.dpFrom.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 20);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(8, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.Size = new System.Drawing.Size(50, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "From";
             // 
             // btnViewPatient
             // 
-            this.btnViewPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewPatient.Location = new System.Drawing.Point(13, 345);
+            this.btnViewPatient.AutoSize = true;
+            this.btnViewPatient.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnViewPatient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewPatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewPatient.Location = new System.Drawing.Point(18, 358);
             this.btnViewPatient.Name = "btnViewPatient";
-            this.btnViewPatient.Size = new System.Drawing.Size(103, 23);
+            this.btnViewPatient.Size = new System.Drawing.Size(121, 32);
             this.btnViewPatient.TabIndex = 5;
             this.btnViewPatient.Text = "View Patient";
-            this.btnViewPatient.UseVisualStyleBackColor = true;
+            this.btnViewPatient.UseVisualStyleBackColor = false;
             this.btnViewPatient.Click += new System.EventHandler(this.btnViewPatient_Click);
             // 
             // grdAppointment
@@ -134,9 +149,9 @@
             this.grdAppointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grdAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdAppointment.Location = new System.Drawing.Point(13, 119);
+            this.grdAppointment.Location = new System.Drawing.Point(12, 132);
             this.grdAppointment.Name = "grdAppointment";
-            this.grdAppointment.Size = new System.Drawing.Size(562, 220);
+            this.grdAppointment.Size = new System.Drawing.Size(690, 220);
             this.grdAppointment.TabIndex = 6;
             this.grdAppointment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAppointment_CellClick);
             // 
@@ -145,7 +160,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(587, 380);
+            this.ClientSize = new System.Drawing.Size(715, 412);
             this.Controls.Add(this.grdAppointment);
             this.Controls.Add(this.btnViewPatient);
             this.Controls.Add(this.xuiCustomGroupbox1);
@@ -156,6 +171,7 @@
             this.xuiCustomGroupbox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

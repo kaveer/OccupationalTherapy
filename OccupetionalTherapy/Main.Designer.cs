@@ -159,7 +159,7 @@
             this.ClientSize = new System.Drawing.Size(1002, 679);
             this.Controls.Add(this.splContainer);
             this.Name = "Main";
-            this.Text = "Form1";
+            this.Text = "Main";
             this.splContainer.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splContainer)).EndInit();
             this.splContainer.ResumeLayout(false);

@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Model.Commun
 {
@@ -20,5 +21,12 @@ namespace Model.Commun
         public static readonly Color hoverBackground = Color.SteelBlue;
         public static readonly Color bottonTextColor = Color.Black;
         public static Color HoverTextColor = Color.White;
+
+        public static Font SetFont(Button item)
+        {
+            Font result = new Font(item.Font.FontFamily, 12, FontStyle.Bold);
+
+            return result;
+        }
     }
 }

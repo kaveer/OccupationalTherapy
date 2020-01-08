@@ -29,10 +29,6 @@ namespace OccupetionalTherapy
         private void Configuration()
         {
             this.BackColor = clsHelper.formBackground;
-            btnSearch.BackColor = clsHelper.buttonBackground;
-            btnSearch.FlatStyle = FlatStyle.Flat;
-            btnSearch.ForeColor = Color.White;
-            btnSearch.AutoSizeMode = AutoSizeMode.GrowAndShrink;
         }
 
         private void Appointment_Load(object sender, EventArgs e)
@@ -212,7 +208,7 @@ namespace OccupetionalTherapy
             grdAppointment.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdAppointment.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
-            grdAppointment.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAppointment.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
             grdAppointment.DefaultCellStyle.SelectionForeColor = Color.White;
 
             grdAppointment.DefaultCellStyle.WrapMode = DataGridViewTriState.True;

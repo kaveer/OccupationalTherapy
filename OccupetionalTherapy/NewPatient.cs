@@ -78,8 +78,6 @@ namespace OccupetionalTherapy
             }
         }
 
-
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             patient = new clsPatientModel()
@@ -263,7 +261,7 @@ namespace OccupetionalTherapy
             grdAssessement.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdAssessement.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
-            grdAssessement.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAssessement.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
             grdAssessement.DefaultCellStyle.SelectionForeColor = Color.White;
 
             grdAssessement.DefaultCellStyle.WrapMode = DataGridViewTriState.True;

@@ -89,7 +89,7 @@
             this.metroSetDivider1.Location = new System.Drawing.Point(12, 40);
             this.metroSetDivider1.Name = "metroSetDivider1";
             this.metroSetDivider1.Orientation = MetroSet_UI.Enums.DividerStyle.Horizontal;
-            this.metroSetDivider1.Size = new System.Drawing.Size(839, 4);
+            this.metroSetDivider1.Size = new System.Drawing.Size(924, 4);
             this.metroSetDivider1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetDivider1.StyleManager = null;
             this.metroSetDivider1.TabIndex = 1;
@@ -121,10 +121,11 @@
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel2);
             this.xuiCustomGroupbox1.Controls.Add(this.txtSurname);
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel1);
+            this.xuiCustomGroupbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 50);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(839, 134);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(924, 163);
             this.xuiCustomGroupbox1.TabIndex = 2;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Patient Details";
@@ -134,15 +135,15 @@
             // 
             this.txtOccupation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOccupation.Location = new System.Drawing.Point(104, 94);
+            this.txtOccupation.Location = new System.Drawing.Point(104, 120);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(727, 20);
+            this.txtOccupation.Size = new System.Drawing.Size(812, 26);
             this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
             // 
-            this.metroSetLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel8.Location = new System.Drawing.Point(7, 94);
+            this.metroSetLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel8.Location = new System.Drawing.Point(7, 120);
             this.metroSetLabel8.Name = "metroSetLabel8";
             this.metroSetLabel8.Size = new System.Drawing.Size(91, 23);
             this.metroSetLabel8.Style = MetroSet_UI.Design.Style.Light;
@@ -156,16 +157,16 @@
             // 
             this.txtAge.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAge.Location = new System.Drawing.Point(439, 71);
+            this.txtAge.Location = new System.Drawing.Point(439, 87);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(392, 20);
+            this.txtAge.Size = new System.Drawing.Size(477, 26);
             this.txtAge.TabIndex = 14;
             this.txtAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAge_KeyPress);
             // 
             // metroSetLabel7
             // 
-            this.metroSetLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel7.Location = new System.Drawing.Point(374, 71);
+            this.metroSetLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel7.Location = new System.Drawing.Point(374, 87);
             this.metroSetLabel7.Name = "metroSetLabel7";
             this.metroSetLabel7.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel7.Style = MetroSet_UI.Design.Style.Light;
@@ -177,15 +178,16 @@
             // 
             // dpDOB
             // 
-            this.dpDOB.Location = new System.Drawing.Point(104, 71);
+            this.dpDOB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpDOB.Location = new System.Drawing.Point(104, 87);
             this.dpDOB.Name = "dpDOB";
-            this.dpDOB.Size = new System.Drawing.Size(260, 20);
+            this.dpDOB.Size = new System.Drawing.Size(260, 26);
             this.dpDOB.TabIndex = 12;
             // 
             // metroSetLabel6
             // 
-            this.metroSetLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel6.Location = new System.Drawing.Point(7, 71);
+            this.metroSetLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel6.Location = new System.Drawing.Point(7, 87);
             this.metroSetLabel6.Name = "metroSetLabel6";
             this.metroSetLabel6.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel6.Style = MetroSet_UI.Design.Style.Light;
@@ -199,15 +201,15 @@
             // 
             this.txtMobile2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMobile2.Location = new System.Drawing.Point(576, 45);
+            this.txtMobile2.Location = new System.Drawing.Point(576, 54);
             this.txtMobile2.Name = "txtMobile2";
-            this.txtMobile2.Size = new System.Drawing.Size(255, 20);
+            this.txtMobile2.Size = new System.Drawing.Size(340, 26);
             this.txtMobile2.TabIndex = 10;
             // 
             // metroSetLabel5
             // 
-            this.metroSetLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel5.Location = new System.Drawing.Point(501, 45);
+            this.metroSetLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel5.Location = new System.Drawing.Point(501, 54);
             this.metroSetLabel5.Name = "metroSetLabel5";
             this.metroSetLabel5.Size = new System.Drawing.Size(69, 23);
             this.metroSetLabel5.Style = MetroSet_UI.Design.Style.Light;
@@ -219,15 +221,15 @@
             // 
             // txtMobile1
             // 
-            this.txtMobile1.Location = new System.Drawing.Point(340, 45);
+            this.txtMobile1.Location = new System.Drawing.Point(340, 54);
             this.txtMobile1.Name = "txtMobile1";
-            this.txtMobile1.Size = new System.Drawing.Size(155, 20);
+            this.txtMobile1.Size = new System.Drawing.Size(155, 26);
             this.txtMobile1.TabIndex = 8;
             // 
             // metroSetLabel4
             // 
-            this.metroSetLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel4.Location = new System.Drawing.Point(270, 45);
+            this.metroSetLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel4.Location = new System.Drawing.Point(270, 54);
             this.metroSetLabel4.Name = "metroSetLabel4";
             this.metroSetLabel4.Size = new System.Drawing.Size(64, 23);
             this.metroSetLabel4.Style = MetroSet_UI.Design.Style.Light;
@@ -239,15 +241,15 @@
             // 
             // txtTel
             // 
-            this.txtTel.Location = new System.Drawing.Point(104, 45);
+            this.txtTel.Location = new System.Drawing.Point(104, 54);
             this.txtTel.Name = "txtTel";
-            this.txtTel.Size = new System.Drawing.Size(163, 20);
+            this.txtTel.Size = new System.Drawing.Size(163, 26);
             this.txtTel.TabIndex = 6;
             // 
             // metroSetLabel3
             // 
-            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel3.Location = new System.Drawing.Point(7, 45);
+            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel3.Location = new System.Drawing.Point(7, 54);
             this.metroSetLabel3.Name = "metroSetLabel3";
             this.metroSetLabel3.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel3.Style = MetroSet_UI.Design.Style.Light;
@@ -261,15 +263,15 @@
             // 
             this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtName.Location = new System.Drawing.Point(439, 19);
+            this.txtName.Location = new System.Drawing.Point(501, 19);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(392, 20);
+            this.txtName.Size = new System.Drawing.Size(415, 26);
             this.txtName.TabIndex = 4;
             // 
             // metroSetLabel2
             // 
-            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel2.Location = new System.Drawing.Point(374, 19);
+            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel2.Location = new System.Drawing.Point(411, 19);
             this.metroSetLabel2.Name = "metroSetLabel2";
             this.metroSetLabel2.Size = new System.Drawing.Size(84, 23);
             this.metroSetLabel2.Style = MetroSet_UI.Design.Style.Light;
@@ -281,14 +283,15 @@
             // 
             // txtSurname
             // 
+            this.txtSurname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSurname.Location = new System.Drawing.Point(104, 19);
             this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(260, 20);
+            this.txtSurname.Size = new System.Drawing.Size(301, 26);
             this.txtSurname.TabIndex = 2;
             // 
             // metroSetLabel1
             // 
-            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel1.Location = new System.Drawing.Point(7, 19);
             this.metroSetLabel1.Name = "metroSetLabel1";
             this.metroSetLabel1.Size = new System.Drawing.Size(91, 23);
@@ -317,11 +320,11 @@
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel10);
             this.xuiCustomGroupbox2.Controls.Add(this.txtDiagnosis);
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel9);
-            this.xuiCustomGroupbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 190);
+            this.xuiCustomGroupbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 219);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(839, 319);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(924, 319);
             this.xuiCustomGroupbox2.TabIndex = 3;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Medical Entry";
@@ -331,18 +334,18 @@
             // 
             this.txtSensation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSensation.Location = new System.Drawing.Point(233, 285);
+            this.txtSensation.Location = new System.Drawing.Point(243, 285);
             this.txtSensation.Name = "txtSensation";
-            this.txtSensation.Size = new System.Drawing.Size(598, 20);
+            this.txtSensation.Size = new System.Drawing.Size(673, 26);
             this.txtSensation.TabIndex = 12;
             // 
             // cbxSensation
             // 
             this.cbxSensation.AutoSize = true;
-            this.cbxSensation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSensation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxSensation.Location = new System.Drawing.Point(128, 285);
             this.cbxSensation.Name = "cbxSensation";
-            this.cbxSensation.Size = new System.Drawing.Size(99, 21);
+            this.cbxSensation.Size = new System.Drawing.Size(109, 24);
             this.cbxSensation.TabIndex = 11;
             this.cbxSensation.Text = "Sensation";
             this.cbxSensation.UseVisualStyleBackColor = true;
@@ -350,10 +353,10 @@
             // cbxTenderness
             // 
             this.cbxTenderness.AutoSize = true;
-            this.cbxTenderness.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxTenderness.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxTenderness.Location = new System.Drawing.Point(128, 261);
             this.cbxTenderness.Name = "cbxTenderness";
-            this.cbxTenderness.Size = new System.Drawing.Size(113, 21);
+            this.cbxTenderness.Size = new System.Drawing.Size(122, 24);
             this.cbxTenderness.TabIndex = 10;
             this.cbxTenderness.Text = "Tenderness";
             this.cbxTenderness.UseVisualStyleBackColor = true;
@@ -361,17 +364,17 @@
             // cbxSwelling
             // 
             this.cbxSwelling.AutoSize = true;
-            this.cbxSwelling.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSwelling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxSwelling.Location = new System.Drawing.Point(128, 237);
             this.cbxSwelling.Name = "cbxSwelling";
-            this.cbxSwelling.Size = new System.Drawing.Size(86, 21);
+            this.cbxSwelling.Size = new System.Drawing.Size(94, 24);
             this.cbxSwelling.TabIndex = 9;
             this.cbxSwelling.Text = "Swelling";
             this.cbxSwelling.UseVisualStyleBackColor = true;
             // 
             // metroSetLabel12
             // 
-            this.metroSetLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel12.Location = new System.Drawing.Point(7, 239);
             this.metroSetLabel12.Name = "metroSetLabel12";
             this.metroSetLabel12.Size = new System.Drawing.Size(100, 23);
@@ -388,16 +391,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPastMedicalHistory.Location = new System.Drawing.Point(128, 161);
             this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
-            this.txtPastMedicalHistory.Size = new System.Drawing.Size(703, 65);
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(788, 65);
             this.txtPastMedicalHistory.TabIndex = 7;
             this.txtPastMedicalHistory.Text = "";
             // 
             // metroSetLabel11
             // 
-            this.metroSetLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel11.Location = new System.Drawing.Point(7, 168);
             this.metroSetLabel11.Name = "metroSetLabel11";
-            this.metroSetLabel11.Size = new System.Drawing.Size(115, 38);
+            this.metroSetLabel11.Size = new System.Drawing.Size(115, 58);
             this.metroSetLabel11.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel11.StyleManager = null;
             this.metroSetLabel11.TabIndex = 6;
@@ -411,13 +414,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBriefHistory.Location = new System.Drawing.Point(128, 90);
             this.txtBriefHistory.Name = "txtBriefHistory";
-            this.txtBriefHistory.Size = new System.Drawing.Size(703, 65);
+            this.txtBriefHistory.Size = new System.Drawing.Size(788, 65);
             this.txtBriefHistory.TabIndex = 5;
             this.txtBriefHistory.Text = "";
             // 
             // metroSetLabel10
             // 
-            this.metroSetLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel10.Location = new System.Drawing.Point(7, 97);
             this.metroSetLabel10.Name = "metroSetLabel10";
             this.metroSetLabel10.Size = new System.Drawing.Size(100, 32);
@@ -434,13 +437,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDiagnosis.Location = new System.Drawing.Point(128, 19);
             this.txtDiagnosis.Name = "txtDiagnosis";
-            this.txtDiagnosis.Size = new System.Drawing.Size(703, 65);
+            this.txtDiagnosis.Size = new System.Drawing.Size(788, 65);
             this.txtDiagnosis.TabIndex = 3;
             this.txtDiagnosis.Text = "";
             // 
             // metroSetLabel9
             // 
-            this.metroSetLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel9.Location = new System.Drawing.Point(7, 26);
             this.metroSetLabel9.Name = "metroSetLabel9";
             this.metroSetLabel9.Size = new System.Drawing.Size(100, 23);
@@ -460,10 +463,11 @@
             this.xuiCustomGroupbox3.BorderWidth = 1;
             this.xuiCustomGroupbox3.Controls.Add(this.btnAddAssesment);
             this.xuiCustomGroupbox3.Controls.Add(this.grdAssessement);
-            this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 515);
+            this.xuiCustomGroupbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 544);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(839, 182);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(924, 204);
             this.xuiCustomGroupbox3.TabIndex = 4;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Range of motion";
@@ -471,13 +475,16 @@
             // 
             // btnAddAssesment
             // 
-            this.btnAddAssesment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAssesment.Location = new System.Drawing.Point(6, 153);
+            this.btnAddAssesment.AutoSize = true;
+            this.btnAddAssesment.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnAddAssesment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddAssesment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAssesment.Location = new System.Drawing.Point(6, 159);
             this.btnAddAssesment.Name = "btnAddAssesment";
-            this.btnAddAssesment.Size = new System.Drawing.Size(75, 23);
+            this.btnAddAssesment.Size = new System.Drawing.Size(75, 32);
             this.btnAddAssesment.TabIndex = 3;
             this.btnAddAssesment.Text = "Add";
-            this.btnAddAssesment.UseVisualStyleBackColor = true;
+            this.btnAddAssesment.UseVisualStyleBackColor = false;
             this.btnAddAssesment.Click += new System.EventHandler(this.btnAddAssesment_Click);
             // 
             // grdAssessement
@@ -485,9 +492,9 @@
             this.grdAssessement.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grdAssessement.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdAssessement.Location = new System.Drawing.Point(6, 19);
+            this.grdAssessement.Location = new System.Drawing.Point(8, 25);
             this.grdAssessement.Name = "grdAssessement";
-            this.grdAssessement.Size = new System.Drawing.Size(825, 128);
+            this.grdAssessement.Size = new System.Drawing.Size(910, 128);
             this.grdAssessement.TabIndex = 1;
             // 
             // xuiCustomGroupbox5
@@ -501,10 +508,11 @@
             this.xuiCustomGroupbox5.Controls.Add(this.metroSetLabel14);
             this.xuiCustomGroupbox5.Controls.Add(this.txtAdvise);
             this.xuiCustomGroupbox5.Controls.Add(this.metroSetLabel13);
-            this.xuiCustomGroupbox5.Location = new System.Drawing.Point(12, 703);
+            this.xuiCustomGroupbox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xuiCustomGroupbox5.Location = new System.Drawing.Point(12, 754);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(839, 173);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(924, 184);
             this.xuiCustomGroupbox5.TabIndex = 6;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Advise and Prescription";
@@ -514,18 +522,18 @@
             // 
             this.txtPrescription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPrescription.Location = new System.Drawing.Point(128, 90);
+            this.txtPrescription.Location = new System.Drawing.Point(128, 97);
             this.txtPrescription.Name = "txtPrescription";
-            this.txtPrescription.Size = new System.Drawing.Size(703, 65);
+            this.txtPrescription.Size = new System.Drawing.Size(788, 65);
             this.txtPrescription.TabIndex = 11;
             this.txtPrescription.Text = "";
             // 
             // metroSetLabel14
             // 
-            this.metroSetLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel14.Location = new System.Drawing.Point(7, 97);
+            this.metroSetLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel14.Location = new System.Drawing.Point(7, 121);
             this.metroSetLabel14.Name = "metroSetLabel14";
-            this.metroSetLabel14.Size = new System.Drawing.Size(100, 23);
+            this.metroSetLabel14.Size = new System.Drawing.Size(115, 23);
             this.metroSetLabel14.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel14.StyleManager = null;
             this.metroSetLabel14.TabIndex = 10;
@@ -537,16 +545,16 @@
             // 
             this.txtAdvise.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAdvise.Location = new System.Drawing.Point(128, 19);
+            this.txtAdvise.Location = new System.Drawing.Point(128, 25);
             this.txtAdvise.Name = "txtAdvise";
-            this.txtAdvise.Size = new System.Drawing.Size(703, 65);
+            this.txtAdvise.Size = new System.Drawing.Size(788, 65);
             this.txtAdvise.TabIndex = 9;
             this.txtAdvise.Text = "";
             // 
             // metroSetLabel13
             // 
-            this.metroSetLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel13.Location = new System.Drawing.Point(7, 26);
+            this.metroSetLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel13.Location = new System.Drawing.Point(8, 49);
             this.metroSetLabel13.Name = "metroSetLabel13";
             this.metroSetLabel13.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel13.Style = MetroSet_UI.Design.Style.Light;
@@ -566,10 +574,11 @@
             this.xuiCustomGroupbox4.Controls.Add(this.dpNextAppointmentTime);
             this.xuiCustomGroupbox4.Controls.Add(this.dpNextAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.metroSetLabel15);
-            this.xuiCustomGroupbox4.Location = new System.Drawing.Point(12, 882);
+            this.xuiCustomGroupbox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xuiCustomGroupbox4.Location = new System.Drawing.Point(12, 944);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(839, 75);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(924, 75);
             this.xuiCustomGroupbox4.TabIndex = 8;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Appointment";
@@ -579,19 +588,21 @@
             // 
             this.dpNextAppointmentTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.dpNextAppointmentTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dpNextAppointmentTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dpNextAppointmentTime.Location = new System.Drawing.Point(128, 45);
+            this.dpNextAppointmentTime.Location = new System.Drawing.Point(162, 40);
             this.dpNextAppointmentTime.Name = "dpNextAppointmentTime";
-            this.dpNextAppointmentTime.Size = new System.Drawing.Size(236, 20);
+            this.dpNextAppointmentTime.Size = new System.Drawing.Size(483, 26);
             this.dpNextAppointmentTime.TabIndex = 16;
             // 
             // dpNextAppointment
             // 
             this.dpNextAppointment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dpNextAppointment.Location = new System.Drawing.Point(128, 19);
+            this.dpNextAppointment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dpNextAppointment.Location = new System.Drawing.Point(162, 14);
             this.dpNextAppointment.Name = "dpNextAppointment";
-            this.dpNextAppointment.Size = new System.Drawing.Size(346, 20);
+            this.dpNextAppointment.Size = new System.Drawing.Size(483, 26);
             this.dpNextAppointment.TabIndex = 14;
             // 
             // metroSetLabel15
@@ -599,7 +610,7 @@
             this.metroSetLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel15.Location = new System.Drawing.Point(7, 28);
             this.metroSetLabel15.Name = "metroSetLabel15";
-            this.metroSetLabel15.Size = new System.Drawing.Size(100, 34);
+            this.metroSetLabel15.Size = new System.Drawing.Size(149, 34);
             this.metroSetLabel15.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel15.StyleManager = null;
             this.metroSetLabel15.TabIndex = 13;
@@ -609,24 +620,30 @@
             // 
             // btnSave
             // 
-            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(12, 963);
+            this.btnSave.AutoSize = true;
+            this.btnSave.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(12, 1025);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 32);
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnClear
             // 
-            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(93, 963);
+            this.btnClear.AutoSize = true;
+            this.btnClear.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(93, 1025);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.Size = new System.Drawing.Size(75, 32);
             this.btnClear.TabIndex = 10;
             this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtEntryDate
@@ -635,7 +652,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEntryDate.Location = new System.Drawing.Point(554, 9);
             this.txtEntryDate.Name = "txtEntryDate";
-            this.txtEntryDate.Size = new System.Drawing.Size(297, 20);
+            this.txtEntryDate.Size = new System.Drawing.Size(382, 20);
             this.txtEntryDate.TabIndex = 12;
             // 
             // metroSetLabel16
@@ -656,7 +673,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(863, 1069);
+            this.ClientSize = new System.Drawing.Size(948, 1069);
             this.Controls.Add(this.txtEntryDate);
             this.Controls.Add(this.metroSetLabel16);
             this.Controls.Add(this.btnClear);
@@ -680,6 +697,7 @@
             this.xuiCustomGroupbox5.ResumeLayout(false);
             this.xuiCustomGroupbox5.PerformLayout();
             this.xuiCustomGroupbox4.ResumeLayout(false);
+            this.xuiCustomGroupbox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
