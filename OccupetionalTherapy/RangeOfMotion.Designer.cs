@@ -2083,7 +2083,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(690, 479);
+            this.ClientSize = new System.Drawing.Size(707, 479);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnUpsert);
@@ -2098,7 +2098,6 @@
             this.gbxElbow.ResumeLayout(false);
             this.gbxElbow.PerformLayout();
             this.xuiCustomGroupbox6.ResumeLayout(false);
-            this.xuiCustomGroupbox6.PerformLayout();
             this.xuiFlatTab2.ResumeLayout(false);
             this.tbThumb.ResumeLayout(false);
             this.tbThumb.PerformLayout();

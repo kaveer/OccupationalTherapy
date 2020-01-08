@@ -212,6 +212,10 @@ namespace OccupetionalTherapy
                         {
                             switch (thumb.MotionType)
                             {
+                                case MotionType.CMFlexsion:
+                                    txt_TL_CMflexsion.Text = thumb.LeftValue;
+                                    txt_TR_CMflexsion.Text = thumb.RightValue;
+                                    break;
                                 case MotionType.CMExtension:
                                     txt_TL_CmExtension.Text = thumb.LeftValue;
                                     txt_TR_CMExtension.Text = thumb.RightValue;

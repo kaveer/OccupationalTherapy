@@ -30,6 +30,9 @@ namespace OccupetionalTherapy
         {
             this.BackColor = clsHelper.formBackground;
             btnSearch.BackColor = clsHelper.buttonBackground;
+            btnSearch.FlatStyle = FlatStyle.Flat;
+            btnSearch.ForeColor = Color.White;
+            btnSearch.AutoSizeMode = AutoSizeMode.GrowAndShrink;
         }
 
         private void Appointment_Load(object sender, EventArgs e)
