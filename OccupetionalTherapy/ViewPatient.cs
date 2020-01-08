@@ -221,7 +221,7 @@ namespace OccupetionalTherapy
             grdAppointment.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdAppointment.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
-            grdAppointment.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAppointment.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
             grdAppointment.DefaultCellStyle.SelectionForeColor = Color.White;
 
             grdAppointment.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
@@ -255,7 +255,7 @@ namespace OccupetionalTherapy
             grdAssessment.AlternatingRowsDefaultCellStyle.BackColor = Color.White;
             grdAssessment.CellBorderStyle = DataGridViewCellBorderStyle.None;
 
-            grdAssessment.DefaultCellStyle.SelectionBackColor = Color.Black;
+            grdAssessment.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
             grdAssessment.DefaultCellStyle.SelectionForeColor = Color.White;
 
             grdAssessment.DefaultCellStyle.WrapMode = DataGridViewTriState.True;

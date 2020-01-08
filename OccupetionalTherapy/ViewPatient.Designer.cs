@@ -92,15 +92,16 @@
             // 
             this.txtEntryDate.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtEntryDate.Location = new System.Drawing.Point(528, 4);
+            this.txtEntryDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEntryDate.Location = new System.Drawing.Point(638, 3);
             this.txtEntryDate.Name = "txtEntryDate";
-            this.txtEntryDate.Size = new System.Drawing.Size(117, 20);
+            this.txtEntryDate.Size = new System.Drawing.Size(164, 26);
             this.txtEntryDate.TabIndex = 16;
             // 
             // metroSetLabel16
             // 
-            this.metroSetLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel16.Location = new System.Drawing.Point(446, 4);
+            this.metroSetLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroSetLabel16.Location = new System.Drawing.Point(567, 6);
             this.metroSetLabel16.Name = "metroSetLabel16";
             this.metroSetLabel16.Size = new System.Drawing.Size(76, 23);
             this.metroSetLabel16.Style = MetroSet_UI.Design.Style.Light;
@@ -118,7 +119,7 @@
             this.metroSetDivider1.Location = new System.Drawing.Point(12, 35);
             this.metroSetDivider1.Name = "metroSetDivider1";
             this.metroSetDivider1.Orientation = MetroSet_UI.Enums.DividerStyle.Horizontal;
-            this.metroSetDivider1.Size = new System.Drawing.Size(633, 4);
+            this.metroSetDivider1.Size = new System.Drawing.Size(790, 4);
             this.metroSetDivider1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetDivider1.StyleManager = null;
             this.metroSetDivider1.TabIndex = 13;
@@ -145,10 +146,11 @@
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel10);
             this.xuiCustomGroupbox2.Controls.Add(this.txtDiagnosis);
             this.xuiCustomGroupbox2.Controls.Add(this.metroSetLabel9);
+            this.xuiCustomGroupbox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 185);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(633, 253);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(790, 253);
             this.xuiCustomGroupbox2.TabIndex = 18;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Medical Entry";
@@ -160,7 +162,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSensation.Location = new System.Drawing.Point(204, 214);
             this.txtSensation.Name = "txtSensation";
-            this.txtSensation.Size = new System.Drawing.Size(423, 20);
+            this.txtSensation.Size = new System.Drawing.Size(580, 23);
             this.txtSensation.TabIndex = 12;
             // 
             // cbxSensation
@@ -215,7 +217,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPastMedicalHistory.Location = new System.Drawing.Point(116, 114);
             this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
-            this.txtPastMedicalHistory.Size = new System.Drawing.Size(511, 40);
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(668, 40);
             this.txtPastMedicalHistory.TabIndex = 7;
             this.txtPastMedicalHistory.Text = "";
             // 
@@ -238,7 +240,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBriefHistory.Location = new System.Drawing.Point(116, 64);
             this.txtBriefHistory.Name = "txtBriefHistory";
-            this.txtBriefHistory.Size = new System.Drawing.Size(511, 44);
+            this.txtBriefHistory.Size = new System.Drawing.Size(668, 44);
             this.txtBriefHistory.TabIndex = 5;
             this.txtBriefHistory.Text = "";
             // 
@@ -261,7 +263,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDiagnosis.Location = new System.Drawing.Point(116, 19);
             this.txtDiagnosis.Name = "txtDiagnosis";
-            this.txtDiagnosis.Size = new System.Drawing.Size(511, 39);
+            this.txtDiagnosis.Size = new System.Drawing.Size(668, 39);
             this.txtDiagnosis.TabIndex = 3;
             this.txtDiagnosis.Text = "";
             // 
@@ -289,10 +291,11 @@
             this.xuiCustomGroupbox3.Controls.Add(this.btnViewAssessment);
             this.xuiCustomGroupbox3.Controls.Add(this.btnAddAssessment);
             this.xuiCustomGroupbox3.Controls.Add(this.grdAssessment);
+            this.xuiCustomGroupbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 599);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(633, 216);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(790, 228);
             this.xuiCustomGroupbox3.TabIndex = 19;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Range of motion";
@@ -300,35 +303,44 @@
             // 
             // btnDeleteAssessment
             // 
-            this.btnDeleteAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteAssessment.Location = new System.Drawing.Point(169, 185);
+            this.btnDeleteAssessment.AutoSize = true;
+            this.btnDeleteAssessment.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnDeleteAssessment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteAssessment.Location = new System.Drawing.Point(168, 193);
             this.btnDeleteAssessment.Name = "btnDeleteAssessment";
-            this.btnDeleteAssessment.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteAssessment.Size = new System.Drawing.Size(75, 29);
             this.btnDeleteAssessment.TabIndex = 6;
             this.btnDeleteAssessment.Text = "Delete";
-            this.btnDeleteAssessment.UseVisualStyleBackColor = true;
+            this.btnDeleteAssessment.UseVisualStyleBackColor = false;
             this.btnDeleteAssessment.Click += new System.EventHandler(this.btnDeleteAssessment_Click);
             // 
             // btnViewAssessment
             // 
-            this.btnViewAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewAssessment.Location = new System.Drawing.Point(87, 186);
+            this.btnViewAssessment.AutoSize = true;
+            this.btnViewAssessment.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnViewAssessment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewAssessment.Location = new System.Drawing.Point(87, 193);
             this.btnViewAssessment.Name = "btnViewAssessment";
-            this.btnViewAssessment.Size = new System.Drawing.Size(75, 23);
+            this.btnViewAssessment.Size = new System.Drawing.Size(75, 29);
             this.btnViewAssessment.TabIndex = 5;
             this.btnViewAssessment.Text = "View";
-            this.btnViewAssessment.UseVisualStyleBackColor = true;
+            this.btnViewAssessment.UseVisualStyleBackColor = false;
             this.btnViewAssessment.Click += new System.EventHandler(this.btnViewAssessment_Click);
             // 
             // btnAddAssessment
             // 
-            this.btnAddAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddAssessment.Location = new System.Drawing.Point(6, 186);
+            this.btnAddAssessment.AutoSize = true;
+            this.btnAddAssessment.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnAddAssessment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAssessment.Location = new System.Drawing.Point(6, 193);
             this.btnAddAssessment.Name = "btnAddAssessment";
-            this.btnAddAssessment.Size = new System.Drawing.Size(75, 23);
+            this.btnAddAssessment.Size = new System.Drawing.Size(75, 29);
             this.btnAddAssessment.TabIndex = 3;
             this.btnAddAssessment.Text = "Add";
-            this.btnAddAssessment.UseVisualStyleBackColor = true;
+            this.btnAddAssessment.UseVisualStyleBackColor = false;
             this.btnAddAssessment.Click += new System.EventHandler(this.btnAddAssessment_Click);
             // 
             // grdAssessment
@@ -336,9 +348,9 @@
             this.grdAssessment.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grdAssessment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdAssessment.Location = new System.Drawing.Point(6, 19);
+            this.grdAssessment.Location = new System.Drawing.Point(7, 26);
             this.grdAssessment.Name = "grdAssessment";
-            this.grdAssessment.Size = new System.Drawing.Size(618, 161);
+            this.grdAssessment.Size = new System.Drawing.Size(775, 161);
             this.grdAssessment.TabIndex = 1;
             this.grdAssessment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAssessment_CellClick);
             // 
@@ -365,10 +377,11 @@
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel2);
             this.xuiCustomGroupbox1.Controls.Add(this.txtSurname);
             this.xuiCustomGroupbox1.Controls.Add(this.metroSetLabel1);
+            this.xuiCustomGroupbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 45);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(633, 134);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(790, 134);
             this.xuiCustomGroupbox1.TabIndex = 17;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Patient Details";
@@ -378,15 +391,15 @@
             // 
             this.txtOccupation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtOccupation.Location = new System.Drawing.Point(107, 97);
+            this.txtOccupation.Location = new System.Drawing.Point(108, 105);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(520, 20);
+            this.txtOccupation.Size = new System.Drawing.Size(677, 23);
             this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
             // 
             this.metroSetLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel8.Location = new System.Drawing.Point(7, 94);
+            this.metroSetLabel8.Location = new System.Drawing.Point(6, 105);
             this.metroSetLabel8.Name = "metroSetLabel8";
             this.metroSetLabel8.Size = new System.Drawing.Size(91, 23);
             this.metroSetLabel8.Style = MetroSet_UI.Design.Style.Light;
@@ -400,15 +413,15 @@
             // 
             this.txtAge.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAge.Location = new System.Drawing.Point(466, 71);
+            this.txtAge.Location = new System.Drawing.Point(467, 78);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(161, 20);
+            this.txtAge.Size = new System.Drawing.Size(318, 23);
             this.txtAge.TabIndex = 14;
             // 
             // metroSetLabel7
             // 
             this.metroSetLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel7.Location = new System.Drawing.Point(384, 71);
+            this.metroSetLabel7.Location = new System.Drawing.Point(420, 78);
             this.metroSetLabel7.Name = "metroSetLabel7";
             this.metroSetLabel7.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel7.Style = MetroSet_UI.Design.Style.Light;
@@ -421,15 +434,15 @@
             // dpDOB
             // 
             this.dpDOB.CustomFormat = "";
-            this.dpDOB.Location = new System.Drawing.Point(107, 71);
+            this.dpDOB.Location = new System.Drawing.Point(108, 76);
             this.dpDOB.Name = "dpDOB";
-            this.dpDOB.Size = new System.Drawing.Size(260, 20);
+            this.dpDOB.Size = new System.Drawing.Size(291, 23);
             this.dpDOB.TabIndex = 12;
             // 
             // metroSetLabel6
             // 
             this.metroSetLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel6.Location = new System.Drawing.Point(7, 71);
+            this.metroSetLabel6.Location = new System.Drawing.Point(7, 82);
             this.metroSetLabel6.Name = "metroSetLabel6";
             this.metroSetLabel6.Size = new System.Drawing.Size(41, 23);
             this.metroSetLabel6.Style = MetroSet_UI.Design.Style.Light;
@@ -443,15 +456,15 @@
             // 
             this.txtMobile2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMobile2.Location = new System.Drawing.Point(591, 45);
+            this.txtMobile2.Location = new System.Drawing.Point(592, 50);
             this.txtMobile2.Name = "txtMobile2";
-            this.txtMobile2.Size = new System.Drawing.Size(36, 20);
+            this.txtMobile2.Size = new System.Drawing.Size(193, 23);
             this.txtMobile2.TabIndex = 10;
             // 
             // metroSetLabel5
             // 
             this.metroSetLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel5.Location = new System.Drawing.Point(516, 45);
+            this.metroSetLabel5.Location = new System.Drawing.Point(517, 50);
             this.metroSetLabel5.Name = "metroSetLabel5";
             this.metroSetLabel5.Size = new System.Drawing.Size(69, 23);
             this.metroSetLabel5.Style = MetroSet_UI.Design.Style.Light;
@@ -463,15 +476,15 @@
             // 
             // txtMobile1
             // 
-            this.txtMobile1.Location = new System.Drawing.Point(358, 45);
+            this.txtMobile1.Location = new System.Drawing.Point(359, 49);
             this.txtMobile1.Name = "txtMobile1";
-            this.txtMobile1.Size = new System.Drawing.Size(152, 20);
+            this.txtMobile1.Size = new System.Drawing.Size(152, 23);
             this.txtMobile1.TabIndex = 8;
             // 
             // metroSetLabel4
             // 
             this.metroSetLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel4.Location = new System.Drawing.Point(288, 45);
+            this.metroSetLabel4.Location = new System.Drawing.Point(289, 50);
             this.metroSetLabel4.Name = "metroSetLabel4";
             this.metroSetLabel4.Size = new System.Drawing.Size(64, 23);
             this.metroSetLabel4.Style = MetroSet_UI.Design.Style.Light;
@@ -483,9 +496,9 @@
             // 
             // txtTel
             // 
-            this.txtTel.Location = new System.Drawing.Point(107, 45);
+            this.txtTel.Location = new System.Drawing.Point(107, 48);
             this.txtTel.Name = "txtTel";
-            this.txtTel.Size = new System.Drawing.Size(175, 20);
+            this.txtTel.Size = new System.Drawing.Size(175, 23);
             this.txtTel.TabIndex = 6;
             // 
             // metroSetLabel3
@@ -505,15 +518,15 @@
             // 
             this.txtName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtName.Location = new System.Drawing.Point(443, 19);
+            this.txtName.Location = new System.Drawing.Point(443, 24);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(185, 20);
+            this.txtName.Size = new System.Drawing.Size(342, 23);
             this.txtName.TabIndex = 4;
             // 
             // metroSetLabel2
             // 
             this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel2.Location = new System.Drawing.Point(378, 19);
+            this.metroSetLabel2.Location = new System.Drawing.Point(378, 23);
             this.metroSetLabel2.Name = "metroSetLabel2";
             this.metroSetLabel2.Size = new System.Drawing.Size(59, 23);
             this.metroSetLabel2.Style = MetroSet_UI.Design.Style.Light;
@@ -527,7 +540,7 @@
             // 
             this.txtSurname.Location = new System.Drawing.Point(107, 19);
             this.txtSurname.Name = "txtSurname";
-            this.txtSurname.Size = new System.Drawing.Size(261, 20);
+            this.txtSurname.Size = new System.Drawing.Size(261, 23);
             this.txtSurname.TabIndex = 2;
             // 
             // metroSetLabel1
@@ -567,10 +580,10 @@
             this.xuiCustomGroupbox4.Controls.Add(this.grdAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.dpAddAppointment);
             this.xuiCustomGroupbox4.Controls.Add(this.metroSetLabel15);
-            this.xuiCustomGroupbox4.Location = new System.Drawing.Point(14, 821);
+            this.xuiCustomGroupbox4.Location = new System.Drawing.Point(14, 833);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(632, 207);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(789, 207);
             this.xuiCustomGroupbox4.TabIndex = 21;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Appointments";
@@ -586,13 +599,16 @@
             // 
             // btnDeleteAppointment
             // 
-            this.btnDeleteAppointment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteAppointment.AutoSize = true;
+            this.btnDeleteAppointment.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnDeleteAppointment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeleteAppointment.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteAppointment.Location = new System.Drawing.Point(8, 173);
             this.btnDeleteAppointment.Name = "btnDeleteAppointment";
-            this.btnDeleteAppointment.Size = new System.Drawing.Size(75, 23);
+            this.btnDeleteAppointment.Size = new System.Drawing.Size(75, 29);
             this.btnDeleteAppointment.TabIndex = 23;
             this.btnDeleteAppointment.Text = "Delete";
-            this.btnDeleteAppointment.UseVisualStyleBackColor = true;
+            this.btnDeleteAppointment.UseVisualStyleBackColor = false;
             this.btnDeleteAppointment.Click += new System.EventHandler(this.btnDeleteAppointment_Click);
             // 
             // grdAppointment
@@ -602,7 +618,7 @@
             this.grdAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdAppointment.Location = new System.Drawing.Point(8, 57);
             this.grdAppointment.Name = "grdAppointment";
-            this.grdAppointment.Size = new System.Drawing.Size(618, 110);
+            this.grdAppointment.Size = new System.Drawing.Size(775, 110);
             this.grdAppointment.TabIndex = 16;
             this.grdAppointment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAppointment_CellClick);
             // 
@@ -637,10 +653,11 @@
             this.xuiCustomGroupbox5.Controls.Add(this.metroSetLabel14);
             this.xuiCustomGroupbox5.Controls.Add(this.txtAdvise);
             this.xuiCustomGroupbox5.Controls.Add(this.metroSetLabel13);
+            this.xuiCustomGroupbox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(13, 444);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(632, 149);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(789, 149);
             this.xuiCustomGroupbox5.TabIndex = 20;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Advise and Prescription";
@@ -650,16 +667,16 @@
             // 
             this.txtPrescription.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPrescription.Location = new System.Drawing.Point(115, 77);
+            this.txtPrescription.Location = new System.Drawing.Point(115, 86);
             this.txtPrescription.Name = "txtPrescription";
-            this.txtPrescription.Size = new System.Drawing.Size(511, 57);
+            this.txtPrescription.Size = new System.Drawing.Size(668, 57);
             this.txtPrescription.TabIndex = 11;
             this.txtPrescription.Text = "";
             // 
             // metroSetLabel14
             // 
             this.metroSetLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel14.Location = new System.Drawing.Point(7, 96);
+            this.metroSetLabel14.Location = new System.Drawing.Point(9, 105);
             this.metroSetLabel14.Name = "metroSetLabel14";
             this.metroSetLabel14.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel14.Style = MetroSet_UI.Design.Style.Light;
@@ -673,16 +690,16 @@
             // 
             this.txtAdvise.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtAdvise.Location = new System.Drawing.Point(115, 19);
+            this.txtAdvise.Location = new System.Drawing.Point(115, 28);
             this.txtAdvise.Name = "txtAdvise";
-            this.txtAdvise.Size = new System.Drawing.Size(511, 52);
+            this.txtAdvise.Size = new System.Drawing.Size(668, 52);
             this.txtAdvise.TabIndex = 9;
             this.txtAdvise.Text = "";
             // 
             // metroSetLabel13
             // 
             this.metroSetLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel13.Location = new System.Drawing.Point(7, 26);
+            this.metroSetLabel13.Location = new System.Drawing.Point(9, 42);
             this.metroSetLabel13.Name = "metroSetLabel13";
             this.metroSetLabel13.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel13.Style = MetroSet_UI.Design.Style.Light;
@@ -694,24 +711,30 @@
             // 
             // btnUpdatePatient
             // 
-            this.btnUpdatePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdatePatient.Location = new System.Drawing.Point(14, 1034);
+            this.btnUpdatePatient.AutoSize = true;
+            this.btnUpdatePatient.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnUpdatePatient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdatePatient.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdatePatient.Location = new System.Drawing.Point(13, 1046);
             this.btnUpdatePatient.Name = "btnUpdatePatient";
-            this.btnUpdatePatient.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdatePatient.Size = new System.Drawing.Size(75, 29);
             this.btnUpdatePatient.TabIndex = 22;
             this.btnUpdatePatient.Text = "Update";
-            this.btnUpdatePatient.UseVisualStyleBackColor = true;
+            this.btnUpdatePatient.UseVisualStyleBackColor = false;
             this.btnUpdatePatient.Click += new System.EventHandler(this.btnUpdatePatient_Click);
             // 
             // btnClose
             // 
-            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(95, 1034);
+            this.btnClose.AutoSize = true;
+            this.btnClose.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(94, 1046);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(75, 29);
             this.btnClose.TabIndex = 23;
             this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // ViewPatient
@@ -719,6 +742,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(844, 711);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnUpdatePatient);
@@ -740,6 +764,7 @@
             this.xuiCustomGroupbox1.ResumeLayout(false);
             this.xuiCustomGroupbox1.PerformLayout();
             this.xuiCustomGroupbox4.ResumeLayout(false);
+            this.xuiCustomGroupbox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).EndInit();
             this.xuiCustomGroupbox5.ResumeLayout(false);
             this.xuiCustomGroupbox5.PerformLayout();
