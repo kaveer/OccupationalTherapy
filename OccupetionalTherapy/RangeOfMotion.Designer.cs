@@ -257,7 +257,7 @@
             this.xuiFlatTab1.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab1.SelectedIndex = 0;
             this.xuiFlatTab1.ShowBorder = true;
-            this.xuiFlatTab1.Size = new System.Drawing.Size(666, 804);
+            this.xuiFlatTab1.Size = new System.Drawing.Size(649, 804);
             this.xuiFlatTab1.TabIndex = 1;
             // 
             // tabPage1
@@ -272,7 +272,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 20);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(658, 780);
+            this.tabPage1.Size = new System.Drawing.Size(641, 780);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Upper Join";
             // 
@@ -280,7 +280,7 @@
             // 
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(206, 3);
+            this.label47.Location = new System.Drawing.Point(307, 3);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(41, 20);
             this.label47.TabIndex = 10;
@@ -290,7 +290,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(307, 3);
+            this.label44.Location = new System.Drawing.Point(201, 3);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(52, 20);
             this.label44.TabIndex = 9;
@@ -315,7 +315,7 @@
             this.gbxElbow.Location = new System.Drawing.Point(8, 267);
             this.gbxElbow.Name = "gbxElbow";
             this.gbxElbow.ShowText = true;
-            this.gbxElbow.Size = new System.Drawing.Size(643, 117);
+            this.gbxElbow.Size = new System.Drawing.Size(626, 117);
             this.gbxElbow.TabIndex = 8;
             this.gbxElbow.TabStop = false;
             this.gbxElbow.Text = "Elbow And Forearm";
@@ -324,7 +324,7 @@
             // txt_ER_FlexsionExtension
             // 
             this.txt_ER_FlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ER_FlexsionExtension.Location = new System.Drawing.Point(278, 25);
+            this.txt_ER_FlexsionExtension.Location = new System.Drawing.Point(172, 25);
             this.txt_ER_FlexsionExtension.Name = "txt_ER_FlexsionExtension";
             this.txt_ER_FlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_ER_FlexsionExtension.TabIndex = 30;
@@ -332,7 +332,7 @@
             // txt_EL_FlexsionExtension
             // 
             this.txt_EL_FlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_EL_FlexsionExtension.Location = new System.Drawing.Point(172, 25);
+            this.txt_EL_FlexsionExtension.Location = new System.Drawing.Point(278, 25);
             this.txt_EL_FlexsionExtension.Name = "txt_EL_FlexsionExtension";
             this.txt_EL_FlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_EL_FlexsionExtension.TabIndex = 29;
@@ -350,7 +350,7 @@
             // txt_ER_Supination
             // 
             this.txt_ER_Supination.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ER_Supination.Location = new System.Drawing.Point(278, 51);
+            this.txt_ER_Supination.Location = new System.Drawing.Point(172, 51);
             this.txt_ER_Supination.Name = "txt_ER_Supination";
             this.txt_ER_Supination.Size = new System.Drawing.Size(100, 22);
             this.txt_ER_Supination.TabIndex = 27;
@@ -358,7 +358,7 @@
             // txt_EL_Supination
             // 
             this.txt_EL_Supination.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_EL_Supination.Location = new System.Drawing.Point(172, 51);
+            this.txt_EL_Supination.Location = new System.Drawing.Point(278, 51);
             this.txt_EL_Supination.Name = "txt_EL_Supination";
             this.txt_EL_Supination.Size = new System.Drawing.Size(100, 22);
             this.txt_EL_Supination.TabIndex = 26;
@@ -376,7 +376,7 @@
             // txt_ER_Pronation
             // 
             this.txt_ER_Pronation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ER_Pronation.Location = new System.Drawing.Point(278, 77);
+            this.txt_ER_Pronation.Location = new System.Drawing.Point(172, 77);
             this.txt_ER_Pronation.Name = "txt_ER_Pronation";
             this.txt_ER_Pronation.Size = new System.Drawing.Size(100, 22);
             this.txt_ER_Pronation.TabIndex = 24;
@@ -384,7 +384,7 @@
             // txt_EL_Pronation
             // 
             this.txt_EL_Pronation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_EL_Pronation.Location = new System.Drawing.Point(172, 77);
+            this.txt_EL_Pronation.Location = new System.Drawing.Point(278, 77);
             this.txt_EL_Pronation.Name = "txt_EL_Pronation";
             this.txt_EL_Pronation.Size = new System.Drawing.Size(100, 22);
             this.txt_EL_Pronation.TabIndex = 23;
@@ -410,7 +410,7 @@
             this.xuiCustomGroupbox6.Location = new System.Drawing.Point(8, 542);
             this.xuiCustomGroupbox6.Name = "xuiCustomGroupbox6";
             this.xuiCustomGroupbox6.ShowText = true;
-            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(643, 222);
+            this.xuiCustomGroupbox6.Size = new System.Drawing.Size(626, 222);
             this.xuiCustomGroupbox6.TabIndex = 5;
             this.xuiCustomGroupbox6.TabStop = false;
             this.xuiCustomGroupbox6.Text = "Finger";
@@ -437,7 +437,7 @@
             this.xuiFlatTab2.PageColor = System.Drawing.Color.White;
             this.xuiFlatTab2.SelectedIndex = 0;
             this.xuiFlatTab2.ShowBorder = true;
-            this.xuiFlatTab2.Size = new System.Drawing.Size(630, 203);
+            this.xuiFlatTab2.Size = new System.Drawing.Size(613, 203);
             this.xuiFlatTab2.TabIndex = 1;
             // 
             // tbThumb
@@ -464,14 +464,14 @@
             this.tbThumb.Location = new System.Drawing.Point(4, 20);
             this.tbThumb.Name = "tbThumb";
             this.tbThumb.Padding = new System.Windows.Forms.Padding(3);
-            this.tbThumb.Size = new System.Drawing.Size(622, 179);
+            this.tbThumb.Size = new System.Drawing.Size(605, 179);
             this.tbThumb.TabIndex = 4;
             this.tbThumb.Text = "Thumb";
             // 
             // txt_TR_OppositionCm
             // 
             this.txt_TR_OppositionCm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_OppositionCm.Location = new System.Drawing.Point(271, 149);
+            this.txt_TR_OppositionCm.Location = new System.Drawing.Point(165, 146);
             this.txt_TR_OppositionCm.Name = "txt_TR_OppositionCm";
             this.txt_TR_OppositionCm.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_OppositionCm.TabIndex = 42;
@@ -489,7 +489,7 @@
             // txt_TL_OppositionCm
             // 
             this.txt_TL_OppositionCm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_OppositionCm.Location = new System.Drawing.Point(165, 149);
+            this.txt_TL_OppositionCm.Location = new System.Drawing.Point(271, 146);
             this.txt_TL_OppositionCm.Name = "txt_TL_OppositionCm";
             this.txt_TL_OppositionCm.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_OppositionCm.TabIndex = 41;
@@ -497,7 +497,7 @@
             // txt_TL_CMflexsion
             // 
             this.txt_TL_CMflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_CMflexsion.Location = new System.Drawing.Point(165, 19);
+            this.txt_TL_CMflexsion.Location = new System.Drawing.Point(271, 16);
             this.txt_TL_CMflexsion.Name = "txt_TL_CMflexsion";
             this.txt_TL_CMflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_CMflexsion.TabIndex = 26;
@@ -515,7 +515,7 @@
             // txt_TR_CMflexsion
             // 
             this.txt_TR_CMflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_CMflexsion.Location = new System.Drawing.Point(271, 19);
+            this.txt_TR_CMflexsion.Location = new System.Drawing.Point(165, 16);
             this.txt_TR_CMflexsion.Name = "txt_TR_CMflexsion";
             this.txt_TR_CMflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_CMflexsion.TabIndex = 27;
@@ -523,7 +523,7 @@
             // txt_TR_MpFlexsionExtension
             // 
             this.txt_TR_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 71);
+            this.txt_TR_MpFlexsionExtension.Location = new System.Drawing.Point(165, 68);
             this.txt_TR_MpFlexsionExtension.Name = "txt_TR_MpFlexsionExtension";
             this.txt_TR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_MpFlexsionExtension.TabIndex = 39;
@@ -541,7 +541,7 @@
             // txt_TL_MpFlexsionExtension
             // 
             this.txt_TL_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 71);
+            this.txt_TL_MpFlexsionExtension.Location = new System.Drawing.Point(271, 68);
             this.txt_TL_MpFlexsionExtension.Name = "txt_TL_MpFlexsionExtension";
             this.txt_TL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_MpFlexsionExtension.TabIndex = 38;
@@ -549,7 +549,7 @@
             // txt_TL_CmExtension
             // 
             this.txt_TL_CmExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_CmExtension.Location = new System.Drawing.Point(165, 45);
+            this.txt_TL_CmExtension.Location = new System.Drawing.Point(271, 42);
             this.txt_TL_CmExtension.Name = "txt_TL_CmExtension";
             this.txt_TL_CmExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_CmExtension.TabIndex = 29;
@@ -567,7 +567,7 @@
             // txt_TR_CMExtension
             // 
             this.txt_TR_CMExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_CMExtension.Location = new System.Drawing.Point(271, 45);
+            this.txt_TR_CMExtension.Location = new System.Drawing.Point(165, 42);
             this.txt_TR_CMExtension.Name = "txt_TR_CMExtension";
             this.txt_TR_CMExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_CMExtension.TabIndex = 30;
@@ -575,7 +575,7 @@
             // txt_TR_IpFlexsionExtension
             // 
             this.txt_TR_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 97);
+            this.txt_TR_IpFlexsionExtension.Location = new System.Drawing.Point(165, 94);
             this.txt_TR_IpFlexsionExtension.Name = "txt_TR_IpFlexsionExtension";
             this.txt_TR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_IpFlexsionExtension.TabIndex = 36;
@@ -593,7 +593,7 @@
             // txt_TL_IpFlexsionExtension
             // 
             this.txt_TL_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 97);
+            this.txt_TL_IpFlexsionExtension.Location = new System.Drawing.Point(271, 94);
             this.txt_TL_IpFlexsionExtension.Name = "txt_TL_IpFlexsionExtension";
             this.txt_TL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_IpFlexsionExtension.TabIndex = 35;
@@ -601,7 +601,7 @@
             // txt_TL_AbductionCm
             // 
             this.txt_TL_AbductionCm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TL_AbductionCm.Location = new System.Drawing.Point(165, 123);
+            this.txt_TL_AbductionCm.Location = new System.Drawing.Point(271, 120);
             this.txt_TL_AbductionCm.Name = "txt_TL_AbductionCm";
             this.txt_TL_AbductionCm.Size = new System.Drawing.Size(100, 22);
             this.txt_TL_AbductionCm.TabIndex = 32;
@@ -619,7 +619,7 @@
             // txt_TR_AbductionCm
             // 
             this.txt_TR_AbductionCm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_TR_AbductionCm.Location = new System.Drawing.Point(271, 123);
+            this.txt_TR_AbductionCm.Location = new System.Drawing.Point(165, 120);
             this.txt_TR_AbductionCm.Name = "txt_TR_AbductionCm";
             this.txt_TR_AbductionCm.Size = new System.Drawing.Size(100, 22);
             this.txt_TR_AbductionCm.TabIndex = 33;
@@ -645,7 +645,7 @@
             this.tbIndexFinger.Location = new System.Drawing.Point(4, 20);
             this.tbIndexFinger.Name = "tbIndexFinger";
             this.tbIndexFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbIndexFinger.Size = new System.Drawing.Size(622, 179);
+            this.tbIndexFinger.Size = new System.Drawing.Size(605, 179);
             this.tbIndexFinger.TabIndex = 0;
             this.tbIndexFinger.Text = "Index Finger";
             // 
@@ -662,7 +662,7 @@
             // txt_IFL_MpFlexsionExtension
             // 
             this.txt_IFL_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 19);
+            this.txt_IFL_MpFlexsionExtension.Location = new System.Drawing.Point(271, 19);
             this.txt_IFL_MpFlexsionExtension.Name = "txt_IFL_MpFlexsionExtension";
             this.txt_IFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFL_MpFlexsionExtension.TabIndex = 41;
@@ -670,7 +670,7 @@
             // txt_IFR_MpFlexsionExtension
             // 
             this.txt_IFR_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 19);
+            this.txt_IFR_MpFlexsionExtension.Location = new System.Drawing.Point(165, 19);
             this.txt_IFR_MpFlexsionExtension.Name = "txt_IFR_MpFlexsionExtension";
             this.txt_IFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFR_MpFlexsionExtension.TabIndex = 42;
@@ -678,7 +678,7 @@
             // txt_IFR_DipFlexsionExtension
             // 
             this.txt_IFR_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 71);
+            this.txt_IFR_DipFlexsionExtension.Location = new System.Drawing.Point(165, 71);
             this.txt_IFR_DipFlexsionExtension.Name = "txt_IFR_DipFlexsionExtension";
             this.txt_IFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFR_DipFlexsionExtension.TabIndex = 54;
@@ -696,7 +696,7 @@
             // txt_IFL_DipFlexsionExtension
             // 
             this.txt_IFL_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 71);
+            this.txt_IFL_DipFlexsionExtension.Location = new System.Drawing.Point(271, 71);
             this.txt_IFL_DipFlexsionExtension.Name = "txt_IFL_DipFlexsionExtension";
             this.txt_IFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFL_DipFlexsionExtension.TabIndex = 53;
@@ -704,7 +704,7 @@
             // txt_IFL_IpFlexsionExtension
             // 
             this.txt_IFL_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 45);
+            this.txt_IFL_IpFlexsionExtension.Location = new System.Drawing.Point(271, 45);
             this.txt_IFL_IpFlexsionExtension.Name = "txt_IFL_IpFlexsionExtension";
             this.txt_IFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFL_IpFlexsionExtension.TabIndex = 44;
@@ -722,7 +722,7 @@
             // txt_IFR_IpFlexsionExtension
             // 
             this.txt_IFR_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 45);
+            this.txt_IFR_IpFlexsionExtension.Location = new System.Drawing.Point(165, 45);
             this.txt_IFR_IpFlexsionExtension.Name = "txt_IFR_IpFlexsionExtension";
             this.txt_IFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_IFR_IpFlexsionExtension.TabIndex = 45;
@@ -730,7 +730,7 @@
             // txt_IFR_Abduction
             // 
             this.txt_IFR_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFR_Abduction.Location = new System.Drawing.Point(271, 97);
+            this.txt_IFR_Abduction.Location = new System.Drawing.Point(165, 97);
             this.txt_IFR_Abduction.Name = "txt_IFR_Abduction";
             this.txt_IFR_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_IFR_Abduction.TabIndex = 51;
@@ -748,7 +748,7 @@
             // txt_IFL_Abduction
             // 
             this.txt_IFL_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFL_Abduction.Location = new System.Drawing.Point(165, 97);
+            this.txt_IFL_Abduction.Location = new System.Drawing.Point(271, 97);
             this.txt_IFL_Abduction.Name = "txt_IFL_Abduction";
             this.txt_IFL_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_IFL_Abduction.TabIndex = 50;
@@ -756,7 +756,7 @@
             // txt_IFL_Adduction
             // 
             this.txt_IFL_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFL_Adduction.Location = new System.Drawing.Point(165, 123);
+            this.txt_IFL_Adduction.Location = new System.Drawing.Point(271, 123);
             this.txt_IFL_Adduction.Name = "txt_IFL_Adduction";
             this.txt_IFL_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_IFL_Adduction.TabIndex = 47;
@@ -774,7 +774,7 @@
             // txt_IFR_Adduction
             // 
             this.txt_IFR_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_IFR_Adduction.Location = new System.Drawing.Point(271, 123);
+            this.txt_IFR_Adduction.Location = new System.Drawing.Point(165, 123);
             this.txt_IFR_Adduction.Name = "txt_IFR_Adduction";
             this.txt_IFR_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_IFR_Adduction.TabIndex = 48;
@@ -800,7 +800,7 @@
             this.tbMiddleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbMiddleFinger.Name = "tbMiddleFinger";
             this.tbMiddleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbMiddleFinger.Size = new System.Drawing.Size(622, 179);
+            this.tbMiddleFinger.Size = new System.Drawing.Size(605, 179);
             this.tbMiddleFinger.TabIndex = 1;
             this.tbMiddleFinger.Text = "Middle Finger";
             // 
@@ -857,7 +857,7 @@
             // txt_MFL_MpFlexsionExtension
             // 
             this.txt_MFL_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 20);
+            this.txt_MFL_MpFlexsionExtension.Location = new System.Drawing.Point(271, 20);
             this.txt_MFL_MpFlexsionExtension.Name = "txt_MFL_MpFlexsionExtension";
             this.txt_MFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFL_MpFlexsionExtension.TabIndex = 41;
@@ -865,7 +865,7 @@
             // txt_MFR_MpFlexsionExtension
             // 
             this.txt_MFR_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 20);
+            this.txt_MFR_MpFlexsionExtension.Location = new System.Drawing.Point(165, 20);
             this.txt_MFR_MpFlexsionExtension.Name = "txt_MFR_MpFlexsionExtension";
             this.txt_MFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFR_MpFlexsionExtension.TabIndex = 42;
@@ -873,7 +873,7 @@
             // txt_MFR_DipFlexsionExtension
             // 
             this.txt_MFR_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 72);
+            this.txt_MFR_DipFlexsionExtension.Location = new System.Drawing.Point(165, 72);
             this.txt_MFR_DipFlexsionExtension.Name = "txt_MFR_DipFlexsionExtension";
             this.txt_MFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFR_DipFlexsionExtension.TabIndex = 54;
@@ -881,7 +881,7 @@
             // txt_MFL_DipFlexsionExtension
             // 
             this.txt_MFL_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 72);
+            this.txt_MFL_DipFlexsionExtension.Location = new System.Drawing.Point(271, 72);
             this.txt_MFL_DipFlexsionExtension.Name = "txt_MFL_DipFlexsionExtension";
             this.txt_MFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFL_DipFlexsionExtension.TabIndex = 53;
@@ -889,7 +889,7 @@
             // txt_MFL_IpFlexsionExtension
             // 
             this.txt_MFL_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 46);
+            this.txt_MFL_IpFlexsionExtension.Location = new System.Drawing.Point(271, 46);
             this.txt_MFL_IpFlexsionExtension.Name = "txt_MFL_IpFlexsionExtension";
             this.txt_MFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFL_IpFlexsionExtension.TabIndex = 44;
@@ -897,7 +897,7 @@
             // txt_MFR_IpFlexsionExtension
             // 
             this.txt_MFR_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 46);
+            this.txt_MFR_IpFlexsionExtension.Location = new System.Drawing.Point(165, 46);
             this.txt_MFR_IpFlexsionExtension.Name = "txt_MFR_IpFlexsionExtension";
             this.txt_MFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_MFR_IpFlexsionExtension.TabIndex = 45;
@@ -905,7 +905,7 @@
             // txt_MFR_Abduction
             // 
             this.txt_MFR_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFR_Abduction.Location = new System.Drawing.Point(271, 98);
+            this.txt_MFR_Abduction.Location = new System.Drawing.Point(165, 98);
             this.txt_MFR_Abduction.Name = "txt_MFR_Abduction";
             this.txt_MFR_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_MFR_Abduction.TabIndex = 51;
@@ -913,7 +913,7 @@
             // txt_MFL_Abduction
             // 
             this.txt_MFL_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFL_Abduction.Location = new System.Drawing.Point(165, 98);
+            this.txt_MFL_Abduction.Location = new System.Drawing.Point(271, 98);
             this.txt_MFL_Abduction.Name = "txt_MFL_Abduction";
             this.txt_MFL_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_MFL_Abduction.TabIndex = 50;
@@ -921,7 +921,7 @@
             // txt_MFL_Adduction
             // 
             this.txt_MFL_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFL_Adduction.Location = new System.Drawing.Point(165, 124);
+            this.txt_MFL_Adduction.Location = new System.Drawing.Point(271, 124);
             this.txt_MFL_Adduction.Name = "txt_MFL_Adduction";
             this.txt_MFL_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_MFL_Adduction.TabIndex = 47;
@@ -929,7 +929,7 @@
             // txt_MFR_Adduction
             // 
             this.txt_MFR_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MFR_Adduction.Location = new System.Drawing.Point(271, 124);
+            this.txt_MFR_Adduction.Location = new System.Drawing.Point(165, 124);
             this.txt_MFR_Adduction.Name = "txt_MFR_Adduction";
             this.txt_MFR_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_MFR_Adduction.TabIndex = 48;
@@ -955,7 +955,7 @@
             this.tbRingFinger.Location = new System.Drawing.Point(4, 20);
             this.tbRingFinger.Name = "tbRingFinger";
             this.tbRingFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbRingFinger.Size = new System.Drawing.Size(622, 179);
+            this.tbRingFinger.Size = new System.Drawing.Size(605, 179);
             this.tbRingFinger.TabIndex = 2;
             this.tbRingFinger.Text = "Ring Finger";
             // 
@@ -1012,7 +1012,7 @@
             // txt_RFL_MpFlexsionExtension
             // 
             this.txt_RFL_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 27);
+            this.txt_RFL_MpFlexsionExtension.Location = new System.Drawing.Point(271, 27);
             this.txt_RFL_MpFlexsionExtension.Name = "txt_RFL_MpFlexsionExtension";
             this.txt_RFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFL_MpFlexsionExtension.TabIndex = 41;
@@ -1020,7 +1020,7 @@
             // txt_RFR_MpFlexsionExtension
             // 
             this.txt_RFR_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 27);
+            this.txt_RFR_MpFlexsionExtension.Location = new System.Drawing.Point(165, 27);
             this.txt_RFR_MpFlexsionExtension.Name = "txt_RFR_MpFlexsionExtension";
             this.txt_RFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFR_MpFlexsionExtension.TabIndex = 42;
@@ -1028,7 +1028,7 @@
             // txt_RFR_DipFlexsionExtension
             // 
             this.txt_RFR_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 79);
+            this.txt_RFR_DipFlexsionExtension.Location = new System.Drawing.Point(165, 79);
             this.txt_RFR_DipFlexsionExtension.Name = "txt_RFR_DipFlexsionExtension";
             this.txt_RFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFR_DipFlexsionExtension.TabIndex = 54;
@@ -1036,7 +1036,7 @@
             // txt_RFL_DipFlexsionExtension
             // 
             this.txt_RFL_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 79);
+            this.txt_RFL_DipFlexsionExtension.Location = new System.Drawing.Point(271, 79);
             this.txt_RFL_DipFlexsionExtension.Name = "txt_RFL_DipFlexsionExtension";
             this.txt_RFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFL_DipFlexsionExtension.TabIndex = 53;
@@ -1044,7 +1044,7 @@
             // txt_RFL_IpFlexsionExtension
             // 
             this.txt_RFL_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 53);
+            this.txt_RFL_IpFlexsionExtension.Location = new System.Drawing.Point(271, 53);
             this.txt_RFL_IpFlexsionExtension.Name = "txt_RFL_IpFlexsionExtension";
             this.txt_RFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFL_IpFlexsionExtension.TabIndex = 44;
@@ -1052,7 +1052,7 @@
             // txt_RFR_IpFlexsionExtension
             // 
             this.txt_RFR_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 53);
+            this.txt_RFR_IpFlexsionExtension.Location = new System.Drawing.Point(165, 53);
             this.txt_RFR_IpFlexsionExtension.Name = "txt_RFR_IpFlexsionExtension";
             this.txt_RFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_RFR_IpFlexsionExtension.TabIndex = 45;
@@ -1060,7 +1060,7 @@
             // txt_RFR_Abduction
             // 
             this.txt_RFR_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFR_Abduction.Location = new System.Drawing.Point(271, 105);
+            this.txt_RFR_Abduction.Location = new System.Drawing.Point(165, 105);
             this.txt_RFR_Abduction.Name = "txt_RFR_Abduction";
             this.txt_RFR_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_RFR_Abduction.TabIndex = 51;
@@ -1068,7 +1068,7 @@
             // txt_RFL_Abduction
             // 
             this.txt_RFL_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFL_Abduction.Location = new System.Drawing.Point(165, 105);
+            this.txt_RFL_Abduction.Location = new System.Drawing.Point(271, 105);
             this.txt_RFL_Abduction.Name = "txt_RFL_Abduction";
             this.txt_RFL_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_RFL_Abduction.TabIndex = 50;
@@ -1076,7 +1076,7 @@
             // txt_RFL_Adduction
             // 
             this.txt_RFL_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFL_Adduction.Location = new System.Drawing.Point(165, 131);
+            this.txt_RFL_Adduction.Location = new System.Drawing.Point(271, 131);
             this.txt_RFL_Adduction.Name = "txt_RFL_Adduction";
             this.txt_RFL_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_RFL_Adduction.TabIndex = 47;
@@ -1084,7 +1084,7 @@
             // txt_RFR_Adduction
             // 
             this.txt_RFR_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_RFR_Adduction.Location = new System.Drawing.Point(271, 131);
+            this.txt_RFR_Adduction.Location = new System.Drawing.Point(165, 131);
             this.txt_RFR_Adduction.Name = "txt_RFR_Adduction";
             this.txt_RFR_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_RFR_Adduction.TabIndex = 48;
@@ -1110,7 +1110,7 @@
             this.tbLittleFinger.Location = new System.Drawing.Point(4, 20);
             this.tbLittleFinger.Name = "tbLittleFinger";
             this.tbLittleFinger.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLittleFinger.Size = new System.Drawing.Size(622, 179);
+            this.tbLittleFinger.Size = new System.Drawing.Size(605, 179);
             this.tbLittleFinger.TabIndex = 3;
             this.tbLittleFinger.Text = "Little Finger";
             // 
@@ -1167,7 +1167,7 @@
             // txt_LFL_MpFlexsionExtension
             // 
             this.txt_LFL_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFL_MpFlexsionExtension.Location = new System.Drawing.Point(165, 26);
+            this.txt_LFL_MpFlexsionExtension.Location = new System.Drawing.Point(271, 26);
             this.txt_LFL_MpFlexsionExtension.Name = "txt_LFL_MpFlexsionExtension";
             this.txt_LFL_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFL_MpFlexsionExtension.TabIndex = 41;
@@ -1175,7 +1175,7 @@
             // txt_LFR_MpFlexsionExtension
             // 
             this.txt_LFR_MpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFR_MpFlexsionExtension.Location = new System.Drawing.Point(271, 26);
+            this.txt_LFR_MpFlexsionExtension.Location = new System.Drawing.Point(165, 26);
             this.txt_LFR_MpFlexsionExtension.Name = "txt_LFR_MpFlexsionExtension";
             this.txt_LFR_MpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFR_MpFlexsionExtension.TabIndex = 42;
@@ -1183,7 +1183,7 @@
             // txt_LFR_DipFlexsionExtension
             // 
             this.txt_LFR_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFR_DipFlexsionExtension.Location = new System.Drawing.Point(271, 78);
+            this.txt_LFR_DipFlexsionExtension.Location = new System.Drawing.Point(165, 78);
             this.txt_LFR_DipFlexsionExtension.Name = "txt_LFR_DipFlexsionExtension";
             this.txt_LFR_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFR_DipFlexsionExtension.TabIndex = 54;
@@ -1191,7 +1191,7 @@
             // txt_LFL_DipFlexsionExtension
             // 
             this.txt_LFL_DipFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFL_DipFlexsionExtension.Location = new System.Drawing.Point(165, 78);
+            this.txt_LFL_DipFlexsionExtension.Location = new System.Drawing.Point(271, 78);
             this.txt_LFL_DipFlexsionExtension.Name = "txt_LFL_DipFlexsionExtension";
             this.txt_LFL_DipFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFL_DipFlexsionExtension.TabIndex = 53;
@@ -1199,7 +1199,7 @@
             // txt_LFL_IpFlexsionExtension
             // 
             this.txt_LFL_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFL_IpFlexsionExtension.Location = new System.Drawing.Point(165, 52);
+            this.txt_LFL_IpFlexsionExtension.Location = new System.Drawing.Point(271, 52);
             this.txt_LFL_IpFlexsionExtension.Name = "txt_LFL_IpFlexsionExtension";
             this.txt_LFL_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFL_IpFlexsionExtension.TabIndex = 44;
@@ -1207,7 +1207,7 @@
             // txt_LFR_IpFlexsionExtension
             // 
             this.txt_LFR_IpFlexsionExtension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFR_IpFlexsionExtension.Location = new System.Drawing.Point(271, 52);
+            this.txt_LFR_IpFlexsionExtension.Location = new System.Drawing.Point(165, 52);
             this.txt_LFR_IpFlexsionExtension.Name = "txt_LFR_IpFlexsionExtension";
             this.txt_LFR_IpFlexsionExtension.Size = new System.Drawing.Size(100, 22);
             this.txt_LFR_IpFlexsionExtension.TabIndex = 45;
@@ -1215,7 +1215,7 @@
             // txt_LFR_Abduction
             // 
             this.txt_LFR_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFR_Abduction.Location = new System.Drawing.Point(271, 104);
+            this.txt_LFR_Abduction.Location = new System.Drawing.Point(165, 104);
             this.txt_LFR_Abduction.Name = "txt_LFR_Abduction";
             this.txt_LFR_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_LFR_Abduction.TabIndex = 51;
@@ -1223,7 +1223,7 @@
             // txt_LFL_Abduction
             // 
             this.txt_LFL_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFL_Abduction.Location = new System.Drawing.Point(165, 104);
+            this.txt_LFL_Abduction.Location = new System.Drawing.Point(271, 104);
             this.txt_LFL_Abduction.Name = "txt_LFL_Abduction";
             this.txt_LFL_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_LFL_Abduction.TabIndex = 50;
@@ -1231,7 +1231,7 @@
             // txt_LFL_Adduction
             // 
             this.txt_LFL_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFL_Adduction.Location = new System.Drawing.Point(165, 130);
+            this.txt_LFL_Adduction.Location = new System.Drawing.Point(271, 130);
             this.txt_LFL_Adduction.Name = "txt_LFL_Adduction";
             this.txt_LFL_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_LFL_Adduction.TabIndex = 47;
@@ -1239,7 +1239,7 @@
             // txt_LFR_Adduction
             // 
             this.txt_LFR_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_LFR_Adduction.Location = new System.Drawing.Point(271, 130);
+            this.txt_LFR_Adduction.Location = new System.Drawing.Point(165, 130);
             this.txt_LFR_Adduction.Name = "txt_LFR_Adduction";
             this.txt_LFR_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_LFR_Adduction.TabIndex = 48;
@@ -1266,7 +1266,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(8, 390);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(643, 147);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(626, 147);
             this.xuiCustomGroupbox2.TabIndex = 1;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Wrist";
@@ -1275,7 +1275,7 @@
             // txt_WR_Extension
             // 
             this.txt_WR_Extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WR_Extension.Location = new System.Drawing.Point(278, 56);
+            this.txt_WR_Extension.Location = new System.Drawing.Point(172, 53);
             this.txt_WR_Extension.Name = "txt_WR_Extension";
             this.txt_WR_Extension.Size = new System.Drawing.Size(100, 22);
             this.txt_WR_Extension.TabIndex = 33;
@@ -1283,7 +1283,7 @@
             // txt_WL_Extension
             // 
             this.txt_WL_Extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WL_Extension.Location = new System.Drawing.Point(172, 56);
+            this.txt_WL_Extension.Location = new System.Drawing.Point(278, 53);
             this.txt_WL_Extension.Name = "txt_WL_Extension";
             this.txt_WL_Extension.Size = new System.Drawing.Size(100, 22);
             this.txt_WL_Extension.TabIndex = 32;
@@ -1301,7 +1301,7 @@
             // txt_WR_UlnarDeviation
             // 
             this.txt_WR_UlnarDeviation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WR_UlnarDeviation.Location = new System.Drawing.Point(278, 82);
+            this.txt_WR_UlnarDeviation.Location = new System.Drawing.Point(172, 79);
             this.txt_WR_UlnarDeviation.Name = "txt_WR_UlnarDeviation";
             this.txt_WR_UlnarDeviation.Size = new System.Drawing.Size(100, 22);
             this.txt_WR_UlnarDeviation.TabIndex = 30;
@@ -1309,7 +1309,7 @@
             // txt_WL_UlnarDeviation
             // 
             this.txt_WL_UlnarDeviation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WL_UlnarDeviation.Location = new System.Drawing.Point(172, 82);
+            this.txt_WL_UlnarDeviation.Location = new System.Drawing.Point(278, 79);
             this.txt_WL_UlnarDeviation.Name = "txt_WL_UlnarDeviation";
             this.txt_WL_UlnarDeviation.Size = new System.Drawing.Size(100, 22);
             this.txt_WL_UlnarDeviation.TabIndex = 29;
@@ -1327,7 +1327,7 @@
             // txt_WR_RadiatDeviation
             // 
             this.txt_WR_RadiatDeviation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WR_RadiatDeviation.Location = new System.Drawing.Point(278, 108);
+            this.txt_WR_RadiatDeviation.Location = new System.Drawing.Point(172, 105);
             this.txt_WR_RadiatDeviation.Name = "txt_WR_RadiatDeviation";
             this.txt_WR_RadiatDeviation.Size = new System.Drawing.Size(100, 22);
             this.txt_WR_RadiatDeviation.TabIndex = 27;
@@ -1335,7 +1335,7 @@
             // txt_WL_RadiatDeviation
             // 
             this.txt_WL_RadiatDeviation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WL_RadiatDeviation.Location = new System.Drawing.Point(172, 108);
+            this.txt_WL_RadiatDeviation.Location = new System.Drawing.Point(278, 105);
             this.txt_WL_RadiatDeviation.Name = "txt_WL_RadiatDeviation";
             this.txt_WL_RadiatDeviation.Size = new System.Drawing.Size(100, 22);
             this.txt_WL_RadiatDeviation.TabIndex = 26;
@@ -1353,7 +1353,7 @@
             // txt_WR_Flexsion
             // 
             this.txt_WR_Flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WR_Flexsion.Location = new System.Drawing.Point(278, 30);
+            this.txt_WR_Flexsion.Location = new System.Drawing.Point(172, 27);
             this.txt_WR_Flexsion.Name = "txt_WR_Flexsion";
             this.txt_WR_Flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_WR_Flexsion.TabIndex = 24;
@@ -1361,7 +1361,7 @@
             // txt_WL_Flexsion
             // 
             this.txt_WL_Flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_WL_Flexsion.Location = new System.Drawing.Point(172, 30);
+            this.txt_WL_Flexsion.Location = new System.Drawing.Point(278, 27);
             this.txt_WL_Flexsion.Name = "txt_WL_Flexsion";
             this.txt_WL_Flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_WL_Flexsion.TabIndex = 23;
@@ -1410,7 +1410,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(8, 26);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(643, 235);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(626, 235);
             this.xuiCustomGroupbox1.TabIndex = 0;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Shoulder";
@@ -1419,7 +1419,7 @@
             // txt_SR_ExternalRotationAlt
             // 
             this.txt_SR_ExternalRotationAlt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_ExternalRotationAlt.Location = new System.Drawing.Point(278, 202);
+            this.txt_SR_ExternalRotationAlt.Location = new System.Drawing.Point(172, 199);
             this.txt_SR_ExternalRotationAlt.Name = "txt_SR_ExternalRotationAlt";
             this.txt_SR_ExternalRotationAlt.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_ExternalRotationAlt.TabIndex = 24;
@@ -1427,7 +1427,7 @@
             // txt_SL_ExternalRotationAlt
             // 
             this.txt_SL_ExternalRotationAlt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_ExternalRotationAlt.Location = new System.Drawing.Point(172, 202);
+            this.txt_SL_ExternalRotationAlt.Location = new System.Drawing.Point(278, 199);
             this.txt_SL_ExternalRotationAlt.Name = "txt_SL_ExternalRotationAlt";
             this.txt_SL_ExternalRotationAlt.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_ExternalRotationAlt.TabIndex = 23;
@@ -1445,7 +1445,7 @@
             // txt_SR_internalRotation
             // 
             this.txt_SR_internalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_internalRotation.Location = new System.Drawing.Point(278, 124);
+            this.txt_SR_internalRotation.Location = new System.Drawing.Point(172, 121);
             this.txt_SR_internalRotation.Name = "txt_SR_internalRotation";
             this.txt_SR_internalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_internalRotation.TabIndex = 21;
@@ -1453,7 +1453,7 @@
             // txt_SL_internalRotation
             // 
             this.txt_SL_internalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_internalRotation.Location = new System.Drawing.Point(172, 124);
+            this.txt_SL_internalRotation.Location = new System.Drawing.Point(278, 121);
             this.txt_SL_internalRotation.Name = "txt_SL_internalRotation";
             this.txt_SL_internalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_internalRotation.TabIndex = 20;
@@ -1471,7 +1471,7 @@
             // txt_SR_externalRotation
             // 
             this.txt_SR_externalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_externalRotation.Location = new System.Drawing.Point(278, 150);
+            this.txt_SR_externalRotation.Location = new System.Drawing.Point(172, 147);
             this.txt_SR_externalRotation.Name = "txt_SR_externalRotation";
             this.txt_SR_externalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_externalRotation.TabIndex = 18;
@@ -1479,7 +1479,7 @@
             // txt_SL_externalRotation
             // 
             this.txt_SL_externalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_externalRotation.Location = new System.Drawing.Point(172, 150);
+            this.txt_SL_externalRotation.Location = new System.Drawing.Point(278, 147);
             this.txt_SL_externalRotation.Name = "txt_SL_externalRotation";
             this.txt_SL_externalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_externalRotation.TabIndex = 17;
@@ -1497,7 +1497,7 @@
             // txt_SR_InternalRotationAlt
             // 
             this.txt_SR_InternalRotationAlt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_InternalRotationAlt.Location = new System.Drawing.Point(278, 176);
+            this.txt_SR_InternalRotationAlt.Location = new System.Drawing.Point(172, 173);
             this.txt_SR_InternalRotationAlt.Name = "txt_SR_InternalRotationAlt";
             this.txt_SR_InternalRotationAlt.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_InternalRotationAlt.TabIndex = 15;
@@ -1505,7 +1505,7 @@
             // txt_SL_InternalRotationAlt
             // 
             this.txt_SL_InternalRotationAlt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_InternalRotationAlt.Location = new System.Drawing.Point(172, 176);
+            this.txt_SL_InternalRotationAlt.Location = new System.Drawing.Point(278, 173);
             this.txt_SL_InternalRotationAlt.Name = "txt_SL_InternalRotationAlt";
             this.txt_SL_InternalRotationAlt.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_InternalRotationAlt.TabIndex = 14;
@@ -1523,7 +1523,7 @@
             // txt_SR_horizontalAdduction
             // 
             this.txt_SR_horizontalAdduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_horizontalAdduction.Location = new System.Drawing.Point(278, 98);
+            this.txt_SR_horizontalAdduction.Location = new System.Drawing.Point(172, 95);
             this.txt_SR_horizontalAdduction.Name = "txt_SR_horizontalAdduction";
             this.txt_SR_horizontalAdduction.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_horizontalAdduction.TabIndex = 12;
@@ -1531,7 +1531,7 @@
             // txt_SL_horizontalAdduction
             // 
             this.txt_SL_horizontalAdduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_horizontalAdduction.Location = new System.Drawing.Point(172, 98);
+            this.txt_SL_horizontalAdduction.Location = new System.Drawing.Point(278, 95);
             this.txt_SL_horizontalAdduction.Name = "txt_SL_horizontalAdduction";
             this.txt_SL_horizontalAdduction.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_horizontalAdduction.TabIndex = 11;
@@ -1549,7 +1549,7 @@
             // txt_SR_horizontalAbduction
             // 
             this.txt_SR_horizontalAbduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_horizontalAbduction.Location = new System.Drawing.Point(278, 72);
+            this.txt_SR_horizontalAbduction.Location = new System.Drawing.Point(172, 69);
             this.txt_SR_horizontalAbduction.Name = "txt_SR_horizontalAbduction";
             this.txt_SR_horizontalAbduction.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_horizontalAbduction.TabIndex = 9;
@@ -1557,7 +1557,7 @@
             // txt_SL_horizontalAbduction
             // 
             this.txt_SL_horizontalAbduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_horizontalAbduction.Location = new System.Drawing.Point(172, 72);
+            this.txt_SL_horizontalAbduction.Location = new System.Drawing.Point(278, 69);
             this.txt_SL_horizontalAbduction.Name = "txt_SL_horizontalAbduction";
             this.txt_SL_horizontalAbduction.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_horizontalAbduction.TabIndex = 8;
@@ -1575,7 +1575,7 @@
             // txt_SR_extension
             // 
             this.txt_SR_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_extension.Location = new System.Drawing.Point(278, 46);
+            this.txt_SR_extension.Location = new System.Drawing.Point(172, 43);
             this.txt_SR_extension.Name = "txt_SR_extension";
             this.txt_SR_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_extension.TabIndex = 6;
@@ -1583,7 +1583,7 @@
             // txt_SL_extension
             // 
             this.txt_SL_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_extension.Location = new System.Drawing.Point(172, 46);
+            this.txt_SL_extension.Location = new System.Drawing.Point(278, 43);
             this.txt_SL_extension.Name = "txt_SL_extension";
             this.txt_SL_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_extension.TabIndex = 5;
@@ -1601,7 +1601,7 @@
             // txt_SR_flexsion
             // 
             this.txt_SR_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SR_flexsion.Location = new System.Drawing.Point(278, 20);
+            this.txt_SR_flexsion.Location = new System.Drawing.Point(172, 17);
             this.txt_SR_flexsion.Name = "txt_SR_flexsion";
             this.txt_SR_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_SR_flexsion.TabIndex = 3;
@@ -1609,7 +1609,7 @@
             // txt_SL_flexsion
             // 
             this.txt_SL_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SL_flexsion.Location = new System.Drawing.Point(172, 20);
+            this.txt_SL_flexsion.Location = new System.Drawing.Point(278, 17);
             this.txt_SL_flexsion.Name = "txt_SL_flexsion";
             this.txt_SL_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_SL_flexsion.TabIndex = 2;
@@ -1636,7 +1636,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 20);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(658, 780);
+            this.tabPage2.Size = new System.Drawing.Size(641, 780);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lower Join";
             // 
@@ -1644,7 +1644,7 @@
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(174, 9);
+            this.label59.Location = new System.Drawing.Point(274, 9);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(41, 20);
             this.label59.TabIndex = 24;
@@ -1672,7 +1672,7 @@
             this.xuiCustomGroupbox9.Location = new System.Drawing.Point(8, 344);
             this.xuiCustomGroupbox9.Name = "xuiCustomGroupbox9";
             this.xuiCustomGroupbox9.ShowText = true;
-            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(644, 140);
+            this.xuiCustomGroupbox9.Size = new System.Drawing.Size(627, 140);
             this.xuiCustomGroupbox9.TabIndex = 6;
             this.xuiCustomGroupbox9.TabStop = false;
             this.xuiCustomGroupbox9.Text = "Ankle";
@@ -1681,7 +1681,7 @@
             // txt_KR_Eversion
             // 
             this.txt_KR_Eversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_Eversion.Location = new System.Drawing.Point(244, 95);
+            this.txt_KR_Eversion.Location = new System.Drawing.Point(138, 95);
             this.txt_KR_Eversion.Name = "txt_KR_Eversion";
             this.txt_KR_Eversion.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_Eversion.TabIndex = 12;
@@ -1689,7 +1689,7 @@
             // txt_KL_Eversion
             // 
             this.txt_KL_Eversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_Eversion.Location = new System.Drawing.Point(138, 95);
+            this.txt_KL_Eversion.Location = new System.Drawing.Point(244, 95);
             this.txt_KL_Eversion.Name = "txt_KL_Eversion";
             this.txt_KL_Eversion.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_Eversion.TabIndex = 11;
@@ -1707,7 +1707,7 @@
             // txt_KR_Inversion
             // 
             this.txt_KR_Inversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_Inversion.Location = new System.Drawing.Point(244, 69);
+            this.txt_KR_Inversion.Location = new System.Drawing.Point(138, 69);
             this.txt_KR_Inversion.Name = "txt_KR_Inversion";
             this.txt_KR_Inversion.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_Inversion.TabIndex = 9;
@@ -1715,7 +1715,7 @@
             // txt_KL_Inversion
             // 
             this.txt_KL_Inversion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_Inversion.Location = new System.Drawing.Point(138, 69);
+            this.txt_KL_Inversion.Location = new System.Drawing.Point(244, 69);
             this.txt_KL_Inversion.Name = "txt_KL_Inversion";
             this.txt_KL_Inversion.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_Inversion.TabIndex = 8;
@@ -1733,7 +1733,7 @@
             // txt_KR_Plantaflexsion
             // 
             this.txt_KR_Plantaflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_Plantaflexsion.Location = new System.Drawing.Point(244, 43);
+            this.txt_KR_Plantaflexsion.Location = new System.Drawing.Point(138, 43);
             this.txt_KR_Plantaflexsion.Name = "txt_KR_Plantaflexsion";
             this.txt_KR_Plantaflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_Plantaflexsion.TabIndex = 6;
@@ -1741,7 +1741,7 @@
             // txt_KL_Plantaflexsion
             // 
             this.txt_KL_Plantaflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_Plantaflexsion.Location = new System.Drawing.Point(138, 43);
+            this.txt_KL_Plantaflexsion.Location = new System.Drawing.Point(244, 43);
             this.txt_KL_Plantaflexsion.Name = "txt_KL_Plantaflexsion";
             this.txt_KL_Plantaflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_Plantaflexsion.TabIndex = 5;
@@ -1759,7 +1759,7 @@
             // txt_KR_Dorsiflexsion
             // 
             this.txt_KR_Dorsiflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_Dorsiflexsion.Location = new System.Drawing.Point(244, 17);
+            this.txt_KR_Dorsiflexsion.Location = new System.Drawing.Point(138, 17);
             this.txt_KR_Dorsiflexsion.Name = "txt_KR_Dorsiflexsion";
             this.txt_KR_Dorsiflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_Dorsiflexsion.TabIndex = 3;
@@ -1767,7 +1767,7 @@
             // txt_KL_Dorsiflexsion
             // 
             this.txt_KL_Dorsiflexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_Dorsiflexsion.Location = new System.Drawing.Point(138, 17);
+            this.txt_KL_Dorsiflexsion.Location = new System.Drawing.Point(244, 17);
             this.txt_KL_Dorsiflexsion.Name = "txt_KL_Dorsiflexsion";
             this.txt_KL_Dorsiflexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_Dorsiflexsion.TabIndex = 2;
@@ -1786,7 +1786,7 @@
             // 
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.Location = new System.Drawing.Point(275, 9);
+            this.label60.Location = new System.Drawing.Point(168, 9);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(52, 20);
             this.label60.TabIndex = 23;
@@ -1811,7 +1811,7 @@
             this.xuiCustomGroupbox8.Location = new System.Drawing.Point(8, 229);
             this.xuiCustomGroupbox8.Name = "xuiCustomGroupbox8";
             this.xuiCustomGroupbox8.ShowText = true;
-            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(644, 109);
+            this.xuiCustomGroupbox8.Size = new System.Drawing.Size(627, 109);
             this.xuiCustomGroupbox8.TabIndex = 5;
             this.xuiCustomGroupbox8.TabStop = false;
             this.xuiCustomGroupbox8.Text = "Knee";
@@ -1820,7 +1820,7 @@
             // txt_KR_Hypoextension
             // 
             this.txt_KR_Hypoextension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_Hypoextension.Location = new System.Drawing.Point(244, 72);
+            this.txt_KR_Hypoextension.Location = new System.Drawing.Point(138, 69);
             this.txt_KR_Hypoextension.Name = "txt_KR_Hypoextension";
             this.txt_KR_Hypoextension.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_Hypoextension.TabIndex = 9;
@@ -1828,7 +1828,7 @@
             // txt_KL_Hypoextension
             // 
             this.txt_KL_Hypoextension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_Hypoextension.Location = new System.Drawing.Point(138, 72);
+            this.txt_KL_Hypoextension.Location = new System.Drawing.Point(244, 69);
             this.txt_KL_Hypoextension.Name = "txt_KL_Hypoextension";
             this.txt_KL_Hypoextension.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_Hypoextension.TabIndex = 8;
@@ -1846,7 +1846,7 @@
             // txt_KR_extension
             // 
             this.txt_KR_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_extension.Location = new System.Drawing.Point(244, 46);
+            this.txt_KR_extension.Location = new System.Drawing.Point(138, 43);
             this.txt_KR_extension.Name = "txt_KR_extension";
             this.txt_KR_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_extension.TabIndex = 6;
@@ -1854,7 +1854,7 @@
             // txt_KL_extension
             // 
             this.txt_KL_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_extension.Location = new System.Drawing.Point(138, 46);
+            this.txt_KL_extension.Location = new System.Drawing.Point(244, 43);
             this.txt_KL_extension.Name = "txt_KL_extension";
             this.txt_KL_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_extension.TabIndex = 5;
@@ -1872,7 +1872,7 @@
             // txt_KR_flexsion
             // 
             this.txt_KR_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KR_flexsion.Location = new System.Drawing.Point(244, 20);
+            this.txt_KR_flexsion.Location = new System.Drawing.Point(138, 17);
             this.txt_KR_flexsion.Name = "txt_KR_flexsion";
             this.txt_KR_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KR_flexsion.TabIndex = 3;
@@ -1880,7 +1880,7 @@
             // txt_KL_flexsion
             // 
             this.txt_KL_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_KL_flexsion.Location = new System.Drawing.Point(138, 20);
+            this.txt_KL_flexsion.Location = new System.Drawing.Point(244, 17);
             this.txt_KL_flexsion.Name = "txt_KL_flexsion";
             this.txt_KL_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_KL_flexsion.TabIndex = 2;
@@ -1906,7 +1906,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(8, 950);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(779, 191);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(762, 191);
             this.xuiCustomGroupbox5.TabIndex = 4;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Other assesmnet";
@@ -1918,7 +1918,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox2.Location = new System.Drawing.Point(125, 40);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(644, 126);
+            this.richTextBox2.Size = new System.Drawing.Size(627, 126);
             this.richTextBox2.TabIndex = 2;
             this.richTextBox2.Text = "";
             // 
@@ -1960,7 +1960,7 @@
             this.xuiCustomGroupbox7.Location = new System.Drawing.Point(8, 32);
             this.xuiCustomGroupbox7.Name = "xuiCustomGroupbox7";
             this.xuiCustomGroupbox7.ShowText = true;
-            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(644, 191);
+            this.xuiCustomGroupbox7.Size = new System.Drawing.Size(627, 191);
             this.xuiCustomGroupbox7.TabIndex = 3;
             this.xuiCustomGroupbox7.TabStop = false;
             this.xuiCustomGroupbox7.Text = "Hip";
@@ -1969,7 +1969,7 @@
             // txt_HR_internalRotation
             // 
             this.txt_HR_internalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_internalRotation.Location = new System.Drawing.Point(244, 121);
+            this.txt_HR_internalRotation.Location = new System.Drawing.Point(138, 121);
             this.txt_HR_internalRotation.Name = "txt_HR_internalRotation";
             this.txt_HR_internalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_internalRotation.TabIndex = 21;
@@ -1977,7 +1977,7 @@
             // txt_HL_internalRotation
             // 
             this.txt_HL_internalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_internalRotation.Location = new System.Drawing.Point(138, 121);
+            this.txt_HL_internalRotation.Location = new System.Drawing.Point(244, 121);
             this.txt_HL_internalRotation.Name = "txt_HL_internalRotation";
             this.txt_HL_internalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_internalRotation.TabIndex = 20;
@@ -1995,7 +1995,7 @@
             // txt_HR_externalRotation
             // 
             this.txt_HR_externalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_externalRotation.Location = new System.Drawing.Point(244, 147);
+            this.txt_HR_externalRotation.Location = new System.Drawing.Point(138, 147);
             this.txt_HR_externalRotation.Name = "txt_HR_externalRotation";
             this.txt_HR_externalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_externalRotation.TabIndex = 18;
@@ -2003,7 +2003,7 @@
             // txt_HL_externalRotation
             // 
             this.txt_HL_externalRotation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_externalRotation.Location = new System.Drawing.Point(138, 147);
+            this.txt_HL_externalRotation.Location = new System.Drawing.Point(244, 147);
             this.txt_HL_externalRotation.Name = "txt_HL_externalRotation";
             this.txt_HL_externalRotation.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_externalRotation.TabIndex = 17;
@@ -2021,7 +2021,7 @@
             // txt_HR_Adduction
             // 
             this.txt_HR_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_Adduction.Location = new System.Drawing.Point(244, 95);
+            this.txt_HR_Adduction.Location = new System.Drawing.Point(138, 95);
             this.txt_HR_Adduction.Name = "txt_HR_Adduction";
             this.txt_HR_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_Adduction.TabIndex = 12;
@@ -2029,7 +2029,7 @@
             // txt_HL_Adduction
             // 
             this.txt_HL_Adduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_Adduction.Location = new System.Drawing.Point(138, 95);
+            this.txt_HL_Adduction.Location = new System.Drawing.Point(244, 95);
             this.txt_HL_Adduction.Name = "txt_HL_Adduction";
             this.txt_HL_Adduction.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_Adduction.TabIndex = 11;
@@ -2047,7 +2047,7 @@
             // txt_HR_Abduction
             // 
             this.txt_HR_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_Abduction.Location = new System.Drawing.Point(244, 69);
+            this.txt_HR_Abduction.Location = new System.Drawing.Point(138, 69);
             this.txt_HR_Abduction.Name = "txt_HR_Abduction";
             this.txt_HR_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_Abduction.TabIndex = 9;
@@ -2055,7 +2055,7 @@
             // txt_HL_Abduction
             // 
             this.txt_HL_Abduction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_Abduction.Location = new System.Drawing.Point(138, 69);
+            this.txt_HL_Abduction.Location = new System.Drawing.Point(244, 69);
             this.txt_HL_Abduction.Name = "txt_HL_Abduction";
             this.txt_HL_Abduction.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_Abduction.TabIndex = 8;
@@ -2073,7 +2073,7 @@
             // txt_HR_extension
             // 
             this.txt_HR_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_extension.Location = new System.Drawing.Point(244, 43);
+            this.txt_HR_extension.Location = new System.Drawing.Point(138, 43);
             this.txt_HR_extension.Name = "txt_HR_extension";
             this.txt_HR_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_extension.TabIndex = 6;
@@ -2081,7 +2081,7 @@
             // txt_HL_extension
             // 
             this.txt_HL_extension.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_extension.Location = new System.Drawing.Point(138, 43);
+            this.txt_HL_extension.Location = new System.Drawing.Point(244, 43);
             this.txt_HL_extension.Name = "txt_HL_extension";
             this.txt_HL_extension.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_extension.TabIndex = 5;
@@ -2099,7 +2099,7 @@
             // txt_HR_flexsion
             // 
             this.txt_HR_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HR_flexsion.Location = new System.Drawing.Point(244, 17);
+            this.txt_HR_flexsion.Location = new System.Drawing.Point(138, 17);
             this.txt_HR_flexsion.Name = "txt_HR_flexsion";
             this.txt_HR_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_HR_flexsion.TabIndex = 3;
@@ -2107,7 +2107,7 @@
             // txt_HL_flexsion
             // 
             this.txt_HL_flexsion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HL_flexsion.Location = new System.Drawing.Point(138, 17);
+            this.txt_HL_flexsion.Location = new System.Drawing.Point(244, 17);
             this.txt_HL_flexsion.Name = "txt_HL_flexsion";
             this.txt_HL_flexsion.Size = new System.Drawing.Size(100, 22);
             this.txt_HL_flexsion.TabIndex = 2;
@@ -2134,7 +2134,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 822);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(666, 136);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(649, 136);
             this.xuiCustomGroupbox3.TabIndex = 2;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Other Assesmnet";
@@ -2147,7 +2147,7 @@
             this.txtOtherAssessment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOtherAssessment.Location = new System.Drawing.Point(150, 22);
             this.txtOtherAssessment.Name = "txtOtherAssessment";
-            this.txtOtherAssessment.Size = new System.Drawing.Size(502, 102);
+            this.txtOtherAssessment.Size = new System.Drawing.Size(485, 102);
             this.txtOtherAssessment.TabIndex = 2;
             this.txtOtherAssessment.Text = "";
             // 
