@@ -174,7 +174,7 @@
             this.metroSetLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel21.Location = new System.Drawing.Point(12, 46);
             this.metroSetLabel21.Name = "metroSetLabel21";
-            this.metroSetLabel21.Size = new System.Drawing.Size(76, 23);
+            this.metroSetLabel21.Size = new System.Drawing.Size(101, 23);
             this.metroSetLabel21.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel21.StyleManager = null;
             this.metroSetLabel21.TabIndex = 18;

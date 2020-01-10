@@ -95,7 +95,7 @@
             this.txtEntryDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEntryDate.Location = new System.Drawing.Point(638, 3);
             this.txtEntryDate.Name = "txtEntryDate";
-            this.txtEntryDate.Size = new System.Drawing.Size(164, 26);
+            this.txtEntryDate.Size = new System.Drawing.Size(130, 26);
             this.txtEntryDate.TabIndex = 16;
             // 
             // metroSetLabel16
@@ -119,7 +119,7 @@
             this.metroSetDivider1.Location = new System.Drawing.Point(12, 35);
             this.metroSetDivider1.Name = "metroSetDivider1";
             this.metroSetDivider1.Orientation = MetroSet_UI.Enums.DividerStyle.Horizontal;
-            this.metroSetDivider1.Size = new System.Drawing.Size(790, 4);
+            this.metroSetDivider1.Size = new System.Drawing.Size(756, 4);
             this.metroSetDivider1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetDivider1.StyleManager = null;
             this.metroSetDivider1.TabIndex = 13;
@@ -150,7 +150,7 @@
             this.xuiCustomGroupbox2.Location = new System.Drawing.Point(12, 185);
             this.xuiCustomGroupbox2.Name = "xuiCustomGroupbox2";
             this.xuiCustomGroupbox2.ShowText = true;
-            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(790, 253);
+            this.xuiCustomGroupbox2.Size = new System.Drawing.Size(756, 253);
             this.xuiCustomGroupbox2.TabIndex = 18;
             this.xuiCustomGroupbox2.TabStop = false;
             this.xuiCustomGroupbox2.Text = "Medical Entry";
@@ -162,7 +162,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSensation.Location = new System.Drawing.Point(204, 214);
             this.txtSensation.Name = "txtSensation";
-            this.txtSensation.Size = new System.Drawing.Size(580, 23);
+            this.txtSensation.Size = new System.Drawing.Size(546, 23);
             this.txtSensation.TabIndex = 12;
             // 
             // cbxSensation
@@ -217,7 +217,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPastMedicalHistory.Location = new System.Drawing.Point(116, 114);
             this.txtPastMedicalHistory.Name = "txtPastMedicalHistory";
-            this.txtPastMedicalHistory.Size = new System.Drawing.Size(668, 40);
+            this.txtPastMedicalHistory.Size = new System.Drawing.Size(634, 40);
             this.txtPastMedicalHistory.TabIndex = 7;
             this.txtPastMedicalHistory.Text = "";
             // 
@@ -240,7 +240,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBriefHistory.Location = new System.Drawing.Point(116, 64);
             this.txtBriefHistory.Name = "txtBriefHistory";
-            this.txtBriefHistory.Size = new System.Drawing.Size(668, 44);
+            this.txtBriefHistory.Size = new System.Drawing.Size(634, 44);
             this.txtBriefHistory.TabIndex = 5;
             this.txtBriefHistory.Text = "";
             // 
@@ -263,7 +263,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtDiagnosis.Location = new System.Drawing.Point(116, 19);
             this.txtDiagnosis.Name = "txtDiagnosis";
-            this.txtDiagnosis.Size = new System.Drawing.Size(668, 39);
+            this.txtDiagnosis.Size = new System.Drawing.Size(634, 39);
             this.txtDiagnosis.TabIndex = 3;
             this.txtDiagnosis.Text = "";
             // 
@@ -295,7 +295,7 @@
             this.xuiCustomGroupbox3.Location = new System.Drawing.Point(12, 599);
             this.xuiCustomGroupbox3.Name = "xuiCustomGroupbox3";
             this.xuiCustomGroupbox3.ShowText = true;
-            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(790, 228);
+            this.xuiCustomGroupbox3.Size = new System.Drawing.Size(756, 228);
             this.xuiCustomGroupbox3.TabIndex = 19;
             this.xuiCustomGroupbox3.TabStop = false;
             this.xuiCustomGroupbox3.Text = "Range of motion";
@@ -350,7 +350,7 @@
             this.grdAssessment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdAssessment.Location = new System.Drawing.Point(7, 26);
             this.grdAssessment.Name = "grdAssessment";
-            this.grdAssessment.Size = new System.Drawing.Size(775, 161);
+            this.grdAssessment.Size = new System.Drawing.Size(741, 161);
             this.grdAssessment.TabIndex = 1;
             this.grdAssessment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAssessment_CellClick);
             // 
@@ -381,7 +381,7 @@
             this.xuiCustomGroupbox1.Location = new System.Drawing.Point(12, 45);
             this.xuiCustomGroupbox1.Name = "xuiCustomGroupbox1";
             this.xuiCustomGroupbox1.ShowText = true;
-            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(790, 134);
+            this.xuiCustomGroupbox1.Size = new System.Drawing.Size(756, 134);
             this.xuiCustomGroupbox1.TabIndex = 17;
             this.xuiCustomGroupbox1.TabStop = false;
             this.xuiCustomGroupbox1.Text = "Patient Details";
@@ -393,7 +393,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOccupation.Location = new System.Drawing.Point(108, 105);
             this.txtOccupation.Name = "txtOccupation";
-            this.txtOccupation.Size = new System.Drawing.Size(677, 23);
+            this.txtOccupation.Size = new System.Drawing.Size(643, 23);
             this.txtOccupation.TabIndex = 16;
             // 
             // metroSetLabel8
@@ -415,7 +415,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAge.Location = new System.Drawing.Point(467, 78);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(318, 23);
+            this.txtAge.Size = new System.Drawing.Size(284, 23);
             this.txtAge.TabIndex = 14;
             // 
             // metroSetLabel7
@@ -458,7 +458,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMobile2.Location = new System.Drawing.Point(592, 50);
             this.txtMobile2.Name = "txtMobile2";
-            this.txtMobile2.Size = new System.Drawing.Size(193, 23);
+            this.txtMobile2.Size = new System.Drawing.Size(159, 23);
             this.txtMobile2.TabIndex = 10;
             // 
             // metroSetLabel5
@@ -520,7 +520,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtName.Location = new System.Drawing.Point(443, 24);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(342, 23);
+            this.txtName.Size = new System.Drawing.Size(308, 23);
             this.txtName.TabIndex = 4;
             // 
             // metroSetLabel2
@@ -583,7 +583,7 @@
             this.xuiCustomGroupbox4.Location = new System.Drawing.Point(14, 833);
             this.xuiCustomGroupbox4.Name = "xuiCustomGroupbox4";
             this.xuiCustomGroupbox4.ShowText = true;
-            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(789, 207);
+            this.xuiCustomGroupbox4.Size = new System.Drawing.Size(755, 207);
             this.xuiCustomGroupbox4.TabIndex = 21;
             this.xuiCustomGroupbox4.TabStop = false;
             this.xuiCustomGroupbox4.Text = "Appointments";
@@ -618,7 +618,7 @@
             this.grdAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grdAppointment.Location = new System.Drawing.Point(8, 57);
             this.grdAppointment.Name = "grdAppointment";
-            this.grdAppointment.Size = new System.Drawing.Size(775, 110);
+            this.grdAppointment.Size = new System.Drawing.Size(741, 110);
             this.grdAppointment.TabIndex = 16;
             this.grdAppointment.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdAppointment_CellClick);
             // 
@@ -657,7 +657,7 @@
             this.xuiCustomGroupbox5.Location = new System.Drawing.Point(13, 444);
             this.xuiCustomGroupbox5.Name = "xuiCustomGroupbox5";
             this.xuiCustomGroupbox5.ShowText = true;
-            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(789, 149);
+            this.xuiCustomGroupbox5.Size = new System.Drawing.Size(755, 149);
             this.xuiCustomGroupbox5.TabIndex = 20;
             this.xuiCustomGroupbox5.TabStop = false;
             this.xuiCustomGroupbox5.Text = "Advise and Prescription";
@@ -669,7 +669,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPrescription.Location = new System.Drawing.Point(115, 86);
             this.txtPrescription.Name = "txtPrescription";
-            this.txtPrescription.Size = new System.Drawing.Size(668, 57);
+            this.txtPrescription.Size = new System.Drawing.Size(634, 57);
             this.txtPrescription.TabIndex = 11;
             this.txtPrescription.Text = "";
             // 
@@ -692,7 +692,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtAdvise.Location = new System.Drawing.Point(115, 28);
             this.txtAdvise.Name = "txtAdvise";
-            this.txtAdvise.Size = new System.Drawing.Size(668, 52);
+            this.txtAdvise.Size = new System.Drawing.Size(634, 52);
             this.txtAdvise.TabIndex = 9;
             this.txtAdvise.Text = "";
             // 

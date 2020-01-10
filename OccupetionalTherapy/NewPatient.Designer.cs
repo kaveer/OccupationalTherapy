@@ -294,7 +294,7 @@
             this.metroSetLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.metroSetLabel1.Location = new System.Drawing.Point(7, 19);
             this.metroSetLabel1.Name = "metroSetLabel1";
-            this.metroSetLabel1.Size = new System.Drawing.Size(91, 23);
+            this.metroSetLabel1.Size = new System.Drawing.Size(100, 23);
             this.metroSetLabel1.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel1.StyleManager = null;
             this.metroSetLabel1.TabIndex = 1;
@@ -423,7 +423,7 @@
             this.metroSetLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.metroSetLabel10.Location = new System.Drawing.Point(7, 97);
             this.metroSetLabel10.Name = "metroSetLabel10";
-            this.metroSetLabel10.Size = new System.Drawing.Size(100, 32);
+            this.metroSetLabel10.Size = new System.Drawing.Size(100, 58);
             this.metroSetLabel10.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel10.StyleManager = null;
             this.metroSetLabel10.TabIndex = 4;
@@ -697,9 +697,7 @@
             this.xuiCustomGroupbox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdAssessement)).EndInit();
             this.xuiCustomGroupbox5.ResumeLayout(false);
-            this.xuiCustomGroupbox5.PerformLayout();
             this.xuiCustomGroupbox4.ResumeLayout(false);
-            this.xuiCustomGroupbox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
